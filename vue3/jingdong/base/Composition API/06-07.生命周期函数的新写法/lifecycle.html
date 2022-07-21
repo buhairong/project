@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 34</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+const {
+  ref,
+  onBeforeMount,
+  onMounted,
+  onBeforeUpdate,
+  onUpdated,
+  onRenderTracked,
+  onRenderTriggered,
+} = Vue
+
+// beforeMount => onBeforeMount
+// mounted => onMounted
+// beforeUpdate => onBeforeUpdate
+// updated => onUpdated
+// beforeDestroy => onBeforeUnmount
+// destroyed => onUnmounted
+const app = Vue.createApp({
+  setup() {
+    const count = ref(0)
+    onBeforeMount(() => {
+      console.log('onBeforeMount');
+    })
+
+    onMounted(() => {
+      console.log('onMounted');
+    })
+
+    onBeforeUpdate(() => {
+      console.log('onBeforeUpdate');
+    })
+
+    onUpdated(() => {
+      console.log('onUpdated');
+    })
+
+    // 每次渲染后重新收集响应式依赖
+    onRenderTracked(() => {
+      console.log('onRenderTracked');
+    })
+
+    // 每次触发页面重新渲染时自动执行
+    onRenderTriggered(() => {
+      console.log('onRenderTriggered');
+    })
+
+    return {
+      count
+    }
+  },
+
+  template: `
+    <div @click="count+=1">
+      {{count}}
+    </div>
+  `,
+});
+
+const vm = app.mount('#root');
+</script>
+</html>

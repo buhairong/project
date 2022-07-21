@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 34</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+const { ref, reactive, computed } = Vue
+
+// computed 计算属性
+const app = Vue.createApp({
+  setup() {
+    const count = ref(0)
+
+    const handleClick = () => {
+      count.value++
+    }
+
+    const countAddFive = computed(() => count.value + 5)
+
+    let countAddSix = computed({
+      get: () => {
+        return count.value + 6
+      },
+      set: (param) => {
+        count.value = param
+      },
+    })
+
+    setTimeout(() => {
+      countAddSix.value = 100
+    }, 300)
+
+    return {
+      count,
+      handleClick,
+      countAddFive,
+      countAddSix,
+    }
+  },
+
+  template: `
+    <div>
+      <div @click="handleClick">count:{{count}}</div>
+      <div>countAddFive:{{countAddFive}}</div>
+      <div>countAddSix:{{countAddSix}}</div>
+    </div>
+  `,
+});
+
+const vm = app.mount('#root');
+</script>
+</html>

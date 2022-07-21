@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 34</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+const {
+  ref,
+  onMounted
+} = Vue
+
+// provide, inject
+// dom ref
+// CompositionAPI 的语法下，获取真实的 DOM 元素节点
+const app = Vue.createApp({
+  setup() {
+    const hello = ref(null)
+    onMounted(() => {
+      console.log(hello.value);
+      hello.value.style.color = 'red'
+    })
+
+    return {
+      hello
+    }
+  },
+
+  template: `
+    <div>
+      <div ref="hello">hello world</div>
+    </div>
+  `,
+});
+
+const vm = app.mount('#root');
+</script>
+</html>

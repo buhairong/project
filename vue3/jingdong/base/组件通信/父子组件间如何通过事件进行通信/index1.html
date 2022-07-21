@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 18</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+  const app = Vue.createApp({
+    data() {
+      return { 
+        count1: 1, 
+        count2: 2, 
+      }
+    },
+    template: `
+      <counter v-model:count1="count1" v-model:count2="count2" />
+    `
+  });
+
+  app.component('counter', {
+    props: ['count1', 'count2'],
+    methods: {
+      handleClick1() {
+        this.$emit('update:count1', this.count1 + 3);
+      },
+
+      handleClick2() {
+        this.$emit('update:count2', this.count2 + 3);
+      },
+    },
+    template: `
+      <div @click="handleClick1">{{count1}}</div>
+      <div @click="handleClick2">{{count2}}</div>
+    `
+  });
+
+  const vm = app.mount('#root');
+</script>
+</html>

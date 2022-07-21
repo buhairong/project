@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lesson 34</title>
+  <script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+<script>
+const { ref, reactive, watch, watchEffect } = Vue
+
+// watch 侦听器
+// watchEffect 侦听器，偏向于 effect
+const app = Vue.createApp({
+  setup() {
+    const name1 = ref('li')
+    const name2 = ref('name2')
+    const name3 = ref('name3')
+    const nameObj = reactive({
+      name: {
+        str: 'wang'
+      }
+    })
+
+    // 具备一定的惰性 lazy
+    // 参数可以拿到原始和当前值
+    // 可以侦听多个数据的变化，用一个侦听器承载
+    const stop1 = watch(name1, (current, prev) => {
+      console.log('watch name1:', current)
+      setTimeout(() => {
+        stop1()
+      }, 5000)
+    }, {
+      immediate: true
+    })
+
+    watch([name2, name3], ([currentName2, currentName3], prev) => {
+      console.log('watch name2、name3:', currentName2, currentName3)
+    })
+
+    watch(nameObj, (current, prev) => {
+      console.log('watch nameObj:', current.name.str)
+    })
+
+    // 立即执行，没有惰性 immediate
+    // 不需要传递你要侦听的内容，自动会感知代码依赖，不需要传递很多参数，只要传递一个回调函数
+    // 不能获取之前数据的值
+    const stop = watchEffect(() => {
+      console.log('watchEffect nameObj:', nameObj.name.str)
+      setTimeout(() => {
+        stop()
+      }, 5000)
+    })
+
+    return {
+      name1,
+      name2,
+      name3,
+      nameObj,
+    }
+  },
+
+  template: `
+    <div>
+      <div>Name1: <input v-model="name1" /> -- Name1 is {{name1}}</div>
+      <div>Name2: <input v-model="name2" /> -- Name2 is {{name2}}</div>
+      <div>Name3: <input v-model="name3" /> -- Name3 is {{name3}}</div>
+      <div>nameObj: <input v-model="nameObj.name.str" /> -- nameObj is {{nameObj.name.str}}</div>
+    </div>
+  `,
+});
+
+const vm = app.mount('#root');
+</script>
+</html>
