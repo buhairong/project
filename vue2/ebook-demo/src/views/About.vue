@@ -15,8 +15,15 @@ export default {
   name: 'About',
   data() {
     return {
-      map: new Map()
+      map: new Map(),
+      str: 'str'
     }
+  },
+  beforeCreate() {
+    console.log(1, this.str)
+  },
+  created() {
+    console.log(2, this.str)
   },
   mounted() {
     this.map.set("a", "a1")
