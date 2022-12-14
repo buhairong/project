@@ -8,6 +8,15 @@
         @errHandle="errHandle"
       />
     </div>
+
+    <div class='phone'>
+      <phoneLogin 
+        :ruleForm="phoneForm" 
+        @send="send"
+        @submit="submit"
+        @errHandle="errHandle"
+      />
+    </div>
   </div>
 </template>
 
@@ -32,6 +41,10 @@ export default {
           { min: 6, max: 15, message: '密码在6 - 15位', trigger: 'blur'},
         ],
       },
+      phoneForm: {
+        phone: '',
+        code: '',
+      },
     }
   },
   watch: {},
@@ -45,6 +58,10 @@ export default {
     errHandle() {
       this.$message.error('请检查输入项')
     },
+
+    send() {
+      this.$message.info('验证码发送成功')
+    },
   },
 };
 </script>
@@ -54,5 +71,10 @@ export default {
 }
 .account {
   width: 500px;
+}
+
+.phone {
+  width: 500px;
+  margin-top: 50px;
 }
 </style>
