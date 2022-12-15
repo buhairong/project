@@ -2,7 +2,7 @@
     <el-button type="primary" @click="handleClick">
         <slot></slot>
     </el-button>
-    <el-dialog :title="title" v-model="visible">
+    <el-dialog :title="title" v-model="props.visible">
         111
     </el-dialog>
 </template>
