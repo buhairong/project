@@ -2,13 +2,13 @@
     <el-button type="primary" @click="handleClick">
         <slot></slot>
     </el-button>
-    <el-dialog :title="title" v-model="props.visible">
+    <el-dialog :title="title" v-model="dialogVisible">
         111
     </el-dialog>
 </template>
 
 <script lang="ts" setup>
-import { watch } from 'vue'
+import { watch, ref } from 'vue'
 
 const props = withDefaults(
     defineProps<{
@@ -23,9 +23,19 @@ const props = withDefaults(
 
 const emits = defineEmits(['update:visible'])
 
+const dialogVisible = ref<boolean>(props.visible)
+
 const handleClick = () => {
     emits('update:visible', !props.visible)
 }
+
+watch(() => props.visible, val => {
+  dialogVisible.value = val
+})
+
+watch(() => dialogVisible.value, val => {
+  emits('update:visible', val)
+})
 </script>
 
 <style lang="scss" scoped>
