@@ -13,9 +13,9 @@
             <el-icon-menu />
             <span>图标选择器</span>
         </el-menu-item>
-        <el-menu-item index="3">
+        <el-menu-item index="/chooseArea">
             <el-icon-menu />
-            <span>趋势标记</span>
+            <span>省市区选择</span>
         </el-menu-item>
     </el-menu>
 </template>
