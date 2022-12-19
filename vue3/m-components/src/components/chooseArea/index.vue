@@ -36,11 +36,24 @@
 import { ref, watch } from 'vue'
 import AllAreas from './lib/pca-code.json'
 
+export interface AreaItem { 
+  name: string,
+  code: string,
+  children?: AreaItem[]
+}
+
+export interface Data { 
+  name: string,
+  code: string,
+}
+
+const emits = defineEmits(['change'])
+
 const province = ref<string>('')
 const city = ref<string>('')
 const area = ref<string>('')
-const selectCity = ref<any[]>([])
-const selectArea = ref<any[]>([])
+const selectCity = ref<AreaItem[]>([])
+const selectArea = ref<AreaItem[]>([])
 
 watch(() => province.value, val => {
   city.value = ''
@@ -60,10 +73,33 @@ watch(() => city.value, val => {
   if (val) {
     const findItem = selectCity.value.find(item => item.code === city.value)
     if (findItem) {
-      selectArea.value = findItem.children
+      selectArea.value = findItem.children!
     } else {
       selectArea.value = []
     }
+  }
+})
+
+watch(() => area.value, val => {
+  if (val) {
+    const provinceData: Data = {
+      code: province.value,
+      name: AllAreas.find(item => item.code === province.value)!.name
+    }
+    const cityData: Data = {
+      code: city.value,
+      name: selectCity.value.find(item => item.code === city.value)!.name
+    }
+    const areaData: Data = {
+      code: val,
+      name: selectArea.value.find(item => item.code === val)!.name
+    }
+
+    emits('change', {
+      province: provinceData,
+      city: cityData,
+      area: areaData
+    })
   }
 })
 

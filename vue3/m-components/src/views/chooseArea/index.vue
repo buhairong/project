@@ -1,11 +1,13 @@
 <template>
     <div>
-        <choose-area />
+        <choose-area @change="change"/>
     </div>
 </template>
 
 <script lang="ts" setup>
-import ChooseArea from '../../components/chooseArea/index.vue'
+const change = (data: any) => { 
+  console.log(data)
+}
 </script>
 
 <style lang="scss" scoped>
