@@ -17,6 +17,10 @@
             <el-icon-menu />
             <span>省市区选择</span>
         </el-menu-item>
+        <el-menu-item index="/menu">
+            <el-icon-menu />
+            <span>菜单</span>
+        </el-menu-item>
     </el-menu>
 </template>
 
