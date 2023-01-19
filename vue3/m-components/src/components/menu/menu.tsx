@@ -1,6 +1,7 @@
 import { defineComponent, PropType, useAttrs } from 'vue'
 import { MenuItem } from './types'
-import { toLine } from '../../utils/index'
+import * as Icons from '@element-plus/icons-vue'
+import './menu.scss'
 
 export default defineComponent({
     props: {
@@ -15,37 +16,53 @@ export default defineComponent({
         router: {
             type: Boolean,
             default: false,
-        }
+        },
+        name: {
+            type: String,
+            default: 'name'
+        },
+        index: {
+            type: String,
+            default: 'index'
+        },
+        icon: {
+            type: String,
+            default: 'icon'
+        },
+        children: {
+            type: String,
+            default: 'children'
+        },
     },
 
     setup(props, ctx) {
-        const renderMenu = (data: MenuItem[]) => {
-            return data.map((item: MenuItem) => {
-                if (item.icon) {
-                    item.i = `el-icon-${toLine(item.icon)}`
+        const renderMenu = (data: any[]) => {
+            return data.map((item: any) => {
+                if (item[props.icon]) {
+                    item.i = (Icons as any)[item[props.icon]!]
                 }
 
                 const slots = {
                     title: () => {
                         return <>
                             <item.i />
-                            <span>{item.name}</span>
+                            <span>{item[props.name]}</span>
                         </>
                     }
                 }
 
                 if (item.children && item.children.length) {
                     return (
-                        <el-sub-menu index={item.index} v-slots={slots}>
-                            {renderMenu(item.children)}
+                        <el-sub-menu index={item[props.index]} v-slots={slots}>
+                            {renderMenu(item[props.children])}
                         </el-sub-menu>
                     )
                 }
 
                 return (
-                    <el-menu-item index={item.index}>
+                    <el-menu-item index={item[props.index]}>
                         <item.i />
-                        <span>{item.name}</span>
+                        <span>{item[props.name]}</span>
                     </el-menu-item>
                 )
             })
