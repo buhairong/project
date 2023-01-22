@@ -4,6 +4,8 @@ import chooseIcon from './chooseIcon'
 import trend from './trend'
 import notification from './notification'
 import list from './list'
+import Menu from './menu'
+import Progress from './progress'
 
 const components = [
   chooseArea,
@@ -11,6 +13,8 @@ const components = [
   trend,
   notification,
   list,
+  Menu,
+  Progress,
 ]
 
 export default {
