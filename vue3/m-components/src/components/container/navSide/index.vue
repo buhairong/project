@@ -17,6 +17,14 @@
             <el-icon-menu />
             <span>省市区选择</span>
         </el-menu-item>
+        <el-menu-item index="/trend">
+            <el-icon-menu />
+            <span>趋势标记</span>
+        </el-menu-item>
+        <el-menu-item index="/notification">
+            <el-icon-menu />
+            <span>通知菜单</span>
+        </el-menu-item>
     </el-menu>
 </template>
 
