@@ -71,6 +71,11 @@ const data = [
         index: '/chooseTime',
     },
     {
+        icon: 'Calendar',
+        name: '日期选择',
+        index: '/chooseDate',
+    },
+    {
         icon: 'Bell',
         name: '通知菜单',
         index: '/notification',
@@ -99,6 +104,11 @@ const data = [
         icon: 'Setting',
         name: '表单',
         index: '/form',
+    },
+    {
+        icon: 'Setting',
+        name: '弹出框表单',
+        index: '/modalForm',
     },
     {
         icon: 'Grid',

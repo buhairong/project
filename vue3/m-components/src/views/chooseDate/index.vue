@@ -1,5 +1,5 @@
 <template>
-    <choose-time :startOptions="startOptions" :endOptions="endOptions"></choose-time>
+    <choose-date :startOptions="startOptions" :endOptions="endOptions"></choose-date>
 </template>
 
 <script lang="ts" setup>

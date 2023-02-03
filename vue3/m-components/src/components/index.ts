@@ -7,6 +7,11 @@ import list from './list'
 import Menu from './menu'
 import Progress from './progress'
 import chooseTime from './chooseTime'
+import chooseDate from './chooseDate'
+import chooseCity from './chooseCity'
+import form from './form'
+import modalForm from './modalForm'
+import table from './table'
 
 const components = [
   chooseArea,
@@ -17,6 +22,11 @@ const components = [
   Menu,
   Progress,
   chooseTime,
+  chooseDate,
+  chooseCity,
+  form,
+  modalForm,
+  table,
 ]
 
 export default {

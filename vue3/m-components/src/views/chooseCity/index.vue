@@ -1,7 +1,5 @@
 <template>
-    <div>
-        <el-button>按钮</el-button>
-    </div>
+    <choose-city></choose-city>
 </template>
 
 <script lang="ts" setup>

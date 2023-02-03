@@ -27,4 +27,9 @@ const toggle = () => {
     align-items: center;
     border-bottom: 1px solid #eee;
 }
+
+svg {
+    width: 1em;
+    height: 1em;
+}
 </style>
