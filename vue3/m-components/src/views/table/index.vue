@@ -1,5 +1,12 @@
 <template>
-    <m-table :data="tableData" :options="options" element-loading-text="加载中，请稍后..." @check="check" @close="close">
+    <m-table 
+      :data="tableData" 
+      :options="options" 
+      element-loading-text="加载中，请稍后..." 
+      :total="total"
+      @comfirm="comfirm" 
+      @cancel="cancel"
+    >
         <template #date="scope">
             <el-icon-timer />
             <span style="margin-left: 10px">{{ scope.scope.row.date }}</span>
@@ -12,30 +19,20 @@
 </template>
 
 <script lang="ts" setup>
-import { TableOptions } from '../../components/table/types';
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+import { TableOptions } from '../../components/table/types'
 
-const tableData = [
-  {
-    date: '2016-05-03',
-    name: 'Tom',
-    address: 'No. 189, Grove St, Los Angeles',
-  },
-  {
-    date: '2016-05-02',
-    name: 'Tom',
-    address: 'No. 189, Grove St, Los Angeles',
-  },
-  {
-    date: '2016-05-04',
-    name: 'Tom',
-    address: 'No. 189, Grove St, Los Angeles',
-  },
-  {
-    date: '2016-05-01',
-    name: 'Tom',
-    address: 'No. 189, Grove St, Los Angeles',
-  },
-]
+interface TableData {
+  date: string,
+  name: string,
+  address: string
+}
+
+const tableData = ref<TableData[]>([])
+const current = ref<number>(1)
+const pageSize = ref<number>(10)
+const total = ref<number>(0)
 
 const options: TableOptions[] = [
     {
@@ -70,13 +67,23 @@ const handleDelete = (scope: any) => {
     
 }
 
-const check = (scope: any) => {
+const comfirm = (scope: any) => {
     
 }
 
-const close = (scope: any) => {
+const cancel = (scope: any) => {
     
 }
+
+onMounted(() => {
+  axios.post('/api/list', {
+    current: current.value,
+    pageSize: pageSize.value
+  }).then((res: any) => {
+    tableData.value = res.data.data.rows
+    total.value = res.data.data.total
+  })
+})
 </script>
 
 <style lang="scss" scoped>

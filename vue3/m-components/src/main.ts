@@ -6,6 +6,7 @@ import 'element-plus/dist/index.css'
 import * as Icons from '@element-plus/icons-vue'
 import { toLine } from './utils'
 import UI from './components'
+import './mock'
 
 const app = createApp(App)
 

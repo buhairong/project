@@ -1,5 +1,5 @@
 <template>
-    <el-table :data="data" v-loading="isLoading" v-bind="$attrs">
+    <el-table :data="data" v-loading="isLoading" v-bind="$attrs" @row-click="rowClick">
         <template v-for="(item, index) in tableOptions" :key="index">
             <el-table-column
                 v-bind="item"
@@ -19,11 +19,31 @@
                         <slot v-if="item.slot" :name="item.slot" :scope="scope"></slot>
                         <span v-else>{{ scope.row[item.prop!] }}</span>
                     </template>
-                    <el-icon-edit v-if="item.editable" class="edit-icon" @click="clickEdit(scope)"></el-icon-edit>
+                    <el-icon-edit v-if="item.editable && currentEdit !== scope.$index + scope.column.id" class="edit-icon" @click="clickEdit(scope)"></el-icon-edit>
+                </template>
+            </el-table-column>
+        </template>
+        <template v-for="(item, index) in actionOptions" :key="index">
+            <el-table-column
+                v-bind="item"
+            >
+                <template #default="scope">
+                    <slot name="action" :scope="scope"></slot>
                 </template>
             </el-table-column>
         </template>
     </el-table>
+    <div class="pagination" v-if="pagination">
+        <!-- <el-pagination
+            v-model:current-page="currentPage"
+            v-model:page-size="pageSize"
+            :page-sizes="[100, 200, 300, 400]"
+            layout="total, sizes, prev, pager, next, jumper"
+            :total="total"
+            @size-change="handleSizeChange"
+            @current-change="handleCurrentChange"
+        /> -->
+    </div>
 </template>
 
 <script lang="ts" setup>
@@ -38,10 +58,38 @@ const props = defineProps({
     data: {
         type: Array,
         required: true,
-    }
+    },
+    isEditRow: {
+        type: Boolean,
+        default: false
+    },
+    editRowIndex: {
+        type: String,
+        default: ''
+    },
+    pagination: {
+        type: Boolean,
+        default: false
+    },
+    currentPage: {
+        type: Number,
+        default: 1,
+    },
+    pageSizes: {
+        type: Array as PropType<Number[]>,
+        default: () => [10, 20, 30, 40],
+    },
+    pageSize: {
+        type: Number,
+        default: 10,
+    },
+    total: {
+        type: Number,
+        default: 0,
+    },
 })
 
-const emits = defineEmits(['check', 'close'])
+const emits = defineEmits(['comfirm', 'cancel', 'sizeChange', 'currentChange'])
 
 const currentEdit = ref<string>('')
 
@@ -63,12 +111,24 @@ const clickEdit = (scope: any) => {
 
 const check = (scope: any) => {
     currentEdit.value = ''
-    emits('check', scope)
+    emits('comfirm', scope)
 }
 
 const close = (scope: any) => {
     currentEdit.value = ''
-    emits('close', scope)
+    emits('cancel', scope)
+}
+
+const rowClick = (row: any, column: any, event: any) => {
+    
+}
+
+const handleSizeChange = (val: number) => {
+    emits('sizeChange', val)
+}
+
+const handleCurrentChange = (val: number) => {
+    emits('currentChange', val)
 }
 </script>
 
@@ -96,5 +156,10 @@ const close = (scope: any) => {
     .icon-close {
         color: red;
     }
+}
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
 }
 </style>
