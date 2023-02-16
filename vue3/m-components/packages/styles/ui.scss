@@ -1,0 +1,19 @@
+// .el-dialog__body {
+//     max-height: 500px;
+//     overflow: scroll;
+// }
+
+.list-tabs__item {
+  .el-tabs__nav {
+    display: flex;
+    width: 100%;
+  }
+  .el-tabs__item {
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.el-popper {
+  padding: 0 !important;
+}
