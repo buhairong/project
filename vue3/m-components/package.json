@@ -6,7 +6,7 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "build:components": "node ./command/build.js",
-    "lib": "npm run build:components"
+    "lib": "npm run build:components && cp package.json"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.10",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
     "@vitejs/plugin-vue-jsx": "^3.0.0",
+    "fs-extra": "^11.1.0",
     "mockjs": "^1.1.0",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",

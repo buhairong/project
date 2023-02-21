@@ -1,5 +1,5 @@
-import { defineComponent as xe, ref as he, watch as je, resolveComponent as ue, openBlock as R, createElementBlock as z, createVNode as de, withCtx as oe, Fragment as ye, renderList as Ce, unref as re, createBlock as fe, createElementVNode as D, createStaticVNode as wi, getCurrentScope as Ei, onScopeDispose as Ci, getCurrentInstance as $a, onMounted as on, nextTick as zr, warn as Si, provide as bi, computed as Re, inject as Di, mergeProps as Te, renderSlot as Ie, normalizeClass as Ge, Transition as $r, withDirectives as Ha, toDisplayString as be, vShow as Hr, shallowReactive as Mi, normalizeStyle as xn, createCommentVNode as He, resolveDynamicComponent as Ue, withModifiers as Ti, isVNode as Ia, render as go, useSlots as Ri, createTextVNode as ha, useAttrs as zi, resolveDirective as $i, normalizeProps as yo } from "vue";
-const Zn = [
+import { defineComponent as xe, ref as he, watch as je, resolveComponent as ue, openBlock as R, createElementBlock as z, createVNode as de, withCtx as oe, Fragment as ye, renderList as Ce, unref as re, createBlock as fe, createElementVNode as D, createStaticVNode as Si, getCurrentScope as bi, onScopeDispose as Di, getCurrentInstance as Ha, onMounted as rn, nextTick as $r, warn as Mi, provide as Ti, computed as Re, inject as Ri, mergeProps as Te, renderSlot as Ie, normalizeClass as Ge, Transition as Hr, withDirectives as Ia, toDisplayString as be, vShow as Ir, shallowReactive as zi, normalizeStyle as wn, createCommentVNode as He, resolveDynamicComponent as Ue, withModifiers as $i, isVNode as Ba, render as yo, useSlots as Hi, createTextVNode as pa, useAttrs as Ii, resolveDirective as Bi, normalizeProps as Ao } from "vue";
+const Xn = [
   {
     code: "11",
     name: "北京市",
@@ -14526,14 +14526,14 @@ const Zn = [
       }
     ]
   }
-], Hi = /* @__PURE__ */ xe({
+], Pi = /* @__PURE__ */ xe({
   __name: "index",
   emits: ["change"],
   setup(o, { emit: t }) {
     const n = he(""), a = he(""), e = he(""), r = he([]), l = he([]);
     return je(() => n.value, (i) => {
       if (a.value = "", e.value = "", i) {
-        const s = Zn.find((d) => d.code === n.value);
+        const s = Xn.find((d) => d.code === n.value);
         s ? r.value = s.children : r.value = [];
       }
     }), je(() => a.value, (i) => {
@@ -14545,7 +14545,7 @@ const Zn = [
       if (i) {
         const s = {
           code: n.value,
-          name: Zn.find((f) => f.code === n.value).name
+          name: Xn.find((f) => f.code === n.value).name
         }, d = {
           code: a.value,
           name: r.value.find((f) => f.code === a.value).name
@@ -14569,7 +14569,7 @@ const Zn = [
           clearable: ""
         }, {
           default: oe(() => [
-            (R(!0), z(ye, null, Ce(re(Zn), (f) => (R(), fe(d, {
+            (R(!0), z(ye, null, Ce(re(Xn), (f) => (R(), fe(d, {
               key: f.code,
               value: f.code,
               label: f.name
@@ -14613,4909 +14613,4909 @@ const Zn = [
     };
   }
 });
-const Et = (o, t) => {
+const Ct = (o, t) => {
   const n = o.__vccOpts || o;
   for (const [a, e] of t)
     n[a] = e;
   return n;
-}, Ii = /* @__PURE__ */ Et(Hi, [["__scopeId", "data-v-92d3470b"]]), Bi = {
+}, Ni = /* @__PURE__ */ Ct(Pi, [["__scopeId", "data-v-68e4c274"]]), Li = {
   install(o) {
-    o.component("choose-area", Ii);
+    o.component("choose-area", Ni);
   }
 };
-var Pi = {
+var Oi = {
   name: "AddLocation"
 }, B = (o, t) => {
   let n = o.__vccOpts || o;
   for (let [a, e] of t)
     n[a] = e;
   return n;
-}, Ni = {
+}, Vi = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Li = /* @__PURE__ */ D("path", {
+}, Fi = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), Oi = /* @__PURE__ */ D("path", {
+}, null, -1), ji = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z"
-}, null, -1), Vi = /* @__PURE__ */ D("path", {
+}, null, -1), Ui = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 384h96a32 32 0 1 1 0 64h-96v96a32 32 0 0 1-64 0v-96h-96a32 32 0 0 1 0-64h96v-96a32 32 0 0 1 64 0v96z"
-}, null, -1), Fi = [
-  Li,
-  Oi,
-  Vi
+}, null, -1), Qi = [
+  Fi,
+  ji,
+  Ui
 ];
-function ji(o, t, n, a, e, r) {
-  return R(), z("svg", Ni, Fi);
+function ki(o, t, n, a, e, r) {
+  return R(), z("svg", Vi, Qi);
 }
-var Ui = /* @__PURE__ */ B(Pi, [["render", ji], ["__file", "add-location.vue"]]), Qi = {
+var Wi = /* @__PURE__ */ B(Oi, [["render", ki], ["__file", "add-location.vue"]]), Gi = {
   name: "Aim"
-}, ki = {
+}, Yi = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Wi = /* @__PURE__ */ D("path", {
+}, Ki = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), Gi = /* @__PURE__ */ D("path", {
+}, null, -1), Ji = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 96a32 32 0 0 1 32 32v192a32 32 0 0 1-64 0V128a32 32 0 0 1 32-32zm0 576a32 32 0 0 1 32 32v192a32 32 0 1 1-64 0V704a32 32 0 0 1 32-32zM96 512a32 32 0 0 1 32-32h192a32 32 0 0 1 0 64H128a32 32 0 0 1-32-32zm576 0a32 32 0 0 1 32-32h192a32 32 0 1 1 0 64H704a32 32 0 0 1-32-32z"
-}, null, -1), Yi = [
-  Wi,
-  Gi
+}, null, -1), Zi = [
+  Ki,
+  Ji
 ];
-function Ki(o, t, n, a, e, r) {
-  return R(), z("svg", ki, Yi);
+function Xi(o, t, n, a, e, r) {
+  return R(), z("svg", Yi, Zi);
 }
-var Ji = /* @__PURE__ */ B(Qi, [["render", Ki], ["__file", "aim.vue"]]), Zi = {
+var qi = /* @__PURE__ */ B(Gi, [["render", Xi], ["__file", "aim.vue"]]), es = {
   name: "AlarmClock"
-}, Xi = {
+}, ts = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qi = /* @__PURE__ */ D("path", {
+}, ns = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 832a320 320 0 1 0 0-640 320 320 0 0 0 0 640zm0 64a384 384 0 1 1 0-768 384 384 0 0 1 0 768z"
-}, null, -1), es = /* @__PURE__ */ D("path", {
+}, null, -1), as = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m292.288 824.576 55.424 32-48 83.136a32 32 0 1 1-55.424-32l48-83.136zm439.424 0-55.424 32 48 83.136a32 32 0 1 0 55.424-32l-48-83.136zM512 512h160a32 32 0 1 1 0 64H480a32 32 0 0 1-32-32V320a32 32 0 0 1 64 0v192zM90.496 312.256A160 160 0 0 1 312.32 90.496l-46.848 46.848a96 96 0 0 0-128 128L90.56 312.256zm835.264 0A160 160 0 0 0 704 90.496l46.848 46.848a96 96 0 0 1 128 128l46.912 46.912z"
-}, null, -1), ts = [
-  qi,
-  es
+}, null, -1), os = [
+  ns,
+  as
 ];
-function ns(o, t, n, a, e, r) {
-  return R(), z("svg", Xi, ts);
+function rs(o, t, n, a, e, r) {
+  return R(), z("svg", ts, os);
 }
-var as = /* @__PURE__ */ B(Zi, [["render", ns], ["__file", "alarm-clock.vue"]]), os = {
+var ls = /* @__PURE__ */ B(es, [["render", rs], ["__file", "alarm-clock.vue"]]), is = {
   name: "Apple"
-}, rs = {
+}, ss = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ls = /* @__PURE__ */ D("path", {
+}, ds = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M599.872 203.776a189.44 189.44 0 0 1 64.384-4.672l2.624.128c31.168 1.024 51.2 4.096 79.488 16.32 37.632 16.128 74.496 45.056 111.488 89.344 96.384 115.264 82.752 372.8-34.752 521.728-7.68 9.728-32 41.6-30.72 39.936a426.624 426.624 0 0 1-30.08 35.776c-31.232 32.576-65.28 49.216-110.08 50.048-31.36.64-53.568-5.312-84.288-18.752l-6.528-2.88c-20.992-9.216-30.592-11.904-47.296-11.904-18.112 0-28.608 2.88-51.136 12.672l-6.464 2.816c-28.416 12.224-48.32 18.048-76.16 19.2-74.112 2.752-116.928-38.08-180.672-132.16-96.64-142.08-132.608-349.312-55.04-486.4 46.272-81.92 129.92-133.632 220.672-135.04 32.832-.576 60.288 6.848 99.648 22.72 27.136 10.88 34.752 13.76 37.376 14.272 16.256-20.16 27.776-36.992 34.56-50.24 13.568-26.304 27.2-59.968 40.704-100.8a32 32 0 1 1 60.8 20.224c-12.608 37.888-25.408 70.4-38.528 97.664zm-51.52 78.08c-14.528 17.792-31.808 37.376-51.904 58.816a32 32 0 1 1-46.72-43.776l12.288-13.248c-28.032-11.2-61.248-26.688-95.68-26.112-70.4 1.088-135.296 41.6-171.648 105.792C121.6 492.608 176 684.16 247.296 788.992c34.816 51.328 76.352 108.992 130.944 106.944 52.48-2.112 72.32-34.688 135.872-34.688 63.552 0 81.28 34.688 136.96 33.536 56.448-1.088 75.776-39.04 126.848-103.872 107.904-136.768 107.904-362.752 35.776-449.088-72.192-86.272-124.672-84.096-151.68-85.12-41.472-4.288-81.6 12.544-113.664 25.152z"
-}, null, -1), is = [
-  ls
+}, null, -1), cs = [
+  ds
 ];
-function ss(o, t, n, a, e, r) {
-  return R(), z("svg", rs, is);
+function us(o, t, n, a, e, r) {
+  return R(), z("svg", ss, cs);
 }
-var ds = /* @__PURE__ */ B(os, [["render", ss], ["__file", "apple.vue"]]), cs = {
+var fs = /* @__PURE__ */ B(is, [["render", us], ["__file", "apple.vue"]]), ms = {
   name: "ArrowDownBold"
-}, us = {
+}, vs = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, fs = /* @__PURE__ */ D("path", {
+}, hs = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M104.704 338.752a64 64 0 0 1 90.496 0l316.8 316.8 316.8-316.8a64 64 0 0 1 90.496 90.496L557.248 791.296a64 64 0 0 1-90.496 0L104.704 429.248a64 64 0 0 1 0-90.496z"
-}, null, -1), ms = [
-  fs
+}, null, -1), ps = [
+  hs
 ];
-function vs(o, t, n, a, e, r) {
-  return R(), z("svg", us, ms);
+function gs(o, t, n, a, e, r) {
+  return R(), z("svg", vs, ps);
 }
-var hs = /* @__PURE__ */ B(cs, [["render", vs], ["__file", "arrow-down-bold.vue"]]), ps = {
+var ys = /* @__PURE__ */ B(ms, [["render", gs], ["__file", "arrow-down-bold.vue"]]), As = {
   name: "ArrowDown"
-}, gs = {
+}, _s = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ys = /* @__PURE__ */ D("path", {
+}, xs = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M831.872 340.864 512 652.672 192.128 340.864a30.592 30.592 0 0 0-42.752 0 29.12 29.12 0 0 0 0 41.6L489.664 714.24a32 32 0 0 0 44.672 0l340.288-331.712a29.12 29.12 0 0 0 0-41.728 30.592 30.592 0 0 0-42.752 0z"
-}, null, -1), As = [
-  ys
+}, null, -1), ws = [
+  xs
 ];
-function _s(o, t, n, a, e, r) {
-  return R(), z("svg", gs, As);
+function Es(o, t, n, a, e, r) {
+  return R(), z("svg", _s, ws);
 }
-var xs = /* @__PURE__ */ B(ps, [["render", _s], ["__file", "arrow-down.vue"]]), ws = {
+var Cs = /* @__PURE__ */ B(As, [["render", Es], ["__file", "arrow-down.vue"]]), Ss = {
   name: "ArrowLeftBold"
-}, Es = {
+}, bs = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Cs = /* @__PURE__ */ D("path", {
+}, Ds = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M685.248 104.704a64 64 0 0 1 0 90.496L368.448 512l316.8 316.8a64 64 0 0 1-90.496 90.496L232.704 557.248a64 64 0 0 1 0-90.496l362.048-362.048a64 64 0 0 1 90.496 0z"
-}, null, -1), Ss = [
-  Cs
+}, null, -1), Ms = [
+  Ds
 ];
-function bs(o, t, n, a, e, r) {
-  return R(), z("svg", Es, Ss);
+function Ts(o, t, n, a, e, r) {
+  return R(), z("svg", bs, Ms);
 }
-var Ds = /* @__PURE__ */ B(ws, [["render", bs], ["__file", "arrow-left-bold.vue"]]), Ms = {
+var Rs = /* @__PURE__ */ B(Ss, [["render", Ts], ["__file", "arrow-left-bold.vue"]]), zs = {
   name: "ArrowLeft"
-}, Ts = {
+}, $s = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Rs = /* @__PURE__ */ D("path", {
+}, Hs = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M609.408 149.376 277.76 489.6a32 32 0 0 0 0 44.672l331.648 340.352a29.12 29.12 0 0 0 41.728 0 30.592 30.592 0 0 0 0-42.752L339.264 511.936l311.872-319.872a30.592 30.592 0 0 0 0-42.688 29.12 29.12 0 0 0-41.728 0z"
-}, null, -1), zs = [
-  Rs
+}, null, -1), Is = [
+  Hs
 ];
-function $s(o, t, n, a, e, r) {
-  return R(), z("svg", Ts, zs);
+function Bs(o, t, n, a, e, r) {
+  return R(), z("svg", $s, Is);
 }
-var Hs = /* @__PURE__ */ B(Ms, [["render", $s], ["__file", "arrow-left.vue"]]), Is = {
+var Ps = /* @__PURE__ */ B(zs, [["render", Bs], ["__file", "arrow-left.vue"]]), Ns = {
   name: "ArrowRightBold"
-}, Bs = {
+}, Ls = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ps = /* @__PURE__ */ D("path", {
+}, Os = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M338.752 104.704a64 64 0 0 0 0 90.496l316.8 316.8-316.8 316.8a64 64 0 0 0 90.496 90.496l362.048-362.048a64 64 0 0 0 0-90.496L429.248 104.704a64 64 0 0 0-90.496 0z"
-}, null, -1), Ns = [
-  Ps
+}, null, -1), Vs = [
+  Os
 ];
-function Ls(o, t, n, a, e, r) {
-  return R(), z("svg", Bs, Ns);
+function Fs(o, t, n, a, e, r) {
+  return R(), z("svg", Ls, Vs);
 }
-var Os = /* @__PURE__ */ B(Is, [["render", Ls], ["__file", "arrow-right-bold.vue"]]), Vs = {
+var js = /* @__PURE__ */ B(Ns, [["render", Fs], ["__file", "arrow-right-bold.vue"]]), Us = {
   name: "ArrowRight"
-}, Fs = {
+}, Qs = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, js = /* @__PURE__ */ D("path", {
+}, ks = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M340.864 149.312a30.592 30.592 0 0 0 0 42.752L652.736 512 340.864 831.872a30.592 30.592 0 0 0 0 42.752 29.12 29.12 0 0 0 41.728 0L714.24 534.336a32 32 0 0 0 0-44.672L382.592 149.376a29.12 29.12 0 0 0-41.728 0z"
-}, null, -1), Us = [
-  js
+}, null, -1), Ws = [
+  ks
 ];
-function Qs(o, t, n, a, e, r) {
-  return R(), z("svg", Fs, Us);
+function Gs(o, t, n, a, e, r) {
+  return R(), z("svg", Qs, Ws);
 }
-var ks = /* @__PURE__ */ B(Vs, [["render", Qs], ["__file", "arrow-right.vue"]]), Ws = {
+var Ys = /* @__PURE__ */ B(Us, [["render", Gs], ["__file", "arrow-right.vue"]]), Ks = {
   name: "ArrowUpBold"
-}, Gs = {
+}, Js = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ys = /* @__PURE__ */ D("path", {
+}, Zs = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M104.704 685.248a64 64 0 0 0 90.496 0l316.8-316.8 316.8 316.8a64 64 0 0 0 90.496-90.496L557.248 232.704a64 64 0 0 0-90.496 0L104.704 594.752a64 64 0 0 0 0 90.496z"
-}, null, -1), Ks = [
-  Ys
+}, null, -1), Xs = [
+  Zs
 ];
-function Js(o, t, n, a, e, r) {
-  return R(), z("svg", Gs, Ks);
+function qs(o, t, n, a, e, r) {
+  return R(), z("svg", Js, Xs);
 }
-var Zs = /* @__PURE__ */ B(Ws, [["render", Js], ["__file", "arrow-up-bold.vue"]]), Xs = {
+var ed = /* @__PURE__ */ B(Ks, [["render", qs], ["__file", "arrow-up-bold.vue"]]), td = {
   name: "ArrowUp"
-}, qs = {
+}, nd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ed = /* @__PURE__ */ D("path", {
+}, ad = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m488.832 344.32-339.84 356.672a32 32 0 0 0 0 44.16l.384.384a29.44 29.44 0 0 0 42.688 0l320-335.872 319.872 335.872a29.44 29.44 0 0 0 42.688 0l.384-.384a32 32 0 0 0 0-44.16L535.168 344.32a32 32 0 0 0-46.336 0z"
-}, null, -1), td = [
-  ed
+}, null, -1), od = [
+  ad
 ];
-function nd(o, t, n, a, e, r) {
-  return R(), z("svg", qs, td);
+function rd(o, t, n, a, e, r) {
+  return R(), z("svg", nd, od);
 }
-var ad = /* @__PURE__ */ B(Xs, [["render", nd], ["__file", "arrow-up.vue"]]), od = {
+var ld = /* @__PURE__ */ B(td, [["render", rd], ["__file", "arrow-up.vue"]]), id = {
   name: "Avatar"
-}, rd = {
+}, sd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ld = /* @__PURE__ */ D("path", {
+}, dd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M628.736 528.896A416 416 0 0 1 928 928H96a415.872 415.872 0 0 1 299.264-399.104L512 704l116.736-175.104zM720 304a208 208 0 1 1-416 0 208 208 0 0 1 416 0z"
-}, null, -1), id = [
-  ld
+}, null, -1), cd = [
+  dd
 ];
-function sd(o, t, n, a, e, r) {
-  return R(), z("svg", rd, id);
+function ud(o, t, n, a, e, r) {
+  return R(), z("svg", sd, cd);
 }
-var dd = /* @__PURE__ */ B(od, [["render", sd], ["__file", "avatar.vue"]]), cd = {
+var fd = /* @__PURE__ */ B(id, [["render", ud], ["__file", "avatar.vue"]]), md = {
   name: "Back"
-}, ud = {
+}, vd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, fd = /* @__PURE__ */ D("path", {
+}, hd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
-}, null, -1), md = /* @__PURE__ */ D("path", {
+}, null, -1), pd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
-}, null, -1), vd = [
-  fd,
-  md
+}, null, -1), gd = [
+  hd,
+  pd
 ];
-function hd(o, t, n, a, e, r) {
-  return R(), z("svg", ud, vd);
+function yd(o, t, n, a, e, r) {
+  return R(), z("svg", vd, gd);
 }
-var pd = /* @__PURE__ */ B(cd, [["render", hd], ["__file", "back.vue"]]), gd = {
+var Ad = /* @__PURE__ */ B(md, [["render", yd], ["__file", "back.vue"]]), _d = {
   name: "Baseball"
-}, yd = {
+}, xd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ad = /* @__PURE__ */ D("path", {
+}, wd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M195.2 828.8a448 448 0 1 1 633.6-633.6 448 448 0 0 1-633.6 633.6zm45.248-45.248a384 384 0 1 0 543.104-543.104 384 384 0 0 0-543.104 543.104z"
-}, null, -1), _d = /* @__PURE__ */ D("path", {
+}, null, -1), Ed = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M497.472 96.896c22.784 4.672 44.416 9.472 64.896 14.528a256.128 256.128 0 0 0 350.208 350.208c5.056 20.48 9.856 42.112 14.528 64.896A320.128 320.128 0 0 1 497.472 96.896zM108.48 491.904a320.128 320.128 0 0 1 423.616 423.68c-23.04-3.648-44.992-7.424-65.728-11.52a256.128 256.128 0 0 0-346.496-346.432 1736.64 1736.64 0 0 1-11.392-65.728z"
-}, null, -1), xd = [
-  Ad,
-  _d
+}, null, -1), Cd = [
+  wd,
+  Ed
 ];
-function wd(o, t, n, a, e, r) {
-  return R(), z("svg", yd, xd);
+function Sd(o, t, n, a, e, r) {
+  return R(), z("svg", xd, Cd);
 }
-var Ed = /* @__PURE__ */ B(gd, [["render", wd], ["__file", "baseball.vue"]]), Cd = {
+var bd = /* @__PURE__ */ B(_d, [["render", Sd], ["__file", "baseball.vue"]]), Dd = {
   name: "Basketball"
-}, Sd = {
+}, Md = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, bd = /* @__PURE__ */ D("path", {
+}, Td = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M778.752 788.224a382.464 382.464 0 0 0 116.032-245.632 256.512 256.512 0 0 0-241.728-13.952 762.88 762.88 0 0 1 125.696 259.584zm-55.04 44.224a699.648 699.648 0 0 0-125.056-269.632 256.128 256.128 0 0 0-56.064 331.968 382.72 382.72 0 0 0 181.12-62.336zm-254.08 61.248A320.128 320.128 0 0 1 557.76 513.6a715.84 715.84 0 0 0-48.192-48.128 320.128 320.128 0 0 1-379.264 88.384 382.4 382.4 0 0 0 110.144 229.696 382.4 382.4 0 0 0 229.184 110.08zM129.28 481.088a256.128 256.128 0 0 0 331.072-56.448 699.648 699.648 0 0 0-268.8-124.352 382.656 382.656 0 0 0-62.272 180.8zm106.56-235.84a762.88 762.88 0 0 1 258.688 125.056 256.512 256.512 0 0 0-13.44-241.088A382.464 382.464 0 0 0 235.84 245.248zm318.08-114.944c40.576 89.536 37.76 193.92-8.448 281.344a779.84 779.84 0 0 1 66.176 66.112 320.832 320.832 0 0 1 282.112-8.128 382.4 382.4 0 0 0-110.144-229.12 382.4 382.4 0 0 0-229.632-110.208zM828.8 828.8a448 448 0 1 1-633.6-633.6 448 448 0 0 1 633.6 633.6z"
-}, null, -1), Dd = [
-  bd
+}, null, -1), Rd = [
+  Td
 ];
-function Md(o, t, n, a, e, r) {
-  return R(), z("svg", Sd, Dd);
+function zd(o, t, n, a, e, r) {
+  return R(), z("svg", Md, Rd);
 }
-var Td = /* @__PURE__ */ B(Cd, [["render", Md], ["__file", "basketball.vue"]]), Rd = {
+var $d = /* @__PURE__ */ B(Dd, [["render", zd], ["__file", "basketball.vue"]]), Hd = {
   name: "BellFilled"
-}, zd = {
+}, Id = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $d = /* @__PURE__ */ D("path", {
+}, Bd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 832a128 128 0 0 1-256 0h256zm192-64H134.4a38.4 38.4 0 0 1 0-76.8H192V448c0-154.88 110.08-284.16 256.32-313.6a64 64 0 1 1 127.36 0A320.128 320.128 0 0 1 832 448v243.2h57.6a38.4 38.4 0 0 1 0 76.8H832z"
-}, null, -1), Hd = [
-  $d
+}, null, -1), Pd = [
+  Bd
 ];
-function Id(o, t, n, a, e, r) {
-  return R(), z("svg", zd, Hd);
+function Nd(o, t, n, a, e, r) {
+  return R(), z("svg", Id, Pd);
 }
-var Bd = /* @__PURE__ */ B(Rd, [["render", Id], ["__file", "bell-filled.vue"]]), Pd = {
+var Ld = /* @__PURE__ */ B(Hd, [["render", Nd], ["__file", "bell-filled.vue"]]), Od = {
   name: "Bell"
-}, Nd = {
+}, Vd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ld = /* @__PURE__ */ D("path", {
+}, Fd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a64 64 0 0 1 64 64v64H448v-64a64 64 0 0 1 64-64z"
-}, null, -1), Od = /* @__PURE__ */ D("path", {
+}, null, -1), jd = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 768h512V448a256 256 0 1 0-512 0v320zm256-640a320 320 0 0 1 320 320v384H192V448a320 320 0 0 1 320-320z"
-}, null, -1), Vd = /* @__PURE__ */ D("path", {
+}, null, -1), Ud = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M96 768h832q32 0 32 32t-32 32H96q-32 0-32-32t32-32zm352 128h128a64 64 0 0 1-128 0z"
-}, null, -1), Fd = [
-  Ld,
-  Od,
-  Vd
+}, null, -1), Qd = [
+  Fd,
+  jd,
+  Ud
 ];
-function jd(o, t, n, a, e, r) {
-  return R(), z("svg", Nd, Fd);
+function kd(o, t, n, a, e, r) {
+  return R(), z("svg", Vd, Qd);
 }
-var Ud = /* @__PURE__ */ B(Pd, [["render", jd], ["__file", "bell.vue"]]), Qd = {
+var Wd = /* @__PURE__ */ B(Od, [["render", kd], ["__file", "bell.vue"]]), Gd = {
   name: "Bicycle"
-}, kd = {
+}, Yd = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Wd = /* @__PURE__ */ wi('<path fill="currentColor" d="M256 832a128 128 0 1 0 0-256 128 128 0 0 0 0 256zm0 64a192 192 0 1 1 0-384 192 192 0 0 1 0 384z"></path><path fill="currentColor" d="M288 672h320q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"></path><path fill="currentColor" d="M768 832a128 128 0 1 0 0-256 128 128 0 0 0 0 256zm0 64a192 192 0 1 1 0-384 192 192 0 0 1 0 384z"></path><path fill="currentColor" d="M480 192a32 32 0 0 1 0-64h160a32 32 0 0 1 31.04 24.256l96 384a32 32 0 0 1-62.08 15.488L615.04 192H480zM96 384a32 32 0 0 1 0-64h128a32 32 0 0 1 30.336 21.888l64 192a32 32 0 1 1-60.672 20.224L200.96 384H96z"></path><path fill="currentColor" d="m373.376 599.808-42.752-47.616 320-288 42.752 47.616z"></path>', 5), Gd = [
-  Wd
+}, Kd = /* @__PURE__ */ Si('<path fill="currentColor" d="M256 832a128 128 0 1 0 0-256 128 128 0 0 0 0 256zm0 64a192 192 0 1 1 0-384 192 192 0 0 1 0 384z"></path><path fill="currentColor" d="M288 672h320q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"></path><path fill="currentColor" d="M768 832a128 128 0 1 0 0-256 128 128 0 0 0 0 256zm0 64a192 192 0 1 1 0-384 192 192 0 0 1 0 384z"></path><path fill="currentColor" d="M480 192a32 32 0 0 1 0-64h160a32 32 0 0 1 31.04 24.256l96 384a32 32 0 0 1-62.08 15.488L615.04 192H480zM96 384a32 32 0 0 1 0-64h128a32 32 0 0 1 30.336 21.888l64 192a32 32 0 1 1-60.672 20.224L200.96 384H96z"></path><path fill="currentColor" d="m373.376 599.808-42.752-47.616 320-288 42.752 47.616z"></path>', 5), Jd = [
+  Kd
 ];
-function Yd(o, t, n, a, e, r) {
-  return R(), z("svg", kd, Gd);
+function Zd(o, t, n, a, e, r) {
+  return R(), z("svg", Yd, Jd);
 }
-var Kd = /* @__PURE__ */ B(Qd, [["render", Yd], ["__file", "bicycle.vue"]]), Jd = {
+var Xd = /* @__PURE__ */ B(Gd, [["render", Zd], ["__file", "bicycle.vue"]]), qd = {
   name: "BottomLeft"
-}, Zd = {
+}, ec = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Xd = /* @__PURE__ */ D("path", {
+}, tc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 768h416a32 32 0 1 1 0 64H224a32 32 0 0 1-32-32V352a32 32 0 0 1 64 0v416z"
-}, null, -1), qd = /* @__PURE__ */ D("path", {
+}, null, -1), nc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M246.656 822.656a32 32 0 0 1-45.312-45.312l544-544a32 32 0 0 1 45.312 45.312l-544 544z"
-}, null, -1), ec = [
-  Xd,
-  qd
+}, null, -1), ac = [
+  tc,
+  nc
 ];
-function tc(o, t, n, a, e, r) {
-  return R(), z("svg", Zd, ec);
+function oc(o, t, n, a, e, r) {
+  return R(), z("svg", ec, ac);
 }
-var nc = /* @__PURE__ */ B(Jd, [["render", tc], ["__file", "bottom-left.vue"]]), ac = {
+var rc = /* @__PURE__ */ B(qd, [["render", oc], ["__file", "bottom-left.vue"]]), lc = {
   name: "BottomRight"
-}, oc = {
+}, ic = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rc = /* @__PURE__ */ D("path", {
+}, sc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 768a32 32 0 1 0 0 64h448a32 32 0 0 0 32-32V352a32 32 0 0 0-64 0v416H352z"
-}, null, -1), lc = /* @__PURE__ */ D("path", {
+}, null, -1), dc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M777.344 822.656a32 32 0 0 0 45.312-45.312l-544-544a32 32 0 0 0-45.312 45.312l544 544z"
-}, null, -1), ic = [
-  rc,
-  lc
+}, null, -1), cc = [
+  sc,
+  dc
 ];
-function sc(o, t, n, a, e, r) {
-  return R(), z("svg", oc, ic);
+function uc(o, t, n, a, e, r) {
+  return R(), z("svg", ic, cc);
 }
-var dc = /* @__PURE__ */ B(ac, [["render", sc], ["__file", "bottom-right.vue"]]), cc = {
+var fc = /* @__PURE__ */ B(lc, [["render", uc], ["__file", "bottom-right.vue"]]), mc = {
   name: "Bottom"
-}, uc = {
+}, vc = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, fc = /* @__PURE__ */ D("path", {
+}, hc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 805.888V168a32 32 0 1 0-64 0v637.888L246.656 557.952a30.72 30.72 0 0 0-45.312 0 35.52 35.52 0 0 0 0 48.064l288 306.048a30.72 30.72 0 0 0 45.312 0l288-306.048a35.52 35.52 0 0 0 0-48 30.72 30.72 0 0 0-45.312 0L544 805.824z"
-}, null, -1), mc = [
-  fc
+}, null, -1), pc = [
+  hc
 ];
-function vc(o, t, n, a, e, r) {
-  return R(), z("svg", uc, mc);
+function gc(o, t, n, a, e, r) {
+  return R(), z("svg", vc, pc);
 }
-var hc = /* @__PURE__ */ B(cc, [["render", vc], ["__file", "bottom.vue"]]), pc = {
+var yc = /* @__PURE__ */ B(mc, [["render", gc], ["__file", "bottom.vue"]]), Ac = {
   name: "Bowl"
-}, gc = {
+}, _c = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, yc = /* @__PURE__ */ D("path", {
+}, xc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M714.432 704a351.744 351.744 0 0 0 148.16-256H161.408a351.744 351.744 0 0 0 148.16 256h404.864zM288 766.592A415.68 415.68 0 0 1 96 416a32 32 0 0 1 32-32h768a32 32 0 0 1 32 32 415.68 415.68 0 0 1-192 350.592V832a64 64 0 0 1-64 64H352a64 64 0 0 1-64-64v-65.408zM493.248 320h-90.496l254.4-254.4a32 32 0 1 1 45.248 45.248L493.248 320zm187.328 0h-128l269.696-155.712a32 32 0 0 1 32 55.424L680.576 320zM352 768v64h320v-64H352z"
-}, null, -1), Ac = [
-  yc
+}, null, -1), wc = [
+  xc
 ];
-function _c(o, t, n, a, e, r) {
-  return R(), z("svg", gc, Ac);
+function Ec(o, t, n, a, e, r) {
+  return R(), z("svg", _c, wc);
 }
-var xc = /* @__PURE__ */ B(pc, [["render", _c], ["__file", "bowl.vue"]]), wc = {
+var Cc = /* @__PURE__ */ B(Ac, [["render", Ec], ["__file", "bowl.vue"]]), Sc = {
   name: "Box"
-}, Ec = {
+}, bc = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Cc = /* @__PURE__ */ D("path", {
+}, Dc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M317.056 128 128 344.064V896h768V344.064L706.944 128H317.056zm-14.528-64h418.944a32 32 0 0 1 24.064 10.88l206.528 236.096A32 32 0 0 1 960 332.032V928a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V332.032a32 32 0 0 1 7.936-21.12L278.4 75.008A32 32 0 0 1 302.528 64z"
-}, null, -1), Sc = /* @__PURE__ */ D("path", {
+}, null, -1), Mc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M64 320h896v64H64z"
-}, null, -1), bc = /* @__PURE__ */ D("path", {
+}, null, -1), Tc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 327.872V640h128V327.872L526.08 128h-28.16L448 327.872zM448 64h128l64 256v352a32 32 0 0 1-32 32H416a32 32 0 0 1-32-32V320l64-256z"
-}, null, -1), Dc = [
-  Cc,
-  Sc,
-  bc
+}, null, -1), Rc = [
+  Dc,
+  Mc,
+  Tc
 ];
-function Mc(o, t, n, a, e, r) {
-  return R(), z("svg", Ec, Dc);
+function zc(o, t, n, a, e, r) {
+  return R(), z("svg", bc, Rc);
 }
-var Tc = /* @__PURE__ */ B(wc, [["render", Mc], ["__file", "box.vue"]]), Rc = {
+var $c = /* @__PURE__ */ B(Sc, [["render", zc], ["__file", "box.vue"]]), Hc = {
   name: "Briefcase"
-}, zc = {
+}, Ic = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $c = /* @__PURE__ */ D("path", {
+}, Bc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M320 320V128h384v192h192v192H128V320h192zM128 576h768v320H128V576zm256-256h256.064V192H384v128z"
-}, null, -1), Hc = [
-  $c
+}, null, -1), Pc = [
+  Bc
 ];
-function Ic(o, t, n, a, e, r) {
-  return R(), z("svg", zc, Hc);
+function Nc(o, t, n, a, e, r) {
+  return R(), z("svg", Ic, Pc);
 }
-var Bc = /* @__PURE__ */ B(Rc, [["render", Ic], ["__file", "briefcase.vue"]]), Pc = {
+var Lc = /* @__PURE__ */ B(Hc, [["render", Nc], ["__file", "briefcase.vue"]]), Oc = {
   name: "BrushFilled"
-}, Nc = {
+}, Vc = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Lc = /* @__PURE__ */ D("path", {
+}, Fc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M608 704v160a96 96 0 0 1-192 0V704h-96a128 128 0 0 1-128-128h640a128 128 0 0 1-128 128h-96zM192 512V128.064h640V512H192z"
-}, null, -1), Oc = [
-  Lc
+}, null, -1), jc = [
+  Fc
 ];
-function Vc(o, t, n, a, e, r) {
-  return R(), z("svg", Nc, Oc);
+function Uc(o, t, n, a, e, r) {
+  return R(), z("svg", Vc, jc);
 }
-var Fc = /* @__PURE__ */ B(Pc, [["render", Vc], ["__file", "brush-filled.vue"]]), jc = {
+var Qc = /* @__PURE__ */ B(Oc, [["render", Uc], ["__file", "brush-filled.vue"]]), kc = {
   name: "Brush"
-}, Uc = {
+}, Wc = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qc = /* @__PURE__ */ D("path", {
+}, Gc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M896 448H128v192a64 64 0 0 0 64 64h192v192h256V704h192a64 64 0 0 0 64-64V448zm-770.752-64c0-47.552 5.248-90.24 15.552-128 14.72-54.016 42.496-107.392 83.2-160h417.28l-15.36 70.336L736 96h211.2c-24.832 42.88-41.92 96.256-51.2 160a663.872 663.872 0 0 0-6.144 128H960v256a128 128 0 0 1-128 128H704v160a32 32 0 0 1-32 32H352a32 32 0 0 1-32-32V768H192A128 128 0 0 1 64 640V384h61.248zm64 0h636.544c-2.048-45.824.256-91.584 6.848-137.216 4.48-30.848 10.688-59.776 18.688-86.784h-96.64l-221.12 141.248L561.92 160H256.512c-25.856 37.888-43.776 75.456-53.952 112.832-8.768 32.064-13.248 69.12-13.312 111.168z"
-}, null, -1), kc = [
-  Qc
+}, null, -1), Yc = [
+  Gc
 ];
-function Wc(o, t, n, a, e, r) {
-  return R(), z("svg", Uc, kc);
+function Kc(o, t, n, a, e, r) {
+  return R(), z("svg", Wc, Yc);
 }
-var Gc = /* @__PURE__ */ B(jc, [["render", Wc], ["__file", "brush.vue"]]), Yc = {
+var Jc = /* @__PURE__ */ B(kc, [["render", Kc], ["__file", "brush.vue"]]), Zc = {
   name: "Burger"
-}, Kc = {
+}, Xc = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Jc = /* @__PURE__ */ D("path", {
+}, qc = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 512a32 32 0 0 0-32 32v64a32 32 0 0 0 30.08 32H864a32 32 0 0 0 32-32v-64a32 32 0 0 0-32-32H160zm736-58.56A96 96 0 0 1 960 544v64a96 96 0 0 1-51.968 85.312L855.36 833.6a96 96 0 0 1-89.856 62.272H258.496A96 96 0 0 1 168.64 833.6l-52.608-140.224A96 96 0 0 1 64 608v-64a96 96 0 0 1 64-90.56V448a384 384 0 1 1 768 5.44zM832 448a320 320 0 0 0-640 0h640zM512 704H188.352l40.192 107.136a32 32 0 0 0 29.952 20.736h507.008a32 32 0 0 0 29.952-20.736L835.648 704H512z"
-}, null, -1), Zc = [
-  Jc
+}, null, -1), e2 = [
+  qc
 ];
-function Xc(o, t, n, a, e, r) {
-  return R(), z("svg", Kc, Zc);
+function t2(o, t, n, a, e, r) {
+  return R(), z("svg", Xc, e2);
 }
-var qc = /* @__PURE__ */ B(Yc, [["render", Xc], ["__file", "burger.vue"]]), e2 = {
+var n2 = /* @__PURE__ */ B(Zc, [["render", t2], ["__file", "burger.vue"]]), a2 = {
   name: "Calendar"
-}, t2 = {
+}, o2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, n2 = /* @__PURE__ */ D("path", {
+}, r2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 384v512h768V192H768v32a32 32 0 1 1-64 0v-32H320v32a32 32 0 0 1-64 0v-32H128v128h768v64H128zm192-256h384V96a32 32 0 1 1 64 0v32h160a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h160V96a32 32 0 0 1 64 0v32zm-32 384h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm192-192h64a32 32 0 0 1 0 64h-64a32 32 0 0 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm192-192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64zm0 192h64a32 32 0 1 1 0 64h-64a32 32 0 1 1 0-64z"
-}, null, -1), a2 = [
-  n2
+}, null, -1), l2 = [
+  r2
 ];
-function o2(o, t, n, a, e, r) {
-  return R(), z("svg", t2, a2);
+function i2(o, t, n, a, e, r) {
+  return R(), z("svg", o2, l2);
 }
-var r2 = /* @__PURE__ */ B(e2, [["render", o2], ["__file", "calendar.vue"]]), l2 = {
+var s2 = /* @__PURE__ */ B(a2, [["render", i2], ["__file", "calendar.vue"]]), d2 = {
   name: "CameraFilled"
-}, i2 = {
+}, c2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, s2 = /* @__PURE__ */ D("path", {
+}, u2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 224a64 64 0 0 0-64 64v512a64 64 0 0 0 64 64h704a64 64 0 0 0 64-64V288a64 64 0 0 0-64-64H748.416l-46.464-92.672A64 64 0 0 0 644.736 96H379.328a64 64 0 0 0-57.216 35.392L275.776 224H160zm352 435.2a115.2 115.2 0 1 0 0-230.4 115.2 115.2 0 0 0 0 230.4zm0 140.8a256 256 0 1 1 0-512 256 256 0 0 1 0 512z"
-}, null, -1), d2 = [
-  s2
+}, null, -1), f2 = [
+  u2
 ];
-function c2(o, t, n, a, e, r) {
-  return R(), z("svg", i2, d2);
+function m2(o, t, n, a, e, r) {
+  return R(), z("svg", c2, f2);
 }
-var u2 = /* @__PURE__ */ B(l2, [["render", c2], ["__file", "camera-filled.vue"]]), f2 = {
+var v2 = /* @__PURE__ */ B(d2, [["render", m2], ["__file", "camera-filled.vue"]]), h2 = {
   name: "Camera"
-}, m2 = {
+}, p2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, v2 = /* @__PURE__ */ D("path", {
+}, g2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M896 256H128v576h768V256zm-199.424-64-32.064-64h-304.96l-32 64h369.024zM96 192h160l46.336-92.608A64 64 0 0 1 359.552 64h304.96a64 64 0 0 1 57.216 35.328L768.192 192H928a32 32 0 0 1 32 32v640a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V224a32 32 0 0 1 32-32zm416 512a160 160 0 1 0 0-320 160 160 0 0 0 0 320zm0 64a224 224 0 1 1 0-448 224 224 0 0 1 0 448z"
-}, null, -1), h2 = [
-  v2
+}, null, -1), y2 = [
+  g2
 ];
-function p2(o, t, n, a, e, r) {
-  return R(), z("svg", m2, h2);
+function A2(o, t, n, a, e, r) {
+  return R(), z("svg", p2, y2);
 }
-var g2 = /* @__PURE__ */ B(f2, [["render", p2], ["__file", "camera.vue"]]), y2 = {
+var _2 = /* @__PURE__ */ B(h2, [["render", A2], ["__file", "camera.vue"]]), x2 = {
   name: "CaretBottom"
-}, A2 = {
+}, w2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, _2 = /* @__PURE__ */ D("path", {
+}, E2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m192 384 320 384 320-384z"
-}, null, -1), x2 = [
-  _2
+}, null, -1), C2 = [
+  E2
 ];
-function w2(o, t, n, a, e, r) {
-  return R(), z("svg", A2, x2);
+function S2(o, t, n, a, e, r) {
+  return R(), z("svg", w2, C2);
 }
-var E2 = /* @__PURE__ */ B(y2, [["render", w2], ["__file", "caret-bottom.vue"]]), C2 = {
+var b2 = /* @__PURE__ */ B(x2, [["render", S2], ["__file", "caret-bottom.vue"]]), D2 = {
   name: "CaretLeft"
-}, S2 = {
+}, M2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, b2 = /* @__PURE__ */ D("path", {
+}, T2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M672 192 288 511.936 672 832z"
-}, null, -1), D2 = [
-  b2
+}, null, -1), R2 = [
+  T2
 ];
-function M2(o, t, n, a, e, r) {
-  return R(), z("svg", S2, D2);
+function z2(o, t, n, a, e, r) {
+  return R(), z("svg", M2, R2);
 }
-var T2 = /* @__PURE__ */ B(C2, [["render", M2], ["__file", "caret-left.vue"]]), R2 = {
+var $2 = /* @__PURE__ */ B(D2, [["render", z2], ["__file", "caret-left.vue"]]), H2 = {
   name: "CaretRight"
-}, z2 = {
+}, I2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $2 = /* @__PURE__ */ D("path", {
+}, B2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 192v640l384-320.064z"
-}, null, -1), H2 = [
-  $2
+}, null, -1), P2 = [
+  B2
 ];
-function I2(o, t, n, a, e, r) {
-  return R(), z("svg", z2, H2);
+function N2(o, t, n, a, e, r) {
+  return R(), z("svg", I2, P2);
 }
-var B2 = /* @__PURE__ */ B(R2, [["render", I2], ["__file", "caret-right.vue"]]), P2 = {
+var L2 = /* @__PURE__ */ B(H2, [["render", N2], ["__file", "caret-right.vue"]]), O2 = {
   name: "CaretTop"
-}, N2 = {
+}, V2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, L2 = /* @__PURE__ */ D("path", {
+}, F2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 320 192 704h639.936z"
-}, null, -1), O2 = [
-  L2
+}, null, -1), j2 = [
+  F2
 ];
-function V2(o, t, n, a, e, r) {
-  return R(), z("svg", N2, O2);
+function U2(o, t, n, a, e, r) {
+  return R(), z("svg", V2, j2);
 }
-var F2 = /* @__PURE__ */ B(P2, [["render", V2], ["__file", "caret-top.vue"]]), j2 = {
+var Q2 = /* @__PURE__ */ B(O2, [["render", U2], ["__file", "caret-top.vue"]]), k2 = {
   name: "Cellphone"
-}, U2 = {
+}, W2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Q2 = /* @__PURE__ */ D("path", {
+}, G2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 128a64 64 0 0 0-64 64v640a64 64 0 0 0 64 64h512a64 64 0 0 0 64-64V192a64 64 0 0 0-64-64H256zm0-64h512a128 128 0 0 1 128 128v640a128 128 0 0 1-128 128H256a128 128 0 0 1-128-128V192A128 128 0 0 1 256 64zm128 128h256a32 32 0 1 1 0 64H384a32 32 0 0 1 0-64zm128 640a64 64 0 1 1 0-128 64 64 0 0 1 0 128z"
-}, null, -1), k2 = [
-  Q2
+}, null, -1), Y2 = [
+  G2
 ];
-function W2(o, t, n, a, e, r) {
-  return R(), z("svg", U2, k2);
+function K2(o, t, n, a, e, r) {
+  return R(), z("svg", W2, Y2);
 }
-var G2 = /* @__PURE__ */ B(j2, [["render", W2], ["__file", "cellphone.vue"]]), Y2 = {
+var J2 = /* @__PURE__ */ B(k2, [["render", K2], ["__file", "cellphone.vue"]]), Z2 = {
   name: "ChatDotRound"
-}, K2 = {
+}, X2 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, J2 = /* @__PURE__ */ D("path", {
+}, q2 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m174.72 855.68 135.296-45.12 23.68 11.84C388.096 849.536 448.576 864 512 864c211.84 0 384-166.784 384-352S723.84 160 512 160 128 326.784 128 512c0 69.12 24.96 139.264 70.848 199.232l22.08 28.8-46.272 115.584zm-45.248 82.56A32 32 0 0 1 89.6 896l58.368-145.92C94.72 680.32 64 596.864 64 512 64 299.904 256 96 512 96s448 203.904 448 416-192 416-448 416a461.056 461.056 0 0 1-206.912-48.384l-175.616 58.56z"
-}, null, -1), Z2 = /* @__PURE__ */ D("path", {
+}, null, -1), e0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 563.2a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4zm192 0a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4zm-384 0a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4z"
-}, null, -1), X2 = [
-  J2,
-  Z2
+}, null, -1), t0 = [
+  q2,
+  e0
 ];
-function q2(o, t, n, a, e, r) {
-  return R(), z("svg", K2, X2);
+function n0(o, t, n, a, e, r) {
+  return R(), z("svg", X2, t0);
 }
-var e0 = /* @__PURE__ */ B(Y2, [["render", q2], ["__file", "chat-dot-round.vue"]]), t0 = {
+var a0 = /* @__PURE__ */ B(Z2, [["render", n0], ["__file", "chat-dot-round.vue"]]), o0 = {
   name: "ChatDotSquare"
-}, n0 = {
+}, r0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, a0 = /* @__PURE__ */ D("path", {
+}, l0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M273.536 736H800a64 64 0 0 0 64-64V256a64 64 0 0 0-64-64H224a64 64 0 0 0-64 64v570.88L273.536 736zM296 800 147.968 918.4A32 32 0 0 1 96 893.44V256a128 128 0 0 1 128-128h576a128 128 0 0 1 128 128v416a128 128 0 0 1-128 128H296z"
-}, null, -1), o0 = /* @__PURE__ */ D("path", {
+}, null, -1), i0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 499.2a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4zm192 0a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4zm-384 0a51.2 51.2 0 1 1 0-102.4 51.2 51.2 0 0 1 0 102.4z"
-}, null, -1), r0 = [
-  a0,
-  o0
+}, null, -1), s0 = [
+  l0,
+  i0
 ];
-function l0(o, t, n, a, e, r) {
-  return R(), z("svg", n0, r0);
+function d0(o, t, n, a, e, r) {
+  return R(), z("svg", r0, s0);
 }
-var i0 = /* @__PURE__ */ B(t0, [["render", l0], ["__file", "chat-dot-square.vue"]]), s0 = {
+var c0 = /* @__PURE__ */ B(o0, [["render", d0], ["__file", "chat-dot-square.vue"]]), u0 = {
   name: "ChatLineRound"
-}, d0 = {
+}, f0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, c0 = /* @__PURE__ */ D("path", {
+}, m0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m174.72 855.68 135.296-45.12 23.68 11.84C388.096 849.536 448.576 864 512 864c211.84 0 384-166.784 384-352S723.84 160 512 160 128 326.784 128 512c0 69.12 24.96 139.264 70.848 199.232l22.08 28.8-46.272 115.584zm-45.248 82.56A32 32 0 0 1 89.6 896l58.368-145.92C94.72 680.32 64 596.864 64 512 64 299.904 256 96 512 96s448 203.904 448 416-192 416-448 416a461.056 461.056 0 0 1-206.912-48.384l-175.616 58.56z"
-}, null, -1), u0 = /* @__PURE__ */ D("path", {
+}, null, -1), v0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 576h320q32 0 32 32t-32 32H352q-32 0-32-32t32-32zm32-192h256q32 0 32 32t-32 32H384q-32 0-32-32t32-32z"
-}, null, -1), f0 = [
-  c0,
-  u0
+}, null, -1), h0 = [
+  m0,
+  v0
 ];
-function m0(o, t, n, a, e, r) {
-  return R(), z("svg", d0, f0);
+function p0(o, t, n, a, e, r) {
+  return R(), z("svg", f0, h0);
 }
-var v0 = /* @__PURE__ */ B(s0, [["render", m0], ["__file", "chat-line-round.vue"]]), h0 = {
+var g0 = /* @__PURE__ */ B(u0, [["render", p0], ["__file", "chat-line-round.vue"]]), y0 = {
   name: "ChatLineSquare"
-}, p0 = {
+}, A0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, g0 = /* @__PURE__ */ D("path", {
+}, _0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 826.88 273.536 736H800a64 64 0 0 0 64-64V256a64 64 0 0 0-64-64H224a64 64 0 0 0-64 64v570.88zM296 800 147.968 918.4A32 32 0 0 1 96 893.44V256a128 128 0 0 1 128-128h576a128 128 0 0 1 128 128v416a128 128 0 0 1-128 128H296z"
-}, null, -1), y0 = /* @__PURE__ */ D("path", {
+}, null, -1), x0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 512h320q32 0 32 32t-32 32H352q-32 0-32-32t32-32zm0-192h320q32 0 32 32t-32 32H352q-32 0-32-32t32-32z"
-}, null, -1), A0 = [
-  g0,
-  y0
+}, null, -1), w0 = [
+  _0,
+  x0
 ];
-function _0(o, t, n, a, e, r) {
-  return R(), z("svg", p0, A0);
+function E0(o, t, n, a, e, r) {
+  return R(), z("svg", A0, w0);
 }
-var x0 = /* @__PURE__ */ B(h0, [["render", _0], ["__file", "chat-line-square.vue"]]), w0 = {
+var C0 = /* @__PURE__ */ B(y0, [["render", E0], ["__file", "chat-line-square.vue"]]), S0 = {
   name: "ChatRound"
-}, E0 = {
+}, b0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, C0 = /* @__PURE__ */ D("path", {
+}, D0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m174.72 855.68 130.048-43.392 23.424 11.392C382.4 849.984 444.352 864 512 864c223.744 0 384-159.872 384-352 0-192.832-159.104-352-384-352S128 319.168 128 512a341.12 341.12 0 0 0 69.248 204.288l21.632 28.8-44.16 110.528zm-45.248 82.56A32 32 0 0 1 89.6 896l56.512-141.248A405.12 405.12 0 0 1 64 512C64 299.904 235.648 96 512 96s448 203.904 448 416-173.44 416-448 416c-79.68 0-150.848-17.152-211.712-46.72l-170.88 56.96z"
-}, null, -1), S0 = [
-  C0
+}, null, -1), M0 = [
+  D0
 ];
-function b0(o, t, n, a, e, r) {
-  return R(), z("svg", E0, S0);
+function T0(o, t, n, a, e, r) {
+  return R(), z("svg", b0, M0);
 }
-var D0 = /* @__PURE__ */ B(w0, [["render", b0], ["__file", "chat-round.vue"]]), M0 = {
+var R0 = /* @__PURE__ */ B(S0, [["render", T0], ["__file", "chat-round.vue"]]), z0 = {
   name: "ChatSquare"
-}, T0 = {
+}, $0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, R0 = /* @__PURE__ */ D("path", {
+}, H0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M273.536 736H800a64 64 0 0 0 64-64V256a64 64 0 0 0-64-64H224a64 64 0 0 0-64 64v570.88L273.536 736zM296 800 147.968 918.4A32 32 0 0 1 96 893.44V256a128 128 0 0 1 128-128h576a128 128 0 0 1 128 128v416a128 128 0 0 1-128 128H296z"
-}, null, -1), z0 = [
-  R0
+}, null, -1), I0 = [
+  H0
 ];
-function $0(o, t, n, a, e, r) {
-  return R(), z("svg", T0, z0);
+function B0(o, t, n, a, e, r) {
+  return R(), z("svg", $0, I0);
 }
-var H0 = /* @__PURE__ */ B(M0, [["render", $0], ["__file", "chat-square.vue"]]), I0 = {
+var P0 = /* @__PURE__ */ B(z0, [["render", B0], ["__file", "chat-square.vue"]]), N0 = {
   name: "Check"
-}, B0 = {
+}, L0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, P0 = /* @__PURE__ */ D("path", {
+}, O0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M406.656 706.944 195.84 496.256a32 32 0 1 0-45.248 45.248l256 256 512-512a32 32 0 0 0-45.248-45.248L406.592 706.944z"
-}, null, -1), N0 = [
-  P0
+}, null, -1), V0 = [
+  O0
 ];
-function L0(o, t, n, a, e, r) {
-  return R(), z("svg", B0, N0);
+function F0(o, t, n, a, e, r) {
+  return R(), z("svg", L0, V0);
 }
-var O0 = /* @__PURE__ */ B(I0, [["render", L0], ["__file", "check.vue"]]), V0 = {
+var j0 = /* @__PURE__ */ B(N0, [["render", F0], ["__file", "check.vue"]]), U0 = {
   name: "Checked"
-}, F0 = {
+}, Q0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, j0 = /* @__PURE__ */ D("path", {
+}, k0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 192h160v736H160V192h160.064v64H704v-64zM311.616 537.28l-45.312 45.248L447.36 763.52l316.8-316.8-45.312-45.184L447.36 673.024 311.616 537.28zM384 192V96h256v96H384z"
-}, null, -1), U0 = [
-  j0
+}, null, -1), W0 = [
+  k0
 ];
-function Q0(o, t, n, a, e, r) {
-  return R(), z("svg", F0, U0);
+function G0(o, t, n, a, e, r) {
+  return R(), z("svg", Q0, W0);
 }
-var k0 = /* @__PURE__ */ B(V0, [["render", Q0], ["__file", "checked.vue"]]), W0 = {
+var Y0 = /* @__PURE__ */ B(U0, [["render", G0], ["__file", "checked.vue"]]), K0 = {
   name: "Cherry"
-}, G0 = {
+}, J0 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Y0 = /* @__PURE__ */ D("path", {
+}, Z0 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M261.056 449.6c13.824-69.696 34.88-128.96 63.36-177.728 23.744-40.832 61.12-88.64 112.256-143.872H320a32 32 0 0 1 0-64h384a32 32 0 1 1 0 64H554.752c14.912 39.168 41.344 86.592 79.552 141.76 47.36 68.48 84.8 106.752 106.304 114.304a224 224 0 1 1-84.992 14.784c-22.656-22.912-47.04-53.76-73.92-92.608-38.848-56.128-67.008-105.792-84.352-149.312-55.296 58.24-94.528 107.52-117.76 147.2-23.168 39.744-41.088 88.768-53.568 147.072a224.064 224.064 0 1 1-64.96-1.6zM288 832a160 160 0 1 0 0-320 160 160 0 0 0 0 320zm448-64a160 160 0 1 0 0-320 160 160 0 0 0 0 320z"
-}, null, -1), K0 = [
-  Y0
+}, null, -1), X0 = [
+  Z0
 ];
-function J0(o, t, n, a, e, r) {
-  return R(), z("svg", G0, K0);
+function q0(o, t, n, a, e, r) {
+  return R(), z("svg", J0, X0);
 }
-var Z0 = /* @__PURE__ */ B(W0, [["render", J0], ["__file", "cherry.vue"]]), X0 = {
+var eu = /* @__PURE__ */ B(K0, [["render", q0], ["__file", "cherry.vue"]]), tu = {
   name: "Chicken"
-}, q0 = {
+}, nu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, eu = /* @__PURE__ */ D("path", {
+}, au = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M349.952 716.992 478.72 588.16a106.688 106.688 0 0 1-26.176-19.072 106.688 106.688 0 0 1-19.072-26.176L304.704 671.744c.768 3.072 1.472 6.144 2.048 9.216l2.048 31.936 31.872 1.984c3.136.64 6.208 1.28 9.28 2.112zm57.344 33.152a128 128 0 1 1-216.32 114.432l-1.92-32-32-1.92a128 128 0 1 1 114.432-216.32L416.64 469.248c-2.432-101.44 58.112-239.104 149.056-330.048 107.328-107.328 231.296-85.504 316.8 0 85.44 85.44 107.328 209.408 0 316.8-91.008 90.88-228.672 151.424-330.112 149.056L407.296 750.08zm90.496-226.304c49.536 49.536 233.344-7.04 339.392-113.088 78.208-78.208 63.232-163.072 0-226.304-63.168-63.232-148.032-78.208-226.24 0C504.896 290.496 448.32 474.368 497.792 523.84zM244.864 708.928a64 64 0 1 0-59.84 59.84l56.32-3.52 3.52-56.32zm8.064 127.68a64 64 0 1 0 59.84-59.84l-56.32 3.52-3.52 56.32z"
-}, null, -1), tu = [
-  eu
+}, null, -1), ou = [
+  au
 ];
-function nu(o, t, n, a, e, r) {
-  return R(), z("svg", q0, tu);
+function ru(o, t, n, a, e, r) {
+  return R(), z("svg", nu, ou);
 }
-var au = /* @__PURE__ */ B(X0, [["render", nu], ["__file", "chicken.vue"]]), ou = {
+var lu = /* @__PURE__ */ B(tu, [["render", ru], ["__file", "chicken.vue"]]), iu = {
   name: "ChromeFilled"
-}, ru = {
+}, su = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, lu = /* @__PURE__ */ D("path", {
+}, du = /* @__PURE__ */ D("path", {
   d: "M938.67 512.01c0-44.59-6.82-87.6-19.54-128H682.67a212.372 212.372 0 0 1 42.67 128c.06 38.71-10.45 76.7-30.42 109.87l-182.91 316.8c235.65-.01 426.66-191.02 426.66-426.67z",
   fill: "currentColor"
-}, null, -1), iu = /* @__PURE__ */ D("path", {
+}, null, -1), cu = /* @__PURE__ */ D("path", {
   d: "M576.79 401.63a127.92 127.92 0 0 0-63.56-17.6c-22.36-.22-44.39 5.43-63.89 16.38s-35.79 26.82-47.25 46.02a128.005 128.005 0 0 0-2.16 127.44l1.24 2.13a127.906 127.906 0 0 0 46.36 46.61 127.907 127.907 0 0 0 63.38 17.44c22.29.2 44.24-5.43 63.68-16.33a127.94 127.94 0 0 0 47.16-45.79v-.01l1.11-1.92a127.984 127.984 0 0 0 .29-127.46 127.957 127.957 0 0 0-46.36-46.91z",
   fill: "currentColor"
-}, null, -1), su = /* @__PURE__ */ D("path", {
+}, null, -1), uu = /* @__PURE__ */ D("path", {
   d: "M394.45 333.96A213.336 213.336 0 0 1 512 298.67h369.58A426.503 426.503 0 0 0 512 85.34a425.598 425.598 0 0 0-171.74 35.98 425.644 425.644 0 0 0-142.62 102.22l118.14 204.63a213.397 213.397 0 0 1 78.67-94.21zm117.56 604.72H512zm-97.25-236.73a213.284 213.284 0 0 1-89.54-86.81L142.48 298.6c-36.35 62.81-57.13 135.68-57.13 213.42 0 203.81 142.93 374.22 333.95 416.55h.04l118.19-204.71a213.315 213.315 0 0 1-122.77-21.91z",
   fill: "currentColor"
-}, null, -1), du = [
-  lu,
-  iu,
-  su
+}, null, -1), fu = [
+  du,
+  cu,
+  uu
 ];
-function cu(o, t, n, a, e, r) {
-  return R(), z("svg", ru, du);
+function mu(o, t, n, a, e, r) {
+  return R(), z("svg", su, fu);
 }
-var uu = /* @__PURE__ */ B(ou, [["render", cu], ["__file", "chrome-filled.vue"]]), fu = {
+var vu = /* @__PURE__ */ B(iu, [["render", mu], ["__file", "chrome-filled.vue"]]), hu = {
   name: "CircleCheckFilled"
-}, mu = {
+}, pu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, vu = /* @__PURE__ */ D("path", {
+}, gu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm-55.808 536.384-99.52-99.584a38.4 38.4 0 1 0-54.336 54.336l126.72 126.72a38.272 38.272 0 0 0 54.336 0l262.4-262.464a38.4 38.4 0 1 0-54.272-54.336L456.192 600.384z"
-}, null, -1), hu = [
-  vu
+}, null, -1), yu = [
+  gu
 ];
-function pu(o, t, n, a, e, r) {
-  return R(), z("svg", mu, hu);
+function Au(o, t, n, a, e, r) {
+  return R(), z("svg", pu, yu);
 }
-var gu = /* @__PURE__ */ B(fu, [["render", pu], ["__file", "circle-check-filled.vue"]]), yu = {
+var _u = /* @__PURE__ */ B(hu, [["render", Au], ["__file", "circle-check-filled.vue"]]), xu = {
   name: "CircleCheck"
-}, Au = {
+}, wu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, _u = /* @__PURE__ */ D("path", {
+}, Eu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), xu = /* @__PURE__ */ D("path", {
+}, null, -1), Cu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M745.344 361.344a32 32 0 0 1 45.312 45.312l-288 288a32 32 0 0 1-45.312 0l-160-160a32 32 0 1 1 45.312-45.312L480 626.752l265.344-265.408z"
-}, null, -1), wu = [
-  _u,
-  xu
+}, null, -1), Su = [
+  Eu,
+  Cu
 ];
-function Eu(o, t, n, a, e, r) {
-  return R(), z("svg", Au, wu);
+function bu(o, t, n, a, e, r) {
+  return R(), z("svg", wu, Su);
 }
-var Cu = /* @__PURE__ */ B(yu, [["render", Eu], ["__file", "circle-check.vue"]]), Su = {
+var Du = /* @__PURE__ */ B(xu, [["render", bu], ["__file", "circle-check.vue"]]), Mu = {
   name: "CircleCloseFilled"
-}, bu = {
+}, Tu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Du = /* @__PURE__ */ D("path", {
+}, Ru = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 393.664L407.936 353.6a38.4 38.4 0 1 0-54.336 54.336L457.664 512 353.6 616.064a38.4 38.4 0 1 0 54.336 54.336L512 566.336 616.064 670.4a38.4 38.4 0 1 0 54.336-54.336L566.336 512 670.4 407.936a38.4 38.4 0 1 0-54.336-54.336L512 457.664z"
-}, null, -1), Mu = [
-  Du
+}, null, -1), zu = [
+  Ru
 ];
-function Tu(o, t, n, a, e, r) {
-  return R(), z("svg", bu, Mu);
+function $u(o, t, n, a, e, r) {
+  return R(), z("svg", Tu, zu);
 }
-var Ba = /* @__PURE__ */ B(Su, [["render", Tu], ["__file", "circle-close-filled.vue"]]), Ru = {
+var Pa = /* @__PURE__ */ B(Mu, [["render", $u], ["__file", "circle-close-filled.vue"]]), Hu = {
   name: "CircleClose"
-}, zu = {
+}, Iu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $u = /* @__PURE__ */ D("path", {
+}, Bu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m466.752 512-90.496-90.496a32 32 0 0 1 45.248-45.248L512 466.752l90.496-90.496a32 32 0 1 1 45.248 45.248L557.248 512l90.496 90.496a32 32 0 1 1-45.248 45.248L512 557.248l-90.496 90.496a32 32 0 0 1-45.248-45.248L466.752 512z"
-}, null, -1), Hu = /* @__PURE__ */ D("path", {
+}, null, -1), Pu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), Iu = [
-  $u,
-  Hu
+}, null, -1), Nu = [
+  Bu,
+  Pu
 ];
-function Bu(o, t, n, a, e, r) {
-  return R(), z("svg", zu, Iu);
+function Lu(o, t, n, a, e, r) {
+  return R(), z("svg", Iu, Nu);
 }
-var Pu = /* @__PURE__ */ B(Ru, [["render", Bu], ["__file", "circle-close.vue"]]), Nu = {
+var Ou = /* @__PURE__ */ B(Hu, [["render", Lu], ["__file", "circle-close.vue"]]), Vu = {
   name: "CirclePlusFilled"
-}, Lu = {
+}, Fu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ou = /* @__PURE__ */ D("path", {
+}, ju = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm-38.4 409.6H326.4a38.4 38.4 0 1 0 0 76.8h147.2v147.2a38.4 38.4 0 0 0 76.8 0V550.4h147.2a38.4 38.4 0 0 0 0-76.8H550.4V326.4a38.4 38.4 0 1 0-76.8 0v147.2z"
-}, null, -1), Vu = [
-  Ou
+}, null, -1), Uu = [
+  ju
 ];
-function Fu(o, t, n, a, e, r) {
-  return R(), z("svg", Lu, Vu);
+function Qu(o, t, n, a, e, r) {
+  return R(), z("svg", Fu, Uu);
 }
-var ju = /* @__PURE__ */ B(Nu, [["render", Fu], ["__file", "circle-plus-filled.vue"]]), Uu = {
+var ku = /* @__PURE__ */ B(Vu, [["render", Qu], ["__file", "circle-plus-filled.vue"]]), Wu = {
   name: "CirclePlus"
-}, Qu = {
+}, Gu = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ku = /* @__PURE__ */ D("path", {
+}, Yu = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 480h320a32 32 0 1 1 0 64H352a32 32 0 0 1 0-64z"
-}, null, -1), Wu = /* @__PURE__ */ D("path", {
+}, null, -1), Ku = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 672V352a32 32 0 1 1 64 0v320a32 32 0 0 1-64 0z"
-}, null, -1), Gu = /* @__PURE__ */ D("path", {
+}, null, -1), Ju = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), Yu = [
-  ku,
-  Wu,
-  Gu
+}, null, -1), Zu = [
+  Yu,
+  Ku,
+  Ju
 ];
-function Ku(o, t, n, a, e, r) {
-  return R(), z("svg", Qu, Yu);
+function Xu(o, t, n, a, e, r) {
+  return R(), z("svg", Gu, Zu);
 }
-var Ju = /* @__PURE__ */ B(Uu, [["render", Ku], ["__file", "circle-plus.vue"]]), Zu = {
+var qu = /* @__PURE__ */ B(Wu, [["render", Xu], ["__file", "circle-plus.vue"]]), e1 = {
   name: "Clock"
-}, Xu = {
+}, t1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qu = /* @__PURE__ */ D("path", {
+}, n1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), e1 = /* @__PURE__ */ D("path", {
+}, null, -1), a1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 256a32 32 0 0 1 32 32v256a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32z"
-}, null, -1), t1 = /* @__PURE__ */ D("path", {
+}, null, -1), o1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 512h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32z"
-}, null, -1), n1 = [
-  qu,
-  e1,
-  t1
+}, null, -1), r1 = [
+  n1,
+  a1,
+  o1
 ];
-function a1(o, t, n, a, e, r) {
-  return R(), z("svg", Xu, n1);
+function l1(o, t, n, a, e, r) {
+  return R(), z("svg", t1, r1);
 }
-var o1 = /* @__PURE__ */ B(Zu, [["render", a1], ["__file", "clock.vue"]]), r1 = {
+var i1 = /* @__PURE__ */ B(e1, [["render", l1], ["__file", "clock.vue"]]), s1 = {
   name: "CloseBold"
-}, l1 = {
+}, d1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, i1 = /* @__PURE__ */ D("path", {
+}, c1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M195.2 195.2a64 64 0 0 1 90.496 0L512 421.504 738.304 195.2a64 64 0 0 1 90.496 90.496L602.496 512 828.8 738.304a64 64 0 0 1-90.496 90.496L512 602.496 285.696 828.8a64 64 0 0 1-90.496-90.496L421.504 512 195.2 285.696a64 64 0 0 1 0-90.496z"
-}, null, -1), s1 = [
-  i1
+}, null, -1), u1 = [
+  c1
 ];
-function d1(o, t, n, a, e, r) {
-  return R(), z("svg", l1, s1);
+function f1(o, t, n, a, e, r) {
+  return R(), z("svg", d1, u1);
 }
-var c1 = /* @__PURE__ */ B(r1, [["render", d1], ["__file", "close-bold.vue"]]), u1 = {
+var m1 = /* @__PURE__ */ B(s1, [["render", f1], ["__file", "close-bold.vue"]]), v1 = {
   name: "Close"
-}, f1 = {
+}, h1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, m1 = /* @__PURE__ */ D("path", {
+}, p1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M764.288 214.592 512 466.88 259.712 214.592a31.936 31.936 0 0 0-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1 0 45.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0 0 45.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 1 0-45.12-45.184z"
-}, null, -1), v1 = [
-  m1
+}, null, -1), g1 = [
+  p1
 ];
-function h1(o, t, n, a, e, r) {
-  return R(), z("svg", f1, v1);
+function y1(o, t, n, a, e, r) {
+  return R(), z("svg", h1, g1);
 }
-var Ir = /* @__PURE__ */ B(u1, [["render", h1], ["__file", "close.vue"]]), p1 = {
+var Br = /* @__PURE__ */ B(v1, [["render", y1], ["__file", "close.vue"]]), A1 = {
   name: "Cloudy"
-}, g1 = {
+}, _1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, y1 = /* @__PURE__ */ D("path", {
+}, x1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M598.4 831.872H328.192a256 256 0 0 1-34.496-510.528A352 352 0 1 1 598.4 831.872zm-271.36-64h272.256a288 288 0 1 0-248.512-417.664L335.04 381.44l-34.816 3.584a192 192 0 0 0 26.88 382.848z"
-}, null, -1), A1 = [
-  y1
+}, null, -1), w1 = [
+  x1
 ];
-function _1(o, t, n, a, e, r) {
-  return R(), z("svg", g1, A1);
+function E1(o, t, n, a, e, r) {
+  return R(), z("svg", _1, w1);
 }
-var x1 = /* @__PURE__ */ B(p1, [["render", _1], ["__file", "cloudy.vue"]]), w1 = {
+var C1 = /* @__PURE__ */ B(A1, [["render", E1], ["__file", "cloudy.vue"]]), S1 = {
   name: "CoffeeCup"
-}, E1 = {
+}, b1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, C1 = /* @__PURE__ */ D("path", {
+}, D1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 192a192 192 0 1 1-8 383.808A256.128 256.128 0 0 1 512 768H320A256 256 0 0 1 64 512V160a32 32 0 0 1 32-32h640a32 32 0 0 1 32 32v32zm0 64v256a128 128 0 1 0 0-256zM96 832h640a32 32 0 1 1 0 64H96a32 32 0 1 1 0-64zm32-640v320a192 192 0 0 0 192 192h192a192 192 0 0 0 192-192V192H128z"
-}, null, -1), S1 = [
-  C1
+}, null, -1), M1 = [
+  D1
 ];
-function b1(o, t, n, a, e, r) {
-  return R(), z("svg", E1, S1);
+function T1(o, t, n, a, e, r) {
+  return R(), z("svg", b1, M1);
 }
-var D1 = /* @__PURE__ */ B(w1, [["render", b1], ["__file", "coffee-cup.vue"]]), M1 = {
+var R1 = /* @__PURE__ */ B(S1, [["render", T1], ["__file", "coffee-cup.vue"]]), z1 = {
   name: "Coffee"
-}, T1 = {
+}, $1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, R1 = /* @__PURE__ */ D("path", {
+}, H1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M822.592 192h14.272a32 32 0 0 1 31.616 26.752l21.312 128A32 32 0 0 1 858.24 384h-49.344l-39.04 546.304A32 32 0 0 1 737.92 960H285.824a32 32 0 0 1-32-29.696L214.912 384H165.76a32 32 0 0 1-31.552-37.248l21.312-128A32 32 0 0 1 187.136 192h14.016l-6.72-93.696A32 32 0 0 1 226.368 64h571.008a32 32 0 0 1 31.936 34.304L822.592 192zm-64.128 0 4.544-64H260.736l4.544 64h493.184zm-548.16 128H820.48l-10.688-64H214.208l-10.688 64h6.784zm68.736 64 36.544 512H708.16l36.544-512H279.04z"
-}, null, -1), z1 = [
-  R1
+}, null, -1), I1 = [
+  H1
 ];
-function $1(o, t, n, a, e, r) {
-  return R(), z("svg", T1, z1);
+function B1(o, t, n, a, e, r) {
+  return R(), z("svg", $1, I1);
 }
-var H1 = /* @__PURE__ */ B(M1, [["render", $1], ["__file", "coffee.vue"]]), I1 = {
+var P1 = /* @__PURE__ */ B(z1, [["render", B1], ["__file", "coffee.vue"]]), N1 = {
   name: "Coin"
-}, B1 = {
+}, L1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, P1 = /* @__PURE__ */ D("path", {
+}, O1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m161.92 580.736 29.888 58.88C171.328 659.776 160 681.728 160 704c0 82.304 155.328 160 352 160s352-77.696 352-160c0-22.272-11.392-44.16-31.808-64.32l30.464-58.432C903.936 615.808 928 657.664 928 704c0 129.728-188.544 224-416 224S96 833.728 96 704c0-46.592 24.32-88.576 65.92-123.264z"
-}, null, -1), N1 = /* @__PURE__ */ D("path", {
+}, null, -1), V1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m161.92 388.736 29.888 58.88C171.328 467.84 160 489.792 160 512c0 82.304 155.328 160 352 160s352-77.696 352-160c0-22.272-11.392-44.16-31.808-64.32l30.464-58.432C903.936 423.808 928 465.664 928 512c0 129.728-188.544 224-416 224S96 641.728 96 512c0-46.592 24.32-88.576 65.92-123.264z"
-}, null, -1), L1 = /* @__PURE__ */ D("path", {
+}, null, -1), F1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 544c-227.456 0-416-94.272-416-224S284.544 96 512 96s416 94.272 416 224-188.544 224-416 224zm0-64c196.672 0 352-77.696 352-160S708.672 160 512 160s-352 77.696-352 160 155.328 160 352 160z"
-}, null, -1), O1 = [
-  P1,
-  N1,
-  L1
+}, null, -1), j1 = [
+  O1,
+  V1,
+  F1
 ];
-function V1(o, t, n, a, e, r) {
-  return R(), z("svg", B1, O1);
+function U1(o, t, n, a, e, r) {
+  return R(), z("svg", L1, j1);
 }
-var F1 = /* @__PURE__ */ B(I1, [["render", V1], ["__file", "coin.vue"]]), j1 = {
+var Q1 = /* @__PURE__ */ B(N1, [["render", U1], ["__file", "coin.vue"]]), k1 = {
   name: "ColdDrink"
-}, U1 = {
+}, W1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Q1 = /* @__PURE__ */ D("path", {
+}, G1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 64a192 192 0 1 1-69.952 370.88L480 725.376V896h96a32 32 0 1 1 0 64H320a32 32 0 1 1 0-64h96V725.376L76.8 273.536a64 64 0 0 1-12.8-38.4v-10.688a32 32 0 0 1 32-32h71.808l-65.536-83.84a32 32 0 0 1 50.432-39.424l96.256 123.264h337.728A192.064 192.064 0 0 1 768 64zM656.896 192.448H800a32 32 0 0 1 32 32v10.624a64 64 0 0 1-12.8 38.4l-80.448 107.2a128 128 0 1 0-81.92-188.16v-.064zm-357.888 64 129.472 165.76a32 32 0 0 1-50.432 39.36l-160.256-205.12H144l304 404.928 304-404.928H299.008z"
-}, null, -1), k1 = [
-  Q1
+}, null, -1), Y1 = [
+  G1
 ];
-function W1(o, t, n, a, e, r) {
-  return R(), z("svg", U1, k1);
+function K1(o, t, n, a, e, r) {
+  return R(), z("svg", W1, Y1);
 }
-var G1 = /* @__PURE__ */ B(j1, [["render", W1], ["__file", "cold-drink.vue"]]), Y1 = {
+var J1 = /* @__PURE__ */ B(k1, [["render", K1], ["__file", "cold-drink.vue"]]), Z1 = {
   name: "CollectionTag"
-}, K1 = {
+}, X1 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, J1 = /* @__PURE__ */ D("path", {
+}, q1 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 128v698.88l196.032-156.864a96 96 0 0 1 119.936 0L768 826.816V128H256zm-32-64h576a32 32 0 0 1 32 32v797.44a32 32 0 0 1-51.968 24.96L531.968 720a32 32 0 0 0-39.936 0L243.968 918.4A32 32 0 0 1 192 893.44V96a32 32 0 0 1 32-32z"
-}, null, -1), Z1 = [
-  J1
+}, null, -1), ef = [
+  q1
 ];
-function X1(o, t, n, a, e, r) {
-  return R(), z("svg", K1, Z1);
+function tf(o, t, n, a, e, r) {
+  return R(), z("svg", X1, ef);
 }
-var q1 = /* @__PURE__ */ B(Y1, [["render", X1], ["__file", "collection-tag.vue"]]), ef = {
+var nf = /* @__PURE__ */ B(Z1, [["render", tf], ["__file", "collection-tag.vue"]]), af = {
   name: "Collection"
-}, tf = {
+}, of = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, nf = /* @__PURE__ */ D("path", {
+}, rf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 736h640V128H256a64 64 0 0 0-64 64v544zm64-672h608a32 32 0 0 1 32 32v672a32 32 0 0 1-32 32H160l-32 57.536V192A128 128 0 0 1 256 64z"
-}, null, -1), af = /* @__PURE__ */ D("path", {
+}, null, -1), lf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M240 800a48 48 0 1 0 0 96h592v-96H240zm0-64h656v160a64 64 0 0 1-64 64H240a112 112 0 0 1 0-224zm144-608v250.88l96-76.8 96 76.8V128H384zm-64-64h320v381.44a32 32 0 0 1-51.968 24.96L480 384l-108.032 86.4A32 32 0 0 1 320 445.44V64z"
-}, null, -1), of = [
-  nf,
-  af
+}, null, -1), sf = [
+  rf,
+  lf
 ];
-function rf(o, t, n, a, e, r) {
-  return R(), z("svg", tf, of);
+function df(o, t, n, a, e, r) {
+  return R(), z("svg", of, sf);
 }
-var lf = /* @__PURE__ */ B(ef, [["render", rf], ["__file", "collection.vue"]]), sf = {
+var cf = /* @__PURE__ */ B(af, [["render", df], ["__file", "collection.vue"]]), uf = {
   name: "Comment"
-}, df = {
+}, ff = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, cf = /* @__PURE__ */ D("path", {
+}, mf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M736 504a56 56 0 1 1 0-112 56 56 0 0 1 0 112zm-224 0a56 56 0 1 1 0-112 56 56 0 0 1 0 112zm-224 0a56 56 0 1 1 0-112 56 56 0 0 1 0 112zM128 128v640h192v160l224-160h352V128H128z"
-}, null, -1), uf = [
-  cf
+}, null, -1), vf = [
+  mf
 ];
-function ff(o, t, n, a, e, r) {
-  return R(), z("svg", df, uf);
+function hf(o, t, n, a, e, r) {
+  return R(), z("svg", ff, vf);
 }
-var mf = /* @__PURE__ */ B(sf, [["render", ff], ["__file", "comment.vue"]]), vf = {
+var pf = /* @__PURE__ */ B(uf, [["render", hf], ["__file", "comment.vue"]]), gf = {
   name: "Compass"
-}, hf = {
+}, yf = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pf = /* @__PURE__ */ D("path", {
+}, Af = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), gf = /* @__PURE__ */ D("path", {
+}, null, -1), _f = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M725.888 315.008C676.48 428.672 624 513.28 568.576 568.64c-55.424 55.424-139.968 107.904-253.568 157.312a12.8 12.8 0 0 1-16.896-16.832c49.536-113.728 102.016-198.272 157.312-253.632 55.36-55.296 139.904-107.776 253.632-157.312a12.8 12.8 0 0 1 16.832 16.832z"
-}, null, -1), yf = [
-  pf,
-  gf
+}, null, -1), xf = [
+  Af,
+  _f
 ];
-function Af(o, t, n, a, e, r) {
-  return R(), z("svg", hf, yf);
+function wf(o, t, n, a, e, r) {
+  return R(), z("svg", yf, xf);
 }
-var _f = /* @__PURE__ */ B(vf, [["render", Af], ["__file", "compass.vue"]]), xf = {
+var Ef = /* @__PURE__ */ B(gf, [["render", wf], ["__file", "compass.vue"]]), Cf = {
   name: "Connection"
-}, wf = {
+}, Sf = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ef = /* @__PURE__ */ D("path", {
+}, bf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 384v64H448a128 128 0 0 0-128 128v128a128 128 0 0 0 128 128h320a128 128 0 0 0 128-128V576a128 128 0 0 0-64-110.848V394.88c74.56 26.368 128 97.472 128 181.056v128a192 192 0 0 1-192 192H448a192 192 0 0 1-192-192V576a192 192 0 0 1 192-192h192z"
-}, null, -1), Cf = /* @__PURE__ */ D("path", {
+}, null, -1), Df = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 640v-64h192a128 128 0 0 0 128-128V320a128 128 0 0 0-128-128H256a128 128 0 0 0-128 128v128a128 128 0 0 0 64 110.848v70.272A192.064 192.064 0 0 1 64 448V320a192 192 0 0 1 192-192h320a192 192 0 0 1 192 192v128a192 192 0 0 1-192 192H384z"
-}, null, -1), Sf = [
-  Ef,
-  Cf
+}, null, -1), Mf = [
+  bf,
+  Df
 ];
-function bf(o, t, n, a, e, r) {
-  return R(), z("svg", wf, Sf);
+function Tf(o, t, n, a, e, r) {
+  return R(), z("svg", Sf, Mf);
 }
-var Df = /* @__PURE__ */ B(xf, [["render", bf], ["__file", "connection.vue"]]), Mf = {
+var Rf = /* @__PURE__ */ B(Cf, [["render", Tf], ["__file", "connection.vue"]]), zf = {
   name: "Coordinate"
-}, Tf = {
+}, $f = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Rf = /* @__PURE__ */ D("path", {
+}, Hf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 512h64v320h-64z"
-}, null, -1), zf = /* @__PURE__ */ D("path", {
+}, null, -1), If = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 896h640a64 64 0 0 0-64-64H256a64 64 0 0 0-64 64zm64-128h512a128 128 0 0 1 128 128v64H128v-64a128 128 0 0 1 128-128zm256-256a192 192 0 1 0 0-384 192 192 0 0 0 0 384zm0 64a256 256 0 1 1 0-512 256 256 0 0 1 0 512z"
-}, null, -1), $f = [
-  Rf,
-  zf
+}, null, -1), Bf = [
+  Hf,
+  If
 ];
-function Hf(o, t, n, a, e, r) {
-  return R(), z("svg", Tf, $f);
+function Pf(o, t, n, a, e, r) {
+  return R(), z("svg", $f, Bf);
 }
-var If = /* @__PURE__ */ B(Mf, [["render", Hf], ["__file", "coordinate.vue"]]), Bf = {
+var Nf = /* @__PURE__ */ B(zf, [["render", Pf], ["__file", "coordinate.vue"]]), Lf = {
   name: "CopyDocument"
-}, Pf = {
+}, Of = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Nf = /* @__PURE__ */ D("path", {
+}, Vf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 832a128 128 0 0 1-128 128H192A128 128 0 0 1 64 832V384a128 128 0 0 1 128-128v64a64 64 0 0 0-64 64v448a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64h64z"
-}, null, -1), Lf = /* @__PURE__ */ D("path", {
+}, null, -1), Ff = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 128a64 64 0 0 0-64 64v448a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64V192a64 64 0 0 0-64-64H384zm0-64h448a128 128 0 0 1 128 128v448a128 128 0 0 1-128 128H384a128 128 0 0 1-128-128V192A128 128 0 0 1 384 64z"
-}, null, -1), Of = [
-  Nf,
-  Lf
+}, null, -1), jf = [
+  Vf,
+  Ff
 ];
-function Vf(o, t, n, a, e, r) {
-  return R(), z("svg", Pf, Of);
+function Uf(o, t, n, a, e, r) {
+  return R(), z("svg", Of, jf);
 }
-var Ff = /* @__PURE__ */ B(Bf, [["render", Vf], ["__file", "copy-document.vue"]]), jf = {
+var Qf = /* @__PURE__ */ B(Lf, [["render", Uf], ["__file", "copy-document.vue"]]), kf = {
   name: "Cpu"
-}, Uf = {
+}, Wf = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qf = /* @__PURE__ */ D("path", {
+}, Gf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M320 256a64 64 0 0 0-64 64v384a64 64 0 0 0 64 64h384a64 64 0 0 0 64-64V320a64 64 0 0 0-64-64H320zm0-64h384a128 128 0 0 1 128 128v384a128 128 0 0 1-128 128H320a128 128 0 0 1-128-128V320a128 128 0 0 1 128-128z"
-}, null, -1), kf = /* @__PURE__ */ D("path", {
+}, null, -1), Yf = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a32 32 0 0 1 32 32v128h-64V96a32 32 0 0 1 32-32zm160 0a32 32 0 0 1 32 32v128h-64V96a32 32 0 0 1 32-32zm-320 0a32 32 0 0 1 32 32v128h-64V96a32 32 0 0 1 32-32zm160 896a32 32 0 0 1-32-32V800h64v128a32 32 0 0 1-32 32zm160 0a32 32 0 0 1-32-32V800h64v128a32 32 0 0 1-32 32zm-320 0a32 32 0 0 1-32-32V800h64v128a32 32 0 0 1-32 32zM64 512a32 32 0 0 1 32-32h128v64H96a32 32 0 0 1-32-32zm0-160a32 32 0 0 1 32-32h128v64H96a32 32 0 0 1-32-32zm0 320a32 32 0 0 1 32-32h128v64H96a32 32 0 0 1-32-32zm896-160a32 32 0 0 1-32 32H800v-64h128a32 32 0 0 1 32 32zm0-160a32 32 0 0 1-32 32H800v-64h128a32 32 0 0 1 32 32zm0 320a32 32 0 0 1-32 32H800v-64h128a32 32 0 0 1 32 32z"
-}, null, -1), Wf = [
-  Qf,
-  kf
+}, null, -1), Kf = [
+  Gf,
+  Yf
 ];
-function Gf(o, t, n, a, e, r) {
-  return R(), z("svg", Uf, Wf);
+function Jf(o, t, n, a, e, r) {
+  return R(), z("svg", Wf, Kf);
 }
-var Yf = /* @__PURE__ */ B(jf, [["render", Gf], ["__file", "cpu.vue"]]), Kf = {
+var Zf = /* @__PURE__ */ B(kf, [["render", Jf], ["__file", "cpu.vue"]]), Xf = {
   name: "CreditCard"
-}, Jf = {
+}, qf = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Zf = /* @__PURE__ */ D("path", {
+}, e4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M896 324.096c0-42.368-2.496-55.296-9.536-68.48a52.352 52.352 0 0 0-22.144-22.08c-13.12-7.04-26.048-9.536-68.416-9.536H228.096c-42.368 0-55.296 2.496-68.48 9.536a52.352 52.352 0 0 0-22.08 22.144c-7.04 13.12-9.536 26.048-9.536 68.416v375.808c0 42.368 2.496 55.296 9.536 68.48a52.352 52.352 0 0 0 22.144 22.08c13.12 7.04 26.048 9.536 68.416 9.536h567.808c42.368 0 55.296-2.496 68.48-9.536a52.352 52.352 0 0 0 22.08-22.144c7.04-13.12 9.536-26.048 9.536-68.416V324.096zm64 0v375.808c0 57.088-5.952 77.76-17.088 98.56-11.136 20.928-27.52 37.312-48.384 48.448-20.864 11.136-41.6 17.088-98.56 17.088H228.032c-57.088 0-77.76-5.952-98.56-17.088a116.288 116.288 0 0 1-48.448-48.384c-11.136-20.864-17.088-41.6-17.088-98.56V324.032c0-57.088 5.952-77.76 17.088-98.56 11.136-20.928 27.52-37.312 48.384-48.448 20.864-11.136 41.6-17.088 98.56-17.088H795.84c57.088 0 77.76 5.952 98.56 17.088 20.928 11.136 37.312 27.52 48.448 48.384 11.136 20.864 17.088 41.6 17.088 98.56z"
-}, null, -1), Xf = /* @__PURE__ */ D("path", {
+}, null, -1), t4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M64 320h896v64H64v-64zm0 128h896v64H64v-64zm128 192h256v64H192z"
-}, null, -1), qf = [
-  Zf,
-  Xf
+}, null, -1), n4 = [
+  e4,
+  t4
 ];
-function e4(o, t, n, a, e, r) {
-  return R(), z("svg", Jf, qf);
+function a4(o, t, n, a, e, r) {
+  return R(), z("svg", qf, n4);
 }
-var t4 = /* @__PURE__ */ B(Kf, [["render", e4], ["__file", "credit-card.vue"]]), n4 = {
+var o4 = /* @__PURE__ */ B(Xf, [["render", a4], ["__file", "credit-card.vue"]]), r4 = {
   name: "Crop"
-}, a4 = {
+}, l4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, o4 = /* @__PURE__ */ D("path", {
+}, i4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 768h672a32 32 0 1 1 0 64H224a32 32 0 0 1-32-32V96a32 32 0 0 1 64 0v672z"
-}, null, -1), r4 = /* @__PURE__ */ D("path", {
+}, null, -1), s4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 224v704a32 32 0 1 1-64 0V256H96a32 32 0 0 1 0-64h704a32 32 0 0 1 32 32z"
-}, null, -1), l4 = [
-  o4,
-  r4
+}, null, -1), d4 = [
+  i4,
+  s4
 ];
-function i4(o, t, n, a, e, r) {
-  return R(), z("svg", a4, l4);
+function c4(o, t, n, a, e, r) {
+  return R(), z("svg", l4, d4);
 }
-var s4 = /* @__PURE__ */ B(n4, [["render", i4], ["__file", "crop.vue"]]), d4 = {
+var u4 = /* @__PURE__ */ B(r4, [["render", c4], ["__file", "crop.vue"]]), f4 = {
   name: "DArrowLeft"
-}, c4 = {
+}, m4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, u4 = /* @__PURE__ */ D("path", {
+}, v4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M529.408 149.376a29.12 29.12 0 0 1 41.728 0 30.592 30.592 0 0 1 0 42.688L259.264 511.936l311.872 319.936a30.592 30.592 0 0 1-.512 43.264 29.12 29.12 0 0 1-41.216-.512L197.76 534.272a32 32 0 0 1 0-44.672l331.648-340.224zm256 0a29.12 29.12 0 0 1 41.728 0 30.592 30.592 0 0 1 0 42.688L515.264 511.936l311.872 319.936a30.592 30.592 0 0 1-.512 43.264 29.12 29.12 0 0 1-41.216-.512L453.76 534.272a32 32 0 0 1 0-44.672l331.648-340.224z"
-}, null, -1), f4 = [
-  u4
+}, null, -1), h4 = [
+  v4
 ];
-function m4(o, t, n, a, e, r) {
-  return R(), z("svg", c4, f4);
+function p4(o, t, n, a, e, r) {
+  return R(), z("svg", m4, h4);
 }
-var v4 = /* @__PURE__ */ B(d4, [["render", m4], ["__file", "d-arrow-left.vue"]]), h4 = {
+var g4 = /* @__PURE__ */ B(f4, [["render", p4], ["__file", "d-arrow-left.vue"]]), y4 = {
   name: "DArrowRight"
-}, p4 = {
+}, A4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, g4 = /* @__PURE__ */ D("path", {
+}, _4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M452.864 149.312a29.12 29.12 0 0 1 41.728.064L826.24 489.664a32 32 0 0 1 0 44.672L494.592 874.624a29.12 29.12 0 0 1-41.728 0 30.592 30.592 0 0 1 0-42.752L764.736 512 452.864 192a30.592 30.592 0 0 1 0-42.688zm-256 0a29.12 29.12 0 0 1 41.728.064L570.24 489.664a32 32 0 0 1 0 44.672L238.592 874.624a29.12 29.12 0 0 1-41.728 0 30.592 30.592 0 0 1 0-42.752L508.736 512 196.864 192a30.592 30.592 0 0 1 0-42.688z"
-}, null, -1), y4 = [
-  g4
+}, null, -1), x4 = [
+  _4
 ];
-function A4(o, t, n, a, e, r) {
-  return R(), z("svg", p4, y4);
+function w4(o, t, n, a, e, r) {
+  return R(), z("svg", A4, x4);
 }
-var _4 = /* @__PURE__ */ B(h4, [["render", A4], ["__file", "d-arrow-right.vue"]]), x4 = {
+var E4 = /* @__PURE__ */ B(y4, [["render", w4], ["__file", "d-arrow-right.vue"]]), C4 = {
   name: "DCaret"
-}, w4 = {
+}, S4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, E4 = /* @__PURE__ */ D("path", {
+}, b4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m512 128 288 320H224l288-320zM224 576h576L512 896 224 576z"
-}, null, -1), C4 = [
-  E4
+}, null, -1), D4 = [
+  b4
 ];
-function S4(o, t, n, a, e, r) {
-  return R(), z("svg", w4, C4);
+function M4(o, t, n, a, e, r) {
+  return R(), z("svg", S4, D4);
 }
-var b4 = /* @__PURE__ */ B(x4, [["render", S4], ["__file", "d-caret.vue"]]), D4 = {
+var T4 = /* @__PURE__ */ B(C4, [["render", M4], ["__file", "d-caret.vue"]]), R4 = {
   name: "DataAnalysis"
-}, M4 = {
+}, z4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, T4 = /* @__PURE__ */ D("path", {
+}, $4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m665.216 768 110.848 192h-73.856L591.36 768H433.024L322.176 960H248.32l110.848-192H160a32 32 0 0 1-32-32V192H64a32 32 0 0 1 0-64h896a32 32 0 1 1 0 64h-64v544a32 32 0 0 1-32 32H665.216zM832 192H192v512h640V192zM352 448a32 32 0 0 1 32 32v64a32 32 0 0 1-64 0v-64a32 32 0 0 1 32-32zm160-64a32 32 0 0 1 32 32v128a32 32 0 0 1-64 0V416a32 32 0 0 1 32-32zm160-64a32 32 0 0 1 32 32v192a32 32 0 1 1-64 0V352a32 32 0 0 1 32-32z"
-}, null, -1), R4 = [
-  T4
+}, null, -1), H4 = [
+  $4
 ];
-function z4(o, t, n, a, e, r) {
-  return R(), z("svg", M4, R4);
+function I4(o, t, n, a, e, r) {
+  return R(), z("svg", z4, H4);
 }
-var $4 = /* @__PURE__ */ B(D4, [["render", z4], ["__file", "data-analysis.vue"]]), H4 = {
+var B4 = /* @__PURE__ */ B(R4, [["render", I4], ["__file", "data-analysis.vue"]]), P4 = {
   name: "DataBoard"
-}, I4 = {
+}, N4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, B4 = /* @__PURE__ */ D("path", {
+}, L4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M32 128h960v64H32z"
-}, null, -1), P4 = /* @__PURE__ */ D("path", {
+}, null, -1), O4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 192v512h640V192H192zm-64-64h768v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V128z"
-}, null, -1), N4 = /* @__PURE__ */ D("path", {
+}, null, -1), V4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M322.176 960H248.32l144.64-250.56 55.424 32L322.176 960zm453.888 0h-73.856L576 741.44l55.424-32L776.064 960z"
-}, null, -1), L4 = [
-  B4,
-  P4,
-  N4
+}, null, -1), F4 = [
+  L4,
+  O4,
+  V4
 ];
-function O4(o, t, n, a, e, r) {
-  return R(), z("svg", I4, L4);
+function j4(o, t, n, a, e, r) {
+  return R(), z("svg", N4, F4);
 }
-var V4 = /* @__PURE__ */ B(H4, [["render", O4], ["__file", "data-board.vue"]]), F4 = {
+var U4 = /* @__PURE__ */ B(P4, [["render", j4], ["__file", "data-board.vue"]]), Q4 = {
   name: "DataLine"
-}, j4 = {
+}, k4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, U4 = /* @__PURE__ */ D("path", {
+}, W4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M359.168 768H160a32 32 0 0 1-32-32V192H64a32 32 0 0 1 0-64h896a32 32 0 1 1 0 64h-64v544a32 32 0 0 1-32 32H665.216l110.848 192h-73.856L591.36 768H433.024L322.176 960H248.32l110.848-192zM832 192H192v512h640V192zM342.656 534.656a32 32 0 1 1-45.312-45.312L444.992 341.76l125.44 94.08L679.04 300.032a32 32 0 1 1 49.92 39.936L581.632 524.224 451.008 426.24 342.656 534.592z"
-}, null, -1), Q4 = [
-  U4
+}, null, -1), G4 = [
+  W4
 ];
-function k4(o, t, n, a, e, r) {
-  return R(), z("svg", j4, Q4);
+function Y4(o, t, n, a, e, r) {
+  return R(), z("svg", k4, G4);
 }
-var W4 = /* @__PURE__ */ B(F4, [["render", k4], ["__file", "data-line.vue"]]), G4 = {
+var K4 = /* @__PURE__ */ B(Q4, [["render", Y4], ["__file", "data-line.vue"]]), J4 = {
   name: "DeleteFilled"
-}, Y4 = {
+}, Z4 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, K4 = /* @__PURE__ */ D("path", {
+}, X4 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 192V95.936a32 32 0 0 1 32-32h256a32 32 0 0 1 32 32V192h256a32 32 0 1 1 0 64H96a32 32 0 0 1 0-64h256zm64 0h192v-64H416v64zM192 960a32 32 0 0 1-32-32V256h704v672a32 32 0 0 1-32 32H192zm224-192a32 32 0 0 0 32-32V416a32 32 0 0 0-64 0v320a32 32 0 0 0 32 32zm192 0a32 32 0 0 0 32-32V416a32 32 0 0 0-64 0v320a32 32 0 0 0 32 32z"
-}, null, -1), J4 = [
-  K4
+}, null, -1), q4 = [
+  X4
 ];
-function Z4(o, t, n, a, e, r) {
-  return R(), z("svg", Y4, J4);
+function e3(o, t, n, a, e, r) {
+  return R(), z("svg", Z4, q4);
 }
-var X4 = /* @__PURE__ */ B(G4, [["render", Z4], ["__file", "delete-filled.vue"]]), q4 = {
+var t3 = /* @__PURE__ */ B(J4, [["render", e3], ["__file", "delete-filled.vue"]]), n3 = {
   name: "DeleteLocation"
-}, e3 = {
+}, a3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, t3 = /* @__PURE__ */ D("path", {
+}, o3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), n3 = /* @__PURE__ */ D("path", {
+}, null, -1), r3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z"
-}, null, -1), a3 = /* @__PURE__ */ D("path", {
+}, null, -1), l3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 384h256q32 0 32 32t-32 32H384q-32 0-32-32t32-32z"
-}, null, -1), o3 = [
-  t3,
-  n3,
-  a3
+}, null, -1), i3 = [
+  o3,
+  r3,
+  l3
 ];
-function r3(o, t, n, a, e, r) {
-  return R(), z("svg", e3, o3);
+function s3(o, t, n, a, e, r) {
+  return R(), z("svg", a3, i3);
 }
-var l3 = /* @__PURE__ */ B(q4, [["render", r3], ["__file", "delete-location.vue"]]), i3 = {
+var d3 = /* @__PURE__ */ B(n3, [["render", s3], ["__file", "delete-location.vue"]]), c3 = {
   name: "Delete"
-}, s3 = {
+}, u3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, d3 = /* @__PURE__ */ D("path", {
+}, f3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 256H96a32 32 0 0 1 0-64h256V95.936a32 32 0 0 1 32-32h256a32 32 0 0 1 32 32V192h256a32 32 0 1 1 0 64h-64v672a32 32 0 0 1-32 32H192a32 32 0 0 1-32-32V256zm448-64v-64H416v64h192zM224 896h576V256H224v640zm192-128a32 32 0 0 1-32-32V416a32 32 0 0 1 64 0v320a32 32 0 0 1-32 32zm192 0a32 32 0 0 1-32-32V416a32 32 0 0 1 64 0v320a32 32 0 0 1-32 32z"
-}, null, -1), c3 = [
-  d3
+}, null, -1), m3 = [
+  f3
 ];
-function u3(o, t, n, a, e, r) {
-  return R(), z("svg", s3, c3);
+function v3(o, t, n, a, e, r) {
+  return R(), z("svg", u3, m3);
 }
-var f3 = /* @__PURE__ */ B(i3, [["render", u3], ["__file", "delete.vue"]]), m3 = {
+var h3 = /* @__PURE__ */ B(c3, [["render", v3], ["__file", "delete.vue"]]), p3 = {
   name: "Dessert"
-}, v3 = {
+}, g3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, h3 = /* @__PURE__ */ D("path", {
+}, y3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 416v-48a144 144 0 0 1 168.64-141.888 224.128 224.128 0 0 1 430.72 0A144 144 0 0 1 896 368v48a384 384 0 0 1-352 382.72V896h-64v-97.28A384 384 0 0 1 128 416zm287.104-32.064h193.792a143.808 143.808 0 0 1 58.88-132.736 160.064 160.064 0 0 0-311.552 0 143.808 143.808 0 0 1 58.88 132.8zm-72.896 0a72 72 0 1 0-140.48 0h140.48zm339.584 0h140.416a72 72 0 1 0-140.48 0zM512 736a320 320 0 0 0 318.4-288.064H193.6A320 320 0 0 0 512 736zM384 896.064h256a32 32 0 1 1 0 64H384a32 32 0 1 1 0-64z"
-}, null, -1), p3 = [
-  h3
+}, null, -1), A3 = [
+  y3
 ];
-function g3(o, t, n, a, e, r) {
-  return R(), z("svg", v3, p3);
+function _3(o, t, n, a, e, r) {
+  return R(), z("svg", g3, A3);
 }
-var y3 = /* @__PURE__ */ B(m3, [["render", g3], ["__file", "dessert.vue"]]), A3 = {
+var x3 = /* @__PURE__ */ B(p3, [["render", _3], ["__file", "dessert.vue"]]), w3 = {
   name: "Discount"
-}, _3 = {
+}, E3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, x3 = /* @__PURE__ */ D("path", {
+}, C3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 704h576V318.336L552.512 115.84a64 64 0 0 0-81.024 0L224 318.336V704zm0 64v128h576V768H224zM593.024 66.304l259.2 212.096A32 32 0 0 1 864 303.168V928a32 32 0 0 1-32 32H192a32 32 0 0 1-32-32V303.168a32 32 0 0 1 11.712-24.768l259.2-212.096a128 128 0 0 1 162.112 0z"
-}, null, -1), w3 = /* @__PURE__ */ D("path", {
+}, null, -1), S3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 448a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), E3 = [
-  x3,
-  w3
+}, null, -1), b3 = [
+  C3,
+  S3
 ];
-function C3(o, t, n, a, e, r) {
-  return R(), z("svg", _3, E3);
+function D3(o, t, n, a, e, r) {
+  return R(), z("svg", E3, b3);
 }
-var S3 = /* @__PURE__ */ B(A3, [["render", C3], ["__file", "discount.vue"]]), b3 = {
+var M3 = /* @__PURE__ */ B(w3, [["render", D3], ["__file", "discount.vue"]]), T3 = {
   name: "DishDot"
-}, D3 = {
+}, R3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, M3 = /* @__PURE__ */ D("path", {
+}, z3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m384.064 274.56.064-50.688A128 128 0 0 1 512.128 96c70.528 0 127.68 57.152 127.68 127.68v50.752A448.192 448.192 0 0 1 955.392 768H68.544A448.192 448.192 0 0 1 384 274.56zM96 832h832a32 32 0 1 1 0 64H96a32 32 0 1 1 0-64zm32-128h768a384 384 0 1 0-768 0zm447.808-448v-32.32a63.68 63.68 0 0 0-63.68-63.68 64 64 0 0 0-64 63.936V256h127.68z"
-}, null, -1), T3 = [
-  M3
+}, null, -1), $3 = [
+  z3
 ];
-function R3(o, t, n, a, e, r) {
-  return R(), z("svg", D3, T3);
+function H3(o, t, n, a, e, r) {
+  return R(), z("svg", R3, $3);
 }
-var z3 = /* @__PURE__ */ B(b3, [["render", R3], ["__file", "dish-dot.vue"]]), $3 = {
+var I3 = /* @__PURE__ */ B(T3, [["render", H3], ["__file", "dish-dot.vue"]]), B3 = {
   name: "Dish"
-}, H3 = {
+}, P3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, I3 = /* @__PURE__ */ D("path", {
+}, N3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 257.152V192h-96a32 32 0 0 1 0-64h256a32 32 0 1 1 0 64h-96v65.152A448 448 0 0 1 955.52 768H68.48A448 448 0 0 1 480 257.152zM128 704h768a384 384 0 1 0-768 0zM96 832h832a32 32 0 1 1 0 64H96a32 32 0 1 1 0-64z"
-}, null, -1), B3 = [
-  I3
+}, null, -1), L3 = [
+  N3
 ];
-function P3(o, t, n, a, e, r) {
-  return R(), z("svg", H3, B3);
+function O3(o, t, n, a, e, r) {
+  return R(), z("svg", P3, L3);
 }
-var N3 = /* @__PURE__ */ B($3, [["render", P3], ["__file", "dish.vue"]]), L3 = {
+var V3 = /* @__PURE__ */ B(B3, [["render", O3], ["__file", "dish.vue"]]), F3 = {
   name: "DocumentAdd"
-}, O3 = {
+}, j3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, V3 = /* @__PURE__ */ D("path", {
+}, U3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 384H576V128H192v768h640V384zm-26.496-64L640 154.496V320h165.504zM160 64h480l256 256v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm320 512V448h64v128h128v64H544v128h-64V640H352v-64h128z"
-}, null, -1), F3 = [
-  V3
+}, null, -1), Q3 = [
+  U3
 ];
-function j3(o, t, n, a, e, r) {
-  return R(), z("svg", O3, F3);
+function k3(o, t, n, a, e, r) {
+  return R(), z("svg", j3, Q3);
 }
-var U3 = /* @__PURE__ */ B(L3, [["render", j3], ["__file", "document-add.vue"]]), Q3 = {
+var W3 = /* @__PURE__ */ B(F3, [["render", k3], ["__file", "document-add.vue"]]), G3 = {
   name: "DocumentChecked"
-}, k3 = {
+}, Y3 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, W3 = /* @__PURE__ */ D("path", {
+}, K3 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M805.504 320 640 154.496V320h165.504zM832 384H576V128H192v768h640V384zM160 64h480l256 256v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm318.4 582.144 180.992-180.992L704.64 510.4 478.4 736.64 320 578.304l45.248-45.312L478.4 646.144z"
-}, null, -1), G3 = [
-  W3
+}, null, -1), J3 = [
+  K3
 ];
-function Y3(o, t, n, a, e, r) {
-  return R(), z("svg", k3, G3);
+function Z3(o, t, n, a, e, r) {
+  return R(), z("svg", Y3, J3);
 }
-var K3 = /* @__PURE__ */ B(Q3, [["render", Y3], ["__file", "document-checked.vue"]]), J3 = {
+var X3 = /* @__PURE__ */ B(G3, [["render", Z3], ["__file", "document-checked.vue"]]), q3 = {
   name: "DocumentCopy"
-}, Z3 = {
+}, em = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, X3 = /* @__PURE__ */ D("path", {
+}, tm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 320v576h576V320H128zm-32-64h640a32 32 0 0 1 32 32v640a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V288a32 32 0 0 1 32-32zM960 96v704a32 32 0 0 1-32 32h-96v-64h64V128H384v64h-64V96a32 32 0 0 1 32-32h576a32 32 0 0 1 32 32zM256 672h320v64H256v-64zm0-192h320v64H256v-64z"
-}, null, -1), q3 = [
-  X3
+}, null, -1), nm = [
+  tm
 ];
-function em(o, t, n, a, e, r) {
-  return R(), z("svg", Z3, q3);
+function am(o, t, n, a, e, r) {
+  return R(), z("svg", em, nm);
 }
-var tm = /* @__PURE__ */ B(J3, [["render", em], ["__file", "document-copy.vue"]]), nm = {
+var om = /* @__PURE__ */ B(q3, [["render", am], ["__file", "document-copy.vue"]]), rm = {
   name: "DocumentDelete"
-}, am = {
+}, lm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, om = /* @__PURE__ */ D("path", {
+}, im = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M805.504 320 640 154.496V320h165.504zM832 384H576V128H192v768h640V384zM160 64h480l256 256v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm308.992 546.304-90.496-90.624 45.248-45.248 90.56 90.496 90.496-90.432 45.248 45.248-90.496 90.56 90.496 90.496-45.248 45.248-90.496-90.496-90.56 90.496-45.248-45.248 90.496-90.496z"
-}, null, -1), rm = [
-  om
+}, null, -1), sm = [
+  im
 ];
-function lm(o, t, n, a, e, r) {
-  return R(), z("svg", am, rm);
+function dm(o, t, n, a, e, r) {
+  return R(), z("svg", lm, sm);
 }
-var im = /* @__PURE__ */ B(nm, [["render", lm], ["__file", "document-delete.vue"]]), sm = {
+var cm = /* @__PURE__ */ B(rm, [["render", dm], ["__file", "document-delete.vue"]]), um = {
   name: "DocumentRemove"
-}, dm = {
+}, fm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, cm = /* @__PURE__ */ D("path", {
+}, mm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M805.504 320 640 154.496V320h165.504zM832 384H576V128H192v768h640V384zM160 64h480l256 256v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm192 512h320v64H352v-64z"
-}, null, -1), um = [
-  cm
+}, null, -1), vm = [
+  mm
 ];
-function fm(o, t, n, a, e, r) {
-  return R(), z("svg", dm, um);
+function hm(o, t, n, a, e, r) {
+  return R(), z("svg", fm, vm);
 }
-var mm = /* @__PURE__ */ B(sm, [["render", fm], ["__file", "document-remove.vue"]]), vm = {
+var pm = /* @__PURE__ */ B(um, [["render", hm], ["__file", "document-remove.vue"]]), gm = {
   name: "Document"
-}, hm = {
+}, ym = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pm = /* @__PURE__ */ D("path", {
+}, Am = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 384H576V128H192v768h640V384zm-26.496-64L640 154.496V320h165.504zM160 64h480l256 256v608a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm160 448h384v64H320v-64zm0-192h160v64H320v-64zm0 384h384v64H320v-64z"
-}, null, -1), gm = [
-  pm
+}, null, -1), _m = [
+  Am
 ];
-function ym(o, t, n, a, e, r) {
-  return R(), z("svg", hm, gm);
+function xm(o, t, n, a, e, r) {
+  return R(), z("svg", ym, _m);
 }
-var Am = /* @__PURE__ */ B(vm, [["render", ym], ["__file", "document.vue"]]), _m = {
+var wm = /* @__PURE__ */ B(gm, [["render", xm], ["__file", "document.vue"]]), Em = {
   name: "Download"
-}, xm = {
+}, Cm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wm = /* @__PURE__ */ D("path", {
+}, Sm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 832h704a32 32 0 1 1 0 64H160a32 32 0 1 1 0-64zm384-253.696 236.288-236.352 45.248 45.248L508.8 704 192 387.2l45.248-45.248L480 584.704V128h64v450.304z"
-}, null, -1), Em = [
-  wm
+}, null, -1), bm = [
+  Sm
 ];
-function Cm(o, t, n, a, e, r) {
-  return R(), z("svg", xm, Em);
+function Dm(o, t, n, a, e, r) {
+  return R(), z("svg", Cm, bm);
 }
-var Sm = /* @__PURE__ */ B(_m, [["render", Cm], ["__file", "download.vue"]]), bm = {
+var Mm = /* @__PURE__ */ B(Em, [["render", Dm], ["__file", "download.vue"]]), Tm = {
   name: "Drizzling"
-}, Dm = {
+}, Rm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Mm = /* @__PURE__ */ D("path", {
+}, zm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m739.328 291.328-35.2-6.592-12.8-33.408a192.064 192.064 0 0 0-365.952 23.232l-9.92 40.896-41.472 7.04a176.32 176.32 0 0 0-146.24 173.568c0 97.28 78.72 175.936 175.808 175.936h400a192 192 0 0 0 35.776-380.672zM959.552 480a256 256 0 0 1-256 256h-400A239.808 239.808 0 0 1 63.744 496.192a240.32 240.32 0 0 1 199.488-236.8 256.128 256.128 0 0 1 487.872-30.976A256.064 256.064 0 0 1 959.552 480zM288 800h64v64h-64v-64zm192 0h64v64h-64v-64zm-96 96h64v64h-64v-64zm192 0h64v64h-64v-64zm96-96h64v64h-64v-64z"
-}, null, -1), Tm = [
-  Mm
+}, null, -1), $m = [
+  zm
 ];
-function Rm(o, t, n, a, e, r) {
-  return R(), z("svg", Dm, Tm);
+function Hm(o, t, n, a, e, r) {
+  return R(), z("svg", Rm, $m);
 }
-var zm = /* @__PURE__ */ B(bm, [["render", Rm], ["__file", "drizzling.vue"]]), $m = {
+var Im = /* @__PURE__ */ B(Tm, [["render", Hm], ["__file", "drizzling.vue"]]), Bm = {
   name: "EditPen"
-}, Hm = {
+}, Pm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Im = /* @__PURE__ */ D("path", {
+}, Nm = /* @__PURE__ */ D("path", {
   d: "m199.04 672.64 193.984 112 224-387.968-193.92-112-224 388.032zm-23.872 60.16 32.896 148.288 144.896-45.696L175.168 732.8zM455.04 229.248l193.92 112 56.704-98.112-193.984-112-56.64 98.112zM104.32 708.8l384-665.024 304.768 175.936L409.152 884.8h.064l-248.448 78.336L104.32 708.8zm384 254.272v-64h448v64h-448z",
   fill: "currentColor"
-}, null, -1), Bm = [
-  Im
+}, null, -1), Lm = [
+  Nm
 ];
-function Pm(o, t, n, a, e, r) {
-  return R(), z("svg", Hm, Bm);
+function Om(o, t, n, a, e, r) {
+  return R(), z("svg", Pm, Lm);
 }
-var Nm = /* @__PURE__ */ B($m, [["render", Pm], ["__file", "edit-pen.vue"]]), Lm = {
+var Vm = /* @__PURE__ */ B(Bm, [["render", Om], ["__file", "edit-pen.vue"]]), Fm = {
   name: "Edit"
-}, Om = {
+}, jm = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Vm = /* @__PURE__ */ D("path", {
+}, Um = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 512a32 32 0 1 1 64 0v352a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h352a32 32 0 0 1 0 64H192v640h640V512z"
-}, null, -1), Fm = /* @__PURE__ */ D("path", {
+}, null, -1), Qm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m469.952 554.24 52.8-7.552L847.104 222.4a32 32 0 1 0-45.248-45.248L477.44 501.44l-7.552 52.8zm422.4-422.4a96 96 0 0 1 0 135.808l-331.84 331.84a32 32 0 0 1-18.112 9.088L436.8 623.68a32 32 0 0 1-36.224-36.224l15.104-105.6a32 32 0 0 1 9.024-18.112l331.904-331.84a96 96 0 0 1 135.744 0z"
-}, null, -1), jm = [
-  Vm,
-  Fm
+}, null, -1), km = [
+  Um,
+  Qm
 ];
-function Um(o, t, n, a, e, r) {
-  return R(), z("svg", Om, jm);
+function Wm(o, t, n, a, e, r) {
+  return R(), z("svg", jm, km);
 }
-var Qm = /* @__PURE__ */ B(Lm, [["render", Um], ["__file", "edit.vue"]]), km = {
+var Gm = /* @__PURE__ */ B(Fm, [["render", Wm], ["__file", "edit.vue"]]), Ym = {
   name: "ElemeFilled"
-}, Wm = {
+}, Km = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Gm = /* @__PURE__ */ D("path", {
+}, Jm = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M176 64h672c61.824 0 112 50.176 112 112v672a112 112 0 0 1-112 112H176A112 112 0 0 1 64 848V176c0-61.824 50.176-112 112-112zm150.528 173.568c-152.896 99.968-196.544 304.064-97.408 456.96a330.688 330.688 0 0 0 456.96 96.64c9.216-5.888 17.6-11.776 25.152-18.56a18.24 18.24 0 0 0 4.224-24.32L700.352 724.8a47.552 47.552 0 0 0-65.536-14.272A234.56 234.56 0 0 1 310.592 641.6C240 533.248 271.104 387.968 379.456 316.48a234.304 234.304 0 0 1 276.352 15.168c1.664.832 2.56 2.56 3.392 4.224 5.888 8.384 3.328 19.328-5.12 25.216L456.832 489.6a47.552 47.552 0 0 0-14.336 65.472l16 24.384c5.888 8.384 16.768 10.88 25.216 5.056l308.224-199.936a19.584 19.584 0 0 0 6.72-23.488v-.896c-4.992-9.216-10.048-17.6-15.104-26.88-99.968-151.168-304.064-194.88-456.96-95.744zM786.88 504.704l-62.208 40.32c-8.32 5.888-10.88 16.768-4.992 25.216L760 632.32c5.888 8.448 16.768 11.008 25.152 5.12l31.104-20.16a55.36 55.36 0 0 0 16-76.48l-20.224-31.04a19.52 19.52 0 0 0-25.152-5.12z"
-}, null, -1), Ym = [
-  Gm
+}, null, -1), Zm = [
+  Jm
 ];
-function Km(o, t, n, a, e, r) {
-  return R(), z("svg", Wm, Ym);
+function Xm(o, t, n, a, e, r) {
+  return R(), z("svg", Km, Zm);
 }
-var Jm = /* @__PURE__ */ B(km, [["render", Km], ["__file", "eleme-filled.vue"]]), Zm = {
+var qm = /* @__PURE__ */ B(Ym, [["render", Xm], ["__file", "eleme-filled.vue"]]), ev = {
   name: "Eleme"
-}, Xm = {
+}, tv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qm = /* @__PURE__ */ D("path", {
+}, nv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M300.032 188.8c174.72-113.28 408-63.36 522.24 109.44 5.76 10.56 11.52 20.16 17.28 30.72v.96a22.4 22.4 0 0 1-7.68 26.88l-352.32 228.48c-9.6 6.72-22.08 3.84-28.8-5.76l-18.24-27.84a54.336 54.336 0 0 1 16.32-74.88l225.6-146.88c9.6-6.72 12.48-19.2 5.76-28.8-.96-1.92-1.92-3.84-3.84-4.8a267.84 267.84 0 0 0-315.84-17.28c-123.84 81.6-159.36 247.68-78.72 371.52a268.096 268.096 0 0 0 370.56 78.72 54.336 54.336 0 0 1 74.88 16.32l17.28 26.88c5.76 9.6 3.84 21.12-4.8 27.84-8.64 7.68-18.24 14.4-28.8 21.12a377.92 377.92 0 0 1-522.24-110.4c-113.28-174.72-63.36-408 111.36-522.24zm526.08 305.28a22.336 22.336 0 0 1 28.8 5.76l23.04 35.52a63.232 63.232 0 0 1-18.24 87.36l-35.52 23.04c-9.6 6.72-22.08 3.84-28.8-5.76l-46.08-71.04c-6.72-9.6-3.84-22.08 5.76-28.8l71.04-46.08z"
-}, null, -1), ev = [
-  qm
+}, null, -1), av = [
+  nv
 ];
-function tv(o, t, n, a, e, r) {
-  return R(), z("svg", Xm, ev);
+function ov(o, t, n, a, e, r) {
+  return R(), z("svg", tv, av);
 }
-var nv = /* @__PURE__ */ B(Zm, [["render", tv], ["__file", "eleme.vue"]]), av = {
+var rv = /* @__PURE__ */ B(ev, [["render", ov], ["__file", "eleme.vue"]]), lv = {
   name: "ElementPlus"
-}, ov = {
+}, iv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rv = /* @__PURE__ */ D("path", {
+}, sv = /* @__PURE__ */ D("path", {
   d: "M839.7 734.7c0 33.3-17.9 41-17.9 41S519.7 949.8 499.2 960c-10.2 5.1-20.5 5.1-30.7 0 0 0-314.9-184.3-325.1-192-5.1-5.1-10.2-12.8-12.8-20.5V368.6c0-17.9 20.5-28.2 20.5-28.2L466 158.6c12.8-5.1 25.6-5.1 38.4 0 0 0 279 161.3 309.8 179.2 17.9 7.7 28.2 25.6 25.6 46.1-.1-5-.1 317.5-.1 350.8zM714.2 371.2c-64-35.8-217.6-125.4-217.6-125.4-7.7-5.1-20.5-5.1-30.7 0L217.6 389.1s-17.9 10.2-17.9 23v297c0 5.1 5.1 12.8 7.7 17.9 7.7 5.1 256 148.5 256 148.5 7.7 5.1 17.9 5.1 25.6 0 15.4-7.7 250.9-145.9 250.9-145.9s12.8-5.1 12.8-30.7v-74.2l-276.5 169v-64c0-17.9 7.7-30.7 20.5-46.1L745 535c5.1-7.7 10.2-20.5 10.2-30.7v-66.6l-279 169v-69.1c0-15.4 5.1-30.7 17.9-38.4l220.1-128zM919 135.7c0-5.1-5.1-7.7-7.7-7.7h-58.9V66.6c0-5.1-5.1-5.1-10.2-5.1l-30.7 5.1c-5.1 0-5.1 2.6-5.1 5.1V128h-56.3c-5.1 0-5.1 5.1-7.7 5.1v38.4h69.1v64c0 5.1 5.1 5.1 10.2 5.1l30.7-5.1c5.1 0 5.1-2.6 5.1-5.1v-56.3h64l-2.5-38.4z",
   fill: "currentColor"
-}, null, -1), lv = [
-  rv
+}, null, -1), dv = [
+  sv
 ];
-function iv(o, t, n, a, e, r) {
-  return R(), z("svg", ov, lv);
+function cv(o, t, n, a, e, r) {
+  return R(), z("svg", iv, dv);
 }
-var sv = /* @__PURE__ */ B(av, [["render", iv], ["__file", "element-plus.vue"]]), dv = {
+var uv = /* @__PURE__ */ B(lv, [["render", cv], ["__file", "element-plus.vue"]]), fv = {
   name: "Expand"
-}, cv = {
+}, mv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, uv = /* @__PURE__ */ D("path", {
+}, vv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192h768v128H128V192zm0 256h512v128H128V448zm0 256h768v128H128V704zm576-352 192 160-192 128V352z"
-}, null, -1), fv = [
-  uv
+}, null, -1), hv = [
+  vv
 ];
-function mv(o, t, n, a, e, r) {
-  return R(), z("svg", cv, fv);
+function pv(o, t, n, a, e, r) {
+  return R(), z("svg", mv, hv);
 }
-var vv = /* @__PURE__ */ B(dv, [["render", mv], ["__file", "expand.vue"]]), hv = {
+var gv = /* @__PURE__ */ B(fv, [["render", pv], ["__file", "expand.vue"]]), yv = {
   name: "Failed"
-}, pv = {
+}, Av = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, gv = /* @__PURE__ */ D("path", {
+}, _v = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m557.248 608 135.744-135.744-45.248-45.248-135.68 135.744-135.808-135.68-45.248 45.184L466.752 608l-135.68 135.68 45.184 45.312L512 653.248l135.744 135.744 45.248-45.248L557.312 608zM704 192h160v736H160V192h160v64h384v-64zm-320 0V96h256v96H384z"
-}, null, -1), yv = [
-  gv
+}, null, -1), xv = [
+  _v
 ];
-function Av(o, t, n, a, e, r) {
-  return R(), z("svg", pv, yv);
+function wv(o, t, n, a, e, r) {
+  return R(), z("svg", Av, xv);
 }
-var _v = /* @__PURE__ */ B(hv, [["render", Av], ["__file", "failed.vue"]]), xv = {
+var Ev = /* @__PURE__ */ B(yv, [["render", wv], ["__file", "failed.vue"]]), Cv = {
   name: "Female"
-}, wv = {
+}, Sv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ev = /* @__PURE__ */ D("path", {
+}, bv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 640a256 256 0 1 0 0-512 256 256 0 0 0 0 512zm0 64a320 320 0 1 1 0-640 320 320 0 0 1 0 640z"
-}, null, -1), Cv = /* @__PURE__ */ D("path", {
+}, null, -1), Dv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 640q32 0 32 32v256q0 32-32 32t-32-32V672q0-32 32-32z"
-}, null, -1), Sv = /* @__PURE__ */ D("path", {
+}, null, -1), Mv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 800h320q32 0 32 32t-32 32H352q-32 0-32-32t32-32z"
-}, null, -1), bv = [
-  Ev,
-  Cv,
-  Sv
+}, null, -1), Tv = [
+  bv,
+  Dv,
+  Mv
 ];
-function Dv(o, t, n, a, e, r) {
-  return R(), z("svg", wv, bv);
+function Rv(o, t, n, a, e, r) {
+  return R(), z("svg", Sv, Tv);
 }
-var Mv = /* @__PURE__ */ B(xv, [["render", Dv], ["__file", "female.vue"]]), Tv = {
+var zv = /* @__PURE__ */ B(Cv, [["render", Rv], ["__file", "female.vue"]]), $v = {
   name: "Files"
-}, Rv = {
+}, Hv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, zv = /* @__PURE__ */ D("path", {
+}, Iv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 384v448h768V384H128zm-32-64h832a32 32 0 0 1 32 32v512a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V352a32 32 0 0 1 32-32zm64-128h704v64H160zm96-128h512v64H256z"
-}, null, -1), $v = [
-  zv
+}, null, -1), Bv = [
+  Iv
 ];
-function Hv(o, t, n, a, e, r) {
-  return R(), z("svg", Rv, $v);
+function Pv(o, t, n, a, e, r) {
+  return R(), z("svg", Hv, Bv);
 }
-var Iv = /* @__PURE__ */ B(Tv, [["render", Hv], ["__file", "files.vue"]]), Bv = {
+var Nv = /* @__PURE__ */ B($v, [["render", Pv], ["__file", "files.vue"]]), Lv = {
   name: "Film"
-}, Pv = {
+}, Ov = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Nv = /* @__PURE__ */ D("path", {
+}, Vv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 160v704h704V160H160zm-32-64h768a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H128a32 32 0 0 1-32-32V128a32 32 0 0 1 32-32z"
-}, null, -1), Lv = /* @__PURE__ */ D("path", {
+}, null, -1), Fv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M320 288V128h64v352h256V128h64v160h160v64H704v128h160v64H704v128h160v64H704v160h-64V544H384v352h-64V736H128v-64h192V544H128v-64h192V352H128v-64h192z"
-}, null, -1), Ov = [
-  Nv,
-  Lv
+}, null, -1), jv = [
+  Vv,
+  Fv
 ];
-function Vv(o, t, n, a, e, r) {
-  return R(), z("svg", Pv, Ov);
+function Uv(o, t, n, a, e, r) {
+  return R(), z("svg", Ov, jv);
 }
-var Fv = /* @__PURE__ */ B(Bv, [["render", Vv], ["__file", "film.vue"]]), jv = {
+var Qv = /* @__PURE__ */ B(Lv, [["render", Uv], ["__file", "film.vue"]]), kv = {
   name: "Filter"
-}, Uv = {
+}, Wv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qv = /* @__PURE__ */ D("path", {
+}, Gv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 523.392V928a32 32 0 0 0 46.336 28.608l192-96A32 32 0 0 0 640 832V523.392l280.768-343.104a32 32 0 1 0-49.536-40.576l-288 352A32 32 0 0 0 576 512v300.224l-128 64V512a32 32 0 0 0-7.232-20.288L195.52 192H704a32 32 0 1 0 0-64H128a32 32 0 0 0-24.768 52.288L384 523.392z"
-}, null, -1), kv = [
-  Qv
+}, null, -1), Yv = [
+  Gv
 ];
-function Wv(o, t, n, a, e, r) {
-  return R(), z("svg", Uv, kv);
+function Kv(o, t, n, a, e, r) {
+  return R(), z("svg", Wv, Yv);
 }
-var Gv = /* @__PURE__ */ B(jv, [["render", Wv], ["__file", "filter.vue"]]), Yv = {
+var Jv = /* @__PURE__ */ B(kv, [["render", Kv], ["__file", "filter.vue"]]), Zv = {
   name: "Finished"
-}, Kv = {
+}, Xv = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Jv = /* @__PURE__ */ D("path", {
+}, qv = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M280.768 753.728 691.456 167.04a32 32 0 1 1 52.416 36.672L314.24 817.472a32 32 0 0 1-45.44 7.296l-230.4-172.8a32 32 0 0 1 38.4-51.2l203.968 152.96zM736 448a32 32 0 1 1 0-64h192a32 32 0 1 1 0 64H736zM608 640a32 32 0 0 1 0-64h319.936a32 32 0 1 1 0 64H608zM480 832a32 32 0 1 1 0-64h447.936a32 32 0 1 1 0 64H480z"
-}, null, -1), Zv = [
-  Jv
+}, null, -1), eh = [
+  qv
 ];
-function Xv(o, t, n, a, e, r) {
-  return R(), z("svg", Kv, Zv);
+function th(o, t, n, a, e, r) {
+  return R(), z("svg", Xv, eh);
 }
-var qv = /* @__PURE__ */ B(Yv, [["render", Xv], ["__file", "finished.vue"]]), eh = {
+var nh = /* @__PURE__ */ B(Zv, [["render", th], ["__file", "finished.vue"]]), ah = {
   name: "FirstAidKit"
-}, th = {
+}, oh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, nh = /* @__PURE__ */ D("path", {
+}, rh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 256a64 64 0 0 0-64 64v448a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V320a64 64 0 0 0-64-64H192zm0-64h640a128 128 0 0 1 128 128v448a128 128 0 0 1-128 128H192A128 128 0 0 1 64 768V320a128 128 0 0 1 128-128z"
-}, null, -1), ah = /* @__PURE__ */ D("path", {
+}, null, -1), lh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 512h96a32 32 0 0 1 0 64h-96v96a32 32 0 0 1-64 0v-96h-96a32 32 0 0 1 0-64h96v-96a32 32 0 0 1 64 0v96zM352 128v64h320v-64H352zm-32-64h384a32 32 0 0 1 32 32v128a32 32 0 0 1-32 32H320a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"
-}, null, -1), oh = [
-  nh,
-  ah
+}, null, -1), ih = [
+  rh,
+  lh
 ];
-function rh(o, t, n, a, e, r) {
-  return R(), z("svg", th, oh);
+function sh(o, t, n, a, e, r) {
+  return R(), z("svg", oh, ih);
 }
-var lh = /* @__PURE__ */ B(eh, [["render", rh], ["__file", "first-aid-kit.vue"]]), ih = {
+var dh = /* @__PURE__ */ B(ah, [["render", sh], ["__file", "first-aid-kit.vue"]]), ch = {
   name: "Flag"
-}, sh = {
+}, uh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, dh = /* @__PURE__ */ D("path", {
+}, fh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 128h608L736 384l160 256H288v320h-96V64h96v64z"
-}, null, -1), ch = [
-  dh
+}, null, -1), mh = [
+  fh
 ];
-function uh(o, t, n, a, e, r) {
-  return R(), z("svg", sh, ch);
+function vh(o, t, n, a, e, r) {
+  return R(), z("svg", uh, mh);
 }
-var fh = /* @__PURE__ */ B(ih, [["render", uh], ["__file", "flag.vue"]]), mh = {
+var hh = /* @__PURE__ */ B(ch, [["render", vh], ["__file", "flag.vue"]]), ph = {
   name: "Fold"
-}, vh = {
+}, gh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, hh = /* @__PURE__ */ D("path", {
+}, yh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M896 192H128v128h768V192zm0 256H384v128h512V448zm0 256H128v128h768V704zM320 384 128 512l192 128V384z"
-}, null, -1), ph = [
-  hh
+}, null, -1), Ah = [
+  yh
 ];
-function gh(o, t, n, a, e, r) {
-  return R(), z("svg", vh, ph);
+function _h(o, t, n, a, e, r) {
+  return R(), z("svg", gh, Ah);
 }
-var yh = /* @__PURE__ */ B(mh, [["render", gh], ["__file", "fold.vue"]]), Ah = {
+var xh = /* @__PURE__ */ B(ph, [["render", _h], ["__file", "fold.vue"]]), wh = {
   name: "FolderAdd"
-}, _h = {
+}, Eh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, xh = /* @__PURE__ */ D("path", {
+}, Ch = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192v640h768V320H485.76L357.504 192H128zm-32-64h287.872l128.384 128H928a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32zm384 416V416h64v128h128v64H544v128h-64V608H352v-64h128z"
-}, null, -1), wh = [
-  xh
+}, null, -1), Sh = [
+  Ch
 ];
-function Eh(o, t, n, a, e, r) {
-  return R(), z("svg", _h, wh);
+function bh(o, t, n, a, e, r) {
+  return R(), z("svg", Eh, Sh);
 }
-var Ch = /* @__PURE__ */ B(Ah, [["render", Eh], ["__file", "folder-add.vue"]]), Sh = {
+var Dh = /* @__PURE__ */ B(wh, [["render", bh], ["__file", "folder-add.vue"]]), Mh = {
   name: "FolderChecked"
-}, bh = {
+}, Th = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Dh = /* @__PURE__ */ D("path", {
+}, Rh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192v640h768V320H485.76L357.504 192H128zm-32-64h287.872l128.384 128H928a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32zm414.08 502.144 180.992-180.992L736.32 494.4 510.08 720.64l-158.4-158.336 45.248-45.312L510.08 630.144z"
-}, null, -1), Mh = [
-  Dh
+}, null, -1), zh = [
+  Rh
 ];
-function Th(o, t, n, a, e, r) {
-  return R(), z("svg", bh, Mh);
+function $h(o, t, n, a, e, r) {
+  return R(), z("svg", Th, zh);
 }
-var Rh = /* @__PURE__ */ B(Sh, [["render", Th], ["__file", "folder-checked.vue"]]), zh = {
+var Hh = /* @__PURE__ */ B(Mh, [["render", $h], ["__file", "folder-checked.vue"]]), Ih = {
   name: "FolderDelete"
-}, $h = {
+}, Bh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Hh = /* @__PURE__ */ D("path", {
+}, Ph = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192v640h768V320H485.76L357.504 192H128zm-32-64h287.872l128.384 128H928a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32zm370.752 448-90.496-90.496 45.248-45.248L512 530.752l90.496-90.496 45.248 45.248L557.248 576l90.496 90.496-45.248 45.248L512 621.248l-90.496 90.496-45.248-45.248L466.752 576z"
-}, null, -1), Ih = [
-  Hh
+}, null, -1), Nh = [
+  Ph
 ];
-function Bh(o, t, n, a, e, r) {
-  return R(), z("svg", $h, Ih);
+function Lh(o, t, n, a, e, r) {
+  return R(), z("svg", Bh, Nh);
 }
-var Ph = /* @__PURE__ */ B(zh, [["render", Bh], ["__file", "folder-delete.vue"]]), Nh = {
+var Oh = /* @__PURE__ */ B(Ih, [["render", Lh], ["__file", "folder-delete.vue"]]), Vh = {
   name: "FolderOpened"
-}, Lh = {
+}, Fh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Oh = /* @__PURE__ */ D("path", {
+}, jh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M878.08 448H241.92l-96 384h636.16l96-384zM832 384v-64H485.76L357.504 192H128v448l57.92-231.744A32 32 0 0 1 216.96 384H832zm-24.96 512H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h287.872l128.384 128H864a32 32 0 0 1 32 32v96h23.04a32 32 0 0 1 31.04 39.744l-112 448A32 32 0 0 1 807.04 896z"
-}, null, -1), Vh = [
-  Oh
+}, null, -1), Uh = [
+  jh
 ];
-function Fh(o, t, n, a, e, r) {
-  return R(), z("svg", Lh, Vh);
+function Qh(o, t, n, a, e, r) {
+  return R(), z("svg", Fh, Uh);
 }
-var jh = /* @__PURE__ */ B(Nh, [["render", Fh], ["__file", "folder-opened.vue"]]), Uh = {
+var kh = /* @__PURE__ */ B(Vh, [["render", Qh], ["__file", "folder-opened.vue"]]), Wh = {
   name: "FolderRemove"
-}, Qh = {
+}, Gh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, kh = /* @__PURE__ */ D("path", {
+}, Yh = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192v640h768V320H485.76L357.504 192H128zm-32-64h287.872l128.384 128H928a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32zm256 416h320v64H352v-64z"
-}, null, -1), Wh = [
-  kh
+}, null, -1), Kh = [
+  Yh
 ];
-function Gh(o, t, n, a, e, r) {
-  return R(), z("svg", Qh, Wh);
+function Jh(o, t, n, a, e, r) {
+  return R(), z("svg", Gh, Kh);
 }
-var Yh = /* @__PURE__ */ B(Uh, [["render", Gh], ["__file", "folder-remove.vue"]]), Kh = {
+var Zh = /* @__PURE__ */ B(Wh, [["render", Jh], ["__file", "folder-remove.vue"]]), Xh = {
   name: "Folder"
-}, Jh = {
+}, qh = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Zh = /* @__PURE__ */ D("path", {
+}, ep = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 192v640h768V320H485.76L357.504 192H128zm-32-64h287.872l128.384 128H928a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32z"
-}, null, -1), Xh = [
-  Zh
+}, null, -1), tp = [
+  ep
 ];
-function qh(o, t, n, a, e, r) {
-  return R(), z("svg", Jh, Xh);
+function np(o, t, n, a, e, r) {
+  return R(), z("svg", qh, tp);
 }
-var ep = /* @__PURE__ */ B(Kh, [["render", qh], ["__file", "folder.vue"]]), tp = {
+var ap = /* @__PURE__ */ B(Xh, [["render", np], ["__file", "folder.vue"]]), op = {
   name: "Food"
-}, np = {
+}, rp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ap = /* @__PURE__ */ D("path", {
+}, lp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 352.576V352a288 288 0 0 1 491.072-204.224 192 192 0 0 1 274.24 204.48 64 64 0 0 1 57.216 74.24C921.6 600.512 850.048 710.656 736 756.992V800a96 96 0 0 1-96 96H384a96 96 0 0 1-96-96v-43.008c-114.048-46.336-185.6-156.48-214.528-330.496A64 64 0 0 1 128 352.64zm64-.576h64a160 160 0 0 1 320 0h64a224 224 0 0 0-448 0zm128 0h192a96 96 0 0 0-192 0zm439.424 0h68.544A128.256 128.256 0 0 0 704 192c-15.36 0-29.952 2.688-43.52 7.616 11.328 18.176 20.672 37.76 27.84 58.304A64.128 64.128 0 0 1 759.424 352zM672 768H352v32a32 32 0 0 0 32 32h256a32 32 0 0 0 32-32v-32zm-342.528-64h365.056c101.504-32.64 165.76-124.928 192.896-288H136.576c27.136 163.072 91.392 255.36 192.896 288z"
-}, null, -1), op = [
-  ap
+}, null, -1), ip = [
+  lp
 ];
-function rp(o, t, n, a, e, r) {
-  return R(), z("svg", np, op);
+function sp(o, t, n, a, e, r) {
+  return R(), z("svg", rp, ip);
 }
-var lp = /* @__PURE__ */ B(tp, [["render", rp], ["__file", "food.vue"]]), ip = {
+var dp = /* @__PURE__ */ B(op, [["render", sp], ["__file", "food.vue"]]), cp = {
   name: "Football"
-}, sp = {
+}, up = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, dp = /* @__PURE__ */ D("path", {
+}, fp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 960a448 448 0 1 1 0-896 448 448 0 0 1 0 896zm0-64a384 384 0 1 0 0-768 384 384 0 0 0 0 768z"
-}, null, -1), cp = /* @__PURE__ */ D("path", {
+}, null, -1), mp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M186.816 268.288c16-16.384 31.616-31.744 46.976-46.08 17.472 30.656 39.808 58.112 65.984 81.28l-32.512 56.448a385.984 385.984 0 0 1-80.448-91.648zm653.696-5.312a385.92 385.92 0 0 1-83.776 96.96l-32.512-56.384a322.923 322.923 0 0 0 68.48-85.76c15.552 14.08 31.488 29.12 47.808 45.184zM465.984 445.248l11.136-63.104a323.584 323.584 0 0 0 69.76 0l11.136 63.104a387.968 387.968 0 0 1-92.032 0zm-62.72-12.8A381.824 381.824 0 0 1 320 396.544l32-55.424a319.885 319.885 0 0 0 62.464 27.712l-11.2 63.488zm300.8-35.84a381.824 381.824 0 0 1-83.328 35.84l-11.2-63.552A319.885 319.885 0 0 0 672 341.184l32 55.424zm-520.768 364.8a385.92 385.92 0 0 1 83.968-97.28l32.512 56.32c-26.88 23.936-49.856 52.352-67.52 84.032-16-13.44-32.32-27.712-48.96-43.072zm657.536.128a1442.759 1442.759 0 0 1-49.024 43.072 321.408 321.408 0 0 0-67.584-84.16l32.512-56.32c33.216 27.456 61.696 60.352 84.096 97.408zM465.92 578.752a387.968 387.968 0 0 1 92.032 0l-11.136 63.104a323.584 323.584 0 0 0-69.76 0l-11.136-63.104zm-62.72 12.8 11.2 63.552a319.885 319.885 0 0 0-62.464 27.712L320 627.392a381.824 381.824 0 0 1 83.264-35.84zm300.8 35.84-32 55.424a318.272 318.272 0 0 0-62.528-27.712l11.2-63.488c29.44 8.64 57.28 20.736 83.264 35.776z"
-}, null, -1), up = [
-  dp,
-  cp
+}, null, -1), vp = [
+  fp,
+  mp
 ];
-function fp(o, t, n, a, e, r) {
-  return R(), z("svg", sp, up);
+function hp(o, t, n, a, e, r) {
+  return R(), z("svg", up, vp);
 }
-var mp = /* @__PURE__ */ B(ip, [["render", fp], ["__file", "football.vue"]]), vp = {
+var pp = /* @__PURE__ */ B(cp, [["render", hp], ["__file", "football.vue"]]), gp = {
   name: "ForkSpoon"
-}, hp = {
+}, yp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pp = /* @__PURE__ */ D("path", {
+}, Ap = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 410.304V96a32 32 0 0 1 64 0v314.304a96 96 0 0 0 64-90.56V96a32 32 0 0 1 64 0v223.744a160 160 0 0 1-128 156.8V928a32 32 0 1 1-64 0V476.544a160 160 0 0 1-128-156.8V96a32 32 0 0 1 64 0v223.744a96 96 0 0 0 64 90.56zM672 572.48C581.184 552.128 512 446.848 512 320c0-141.44 85.952-256 192-256s192 114.56 192 256c0 126.848-69.184 232.128-160 252.48V928a32 32 0 1 1-64 0V572.48zM704 512c66.048 0 128-82.56 128-192s-61.952-192-128-192-128 82.56-128 192 61.952 192 128 192z"
-}, null, -1), gp = [
-  pp
+}, null, -1), _p = [
+  Ap
 ];
-function yp(o, t, n, a, e, r) {
-  return R(), z("svg", hp, gp);
+function xp(o, t, n, a, e, r) {
+  return R(), z("svg", yp, _p);
 }
-var Ap = /* @__PURE__ */ B(vp, [["render", yp], ["__file", "fork-spoon.vue"]]), _p = {
+var wp = /* @__PURE__ */ B(gp, [["render", xp], ["__file", "fork-spoon.vue"]]), Ep = {
   name: "Fries"
-}, xp = {
+}, Cp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wp = /* @__PURE__ */ D("path", {
+}, Sp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M608 224v-64a32 32 0 0 0-64 0v336h26.88A64 64 0 0 0 608 484.096V224zm101.12 160A64 64 0 0 0 672 395.904V384h64V224a32 32 0 1 0-64 0v160h37.12zm74.88 0a92.928 92.928 0 0 1 91.328 110.08l-60.672 323.584A96 96 0 0 1 720.32 896H303.68a96 96 0 0 1-94.336-78.336L148.672 494.08A92.928 92.928 0 0 1 240 384h-16V224a96 96 0 0 1 188.608-25.28A95.744 95.744 0 0 1 480 197.44V160a96 96 0 0 1 188.608-25.28A96 96 0 0 1 800 224v160h-16zM670.784 512a128 128 0 0 1-99.904 48H453.12a128 128 0 0 1-99.84-48H352v-1.536a128.128 128.128 0 0 1-9.984-14.976L314.88 448H240a28.928 28.928 0 0 0-28.48 34.304L241.088 640h541.824l29.568-157.696A28.928 28.928 0 0 0 784 448h-74.88l-27.136 47.488A132.405 132.405 0 0 1 672 510.464V512h-1.216zM480 288a32 32 0 0 0-64 0v196.096A64 64 0 0 0 453.12 496H480V288zm-128 96V224a32 32 0 0 0-64 0v160h64-37.12A64 64 0 0 1 352 395.904zm-98.88 320 19.072 101.888A32 32 0 0 0 303.68 832h416.64a32 32 0 0 0 31.488-26.112L770.88 704H253.12z"
-}, null, -1), Ep = [
-  wp
+}, null, -1), bp = [
+  Sp
 ];
-function Cp(o, t, n, a, e, r) {
-  return R(), z("svg", xp, Ep);
+function Dp(o, t, n, a, e, r) {
+  return R(), z("svg", Cp, bp);
 }
-var Sp = /* @__PURE__ */ B(_p, [["render", Cp], ["__file", "fries.vue"]]), bp = {
+var Mp = /* @__PURE__ */ B(Ep, [["render", Dp], ["__file", "fries.vue"]]), Tp = {
   name: "FullScreen"
-}, Dp = {
+}, Rp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Mp = /* @__PURE__ */ D("path", {
+}, zp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m160 96.064 192 .192a32 32 0 0 1 0 64l-192-.192V352a32 32 0 0 1-64 0V96h64v.064zm0 831.872V928H96V672a32 32 0 1 1 64 0v191.936l192-.192a32 32 0 1 1 0 64l-192 .192zM864 96.064V96h64v256a32 32 0 1 1-64 0V160.064l-192 .192a32 32 0 1 1 0-64l192-.192zm0 831.872-192-.192a32 32 0 0 1 0-64l192 .192V672a32 32 0 1 1 64 0v256h-64v-.064z"
-}, null, -1), Tp = [
-  Mp
+}, null, -1), $p = [
+  zp
 ];
-function Rp(o, t, n, a, e, r) {
-  return R(), z("svg", Dp, Tp);
+function Hp(o, t, n, a, e, r) {
+  return R(), z("svg", Rp, $p);
 }
-var zp = /* @__PURE__ */ B(bp, [["render", Rp], ["__file", "full-screen.vue"]]), $p = {
+var Ip = /* @__PURE__ */ B(Tp, [["render", Hp], ["__file", "full-screen.vue"]]), Bp = {
   name: "GobletFull"
-}, Hp = {
+}, Pp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ip = /* @__PURE__ */ D("path", {
+}, Np = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 320h512c0-78.592-12.608-142.4-36.928-192h-434.24C269.504 192.384 256 256.256 256 320zm503.936 64H264.064a256.128 256.128 0 0 0 495.872 0zM544 638.4V896h96a32 32 0 1 1 0 64H384a32 32 0 1 1 0-64h96V638.4A320 320 0 0 1 192 320c0-85.632 21.312-170.944 64-256h512c42.688 64.32 64 149.632 64 256a320 320 0 0 1-288 318.4z"
-}, null, -1), Bp = [
-  Ip
+}, null, -1), Lp = [
+  Np
 ];
-function Pp(o, t, n, a, e, r) {
-  return R(), z("svg", Hp, Bp);
+function Op(o, t, n, a, e, r) {
+  return R(), z("svg", Pp, Lp);
 }
-var Np = /* @__PURE__ */ B($p, [["render", Pp], ["__file", "goblet-full.vue"]]), Lp = {
+var Vp = /* @__PURE__ */ B(Bp, [["render", Op], ["__file", "goblet-full.vue"]]), Fp = {
   name: "GobletSquareFull"
-}, Op = {
+}, jp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Vp = /* @__PURE__ */ D("path", {
+}, Up = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 270.912c10.048 6.72 22.464 14.912 28.992 18.624a220.16 220.16 0 0 0 114.752 30.72c30.592 0 49.408-9.472 91.072-41.152l.64-.448c52.928-40.32 82.368-55.04 132.288-54.656 55.552.448 99.584 20.8 142.72 57.408l1.536 1.28V128H256v142.912zm.96 76.288C266.368 482.176 346.88 575.872 512 576c157.44.064 237.952-85.056 253.248-209.984a952.32 952.32 0 0 1-40.192-35.712c-32.704-27.776-63.36-41.92-101.888-42.24-31.552-.256-50.624 9.28-93.12 41.6l-.576.448c-52.096 39.616-81.024 54.208-129.792 54.208-54.784 0-100.48-13.376-142.784-37.056zM480 638.848C250.624 623.424 192 442.496 192 319.68V96a32 32 0 0 1 32-32h576a32 32 0 0 1 32 32v224c0 122.816-58.624 303.68-288 318.912V896h96a32 32 0 1 1 0 64H384a32 32 0 1 1 0-64h96V638.848z"
-}, null, -1), Fp = [
-  Vp
+}, null, -1), Qp = [
+  Up
 ];
-function jp(o, t, n, a, e, r) {
-  return R(), z("svg", Op, Fp);
+function kp(o, t, n, a, e, r) {
+  return R(), z("svg", jp, Qp);
 }
-var Up = /* @__PURE__ */ B(Lp, [["render", jp], ["__file", "goblet-square-full.vue"]]), Qp = {
+var Wp = /* @__PURE__ */ B(Fp, [["render", kp], ["__file", "goblet-square-full.vue"]]), Gp = {
   name: "GobletSquare"
-}, kp = {
+}, Yp = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Wp = /* @__PURE__ */ D("path", {
+}, Kp = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 638.912V896h96a32 32 0 1 1 0 64H384a32 32 0 1 1 0-64h96V638.848C250.624 623.424 192 442.496 192 319.68V96a32 32 0 0 1 32-32h576a32 32 0 0 1 32 32v224c0 122.816-58.624 303.68-288 318.912zM256 319.68c0 149.568 80 256.192 256 256.256C688.128 576 768 469.568 768 320V128H256v191.68z"
-}, null, -1), Gp = [
-  Wp
+}, null, -1), Jp = [
+  Kp
 ];
-function Yp(o, t, n, a, e, r) {
-  return R(), z("svg", kp, Gp);
+function Zp(o, t, n, a, e, r) {
+  return R(), z("svg", Yp, Jp);
 }
-var Kp = /* @__PURE__ */ B(Qp, [["render", Yp], ["__file", "goblet-square.vue"]]), Jp = {
+var Xp = /* @__PURE__ */ B(Gp, [["render", Zp], ["__file", "goblet-square.vue"]]), qp = {
   name: "Goblet"
-}, Zp = {
+}, e6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Xp = /* @__PURE__ */ D("path", {
+}, t6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 638.4V896h96a32 32 0 1 1 0 64H384a32 32 0 1 1 0-64h96V638.4A320 320 0 0 1 192 320c0-85.632 21.312-170.944 64-256h512c42.688 64.32 64 149.632 64 256a320 320 0 0 1-288 318.4zM256 320a256 256 0 1 0 512 0c0-78.592-12.608-142.4-36.928-192h-434.24C269.504 192.384 256 256.256 256 320z"
-}, null, -1), qp = [
-  Xp
+}, null, -1), n6 = [
+  t6
 ];
-function e6(o, t, n, a, e, r) {
-  return R(), z("svg", Zp, qp);
+function a6(o, t, n, a, e, r) {
+  return R(), z("svg", e6, n6);
 }
-var t6 = /* @__PURE__ */ B(Jp, [["render", e6], ["__file", "goblet.vue"]]), n6 = {
+var o6 = /* @__PURE__ */ B(qp, [["render", a6], ["__file", "goblet.vue"]]), r6 = {
   name: "GoldMedal"
-}, a6 = {
+}, l6 = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, o6 = /* @__PURE__ */ D("path", {
+}, i6 = /* @__PURE__ */ D("path", {
   d: "m772.13 452.84 53.86-351.81c1.32-10.01-1.17-18.68-7.49-26.02S804.35 64 795.01 64H228.99v-.01h-.06c-9.33 0-17.15 3.67-23.49 11.01s-8.83 16.01-7.49 26.02l53.87 351.89C213.54 505.73 193.59 568.09 192 640c2 90.67 33.17 166.17 93.5 226.5S421.33 957.99 512 960c90.67-2 166.17-33.17 226.5-93.5 60.33-60.34 91.49-135.83 93.5-226.5-1.59-71.94-21.56-134.32-59.87-187.16zM640.01 128h117.02l-39.01 254.02c-20.75-10.64-40.74-19.73-59.94-27.28-5.92-3-11.95-5.8-18.08-8.41V128h.01zM576 128v198.76c-13.18-2.58-26.74-4.43-40.67-5.55-8.07-.8-15.85-1.2-23.33-1.2-10.54 0-21.09.66-31.64 1.96a359.844 359.844 0 0 0-32.36 4.79V128h128zm-192 0h.04v218.3c-6.22 2.66-12.34 5.5-18.36 8.56-19.13 7.54-39.02 16.6-59.66 27.16L267.01 128H384zm308.99 692.99c-48 48-108.33 73-180.99 75.01-72.66-2.01-132.99-27.01-180.99-75.01S258.01 712.66 256 640c2.01-72.66 27.01-132.99 75.01-180.99 19.67-19.67 41.41-35.47 65.22-47.41 38.33-15.04 71.15-23.92 98.44-26.65 5.07-.41 10.2-.7 15.39-.88.63-.01 1.28-.03 1.91-.03.66 0 1.35.03 2.02.04 5.11.17 10.15.46 15.13.86 27.4 2.71 60.37 11.65 98.91 26.79 23.71 11.93 45.36 27.69 64.96 47.29 48 48 73 108.33 75.01 180.99-2.01 72.65-27.01 132.98-75.01 180.98z",
   fill: "currentColor"
-}, null, -1), r6 = /* @__PURE__ */ D("path", {
+}, null, -1), s6 = /* @__PURE__ */ D("path", {
   d: "M544 480H416v64h64v192h-64v64h192v-64h-64z",
   fill: "currentColor"
-}, null, -1), l6 = [
-  o6,
-  r6
+}, null, -1), d6 = [
+  i6,
+  s6
 ];
-function i6(o, t, n, a, e, r) {
-  return R(), z("svg", a6, l6);
+function c6(o, t, n, a, e, r) {
+  return R(), z("svg", l6, d6);
 }
-var s6 = /* @__PURE__ */ B(n6, [["render", i6], ["__file", "gold-medal.vue"]]), d6 = {
+var u6 = /* @__PURE__ */ B(r6, [["render", c6], ["__file", "gold-medal.vue"]]), f6 = {
   name: "GoodsFilled"
-}, c6 = {
+}, m6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, u6 = /* @__PURE__ */ D("path", {
+}, v6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 352h640l64 544H128l64-544zm128 224h64V448h-64v128zm320 0h64V448h-64v128zM384 288h-64a192 192 0 1 1 384 0h-64a128 128 0 1 0-256 0z"
-}, null, -1), f6 = [
-  u6
+}, null, -1), h6 = [
+  v6
 ];
-function m6(o, t, n, a, e, r) {
-  return R(), z("svg", c6, f6);
+function p6(o, t, n, a, e, r) {
+  return R(), z("svg", m6, h6);
 }
-var v6 = /* @__PURE__ */ B(d6, [["render", m6], ["__file", "goods-filled.vue"]]), h6 = {
+var g6 = /* @__PURE__ */ B(f6, [["render", p6], ["__file", "goods-filled.vue"]]), y6 = {
   name: "Goods"
-}, p6 = {
+}, A6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, g6 = /* @__PURE__ */ D("path", {
+}, _6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M320 288v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4h131.072a32 32 0 0 1 31.808 28.8l57.6 576a32 32 0 0 1-31.808 35.2H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320zm64 0h256v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4zm-64 64H217.92l-51.2 512h690.56l-51.264-512H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96z"
-}, null, -1), y6 = [
-  g6
+}, null, -1), x6 = [
+  _6
 ];
-function A6(o, t, n, a, e, r) {
-  return R(), z("svg", p6, y6);
+function w6(o, t, n, a, e, r) {
+  return R(), z("svg", A6, x6);
 }
-var _6 = /* @__PURE__ */ B(h6, [["render", A6], ["__file", "goods.vue"]]), x6 = {
+var E6 = /* @__PURE__ */ B(y6, [["render", w6], ["__file", "goods.vue"]]), C6 = {
   name: "Grape"
-}, w6 = {
+}, S6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, E6 = /* @__PURE__ */ D("path", {
+}, b6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 195.2a160 160 0 0 1 96 60.8 160 160 0 1 1 146.24 254.976 160 160 0 0 1-128 224 160 160 0 1 1-292.48 0 160 160 0 0 1-128-224A160 160 0 1 1 384 256a160 160 0 0 1 96-60.8V128h-64a32 32 0 0 1 0-64h192a32 32 0 0 1 0 64h-64v67.2zM512 448a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm-256 0a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm128 224a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm128 224a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm128-224a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm128-224a96 96 0 1 0 0-192 96 96 0 0 0 0 192z"
-}, null, -1), C6 = [
-  E6
+}, null, -1), D6 = [
+  b6
 ];
-function S6(o, t, n, a, e, r) {
-  return R(), z("svg", w6, C6);
+function M6(o, t, n, a, e, r) {
+  return R(), z("svg", S6, D6);
 }
-var b6 = /* @__PURE__ */ B(x6, [["render", S6], ["__file", "grape.vue"]]), D6 = {
+var T6 = /* @__PURE__ */ B(C6, [["render", M6], ["__file", "grape.vue"]]), R6 = {
   name: "Grid"
-}, M6 = {
+}, z6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, T6 = /* @__PURE__ */ D("path", {
+}, $6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 384v256H384V384h256zm64 0h192v256H704V384zm-64 512H384V704h256v192zm64 0V704h192v192H704zm-64-768v192H384V128h256zm64 0h192v192H704V128zM320 384v256H128V384h192zm0 512H128V704h192v192zm0-768v192H128V128h192z"
-}, null, -1), R6 = [
-  T6
+}, null, -1), H6 = [
+  $6
 ];
-function z6(o, t, n, a, e, r) {
-  return R(), z("svg", M6, R6);
+function I6(o, t, n, a, e, r) {
+  return R(), z("svg", z6, H6);
 }
-var $6 = /* @__PURE__ */ B(D6, [["render", z6], ["__file", "grid.vue"]]), H6 = {
+var B6 = /* @__PURE__ */ B(R6, [["render", I6], ["__file", "grid.vue"]]), P6 = {
   name: "Guide"
-}, I6 = {
+}, N6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, B6 = /* @__PURE__ */ D("path", {
+}, L6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 608h-64V416h64v192zm0 160v160a32 32 0 0 1-32 32H416a32 32 0 0 1-32-32V768h64v128h128V768h64zM384 608V416h64v192h-64zm256-352h-64V128H448v128h-64V96a32 32 0 0 1 32-32h192a32 32 0 0 1 32 32v160z"
-}, null, -1), P6 = /* @__PURE__ */ D("path", {
+}, null, -1), O6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m220.8 256-71.232 80 71.168 80H768V256H220.8zm-14.4-64H800a32 32 0 0 1 32 32v224a32 32 0 0 1-32 32H206.4a32 32 0 0 1-23.936-10.752l-99.584-112a32 32 0 0 1 0-42.496l99.584-112A32 32 0 0 1 206.4 192zm678.784 496-71.104 80H266.816V608h547.2l71.168 80zm-56.768-144H234.88a32 32 0 0 0-32 32v224a32 32 0 0 0 32 32h593.6a32 32 0 0 0 23.936-10.752l99.584-112a32 32 0 0 0 0-42.496l-99.584-112A32 32 0 0 0 828.48 544z"
-}, null, -1), N6 = [
-  B6,
-  P6
+}, null, -1), V6 = [
+  L6,
+  O6
 ];
-function L6(o, t, n, a, e, r) {
-  return R(), z("svg", I6, N6);
+function F6(o, t, n, a, e, r) {
+  return R(), z("svg", N6, V6);
 }
-var O6 = /* @__PURE__ */ B(H6, [["render", L6], ["__file", "guide.vue"]]), V6 = {
+var j6 = /* @__PURE__ */ B(P6, [["render", F6], ["__file", "guide.vue"]]), U6 = {
   name: "Handbag"
-}, F6 = {
+}, Q6 = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, j6 = /* @__PURE__ */ D("path", {
+}, k6 = /* @__PURE__ */ D("path", {
   d: "M887.01 264.99c-6-5.99-13.67-8.99-23.01-8.99H704c-1.34-54.68-20.01-100.01-56-136s-81.32-54.66-136-56c-54.68 1.34-100.01 20.01-136 56s-54.66 81.32-56 136H160c-9.35 0-17.02 3-23.01 8.99-5.99 6-8.99 13.67-8.99 23.01v640c0 9.35 2.99 17.02 8.99 23.01S150.66 960 160 960h704c9.35 0 17.02-2.99 23.01-8.99S896 937.34 896 928V288c0-9.35-2.99-17.02-8.99-23.01zM421.5 165.5c24.32-24.34 54.49-36.84 90.5-37.5 35.99.68 66.16 13.18 90.5 37.5s36.84 54.49 37.5 90.5H384c.68-35.99 13.18-66.16 37.5-90.5zM832 896H192V320h128v128h64V320h256v128h64V320h128v576z",
   fill: "currentColor"
-}, null, -1), U6 = [
-  j6
+}, null, -1), W6 = [
+  k6
 ];
-function Q6(o, t, n, a, e, r) {
-  return R(), z("svg", F6, U6);
+function G6(o, t, n, a, e, r) {
+  return R(), z("svg", Q6, W6);
 }
-var k6 = /* @__PURE__ */ B(V6, [["render", Q6], ["__file", "handbag.vue"]]), W6 = {
+var Y6 = /* @__PURE__ */ B(U6, [["render", G6], ["__file", "handbag.vue"]]), K6 = {
   name: "Headset"
-}, G6 = {
+}, J6 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Y6 = /* @__PURE__ */ D("path", {
+}, Z6 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M896 529.152V512a384 384 0 1 0-768 0v17.152A128 128 0 0 1 320 640v128a128 128 0 1 1-256 0V512a448 448 0 1 1 896 0v256a128 128 0 1 1-256 0V640a128 128 0 0 1 192-110.848zM896 640a64 64 0 0 0-128 0v128a64 64 0 0 0 128 0V640zm-768 0v128a64 64 0 0 0 128 0V640a64 64 0 1 0-128 0z"
-}, null, -1), K6 = [
-  Y6
+}, null, -1), X6 = [
+  Z6
 ];
-function J6(o, t, n, a, e, r) {
-  return R(), z("svg", G6, K6);
+function q6(o, t, n, a, e, r) {
+  return R(), z("svg", J6, X6);
 }
-var Z6 = /* @__PURE__ */ B(W6, [["render", J6], ["__file", "headset.vue"]]), X6 = {
+var e8 = /* @__PURE__ */ B(K6, [["render", q6], ["__file", "headset.vue"]]), t8 = {
   name: "HelpFilled"
-}, q6 = {
+}, n8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, e8 = /* @__PURE__ */ D("path", {
+}, a8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M926.784 480H701.312A192.512 192.512 0 0 0 544 322.688V97.216A416.064 416.064 0 0 1 926.784 480zm0 64A416.064 416.064 0 0 1 544 926.784V701.312A192.512 192.512 0 0 0 701.312 544h225.472zM97.28 544h225.472A192.512 192.512 0 0 0 480 701.312v225.472A416.064 416.064 0 0 1 97.216 544zm0-64A416.064 416.064 0 0 1 480 97.216v225.472A192.512 192.512 0 0 0 322.688 480H97.216z"
-}, null, -1), t8 = [
-  e8
+}, null, -1), o8 = [
+  a8
 ];
-function n8(o, t, n, a, e, r) {
-  return R(), z("svg", q6, t8);
+function r8(o, t, n, a, e, r) {
+  return R(), z("svg", n8, o8);
 }
-var a8 = /* @__PURE__ */ B(X6, [["render", n8], ["__file", "help-filled.vue"]]), o8 = {
+var l8 = /* @__PURE__ */ B(t8, [["render", r8], ["__file", "help-filled.vue"]]), i8 = {
   name: "Help"
-}, r8 = {
+}, s8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, l8 = /* @__PURE__ */ D("path", {
+}, d8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m759.936 805.248-90.944-91.008A254.912 254.912 0 0 1 512 768a254.912 254.912 0 0 1-156.992-53.76l-90.944 91.008A382.464 382.464 0 0 0 512 896c94.528 0 181.12-34.176 247.936-90.752zm45.312-45.312A382.464 382.464 0 0 0 896 512c0-94.528-34.176-181.12-90.752-247.936l-91.008 90.944C747.904 398.4 768 452.864 768 512c0 59.136-20.096 113.6-53.76 156.992l91.008 90.944zm-45.312-541.184A382.464 382.464 0 0 0 512 128c-94.528 0-181.12 34.176-247.936 90.752l90.944 91.008A254.912 254.912 0 0 1 512 256c59.136 0 113.6 20.096 156.992 53.76l90.944-91.008zm-541.184 45.312A382.464 382.464 0 0 0 128 512c0 94.528 34.176 181.12 90.752 247.936l91.008-90.944A254.912 254.912 0 0 1 256 512c0-59.136 20.096-113.6 53.76-156.992l-91.008-90.944zm417.28 394.496a194.56 194.56 0 0 0 22.528-22.528C686.912 602.56 704 559.232 704 512a191.232 191.232 0 0 0-67.968-146.56A191.296 191.296 0 0 0 512 320a191.232 191.232 0 0 0-146.56 67.968C337.088 421.44 320 464.768 320 512a191.232 191.232 0 0 0 67.968 146.56C421.44 686.912 464.768 704 512 704c47.296 0 90.56-17.088 124.032-45.44zM512 960a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), i8 = [
-  l8
+}, null, -1), c8 = [
+  d8
 ];
-function s8(o, t, n, a, e, r) {
-  return R(), z("svg", r8, i8);
+function u8(o, t, n, a, e, r) {
+  return R(), z("svg", s8, c8);
 }
-var d8 = /* @__PURE__ */ B(o8, [["render", s8], ["__file", "help.vue"]]), c8 = {
+var f8 = /* @__PURE__ */ B(i8, [["render", u8], ["__file", "help.vue"]]), m8 = {
   name: "Hide"
-}, u8 = {
+}, v8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, f8 = /* @__PURE__ */ D("path", {
+}, h8 = /* @__PURE__ */ D("path", {
   d: "M876.8 156.8c0-9.6-3.2-16-9.6-22.4-6.4-6.4-12.8-9.6-22.4-9.6-9.6 0-16 3.2-22.4 9.6L736 220.8c-64-32-137.6-51.2-224-60.8-160 16-288 73.6-377.6 176C44.8 438.4 0 496 0 512s48 73.6 134.4 176c22.4 25.6 44.8 48 73.6 67.2l-86.4 89.6c-6.4 6.4-9.6 12.8-9.6 22.4 0 9.6 3.2 16 9.6 22.4 6.4 6.4 12.8 9.6 22.4 9.6 9.6 0 16-3.2 22.4-9.6l704-710.4c3.2-6.4 6.4-12.8 6.4-22.4Zm-646.4 528c-76.8-70.4-128-128-153.6-172.8 28.8-48 80-105.6 153.6-172.8C304 272 400 230.4 512 224c64 3.2 124.8 19.2 176 44.8l-54.4 54.4C598.4 300.8 560 288 512 288c-64 0-115.2 22.4-160 64s-64 96-64 160c0 48 12.8 89.6 35.2 124.8L256 707.2c-9.6-6.4-19.2-16-25.6-22.4Zm140.8-96c-12.8-22.4-19.2-48-19.2-76.8 0-44.8 16-83.2 48-112 32-28.8 67.2-48 112-48 28.8 0 54.4 6.4 73.6 19.2L371.2 588.8ZM889.599 336c-12.8-16-28.8-28.8-41.6-41.6l-48 48c73.6 67.2 124.8 124.8 150.4 169.6-28.8 48-80 105.6-153.6 172.8-73.6 67.2-172.8 108.8-284.8 115.2-51.2-3.2-99.2-12.8-140.8-28.8l-48 48c57.6 22.4 118.4 38.4 188.8 44.8 160-16 288-73.6 377.6-176C979.199 585.6 1024 528 1024 512s-48.001-73.6-134.401-176Z",
   fill: "currentColor"
-}, null, -1), m8 = /* @__PURE__ */ D("path", {
+}, null, -1), p8 = /* @__PURE__ */ D("path", {
   d: "M511.998 672c-12.8 0-25.6-3.2-38.4-6.4l-51.2 51.2c28.8 12.8 57.6 19.2 89.6 19.2 64 0 115.2-22.4 160-64 41.6-41.6 64-96 64-160 0-32-6.4-64-19.2-89.6l-51.2 51.2c3.2 12.8 6.4 25.6 6.4 38.4 0 44.8-16 83.2-48 112-32 28.8-67.2 48-112 48Z",
   fill: "currentColor"
-}, null, -1), v8 = [
-  f8,
-  m8
+}, null, -1), g8 = [
+  h8,
+  p8
 ];
-function h8(o, t, n, a, e, r) {
-  return R(), z("svg", u8, v8);
+function y8(o, t, n, a, e, r) {
+  return R(), z("svg", v8, g8);
 }
-var p8 = /* @__PURE__ */ B(c8, [["render", h8], ["__file", "hide.vue"]]), g8 = {
+var A8 = /* @__PURE__ */ B(m8, [["render", y8], ["__file", "hide.vue"]]), _8 = {
   name: "Histogram"
-}, y8 = {
+}, x8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, A8 = /* @__PURE__ */ D("path", {
+}, w8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M416 896V128h192v768H416zm-288 0V448h192v448H128zm576 0V320h192v576H704z"
-}, null, -1), _8 = [
-  A8
+}, null, -1), E8 = [
+  w8
 ];
-function x8(o, t, n, a, e, r) {
-  return R(), z("svg", y8, _8);
+function C8(o, t, n, a, e, r) {
+  return R(), z("svg", x8, E8);
 }
-var w8 = /* @__PURE__ */ B(g8, [["render", x8], ["__file", "histogram.vue"]]), E8 = {
+var S8 = /* @__PURE__ */ B(_8, [["render", C8], ["__file", "histogram.vue"]]), b8 = {
   name: "HomeFilled"
-}, C8 = {
+}, D8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, S8 = /* @__PURE__ */ D("path", {
+}, M8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 128 128 447.936V896h255.936V640H640v256h255.936V447.936z"
-}, null, -1), b8 = [
-  S8
+}, null, -1), T8 = [
+  M8
 ];
-function D8(o, t, n, a, e, r) {
-  return R(), z("svg", C8, b8);
+function R8(o, t, n, a, e, r) {
+  return R(), z("svg", D8, T8);
 }
-var M8 = /* @__PURE__ */ B(E8, [["render", D8], ["__file", "home-filled.vue"]]), T8 = {
+var z8 = /* @__PURE__ */ B(b8, [["render", R8], ["__file", "home-filled.vue"]]), $8 = {
   name: "HotWater"
-}, R8 = {
+}, H8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, z8 = /* @__PURE__ */ D("path", {
+}, I8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M273.067 477.867h477.866V409.6H273.067v68.267zm0 68.266v51.2A187.733 187.733 0 0 0 460.8 785.067h102.4a187.733 187.733 0 0 0 187.733-187.734v-51.2H273.067zm-34.134-204.8h546.134a34.133 34.133 0 0 1 34.133 34.134v221.866a256 256 0 0 1-256 256H460.8a256 256 0 0 1-256-256V375.467a34.133 34.133 0 0 1 34.133-34.134zM512 34.133a34.133 34.133 0 0 1 34.133 34.134v170.666a34.133 34.133 0 0 1-68.266 0V68.267A34.133 34.133 0 0 1 512 34.133zM375.467 102.4a34.133 34.133 0 0 1 34.133 34.133v102.4a34.133 34.133 0 0 1-68.267 0v-102.4a34.133 34.133 0 0 1 34.134-34.133zm273.066 0a34.133 34.133 0 0 1 34.134 34.133v102.4a34.133 34.133 0 1 1-68.267 0v-102.4a34.133 34.133 0 0 1 34.133-34.133zM170.667 921.668h682.666a34.133 34.133 0 1 1 0 68.267H170.667a34.133 34.133 0 1 1 0-68.267z"
-}, null, -1), $8 = [
-  z8
+}, null, -1), B8 = [
+  I8
 ];
-function H8(o, t, n, a, e, r) {
-  return R(), z("svg", R8, $8);
+function P8(o, t, n, a, e, r) {
+  return R(), z("svg", H8, B8);
 }
-var I8 = /* @__PURE__ */ B(T8, [["render", H8], ["__file", "hot-water.vue"]]), B8 = {
+var N8 = /* @__PURE__ */ B($8, [["render", P8], ["__file", "hot-water.vue"]]), L8 = {
   name: "House"
-}, P8 = {
+}, O8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, N8 = /* @__PURE__ */ D("path", {
+}, V8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 413.952V896h640V413.952L512 147.328 192 413.952zM139.52 374.4l352-293.312a32 32 0 0 1 40.96 0l352 293.312A32 32 0 0 1 896 398.976V928a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V398.976a32 32 0 0 1 11.52-24.576z"
-}, null, -1), L8 = [
-  N8
+}, null, -1), F8 = [
+  V8
 ];
-function O8(o, t, n, a, e, r) {
-  return R(), z("svg", P8, L8);
+function j8(o, t, n, a, e, r) {
+  return R(), z("svg", O8, F8);
 }
-var V8 = /* @__PURE__ */ B(B8, [["render", O8], ["__file", "house.vue"]]), F8 = {
+var U8 = /* @__PURE__ */ B(L8, [["render", j8], ["__file", "house.vue"]]), Q8 = {
   name: "IceCreamRound"
-}, j8 = {
+}, k8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, U8 = /* @__PURE__ */ D("path", {
+}, W8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m308.352 489.344 226.304 226.304a32 32 0 0 0 45.248 0L783.552 512A192 192 0 1 0 512 240.448L308.352 444.16a32 32 0 0 0 0 45.248zm135.744 226.304L308.352 851.392a96 96 0 0 1-135.744-135.744l135.744-135.744-45.248-45.248a96 96 0 0 1 0-135.808L466.752 195.2A256 256 0 0 1 828.8 557.248L625.152 760.96a96 96 0 0 1-135.808 0l-45.248-45.248zM398.848 670.4 353.6 625.152 217.856 760.896a32 32 0 0 0 45.248 45.248L398.848 670.4zm248.96-384.64a32 32 0 0 1 0 45.248L466.624 512a32 32 0 1 1-45.184-45.248l180.992-181.056a32 32 0 0 1 45.248 0zm90.496 90.496a32 32 0 0 1 0 45.248L557.248 602.496A32 32 0 1 1 512 557.248l180.992-180.992a32 32 0 0 1 45.312 0z"
-}, null, -1), Q8 = [
-  U8
+}, null, -1), G8 = [
+  W8
 ];
-function k8(o, t, n, a, e, r) {
-  return R(), z("svg", j8, Q8);
+function Y8(o, t, n, a, e, r) {
+  return R(), z("svg", k8, G8);
 }
-var W8 = /* @__PURE__ */ B(F8, [["render", k8], ["__file", "ice-cream-round.vue"]]), G8 = {
+var K8 = /* @__PURE__ */ B(Q8, [["render", Y8], ["__file", "ice-cream-round.vue"]]), J8 = {
   name: "IceCreamSquare"
-}, Y8 = {
+}, Z8 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, K8 = /* @__PURE__ */ D("path", {
+}, X8 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M416 640h256a32 32 0 0 0 32-32V160a32 32 0 0 0-32-32H352a32 32 0 0 0-32 32v448a32 32 0 0 0 32 32h64zm192 64v160a96 96 0 0 1-192 0V704h-64a96 96 0 0 1-96-96V160a96 96 0 0 1 96-96h320a96 96 0 0 1 96 96v448a96 96 0 0 1-96 96h-64zm-64 0h-64v160a32 32 0 1 0 64 0V704z"
-}, null, -1), J8 = [
-  K8
+}, null, -1), q8 = [
+  X8
 ];
-function Z8(o, t, n, a, e, r) {
-  return R(), z("svg", Y8, J8);
+function eg(o, t, n, a, e, r) {
+  return R(), z("svg", Z8, q8);
 }
-var X8 = /* @__PURE__ */ B(G8, [["render", Z8], ["__file", "ice-cream-square.vue"]]), q8 = {
+var tg = /* @__PURE__ */ B(J8, [["render", eg], ["__file", "ice-cream-square.vue"]]), ng = {
   name: "IceCream"
-}, eg = {
+}, ag = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, tg = /* @__PURE__ */ D("path", {
+}, og = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128.64 448a208 208 0 0 1 193.536-191.552 224 224 0 0 1 445.248 15.488A208.128 208.128 0 0 1 894.784 448H896L548.8 983.68a32 32 0 0 1-53.248.704L128 448h.64zm64.256 0h286.208a144 144 0 0 0-286.208 0zm351.36 0h286.272a144 144 0 0 0-286.272 0zm-294.848 64 271.808 396.608L778.24 512H249.408zM511.68 352.64a207.872 207.872 0 0 1 189.184-96.192 160 160 0 0 0-314.752 5.632c52.608 12.992 97.28 46.08 125.568 90.56z"
-}, null, -1), ng = [
-  tg
+}, null, -1), rg = [
+  og
 ];
-function ag(o, t, n, a, e, r) {
-  return R(), z("svg", eg, ng);
+function lg(o, t, n, a, e, r) {
+  return R(), z("svg", ag, rg);
 }
-var og = /* @__PURE__ */ B(q8, [["render", ag], ["__file", "ice-cream.vue"]]), rg = {
+var ig = /* @__PURE__ */ B(ng, [["render", lg], ["__file", "ice-cream.vue"]]), sg = {
   name: "IceDrink"
-}, lg = {
+}, dg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ig = /* @__PURE__ */ D("path", {
+}, cg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 448v128h239.68l16.064-128H512zm-64 0H256.256l16.064 128H448V448zm64-255.36V384h247.744A256.128 256.128 0 0 0 512 192.64zm-64 8.064A256.448 256.448 0 0 0 264.256 384H448V200.704zm64-72.064A320.128 320.128 0 0 1 825.472 384H896a32 32 0 1 1 0 64h-64v1.92l-56.96 454.016A64 64 0 0 1 711.552 960H312.448a64 64 0 0 1-63.488-56.064L192 449.92V448h-64a32 32 0 0 1 0-64h70.528A320.384 320.384 0 0 1 448 135.04V96a96 96 0 0 1 96-96h128a32 32 0 1 1 0 64H544a32 32 0 0 0-32 32v32.64zM743.68 640H280.32l32.128 256h399.104l32.128-256z"
-}, null, -1), sg = [
-  ig
+}, null, -1), ug = [
+  cg
 ];
-function dg(o, t, n, a, e, r) {
-  return R(), z("svg", lg, sg);
+function fg(o, t, n, a, e, r) {
+  return R(), z("svg", dg, ug);
 }
-var cg = /* @__PURE__ */ B(rg, [["render", dg], ["__file", "ice-drink.vue"]]), ug = {
+var mg = /* @__PURE__ */ B(sg, [["render", fg], ["__file", "ice-drink.vue"]]), vg = {
   name: "IceTea"
-}, fg = {
+}, hg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, mg = /* @__PURE__ */ D("path", {
+}, pg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M197.696 259.648a320.128 320.128 0 0 1 628.608 0A96 96 0 0 1 896 352v64a96 96 0 0 1-71.616 92.864l-49.408 395.072A64 64 0 0 1 711.488 960H312.512a64 64 0 0 1-63.488-56.064l-49.408-395.072A96 96 0 0 1 128 416v-64a96 96 0 0 1 69.696-92.352zM264.064 256h495.872a256.128 256.128 0 0 0-495.872 0zm495.424 256H264.512l48 384h398.976l48-384zM224 448h576a32 32 0 0 0 32-32v-64a32 32 0 0 0-32-32H224a32 32 0 0 0-32 32v64a32 32 0 0 0 32 32zm160 192h64v64h-64v-64zm192 64h64v64h-64v-64zm-128 64h64v64h-64v-64zm64-192h64v64h-64v-64z"
-}, null, -1), vg = [
-  mg
+}, null, -1), gg = [
+  pg
 ];
-function hg(o, t, n, a, e, r) {
-  return R(), z("svg", fg, vg);
+function yg(o, t, n, a, e, r) {
+  return R(), z("svg", hg, gg);
 }
-var pg = /* @__PURE__ */ B(ug, [["render", hg], ["__file", "ice-tea.vue"]]), gg = {
+var Ag = /* @__PURE__ */ B(vg, [["render", yg], ["__file", "ice-tea.vue"]]), _g = {
   name: "InfoFilled"
-}, yg = {
+}, xg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ag = /* @__PURE__ */ D("path", {
+}, wg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896.064A448 448 0 0 1 512 64zm67.2 275.072c33.28 0 60.288-23.104 60.288-57.344s-27.072-57.344-60.288-57.344c-33.28 0-60.16 23.104-60.16 57.344s26.88 57.344 60.16 57.344zM590.912 699.2c0-6.848 2.368-24.64 1.024-34.752l-52.608 60.544c-10.88 11.456-24.512 19.392-30.912 17.28a12.992 12.992 0 0 1-8.256-14.72l87.68-276.992c7.168-35.136-12.544-67.2-54.336-71.296-44.096 0-108.992 44.736-148.48 101.504 0 6.784-1.28 23.68.064 33.792l52.544-60.608c10.88-11.328 23.552-19.328 29.952-17.152a12.8 12.8 0 0 1 7.808 16.128L388.48 728.576c-10.048 32.256 8.96 63.872 55.04 71.04 67.84 0 107.904-43.648 147.456-100.416z"
-}, null, -1), _g = [
-  Ag
+}, null, -1), Eg = [
+  wg
 ];
-function xg(o, t, n, a, e, r) {
-  return R(), z("svg", yg, _g);
+function Cg(o, t, n, a, e, r) {
+  return R(), z("svg", xg, Eg);
 }
-var Pa = /* @__PURE__ */ B(gg, [["render", xg], ["__file", "info-filled.vue"]]), wg = {
+var Na = /* @__PURE__ */ B(_g, [["render", Cg], ["__file", "info-filled.vue"]]), Sg = {
   name: "Iphone"
-}, Eg = {
+}, bg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Cg = /* @__PURE__ */ D("path", {
+}, Dg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 768v96.064a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64V768H224zm0-64h576V160a64 64 0 0 0-64-64H288a64 64 0 0 0-64 64v544zm32 288a96 96 0 0 1-96-96V128a96 96 0 0 1 96-96h512a96 96 0 0 1 96 96v768a96 96 0 0 1-96 96H256zm304-144a48 48 0 1 1-96 0 48 48 0 0 1 96 0z"
-}, null, -1), Sg = [
-  Cg
+}, null, -1), Mg = [
+  Dg
 ];
-function bg(o, t, n, a, e, r) {
-  return R(), z("svg", Eg, Sg);
+function Tg(o, t, n, a, e, r) {
+  return R(), z("svg", bg, Mg);
 }
-var Dg = /* @__PURE__ */ B(wg, [["render", bg], ["__file", "iphone.vue"]]), Mg = {
+var Rg = /* @__PURE__ */ B(Sg, [["render", Tg], ["__file", "iphone.vue"]]), zg = {
   name: "Key"
-}, Tg = {
+}, $g = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Rg = /* @__PURE__ */ D("path", {
+}, Hg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 456.064V96a32 32 0 0 1 32-32.064L672 64a32 32 0 0 1 0 64H512v128h160a32 32 0 0 1 0 64H512v128a256 256 0 1 1-64 8.064zM512 896a192 192 0 1 0 0-384 192 192 0 0 0 0 384z"
-}, null, -1), zg = [
-  Rg
+}, null, -1), Ig = [
+  Hg
 ];
-function $g(o, t, n, a, e, r) {
-  return R(), z("svg", Tg, zg);
+function Bg(o, t, n, a, e, r) {
+  return R(), z("svg", $g, Ig);
 }
-var Hg = /* @__PURE__ */ B(Mg, [["render", $g], ["__file", "key.vue"]]), Ig = {
+var Pg = /* @__PURE__ */ B(zg, [["render", Bg], ["__file", "key.vue"]]), Ng = {
   name: "KnifeFork"
-}, Bg = {
+}, Lg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Pg = /* @__PURE__ */ D("path", {
+}, Og = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 410.56V96a32 32 0 0 1 64 0v314.56A96 96 0 0 0 384 320V96a32 32 0 0 1 64 0v224a160 160 0 0 1-128 156.8V928a32 32 0 1 1-64 0V476.8A160 160 0 0 1 128 320V96a32 32 0 0 1 64 0v224a96 96 0 0 0 64 90.56zm384-250.24V544h126.72c-3.328-78.72-12.928-147.968-28.608-207.744-14.336-54.528-46.848-113.344-98.112-175.872zM640 608v320a32 32 0 1 1-64 0V64h64c85.312 89.472 138.688 174.848 160 256 21.312 81.152 32 177.152 32 288H640z"
-}, null, -1), Ng = [
-  Pg
+}, null, -1), Vg = [
+  Og
 ];
-function Lg(o, t, n, a, e, r) {
-  return R(), z("svg", Bg, Ng);
+function Fg(o, t, n, a, e, r) {
+  return R(), z("svg", Lg, Vg);
 }
-var Og = /* @__PURE__ */ B(Ig, [["render", Lg], ["__file", "knife-fork.vue"]]), Vg = {
+var jg = /* @__PURE__ */ B(Ng, [["render", Fg], ["__file", "knife-fork.vue"]]), Ug = {
   name: "Lightning"
-}, Fg = {
+}, Qg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, jg = /* @__PURE__ */ D("path", {
+}, kg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 671.36v64.128A239.808 239.808 0 0 1 63.744 496.192a240.32 240.32 0 0 1 199.488-236.8 256.128 256.128 0 0 1 487.872-30.976A256.064 256.064 0 0 1 736 734.016v-64.768a192 192 0 0 0 3.328-377.92l-35.2-6.592-12.8-33.408a192.064 192.064 0 0 0-365.952 23.232l-9.92 40.896-41.472 7.04a176.32 176.32 0 0 0-146.24 173.568c0 91.968 70.464 167.36 160.256 175.232z"
-}, null, -1), Ug = /* @__PURE__ */ D("path", {
+}, null, -1), Wg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M416 736a32 32 0 0 1-27.776-47.872l128-224a32 32 0 1 1 55.552 31.744L471.168 672H608a32 32 0 0 1 27.776 47.872l-128 224a32 32 0 1 1-55.68-31.744L552.96 736H416z"
-}, null, -1), Qg = [
-  jg,
-  Ug
+}, null, -1), Gg = [
+  kg,
+  Wg
 ];
-function kg(o, t, n, a, e, r) {
-  return R(), z("svg", Fg, Qg);
+function Yg(o, t, n, a, e, r) {
+  return R(), z("svg", Qg, Gg);
 }
-var Wg = /* @__PURE__ */ B(Vg, [["render", kg], ["__file", "lightning.vue"]]), Gg = {
+var Kg = /* @__PURE__ */ B(Ug, [["render", Yg], ["__file", "lightning.vue"]]), Jg = {
   name: "Link"
-}, Yg = {
+}, Zg = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Kg = /* @__PURE__ */ D("path", {
+}, Xg = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M715.648 625.152 670.4 579.904l90.496-90.56c75.008-74.944 85.12-186.368 22.656-248.896-62.528-62.464-173.952-52.352-248.96 22.656L444.16 353.6l-45.248-45.248 90.496-90.496c100.032-99.968 251.968-110.08 339.456-22.656 87.488 87.488 77.312 239.424-22.656 339.456l-90.496 90.496zm-90.496 90.496-90.496 90.496C434.624 906.112 282.688 916.224 195.2 828.8c-87.488-87.488-77.312-239.424 22.656-339.456l90.496-90.496 45.248 45.248-90.496 90.56c-75.008 74.944-85.12 186.368-22.656 248.896 62.528 62.464 173.952 52.352 248.96-22.656l90.496-90.496 45.248 45.248zm0-362.048 45.248 45.248L398.848 670.4 353.6 625.152 625.152 353.6z"
-}, null, -1), Jg = [
-  Kg
+}, null, -1), qg = [
+  Xg
 ];
-function Zg(o, t, n, a, e, r) {
-  return R(), z("svg", Yg, Jg);
+function e5(o, t, n, a, e, r) {
+  return R(), z("svg", Zg, qg);
 }
-var Xg = /* @__PURE__ */ B(Gg, [["render", Zg], ["__file", "link.vue"]]), qg = {
+var t5 = /* @__PURE__ */ B(Jg, [["render", e5], ["__file", "link.vue"]]), n5 = {
   name: "List"
-}, e5 = {
+}, a5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, t5 = /* @__PURE__ */ D("path", {
+}, o5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 192h160v736H160V192h160v64h384v-64zM288 512h448v-64H288v64zm0 256h448v-64H288v64zm96-576V96h256v96H384z"
-}, null, -1), n5 = [
-  t5
+}, null, -1), r5 = [
+  o5
 ];
-function a5(o, t, n, a, e, r) {
-  return R(), z("svg", e5, n5);
+function l5(o, t, n, a, e, r) {
+  return R(), z("svg", a5, r5);
 }
-var o5 = /* @__PURE__ */ B(qg, [["render", a5], ["__file", "list.vue"]]), r5 = {
+var i5 = /* @__PURE__ */ B(n5, [["render", l5], ["__file", "list.vue"]]), s5 = {
   name: "Loading"
-}, l5 = {
+}, d5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, i5 = /* @__PURE__ */ D("path", {
+}, c5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a32 32 0 0 1 32 32v192a32 32 0 0 1-64 0V96a32 32 0 0 1 32-32zm0 640a32 32 0 0 1 32 32v192a32 32 0 1 1-64 0V736a32 32 0 0 1 32-32zm448-192a32 32 0 0 1-32 32H736a32 32 0 1 1 0-64h192a32 32 0 0 1 32 32zm-640 0a32 32 0 0 1-32 32H96a32 32 0 0 1 0-64h192a32 32 0 0 1 32 32zM195.2 195.2a32 32 0 0 1 45.248 0L376.32 331.008a32 32 0 0 1-45.248 45.248L195.2 240.448a32 32 0 0 1 0-45.248zm452.544 452.544a32 32 0 0 1 45.248 0L828.8 783.552a32 32 0 0 1-45.248 45.248L647.744 692.992a32 32 0 0 1 0-45.248zM828.8 195.264a32 32 0 0 1 0 45.184L692.992 376.32a32 32 0 0 1-45.248-45.248l135.808-135.808a32 32 0 0 1 45.248 0zm-452.544 452.48a32 32 0 0 1 0 45.248L240.448 828.8a32 32 0 0 1-45.248-45.248l135.808-135.808a32 32 0 0 1 45.248 0z"
-}, null, -1), s5 = [
-  i5
+}, null, -1), u5 = [
+  c5
 ];
-function d5(o, t, n, a, e, r) {
-  return R(), z("svg", l5, s5);
+function f5(o, t, n, a, e, r) {
+  return R(), z("svg", d5, u5);
 }
-var c5 = /* @__PURE__ */ B(r5, [["render", d5], ["__file", "loading.vue"]]), u5 = {
+var m5 = /* @__PURE__ */ B(s5, [["render", f5], ["__file", "loading.vue"]]), v5 = {
   name: "LocationFilled"
-}, f5 = {
+}, h5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, m5 = /* @__PURE__ */ D("path", {
+}, p5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 928c23.936 0 117.504-68.352 192.064-153.152C803.456 661.888 864 535.808 864 416c0-189.632-155.84-320-352-320S160 226.368 160 416c0 120.32 60.544 246.4 159.936 359.232C394.432 859.84 488 928 512 928zm0-435.2a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 140.8a204.8 204.8 0 1 1 0-409.6 204.8 204.8 0 0 1 0 409.6z"
-}, null, -1), v5 = [
-  m5
+}, null, -1), g5 = [
+  p5
 ];
-function h5(o, t, n, a, e, r) {
-  return R(), z("svg", f5, v5);
+function y5(o, t, n, a, e, r) {
+  return R(), z("svg", h5, g5);
 }
-var p5 = /* @__PURE__ */ B(u5, [["render", h5], ["__file", "location-filled.vue"]]), g5 = {
+var A5 = /* @__PURE__ */ B(v5, [["render", y5], ["__file", "location-filled.vue"]]), _5 = {
   name: "LocationInformation"
-}, y5 = {
+}, x5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, A5 = /* @__PURE__ */ D("path", {
+}, w5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 896h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), _5 = /* @__PURE__ */ D("path", {
+}, null, -1), E5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z"
-}, null, -1), x5 = /* @__PURE__ */ D("path", {
+}, null, -1), C5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z"
-}, null, -1), w5 = [
-  A5,
-  _5,
-  x5
+}, null, -1), S5 = [
+  w5,
+  E5,
+  C5
 ];
-function E5(o, t, n, a, e, r) {
-  return R(), z("svg", y5, w5);
+function b5(o, t, n, a, e, r) {
+  return R(), z("svg", x5, S5);
 }
-var C5 = /* @__PURE__ */ B(g5, [["render", E5], ["__file", "location-information.vue"]]), S5 = {
+var D5 = /* @__PURE__ */ B(_5, [["render", b5], ["__file", "location-information.vue"]]), M5 = {
   name: "Location"
-}, b5 = {
+}, T5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, D5 = /* @__PURE__ */ D("path", {
+}, R5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z"
-}, null, -1), M5 = /* @__PURE__ */ D("path", {
+}, null, -1), z5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 512a96 96 0 1 0 0-192 96 96 0 0 0 0 192zm0 64a160 160 0 1 1 0-320 160 160 0 0 1 0 320z"
-}, null, -1), T5 = [
-  D5,
-  M5
+}, null, -1), $5 = [
+  R5,
+  z5
 ];
-function R5(o, t, n, a, e, r) {
-  return R(), z("svg", b5, T5);
+function H5(o, t, n, a, e, r) {
+  return R(), z("svg", T5, $5);
 }
-var z5 = /* @__PURE__ */ B(S5, [["render", R5], ["__file", "location.vue"]]), $5 = {
+var I5 = /* @__PURE__ */ B(M5, [["render", H5], ["__file", "location.vue"]]), B5 = {
   name: "Lock"
-}, H5 = {
+}, P5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, I5 = /* @__PURE__ */ D("path", {
+}, N5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 448a32 32 0 0 0-32 32v384a32 32 0 0 0 32 32h576a32 32 0 0 0 32-32V480a32 32 0 0 0-32-32H224zm0-64h576a96 96 0 0 1 96 96v384a96 96 0 0 1-96 96H224a96 96 0 0 1-96-96V480a96 96 0 0 1 96-96z"
-}, null, -1), B5 = /* @__PURE__ */ D("path", {
+}, null, -1), L5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 544a32 32 0 0 1 32 32v192a32 32 0 1 1-64 0V576a32 32 0 0 1 32-32zm192-160v-64a192 192 0 1 0-384 0v64h384zM512 64a256 256 0 0 1 256 256v128H256V320A256 256 0 0 1 512 64z"
-}, null, -1), P5 = [
-  I5,
-  B5
+}, null, -1), O5 = [
+  N5,
+  L5
 ];
-function N5(o, t, n, a, e, r) {
-  return R(), z("svg", H5, P5);
+function V5(o, t, n, a, e, r) {
+  return R(), z("svg", P5, O5);
 }
-var L5 = /* @__PURE__ */ B($5, [["render", N5], ["__file", "lock.vue"]]), O5 = {
+var F5 = /* @__PURE__ */ B(B5, [["render", V5], ["__file", "lock.vue"]]), j5 = {
   name: "Lollipop"
-}, V5 = {
+}, U5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, F5 = /* @__PURE__ */ D("path", {
+}, Q5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M513.28 448a64 64 0 1 1 76.544 49.728A96 96 0 0 0 768 448h64a160 160 0 0 1-320 0h1.28zm-126.976-29.696a256 256 0 1 0 43.52-180.48A256 256 0 0 1 832 448h-64a192 192 0 0 0-381.696-29.696zm105.664 249.472L285.696 874.048a96 96 0 0 1-135.68-135.744l206.208-206.272a320 320 0 1 1 135.744 135.744zm-54.464-36.032a321.92 321.92 0 0 1-45.248-45.248L195.2 783.552a32 32 0 1 0 45.248 45.248l197.056-197.12z"
-}, null, -1), j5 = [
-  F5
+}, null, -1), k5 = [
+  Q5
 ];
-function U5(o, t, n, a, e, r) {
-  return R(), z("svg", V5, j5);
+function W5(o, t, n, a, e, r) {
+  return R(), z("svg", U5, k5);
 }
-var Q5 = /* @__PURE__ */ B(O5, [["render", U5], ["__file", "lollipop.vue"]]), k5 = {
+var G5 = /* @__PURE__ */ B(j5, [["render", W5], ["__file", "lollipop.vue"]]), Y5 = {
   name: "MagicStick"
-}, W5 = {
+}, K5 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, G5 = /* @__PURE__ */ D("path", {
+}, J5 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64h64v192h-64V64zm0 576h64v192h-64V640zM160 480v-64h192v64H160zm576 0v-64h192v64H736zM249.856 199.04l45.248-45.184L430.848 289.6 385.6 334.848 249.856 199.104zM657.152 606.4l45.248-45.248 135.744 135.744-45.248 45.248L657.152 606.4zM114.048 923.2 68.8 877.952l316.8-316.8 45.248 45.248-316.8 316.8zM702.4 334.848 657.152 289.6l135.744-135.744 45.248 45.248L702.4 334.848z"
-}, null, -1), Y5 = [
-  G5
+}, null, -1), Z5 = [
+  J5
 ];
-function K5(o, t, n, a, e, r) {
-  return R(), z("svg", W5, Y5);
+function X5(o, t, n, a, e, r) {
+  return R(), z("svg", K5, Z5);
 }
-var J5 = /* @__PURE__ */ B(k5, [["render", K5], ["__file", "magic-stick.vue"]]), Z5 = {
+var q5 = /* @__PURE__ */ B(Y5, [["render", X5], ["__file", "magic-stick.vue"]]), e9 = {
   name: "Magnet"
-}, X5 = {
+}, t9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, q5 = /* @__PURE__ */ D("path", {
+}, n9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 320V192H704v320a192 192 0 1 1-384 0V192H192v128h128v64H192v128a320 320 0 0 0 640 0V384H704v-64h128zM640 512V128h256v384a384 384 0 1 1-768 0V128h256v384a128 128 0 1 0 256 0z"
-}, null, -1), e9 = [
-  q5
+}, null, -1), a9 = [
+  n9
 ];
-function t9(o, t, n, a, e, r) {
-  return R(), z("svg", X5, e9);
+function o9(o, t, n, a, e, r) {
+  return R(), z("svg", t9, a9);
 }
-var n9 = /* @__PURE__ */ B(Z5, [["render", t9], ["__file", "magnet.vue"]]), a9 = {
+var r9 = /* @__PURE__ */ B(e9, [["render", o9], ["__file", "magnet.vue"]]), l9 = {
   name: "Male"
-}, o9 = {
+}, i9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, r9 = /* @__PURE__ */ D("path", {
+}, s9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M399.5 849.5a225 225 0 1 0 0-450 225 225 0 0 0 0 450zm0 56.25a281.25 281.25 0 1 1 0-562.5 281.25 281.25 0 0 1 0 562.5zm253.125-787.5h225q28.125 0 28.125 28.125T877.625 174.5h-225q-28.125 0-28.125-28.125t28.125-28.125z"
-}, null, -1), l9 = /* @__PURE__ */ D("path", {
+}, null, -1), d9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M877.625 118.25q28.125 0 28.125 28.125v225q0 28.125-28.125 28.125T849.5 371.375v-225q0-28.125 28.125-28.125z"
-}, null, -1), i9 = /* @__PURE__ */ D("path", {
+}, null, -1), c9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M604.813 458.9 565.1 419.131l292.613-292.668 39.825 39.824z"
-}, null, -1), s9 = [
-  r9,
-  l9,
-  i9
+}, null, -1), u9 = [
+  s9,
+  d9,
+  c9
 ];
-function d9(o, t, n, a, e, r) {
-  return R(), z("svg", o9, s9);
+function f9(o, t, n, a, e, r) {
+  return R(), z("svg", i9, u9);
 }
-var c9 = /* @__PURE__ */ B(a9, [["render", d9], ["__file", "male.vue"]]), u9 = {
+var m9 = /* @__PURE__ */ B(l9, [["render", f9], ["__file", "male.vue"]]), v9 = {
   name: "Management"
-}, f9 = {
+}, h9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, m9 = /* @__PURE__ */ D("path", {
+}, p9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M576 128v288l96-96 96 96V128h128v768H320V128h256zm-448 0h128v768H128V128z"
-}, null, -1), v9 = [
-  m9
+}, null, -1), g9 = [
+  p9
 ];
-function h9(o, t, n, a, e, r) {
-  return R(), z("svg", f9, v9);
+function y9(o, t, n, a, e, r) {
+  return R(), z("svg", h9, g9);
 }
-var p9 = /* @__PURE__ */ B(u9, [["render", h9], ["__file", "management.vue"]]), g9 = {
+var A9 = /* @__PURE__ */ B(v9, [["render", y9], ["__file", "management.vue"]]), _9 = {
   name: "MapLocation"
-}, y9 = {
+}, x9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, A9 = /* @__PURE__ */ D("path", {
+}, w9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M800 416a288 288 0 1 0-576 0c0 118.144 94.528 272.128 288 456.576C705.472 688.128 800 534.144 800 416zM512 960C277.312 746.688 160 565.312 160 416a352 352 0 0 1 704 0c0 149.312-117.312 330.688-352 544z"
-}, null, -1), _9 = /* @__PURE__ */ D("path", {
+}, null, -1), E9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 448a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256zm345.6 192L960 960H672v-64H352v64H64l102.4-256h691.2zm-68.928 0H235.328l-76.8 192h706.944l-76.8-192z"
-}, null, -1), x9 = [
-  A9,
-  _9
+}, null, -1), C9 = [
+  w9,
+  E9
 ];
-function w9(o, t, n, a, e, r) {
-  return R(), z("svg", y9, x9);
+function S9(o, t, n, a, e, r) {
+  return R(), z("svg", x9, C9);
 }
-var E9 = /* @__PURE__ */ B(g9, [["render", w9], ["__file", "map-location.vue"]]), C9 = {
+var b9 = /* @__PURE__ */ B(_9, [["render", S9], ["__file", "map-location.vue"]]), D9 = {
   name: "Medal"
-}, S9 = {
+}, M9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, b9 = /* @__PURE__ */ D("path", {
+}, T9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a256 256 0 1 0 0-512 256 256 0 0 0 0 512zm0 64a320 320 0 1 1 0-640 320 320 0 0 1 0 640z"
-}, null, -1), D9 = /* @__PURE__ */ D("path", {
+}, null, -1), R9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M576 128H448v200a286.72 286.72 0 0 1 64-8c19.52 0 40.832 2.688 64 8V128zm64 0v219.648c24.448 9.088 50.56 20.416 78.4 33.92L757.44 128H640zm-256 0H266.624l39.04 253.568c27.84-13.504 53.888-24.832 78.336-33.92V128zM229.312 64h565.376a32 32 0 0 1 31.616 36.864L768 480c-113.792-64-199.104-96-256-96-56.896 0-142.208 32-256 96l-58.304-379.136A32 32 0 0 1 229.312 64z"
-}, null, -1), M9 = [
-  b9,
-  D9
+}, null, -1), z9 = [
+  T9,
+  R9
 ];
-function T9(o, t, n, a, e, r) {
-  return R(), z("svg", S9, M9);
+function $9(o, t, n, a, e, r) {
+  return R(), z("svg", M9, z9);
 }
-var R9 = /* @__PURE__ */ B(C9, [["render", T9], ["__file", "medal.vue"]]), z9 = {
+var H9 = /* @__PURE__ */ B(D9, [["render", $9], ["__file", "medal.vue"]]), I9 = {
   name: "Memo"
-}, $9 = {
+}, B9 = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, H9 = /* @__PURE__ */ D("path", {
+}, P9 = /* @__PURE__ */ D("path", {
   d: "M480 320h192c21.33 0 32-10.67 32-32s-10.67-32-32-32H480c-21.33 0-32 10.67-32 32s10.67 32 32 32z",
   fill: "currentColor"
-}, null, -1), I9 = /* @__PURE__ */ D("path", {
+}, null, -1), N9 = /* @__PURE__ */ D("path", {
   d: "M887.01 72.99C881.01 67 873.34 64 864 64H160c-9.35 0-17.02 3-23.01 8.99C131 78.99 128 86.66 128 96v832c0 9.35 2.99 17.02 8.99 23.01S150.66 960 160 960h704c9.35 0 17.02-2.99 23.01-8.99S896 937.34 896 928V96c0-9.35-3-17.02-8.99-23.01zM192 896V128h96v768h-96zm640 0H352V128h480v768z",
   fill: "currentColor"
-}, null, -1), B9 = /* @__PURE__ */ D("path", {
+}, null, -1), L9 = /* @__PURE__ */ D("path", {
   d: "M480 512h192c21.33 0 32-10.67 32-32s-10.67-32-32-32H480c-21.33 0-32 10.67-32 32s10.67 32 32 32zm0 192h192c21.33 0 32-10.67 32-32s-10.67-32-32-32H480c-21.33 0-32 10.67-32 32s10.67 32 32 32z",
   fill: "currentColor"
-}, null, -1), P9 = [
-  H9,
-  I9,
-  B9
+}, null, -1), O9 = [
+  P9,
+  N9,
+  L9
 ];
-function N9(o, t, n, a, e, r) {
-  return R(), z("svg", $9, P9);
+function V9(o, t, n, a, e, r) {
+  return R(), z("svg", B9, O9);
 }
-var L9 = /* @__PURE__ */ B(z9, [["render", N9], ["__file", "memo.vue"]]), O9 = {
+var F9 = /* @__PURE__ */ B(I9, [["render", V9], ["__file", "memo.vue"]]), j9 = {
   name: "Menu"
-}, V9 = {
+}, U9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, F9 = /* @__PURE__ */ D("path", {
+}, Q9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 448a32 32 0 0 1-32-32V160.064a32 32 0 0 1 32-32h256a32 32 0 0 1 32 32V416a32 32 0 0 1-32 32H160zm448 0a32 32 0 0 1-32-32V160.064a32 32 0 0 1 32-32h255.936a32 32 0 0 1 32 32V416a32 32 0 0 1-32 32H608zM160 896a32 32 0 0 1-32-32V608a32 32 0 0 1 32-32h256a32 32 0 0 1 32 32v256a32 32 0 0 1-32 32H160zm448 0a32 32 0 0 1-32-32V608a32 32 0 0 1 32-32h255.936a32 32 0 0 1 32 32v256a32 32 0 0 1-32 32H608z"
-}, null, -1), j9 = [
-  F9
+}, null, -1), k9 = [
+  Q9
 ];
-function U9(o, t, n, a, e, r) {
-  return R(), z("svg", V9, j9);
+function W9(o, t, n, a, e, r) {
+  return R(), z("svg", U9, k9);
 }
-var Q9 = /* @__PURE__ */ B(O9, [["render", U9], ["__file", "menu.vue"]]), k9 = {
+var G9 = /* @__PURE__ */ B(j9, [["render", W9], ["__file", "menu.vue"]]), Y9 = {
   name: "MessageBox"
-}, W9 = {
+}, K9 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, G9 = /* @__PURE__ */ D("path", {
+}, J9 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 384h448v64H288v-64zm96-128h256v64H384v-64zM131.456 512H384v128h256V512h252.544L721.856 192H302.144L131.456 512zM896 576H704v128H320V576H128v256h768V576zM275.776 128h472.448a32 32 0 0 1 28.608 17.664l179.84 359.552A32 32 0 0 1 960 519.552V864a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V519.552a32 32 0 0 1 3.392-14.336l179.776-359.552A32 32 0 0 1 275.776 128z"
-}, null, -1), Y9 = [
-  G9
+}, null, -1), Z9 = [
+  J9
 ];
-function K9(o, t, n, a, e, r) {
-  return R(), z("svg", W9, Y9);
+function X9(o, t, n, a, e, r) {
+  return R(), z("svg", K9, Z9);
 }
-var J9 = /* @__PURE__ */ B(k9, [["render", K9], ["__file", "message-box.vue"]]), Z9 = {
+var q9 = /* @__PURE__ */ B(Y9, [["render", X9], ["__file", "message-box.vue"]]), e7 = {
   name: "Message"
-}, X9 = {
+}, t7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, q9 = /* @__PURE__ */ D("path", {
+}, n7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 224v512a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V224H128zm0-64h768a64 64 0 0 1 64 64v512a128 128 0 0 1-128 128H192A128 128 0 0 1 64 736V224a64 64 0 0 1 64-64z"
-}, null, -1), e7 = /* @__PURE__ */ D("path", {
+}, null, -1), a7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M904 224 656.512 506.88a192 192 0 0 1-289.024 0L120 224h784zm-698.944 0 210.56 240.704a128 128 0 0 0 192.704 0L818.944 224H205.056z"
-}, null, -1), t7 = [
-  q9,
-  e7
+}, null, -1), o7 = [
+  n7,
+  a7
 ];
-function n7(o, t, n, a, e, r) {
-  return R(), z("svg", X9, t7);
+function r7(o, t, n, a, e, r) {
+  return R(), z("svg", t7, o7);
 }
-var a7 = /* @__PURE__ */ B(Z9, [["render", n7], ["__file", "message.vue"]]), o7 = {
+var l7 = /* @__PURE__ */ B(e7, [["render", r7], ["__file", "message.vue"]]), i7 = {
   name: "Mic"
-}, r7 = {
+}, s7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, l7 = /* @__PURE__ */ D("path", {
+}, d7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 704h160a64 64 0 0 0 64-64v-32h-96a32 32 0 0 1 0-64h96v-96h-96a32 32 0 0 1 0-64h96v-96h-96a32 32 0 0 1 0-64h96v-32a64 64 0 0 0-64-64H384a64 64 0 0 0-64 64v32h96a32 32 0 0 1 0 64h-96v96h96a32 32 0 0 1 0 64h-96v96h96a32 32 0 0 1 0 64h-96v32a64 64 0 0 0 64 64h96zm64 64v128h192a32 32 0 1 1 0 64H288a32 32 0 1 1 0-64h192V768h-96a128 128 0 0 1-128-128V192A128 128 0 0 1 384 64h256a128 128 0 0 1 128 128v448a128 128 0 0 1-128 128h-96z"
-}, null, -1), i7 = [
-  l7
+}, null, -1), c7 = [
+  d7
 ];
-function s7(o, t, n, a, e, r) {
-  return R(), z("svg", r7, i7);
+function u7(o, t, n, a, e, r) {
+  return R(), z("svg", s7, c7);
 }
-var d7 = /* @__PURE__ */ B(o7, [["render", s7], ["__file", "mic.vue"]]), c7 = {
+var f7 = /* @__PURE__ */ B(i7, [["render", u7], ["__file", "mic.vue"]]), m7 = {
   name: "Microphone"
-}, u7 = {
+}, v7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, f7 = /* @__PURE__ */ D("path", {
+}, h7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 128a128 128 0 0 0-128 128v256a128 128 0 1 0 256 0V256a128 128 0 0 0-128-128zm0-64a192 192 0 0 1 192 192v256a192 192 0 1 1-384 0V256A192 192 0 0 1 512 64zm-32 832v-64a288 288 0 0 1-288-288v-32a32 32 0 0 1 64 0v32a224 224 0 0 0 224 224h64a224 224 0 0 0 224-224v-32a32 32 0 1 1 64 0v32a288 288 0 0 1-288 288v64h64a32 32 0 1 1 0 64H416a32 32 0 1 1 0-64h64z"
-}, null, -1), m7 = [
-  f7
+}, null, -1), p7 = [
+  h7
 ];
-function v7(o, t, n, a, e, r) {
-  return R(), z("svg", u7, m7);
+function g7(o, t, n, a, e, r) {
+  return R(), z("svg", v7, p7);
 }
-var h7 = /* @__PURE__ */ B(c7, [["render", v7], ["__file", "microphone.vue"]]), p7 = {
+var y7 = /* @__PURE__ */ B(m7, [["render", g7], ["__file", "microphone.vue"]]), A7 = {
   name: "MilkTea"
-}, g7 = {
+}, _7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, y7 = /* @__PURE__ */ D("path", {
+}, x7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M416 128V96a96 96 0 0 1 96-96h128a32 32 0 1 1 0 64H512a32 32 0 0 0-32 32v32h320a96 96 0 0 1 11.712 191.296l-39.68 581.056A64 64 0 0 1 708.224 960H315.776a64 64 0 0 1-63.872-59.648l-39.616-581.056A96 96 0 0 1 224 128h192zM276.48 320l39.296 576h392.448l4.8-70.784a224.064 224.064 0 0 1 30.016-439.808L747.52 320H276.48zM224 256h576a32 32 0 1 0 0-64H224a32 32 0 0 0 0 64zm493.44 503.872 21.12-309.12a160 160 0 0 0-21.12 309.12z"
-}, null, -1), A7 = [
-  y7
+}, null, -1), w7 = [
+  x7
 ];
-function _7(o, t, n, a, e, r) {
-  return R(), z("svg", g7, A7);
+function E7(o, t, n, a, e, r) {
+  return R(), z("svg", _7, w7);
 }
-var x7 = /* @__PURE__ */ B(p7, [["render", _7], ["__file", "milk-tea.vue"]]), w7 = {
+var C7 = /* @__PURE__ */ B(A7, [["render", E7], ["__file", "milk-tea.vue"]]), S7 = {
   name: "Minus"
-}, E7 = {
+}, b7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, C7 = /* @__PURE__ */ D("path", {
+}, D7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 544h768a32 32 0 1 0 0-64H128a32 32 0 0 0 0 64z"
-}, null, -1), S7 = [
-  C7
+}, null, -1), M7 = [
+  D7
 ];
-function b7(o, t, n, a, e, r) {
-  return R(), z("svg", E7, S7);
+function T7(o, t, n, a, e, r) {
+  return R(), z("svg", b7, M7);
 }
-var D7 = /* @__PURE__ */ B(w7, [["render", b7], ["__file", "minus.vue"]]), M7 = {
+var R7 = /* @__PURE__ */ B(S7, [["render", T7], ["__file", "minus.vue"]]), z7 = {
   name: "Money"
-}, T7 = {
+}, $7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, R7 = /* @__PURE__ */ D("path", {
+}, H7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 640v192h640V384H768v-64h150.976c14.272 0 19.456 1.472 24.64 4.288a29.056 29.056 0 0 1 12.16 12.096c2.752 5.184 4.224 10.368 4.224 24.64v493.952c0 14.272-1.472 19.456-4.288 24.64a29.056 29.056 0 0 1-12.096 12.16c-5.184 2.752-10.368 4.224-24.64 4.224H233.024c-14.272 0-19.456-1.472-24.64-4.288a29.056 29.056 0 0 1-12.16-12.096c-2.688-5.184-4.224-10.368-4.224-24.576V640h64z"
-}, null, -1), z7 = /* @__PURE__ */ D("path", {
+}, null, -1), I7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 192H128v448h640V192zm64-22.976v493.952c0 14.272-1.472 19.456-4.288 24.64a29.056 29.056 0 0 1-12.096 12.16c-5.184 2.752-10.368 4.224-24.64 4.224H105.024c-14.272 0-19.456-1.472-24.64-4.288a29.056 29.056 0 0 1-12.16-12.096C65.536 682.432 64 677.248 64 663.04V169.024c0-14.272 1.472-19.456 4.288-24.64a29.056 29.056 0 0 1 12.096-12.16C85.568 129.536 90.752 128 104.96 128h685.952c14.272 0 19.456 1.472 24.64 4.288a29.056 29.056 0 0 1 12.16 12.096c2.752 5.184 4.224 10.368 4.224 24.64z"
-}, null, -1), $7 = /* @__PURE__ */ D("path", {
+}, null, -1), B7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 576a160 160 0 1 1 0-320 160 160 0 0 1 0 320zm0-64a96 96 0 1 0 0-192 96 96 0 0 0 0 192z"
-}, null, -1), H7 = [
-  R7,
-  z7,
-  $7
+}, null, -1), P7 = [
+  H7,
+  I7,
+  B7
 ];
-function I7(o, t, n, a, e, r) {
-  return R(), z("svg", T7, H7);
+function N7(o, t, n, a, e, r) {
+  return R(), z("svg", $7, P7);
 }
-var B7 = /* @__PURE__ */ B(M7, [["render", I7], ["__file", "money.vue"]]), P7 = {
+var L7 = /* @__PURE__ */ B(z7, [["render", N7], ["__file", "money.vue"]]), O7 = {
   name: "Monitor"
-}, N7 = {
+}, V7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, L7 = /* @__PURE__ */ D("path", {
+}, F7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 768v128h192a32 32 0 1 1 0 64H288a32 32 0 1 1 0-64h192V768H192A128 128 0 0 1 64 640V256a128 128 0 0 1 128-128h640a128 128 0 0 1 128 128v384a128 128 0 0 1-128 128H544zM192 192a64 64 0 0 0-64 64v384a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V256a64 64 0 0 0-64-64H192z"
-}, null, -1), O7 = [
-  L7
+}, null, -1), j7 = [
+  F7
 ];
-function V7(o, t, n, a, e, r) {
-  return R(), z("svg", N7, O7);
+function U7(o, t, n, a, e, r) {
+  return R(), z("svg", V7, j7);
 }
-var F7 = /* @__PURE__ */ B(P7, [["render", V7], ["__file", "monitor.vue"]]), j7 = {
+var Q7 = /* @__PURE__ */ B(O7, [["render", U7], ["__file", "monitor.vue"]]), k7 = {
   name: "MoonNight"
-}, U7 = {
+}, W7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Q7 = /* @__PURE__ */ D("path", {
+}, G7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 512a448 448 0 0 1 215.872-383.296A384 384 0 0 0 213.76 640h188.8A448.256 448.256 0 0 1 384 512zM171.136 704a448 448 0 0 1 636.992-575.296A384 384 0 0 0 499.328 704h-328.32z"
-}, null, -1), k7 = /* @__PURE__ */ D("path", {
+}, null, -1), Y7 = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M32 640h960q32 0 32 32t-32 32H32q-32 0-32-32t32-32zm128 128h384a32 32 0 1 1 0 64H160a32 32 0 1 1 0-64zm160 127.68 224 .256a32 32 0 0 1 32 32V928a32 32 0 0 1-32 32l-224-.384a32 32 0 0 1-32-32v-.064a32 32 0 0 1 32-32z"
-}, null, -1), W7 = [
-  Q7,
-  k7
+}, null, -1), K7 = [
+  G7,
+  Y7
 ];
-function G7(o, t, n, a, e, r) {
-  return R(), z("svg", U7, W7);
+function J7(o, t, n, a, e, r) {
+  return R(), z("svg", W7, K7);
 }
-var Y7 = /* @__PURE__ */ B(j7, [["render", G7], ["__file", "moon-night.vue"]]), K7 = {
+var Z7 = /* @__PURE__ */ B(k7, [["render", J7], ["__file", "moon-night.vue"]]), X7 = {
   name: "Moon"
-}, J7 = {
+}, q7 = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Z7 = /* @__PURE__ */ D("path", {
+}, ey = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M240.448 240.448a384 384 0 1 0 559.424 525.696 448 448 0 0 1-542.016-542.08 390.592 390.592 0 0 0-17.408 16.384zm181.056 362.048a384 384 0 0 0 525.632 16.384A448 448 0 1 1 405.056 76.8a384 384 0 0 0 16.448 525.696z"
-}, null, -1), X7 = [
-  Z7
+}, null, -1), ty = [
+  ey
 ];
-function q7(o, t, n, a, e, r) {
-  return R(), z("svg", J7, X7);
+function ny(o, t, n, a, e, r) {
+  return R(), z("svg", q7, ty);
 }
-var ey = /* @__PURE__ */ B(K7, [["render", q7], ["__file", "moon.vue"]]), ty = {
+var ay = /* @__PURE__ */ B(X7, [["render", ny], ["__file", "moon.vue"]]), oy = {
   name: "MoreFilled"
-}, ny = {
+}, ry = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ay = /* @__PURE__ */ D("path", {
+}, ly = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M176 416a112 112 0 1 1 0 224 112 112 0 0 1 0-224zm336 0a112 112 0 1 1 0 224 112 112 0 0 1 0-224zm336 0a112 112 0 1 1 0 224 112 112 0 0 1 0-224z"
-}, null, -1), oy = [
-  ay
+}, null, -1), iy = [
+  ly
 ];
-function ry(o, t, n, a, e, r) {
-  return R(), z("svg", ny, oy);
+function sy(o, t, n, a, e, r) {
+  return R(), z("svg", ry, iy);
 }
-var ly = /* @__PURE__ */ B(ty, [["render", ry], ["__file", "more-filled.vue"]]), iy = {
+var dy = /* @__PURE__ */ B(oy, [["render", sy], ["__file", "more-filled.vue"]]), cy = {
   name: "More"
-}, sy = {
+}, uy = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, dy = /* @__PURE__ */ D("path", {
+}, fy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M176 416a112 112 0 1 0 0 224 112 112 0 0 0 0-224m0 64a48 48 0 1 1 0 96 48 48 0 0 1 0-96zm336-64a112 112 0 1 1 0 224 112 112 0 0 1 0-224zm0 64a48 48 0 1 0 0 96 48 48 0 0 0 0-96zm336-64a112 112 0 1 1 0 224 112 112 0 0 1 0-224zm0 64a48 48 0 1 0 0 96 48 48 0 0 0 0-96z"
-}, null, -1), cy = [
-  dy
+}, null, -1), my = [
+  fy
 ];
-function uy(o, t, n, a, e, r) {
-  return R(), z("svg", sy, cy);
+function vy(o, t, n, a, e, r) {
+  return R(), z("svg", uy, my);
 }
-var fy = /* @__PURE__ */ B(iy, [["render", uy], ["__file", "more.vue"]]), my = {
+var hy = /* @__PURE__ */ B(cy, [["render", vy], ["__file", "more.vue"]]), py = {
   name: "MostlyCloudy"
-}, vy = {
+}, gy = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, hy = /* @__PURE__ */ D("path", {
+}, yy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M737.216 357.952 704 349.824l-11.776-32a192.064 192.064 0 0 0-367.424 23.04l-8.96 39.04-39.04 8.96A192.064 192.064 0 0 0 320 768h368a207.808 207.808 0 0 0 207.808-208 208.32 208.32 0 0 0-158.592-202.048zm15.168-62.208A272.32 272.32 0 0 1 959.744 560a271.808 271.808 0 0 1-271.552 272H320a256 256 0 0 1-57.536-505.536 256.128 256.128 0 0 1 489.92-30.72z"
-}, null, -1), py = [
-  hy
+}, null, -1), Ay = [
+  yy
 ];
-function gy(o, t, n, a, e, r) {
-  return R(), z("svg", vy, py);
+function _y(o, t, n, a, e, r) {
+  return R(), z("svg", gy, Ay);
 }
-var yy = /* @__PURE__ */ B(my, [["render", gy], ["__file", "mostly-cloudy.vue"]]), Ay = {
+var xy = /* @__PURE__ */ B(py, [["render", _y], ["__file", "mostly-cloudy.vue"]]), wy = {
   name: "Mouse"
-}, _y = {
+}, Ey = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, xy = /* @__PURE__ */ D("path", {
+}, Cy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M438.144 256c-68.352 0-92.736 4.672-117.76 18.112-20.096 10.752-35.52 26.176-46.272 46.272C260.672 345.408 256 369.792 256 438.144v275.712c0 68.352 4.672 92.736 18.112 117.76 10.752 20.096 26.176 35.52 46.272 46.272C345.408 891.328 369.792 896 438.144 896h147.712c68.352 0 92.736-4.672 117.76-18.112 20.096-10.752 35.52-26.176 46.272-46.272C763.328 806.592 768 782.208 768 713.856V438.144c0-68.352-4.672-92.736-18.112-117.76a110.464 110.464 0 0 0-46.272-46.272C678.592 260.672 654.208 256 585.856 256H438.144zm0-64h147.712c85.568 0 116.608 8.96 147.904 25.6 31.36 16.768 55.872 41.344 72.576 72.64C823.104 321.536 832 352.576 832 438.08v275.84c0 85.504-8.96 116.544-25.6 147.84a174.464 174.464 0 0 1-72.64 72.576C702.464 951.104 671.424 960 585.92 960H438.08c-85.504 0-116.544-8.96-147.84-25.6a174.464 174.464 0 0 1-72.64-72.704c-16.768-31.296-25.664-62.336-25.664-147.84v-275.84c0-85.504 8.96-116.544 25.6-147.84a174.464 174.464 0 0 1 72.768-72.576c31.232-16.704 62.272-25.6 147.776-25.6z"
-}, null, -1), wy = /* @__PURE__ */ D("path", {
+}, null, -1), Sy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 320q32 0 32 32v128q0 32-32 32t-32-32V352q0-32 32-32zm32-96a32 32 0 0 1-64 0v-64a32 32 0 0 0-32-32h-96a32 32 0 0 1 0-64h96a96 96 0 0 1 96 96v64z"
-}, null, -1), Ey = [
-  xy,
-  wy
+}, null, -1), by = [
+  Cy,
+  Sy
 ];
-function Cy(o, t, n, a, e, r) {
-  return R(), z("svg", _y, Ey);
+function Dy(o, t, n, a, e, r) {
+  return R(), z("svg", Ey, by);
 }
-var Sy = /* @__PURE__ */ B(Ay, [["render", Cy], ["__file", "mouse.vue"]]), by = {
+var My = /* @__PURE__ */ B(wy, [["render", Dy], ["__file", "mouse.vue"]]), Ty = {
   name: "Mug"
-}, Dy = {
+}, Ry = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, My = /* @__PURE__ */ D("path", {
+}, zy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M736 800V160H160v640a64 64 0 0 0 64 64h448a64 64 0 0 0 64-64zm64-544h63.552a96 96 0 0 1 96 96v224a96 96 0 0 1-96 96H800v128a128 128 0 0 1-128 128H224A128 128 0 0 1 96 800V128a32 32 0 0 1 32-32h640a32 32 0 0 1 32 32v128zm0 64v288h63.552a32 32 0 0 0 32-32V352a32 32 0 0 0-32-32H800z"
-}, null, -1), Ty = [
-  My
+}, null, -1), $y = [
+  zy
 ];
-function Ry(o, t, n, a, e, r) {
-  return R(), z("svg", Dy, Ty);
+function Hy(o, t, n, a, e, r) {
+  return R(), z("svg", Ry, $y);
 }
-var zy = /* @__PURE__ */ B(by, [["render", Ry], ["__file", "mug.vue"]]), $y = {
+var Iy = /* @__PURE__ */ B(Ty, [["render", Hy], ["__file", "mug.vue"]]), By = {
   name: "MuteNotification"
-}, Hy = {
+}, Py = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Iy = /* @__PURE__ */ D("path", {
+}, Ny = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m241.216 832 63.616-64H768V448c0-42.368-10.24-82.304-28.48-117.504l46.912-47.232C815.36 331.392 832 387.84 832 448v320h96a32 32 0 1 1 0 64H241.216zm-90.24 0H96a32 32 0 1 1 0-64h96V448a320.128 320.128 0 0 1 256-313.6V128a64 64 0 1 1 128 0v6.4a319.552 319.552 0 0 1 171.648 97.088l-45.184 45.44A256 256 0 0 0 256 448v278.336L151.04 832zM448 896h128a64 64 0 0 1-128 0z"
-}, null, -1), By = /* @__PURE__ */ D("path", {
+}, null, -1), Ly = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M150.72 859.072a32 32 0 0 1-45.44-45.056l704-708.544a32 32 0 0 1 45.44 45.056l-704 708.544z"
-}, null, -1), Py = [
-  Iy,
-  By
+}, null, -1), Oy = [
+  Ny,
+  Ly
 ];
-function Ny(o, t, n, a, e, r) {
-  return R(), z("svg", Hy, Py);
+function Vy(o, t, n, a, e, r) {
+  return R(), z("svg", Py, Oy);
 }
-var Ly = /* @__PURE__ */ B($y, [["render", Ny], ["__file", "mute-notification.vue"]]), Oy = {
+var Fy = /* @__PURE__ */ B(By, [["render", Vy], ["__file", "mute-notification.vue"]]), jy = {
   name: "Mute"
-}, Vy = {
+}, Uy = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Fy = /* @__PURE__ */ D("path", {
+}, Qy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m412.16 592.128-45.44 45.44A191.232 191.232 0 0 1 320 512V256a192 192 0 1 1 384 0v44.352l-64 64V256a128 128 0 1 0-256 0v256c0 30.336 10.56 58.24 28.16 80.128zm51.968 38.592A128 128 0 0 0 640 512v-57.152l64-64V512a192 192 0 0 1-287.68 166.528l47.808-47.808zM314.88 779.968l46.144-46.08A222.976 222.976 0 0 0 480 768h64a224 224 0 0 0 224-224v-32a32 32 0 1 1 64 0v32a288 288 0 0 1-288 288v64h64a32 32 0 1 1 0 64H416a32 32 0 1 1 0-64h64v-64c-61.44 0-118.4-19.2-165.12-52.032zM266.752 737.6A286.976 286.976 0 0 1 192 544v-32a32 32 0 0 1 64 0v32c0 56.832 21.184 108.8 56.064 148.288L266.752 737.6z"
-}, null, -1), jy = /* @__PURE__ */ D("path", {
+}, null, -1), ky = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M150.72 859.072a32 32 0 0 1-45.44-45.056l704-708.544a32 32 0 0 1 45.44 45.056l-704 708.544z"
-}, null, -1), Uy = [
-  Fy,
-  jy
+}, null, -1), Wy = [
+  Qy,
+  ky
 ];
-function Qy(o, t, n, a, e, r) {
-  return R(), z("svg", Vy, Uy);
+function Gy(o, t, n, a, e, r) {
+  return R(), z("svg", Uy, Wy);
 }
-var ky = /* @__PURE__ */ B(Oy, [["render", Qy], ["__file", "mute.vue"]]), Wy = {
+var Yy = /* @__PURE__ */ B(jy, [["render", Gy], ["__file", "mute.vue"]]), Ky = {
   name: "NoSmoking"
-}, Gy = {
+}, Jy = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Yy = /* @__PURE__ */ D("path", {
+}, Zy = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M440.256 576H256v128h56.256l-64 64H224a32 32 0 0 1-32-32V544a32 32 0 0 1 32-32h280.256l-64 64zm143.488 128H704V583.744L775.744 512H928a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32H519.744l64-64zM768 576v128h128V576H768zm-29.696-207.552 45.248 45.248-497.856 497.856-45.248-45.248zM256 64h64v320h-64zM128 192h64v192h-64zM64 512h64v256H64z"
-}, null, -1), Ky = [
-  Yy
+}, null, -1), Xy = [
+  Zy
 ];
-function Jy(o, t, n, a, e, r) {
-  return R(), z("svg", Gy, Ky);
+function qy(o, t, n, a, e, r) {
+  return R(), z("svg", Jy, Xy);
 }
-var Zy = /* @__PURE__ */ B(Wy, [["render", Jy], ["__file", "no-smoking.vue"]]), Xy = {
+var eA = /* @__PURE__ */ B(Ky, [["render", qy], ["__file", "no-smoking.vue"]]), tA = {
   name: "Notebook"
-}, qy = {
+}, nA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, eA = /* @__PURE__ */ D("path", {
+}, aA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 128v768h640V128H192zm-32-64h704a32 32 0 0 1 32 32v832a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"
-}, null, -1), tA = /* @__PURE__ */ D("path", {
+}, null, -1), oA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M672 128h64v768h-64zM96 192h128q32 0 32 32t-32 32H96q-32 0-32-32t32-32zm0 192h128q32 0 32 32t-32 32H96q-32 0-32-32t32-32zm0 192h128q32 0 32 32t-32 32H96q-32 0-32-32t32-32zm0 192h128q32 0 32 32t-32 32H96q-32 0-32-32t32-32z"
-}, null, -1), nA = [
-  eA,
-  tA
+}, null, -1), rA = [
+  aA,
+  oA
 ];
-function aA(o, t, n, a, e, r) {
-  return R(), z("svg", qy, nA);
+function lA(o, t, n, a, e, r) {
+  return R(), z("svg", nA, rA);
 }
-var oA = /* @__PURE__ */ B(Xy, [["render", aA], ["__file", "notebook.vue"]]), rA = {
+var iA = /* @__PURE__ */ B(tA, [["render", lA], ["__file", "notebook.vue"]]), sA = {
   name: "Notification"
-}, lA = {
+}, dA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, iA = /* @__PURE__ */ D("path", {
+}, cA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 128v64H256a64 64 0 0 0-64 64v512a64 64 0 0 0 64 64h512a64 64 0 0 0 64-64V512h64v256a128 128 0 0 1-128 128H256a128 128 0 0 1-128-128V256a128 128 0 0 1 128-128h256z"
-}, null, -1), sA = /* @__PURE__ */ D("path", {
+}, null, -1), uA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 384a128 128 0 1 0 0-256 128 128 0 0 0 0 256zm0 64a192 192 0 1 1 0-384 192 192 0 0 1 0 384z"
-}, null, -1), dA = [
-  iA,
-  sA
+}, null, -1), fA = [
+  cA,
+  uA
 ];
-function cA(o, t, n, a, e, r) {
-  return R(), z("svg", lA, dA);
+function mA(o, t, n, a, e, r) {
+  return R(), z("svg", dA, fA);
 }
-var uA = /* @__PURE__ */ B(rA, [["render", cA], ["__file", "notification.vue"]]), fA = {
+var vA = /* @__PURE__ */ B(sA, [["render", mA], ["__file", "notification.vue"]]), hA = {
   name: "Odometer"
-}, mA = {
+}, pA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, vA = /* @__PURE__ */ D("path", {
+}, gA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), hA = /* @__PURE__ */ D("path", {
+}, null, -1), yA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 512a320 320 0 1 1 640 0 32 32 0 1 1-64 0 256 256 0 1 0-512 0 32 32 0 0 1-64 0z"
-}, null, -1), pA = /* @__PURE__ */ D("path", {
+}, null, -1), AA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M570.432 627.84A96 96 0 1 1 509.568 608l60.992-187.776A32 32 0 1 1 631.424 440l-60.992 187.776zM502.08 734.464a32 32 0 1 0 19.84-60.928 32 32 0 0 0-19.84 60.928z"
-}, null, -1), gA = [
-  vA,
-  hA,
-  pA
+}, null, -1), _A = [
+  gA,
+  yA,
+  AA
 ];
-function yA(o, t, n, a, e, r) {
-  return R(), z("svg", mA, gA);
+function xA(o, t, n, a, e, r) {
+  return R(), z("svg", pA, _A);
 }
-var AA = /* @__PURE__ */ B(fA, [["render", yA], ["__file", "odometer.vue"]]), _A = {
+var wA = /* @__PURE__ */ B(hA, [["render", xA], ["__file", "odometer.vue"]]), EA = {
   name: "OfficeBuilding"
-}, xA = {
+}, CA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wA = /* @__PURE__ */ D("path", {
+}, SA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 128v704h384V128H192zm-32-64h448a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"
-}, null, -1), EA = /* @__PURE__ */ D("path", {
+}, null, -1), bA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 256h256v64H256v-64zm0 192h256v64H256v-64zm0 192h256v64H256v-64zm384-128h128v64H640v-64zm0 128h128v64H640v-64zM64 832h896v64H64v-64z"
-}, null, -1), CA = /* @__PURE__ */ D("path", {
+}, null, -1), DA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 384v448h192V384H640zm-32-64h256a32 32 0 0 1 32 32v512a32 32 0 0 1-32 32H608a32 32 0 0 1-32-32V352a32 32 0 0 1 32-32z"
-}, null, -1), SA = [
-  wA,
-  EA,
-  CA
+}, null, -1), MA = [
+  SA,
+  bA,
+  DA
 ];
-function bA(o, t, n, a, e, r) {
-  return R(), z("svg", xA, SA);
+function TA(o, t, n, a, e, r) {
+  return R(), z("svg", CA, MA);
 }
-var DA = /* @__PURE__ */ B(_A, [["render", bA], ["__file", "office-building.vue"]]), MA = {
+var RA = /* @__PURE__ */ B(EA, [["render", TA], ["__file", "office-building.vue"]]), zA = {
   name: "Open"
-}, TA = {
+}, $A = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, RA = /* @__PURE__ */ D("path", {
+}, HA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M329.956 257.138a254.862 254.862 0 0 0 0 509.724h364.088a254.862 254.862 0 0 0 0-509.724H329.956zm0-72.818h364.088a327.68 327.68 0 1 1 0 655.36H329.956a327.68 327.68 0 1 1 0-655.36z"
-}, null, -1), zA = /* @__PURE__ */ D("path", {
+}, null, -1), IA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M694.044 621.227a109.227 109.227 0 1 0 0-218.454 109.227 109.227 0 0 0 0 218.454zm0 72.817a182.044 182.044 0 1 1 0-364.088 182.044 182.044 0 0 1 0 364.088z"
-}, null, -1), $A = [
-  RA,
-  zA
+}, null, -1), BA = [
+  HA,
+  IA
 ];
-function HA(o, t, n, a, e, r) {
-  return R(), z("svg", TA, $A);
+function PA(o, t, n, a, e, r) {
+  return R(), z("svg", $A, BA);
 }
-var IA = /* @__PURE__ */ B(MA, [["render", HA], ["__file", "open.vue"]]), BA = {
+var NA = /* @__PURE__ */ B(zA, [["render", PA], ["__file", "open.vue"]]), LA = {
   name: "Operation"
-}, PA = {
+}, OA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, NA = /* @__PURE__ */ D("path", {
+}, VA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M389.44 768a96.064 96.064 0 0 1 181.12 0H896v64H570.56a96.064 96.064 0 0 1-181.12 0H128v-64h261.44zm192-288a96.064 96.064 0 0 1 181.12 0H896v64H762.56a96.064 96.064 0 0 1-181.12 0H128v-64h453.44zm-320-288a96.064 96.064 0 0 1 181.12 0H896v64H442.56a96.064 96.064 0 0 1-181.12 0H128v-64h133.44z"
-}, null, -1), LA = [
-  NA
+}, null, -1), FA = [
+  VA
 ];
-function OA(o, t, n, a, e, r) {
-  return R(), z("svg", PA, LA);
+function jA(o, t, n, a, e, r) {
+  return R(), z("svg", OA, FA);
 }
-var VA = /* @__PURE__ */ B(BA, [["render", OA], ["__file", "operation.vue"]]), FA = {
+var UA = /* @__PURE__ */ B(LA, [["render", jA], ["__file", "operation.vue"]]), QA = {
   name: "Opportunity"
-}, jA = {
+}, kA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, UA = /* @__PURE__ */ D("path", {
+}, WA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 960v-64h192.064v64H384zm448-544a350.656 350.656 0 0 1-128.32 271.424C665.344 719.04 640 763.776 640 813.504V832H320v-14.336c0-48-19.392-95.36-57.216-124.992a351.552 351.552 0 0 1-128.448-344.256c25.344-136.448 133.888-248.128 269.76-276.48A352.384 352.384 0 0 1 832 416zm-544 32c0-132.288 75.904-224 192-224v-64c-154.432 0-256 122.752-256 288h64z"
-}, null, -1), QA = [
-  UA
+}, null, -1), GA = [
+  WA
 ];
-function kA(o, t, n, a, e, r) {
-  return R(), z("svg", jA, QA);
+function YA(o, t, n, a, e, r) {
+  return R(), z("svg", kA, GA);
 }
-var WA = /* @__PURE__ */ B(FA, [["render", kA], ["__file", "opportunity.vue"]]), GA = {
+var KA = /* @__PURE__ */ B(QA, [["render", YA], ["__file", "opportunity.vue"]]), JA = {
   name: "Orange"
-}, YA = {
+}, ZA = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, KA = /* @__PURE__ */ D("path", {
+}, XA = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 894.72a382.336 382.336 0 0 0 215.936-89.472L577.024 622.272c-10.24 6.016-21.248 10.688-33.024 13.696v258.688zm261.248-134.784A382.336 382.336 0 0 0 894.656 544H635.968c-3.008 11.776-7.68 22.848-13.696 33.024l182.976 182.912zM894.656 480a382.336 382.336 0 0 0-89.408-215.936L622.272 446.976c6.016 10.24 10.688 21.248 13.696 33.024h258.688zm-134.72-261.248A382.336 382.336 0 0 0 544 129.344v258.688c11.776 3.008 22.848 7.68 33.024 13.696l182.912-182.976zM480 129.344a382.336 382.336 0 0 0-215.936 89.408l182.912 182.976c10.24-6.016 21.248-10.688 33.024-13.696V129.344zm-261.248 134.72A382.336 382.336 0 0 0 129.344 480h258.688c3.008-11.776 7.68-22.848 13.696-33.024L218.752 264.064zM129.344 544a382.336 382.336 0 0 0 89.408 215.936l182.976-182.912A127.232 127.232 0 0 1 388.032 544H129.344zm134.72 261.248A382.336 382.336 0 0 0 480 894.656V635.968a127.232 127.232 0 0 1-33.024-13.696L264.064 805.248zM512 960a448 448 0 1 1 0-896 448 448 0 0 1 0 896zm0-384a64 64 0 1 0 0-128 64 64 0 0 0 0 128z"
-}, null, -1), JA = [
-  KA
+}, null, -1), qA = [
+  XA
 ];
-function ZA(o, t, n, a, e, r) {
-  return R(), z("svg", YA, JA);
+function e_(o, t, n, a, e, r) {
+  return R(), z("svg", ZA, qA);
 }
-var XA = /* @__PURE__ */ B(GA, [["render", ZA], ["__file", "orange.vue"]]), qA = {
+var t_ = /* @__PURE__ */ B(JA, [["render", e_], ["__file", "orange.vue"]]), n_ = {
   name: "Paperclip"
-}, e_ = {
+}, a_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, t_ = /* @__PURE__ */ D("path", {
+}, o_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M602.496 240.448A192 192 0 1 1 874.048 512l-316.8 316.8A256 256 0 0 1 195.2 466.752L602.496 59.456l45.248 45.248L240.448 512A192 192 0 0 0 512 783.552l316.8-316.8a128 128 0 1 0-181.056-181.056L353.6 579.904a32 32 0 1 0 45.248 45.248l294.144-294.144 45.312 45.248L444.096 670.4a96 96 0 1 1-135.744-135.744l294.144-294.208z"
-}, null, -1), n_ = [
-  t_
+}, null, -1), r_ = [
+  o_
 ];
-function a_(o, t, n, a, e, r) {
-  return R(), z("svg", e_, n_);
+function l_(o, t, n, a, e, r) {
+  return R(), z("svg", a_, r_);
 }
-var o_ = /* @__PURE__ */ B(qA, [["render", a_], ["__file", "paperclip.vue"]]), r_ = {
+var i_ = /* @__PURE__ */ B(n_, [["render", l_], ["__file", "paperclip.vue"]]), s_ = {
   name: "PartlyCloudy"
-}, l_ = {
+}, d_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, i_ = /* @__PURE__ */ D("path", {
+}, c_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M598.4 895.872H328.192a256 256 0 0 1-34.496-510.528A352 352 0 1 1 598.4 895.872zm-271.36-64h272.256a288 288 0 1 0-248.512-417.664L335.04 445.44l-34.816 3.584a192 192 0 0 0 26.88 382.848z"
-}, null, -1), s_ = /* @__PURE__ */ D("path", {
+}, null, -1), u_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M139.84 501.888a256 256 0 1 1 417.856-277.12c-17.728 2.176-38.208 8.448-61.504 18.816A192 192 0 1 0 189.12 460.48a6003.84 6003.84 0 0 0-49.28 41.408z"
-}, null, -1), d_ = [
-  i_,
-  s_
+}, null, -1), f_ = [
+  c_,
+  u_
 ];
-function c_(o, t, n, a, e, r) {
-  return R(), z("svg", l_, d_);
+function m_(o, t, n, a, e, r) {
+  return R(), z("svg", d_, f_);
 }
-var u_ = /* @__PURE__ */ B(r_, [["render", c_], ["__file", "partly-cloudy.vue"]]), f_ = {
+var v_ = /* @__PURE__ */ B(s_, [["render", m_], ["__file", "partly-cloudy.vue"]]), h_ = {
   name: "Pear"
-}, m_ = {
+}, p_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, v_ = /* @__PURE__ */ D("path", {
+}, g_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M542.336 258.816a443.255 443.255 0 0 0-9.024 25.088 32 32 0 1 1-60.8-20.032l1.088-3.328a162.688 162.688 0 0 0-122.048 131.392l-17.088 102.72-20.736 15.36C256.192 552.704 224 610.88 224 672c0 120.576 126.4 224 288 224s288-103.424 288-224c0-61.12-32.192-119.296-89.728-161.92l-20.736-15.424-17.088-102.72a162.688 162.688 0 0 0-130.112-133.12zm-40.128-66.56c7.936-15.552 16.576-30.08 25.92-43.776 23.296-33.92 49.408-59.776 78.528-77.12a32 32 0 1 1 32.704 55.04c-20.544 12.224-40.064 31.552-58.432 58.304a316.608 316.608 0 0 0-9.792 15.104 226.688 226.688 0 0 1 164.48 181.568l12.8 77.248C819.456 511.36 864 587.392 864 672c0 159.04-157.568 288-352 288S160 831.04 160 672c0-84.608 44.608-160.64 115.584-213.376l12.8-77.248a226.624 226.624 0 0 1 213.76-189.184z"
-}, null, -1), h_ = [
-  v_
+}, null, -1), y_ = [
+  g_
 ];
-function p_(o, t, n, a, e, r) {
-  return R(), z("svg", m_, h_);
+function A_(o, t, n, a, e, r) {
+  return R(), z("svg", p_, y_);
 }
-var g_ = /* @__PURE__ */ B(f_, [["render", p_], ["__file", "pear.vue"]]), y_ = {
+var __ = /* @__PURE__ */ B(h_, [["render", A_], ["__file", "pear.vue"]]), x_ = {
   name: "PhoneFilled"
-}, A_ = {
+}, w_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, __ = /* @__PURE__ */ D("path", {
+}, E_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M199.232 125.568 90.624 379.008a32 32 0 0 0 6.784 35.2l512.384 512.384a32 32 0 0 0 35.2 6.784l253.44-108.608a32 32 0 0 0 10.048-52.032L769.6 633.92a32 32 0 0 0-36.928-5.952l-130.176 65.088-271.488-271.552 65.024-130.176a32 32 0 0 0-5.952-36.928L251.2 115.52a32 32 0 0 0-51.968 10.048z"
-}, null, -1), x_ = [
-  __
+}, null, -1), C_ = [
+  E_
 ];
-function w_(o, t, n, a, e, r) {
-  return R(), z("svg", A_, x_);
+function S_(o, t, n, a, e, r) {
+  return R(), z("svg", w_, C_);
 }
-var E_ = /* @__PURE__ */ B(y_, [["render", w_], ["__file", "phone-filled.vue"]]), C_ = {
+var b_ = /* @__PURE__ */ B(x_, [["render", S_], ["__file", "phone-filled.vue"]]), D_ = {
   name: "Phone"
-}, S_ = {
+}, M_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, b_ = /* @__PURE__ */ D("path", {
+}, T_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M79.36 432.256 591.744 944.64a32 32 0 0 0 35.2 6.784l253.44-108.544a32 32 0 0 0 9.984-52.032l-153.856-153.92a32 32 0 0 0-36.928-6.016l-69.888 34.944L358.08 394.24l35.008-69.888a32 32 0 0 0-5.952-36.928L233.152 133.568a32 32 0 0 0-52.032 10.048L72.512 397.056a32 32 0 0 0 6.784 35.2zm60.48-29.952 81.536-190.08L325.568 316.48l-24.64 49.216-20.608 41.216 32.576 32.64 271.552 271.552 32.64 32.64 41.216-20.672 49.28-24.576 104.192 104.128-190.08 81.472L139.84 402.304zM512 320v-64a256 256 0 0 1 256 256h-64a192 192 0 0 0-192-192zm0-192V64a448 448 0 0 1 448 448h-64a384 384 0 0 0-384-384z"
-}, null, -1), D_ = [
-  b_
+}, null, -1), R_ = [
+  T_
 ];
-function M_(o, t, n, a, e, r) {
-  return R(), z("svg", S_, D_);
+function z_(o, t, n, a, e, r) {
+  return R(), z("svg", M_, R_);
 }
-var T_ = /* @__PURE__ */ B(C_, [["render", M_], ["__file", "phone.vue"]]), R_ = {
+var $_ = /* @__PURE__ */ B(D_, [["render", z_], ["__file", "phone.vue"]]), H_ = {
   name: "PictureFilled"
-}, z_ = {
+}, I_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $_ = /* @__PURE__ */ D("path", {
+}, B_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M96 896a32 32 0 0 1-32-32V160a32 32 0 0 1 32-32h832a32 32 0 0 1 32 32v704a32 32 0 0 1-32 32H96zm315.52-228.48-68.928-68.928a32 32 0 0 0-45.248 0L128 768.064h778.688l-242.112-290.56a32 32 0 0 0-49.216 0L458.752 665.408a32 32 0 0 1-47.232 2.112zM256 384a96 96 0 1 0 192.064-.064A96 96 0 0 0 256 384z"
-}, null, -1), H_ = [
-  $_
+}, null, -1), P_ = [
+  B_
 ];
-function I_(o, t, n, a, e, r) {
-  return R(), z("svg", z_, H_);
+function N_(o, t, n, a, e, r) {
+  return R(), z("svg", I_, P_);
 }
-var B_ = /* @__PURE__ */ B(R_, [["render", I_], ["__file", "picture-filled.vue"]]), P_ = {
+var L_ = /* @__PURE__ */ B(H_, [["render", N_], ["__file", "picture-filled.vue"]]), O_ = {
   name: "PictureRounded"
-}, N_ = {
+}, V_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, L_ = /* @__PURE__ */ D("path", {
+}, F_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 128a384 384 0 1 0 0 768 384 384 0 0 0 0-768zm0-64a448 448 0 1 1 0 896 448 448 0 0 1 0-896z"
-}, null, -1), O_ = /* @__PURE__ */ D("path", {
+}, null, -1), j_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 288q64 0 64 64t-64 64q-64 0-64-64t64-64zM214.656 790.656l-45.312-45.312 185.664-185.6a96 96 0 0 1 123.712-10.24l138.24 98.688a32 32 0 0 0 39.872-2.176L906.688 422.4l42.624 47.744L699.52 693.696a96 96 0 0 1-119.808 6.592l-138.24-98.752a32 32 0 0 0-41.152 3.456l-185.664 185.6z"
-}, null, -1), V_ = [
-  L_,
-  O_
+}, null, -1), U_ = [
+  F_,
+  j_
 ];
-function F_(o, t, n, a, e, r) {
-  return R(), z("svg", N_, V_);
+function Q_(o, t, n, a, e, r) {
+  return R(), z("svg", V_, U_);
 }
-var j_ = /* @__PURE__ */ B(P_, [["render", F_], ["__file", "picture-rounded.vue"]]), U_ = {
+var k_ = /* @__PURE__ */ B(O_, [["render", Q_], ["__file", "picture-rounded.vue"]]), W_ = {
   name: "Picture"
-}, Q_ = {
+}, G_ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, k_ = /* @__PURE__ */ D("path", {
+}, Y_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 160v704h704V160H160zm-32-64h768a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H128a32 32 0 0 1-32-32V128a32 32 0 0 1 32-32z"
-}, null, -1), W_ = /* @__PURE__ */ D("path", {
+}, null, -1), K_ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 288q64 0 64 64t-64 64q-64 0-64-64t64-64zM185.408 876.992l-50.816-38.912L350.72 556.032a96 96 0 0 1 134.592-17.856l1.856 1.472 122.88 99.136a32 32 0 0 0 44.992-4.864l216-269.888 49.92 39.936-215.808 269.824-.256.32a96 96 0 0 1-135.04 14.464l-122.88-99.072-.64-.512a32 32 0 0 0-44.8 5.952L185.408 876.992z"
-}, null, -1), G_ = [
-  k_,
-  W_
+}, null, -1), J_ = [
+  Y_,
+  K_
 ];
-function Y_(o, t, n, a, e, r) {
-  return R(), z("svg", Q_, G_);
+function Z_(o, t, n, a, e, r) {
+  return R(), z("svg", G_, J_);
 }
-var K_ = /* @__PURE__ */ B(U_, [["render", Y_], ["__file", "picture.vue"]]), J_ = {
+var X_ = /* @__PURE__ */ B(W_, [["render", Z_], ["__file", "picture.vue"]]), q_ = {
   name: "PieChart"
-}, Z_ = {
+}, ex = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, X_ = /* @__PURE__ */ D("path", {
+}, tx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 68.48v64.832A384.128 384.128 0 0 0 512 896a384.128 384.128 0 0 0 378.688-320h64.768A448.128 448.128 0 0 1 64 512 448.128 448.128 0 0 1 448 68.48z"
-}, null, -1), q_ = /* @__PURE__ */ D("path", {
+}, null, -1), nx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M576 97.28V448h350.72A384.064 384.064 0 0 0 576 97.28zM512 64V33.152A448 448 0 0 1 990.848 512H512V64z"
-}, null, -1), ex = [
-  X_,
-  q_
+}, null, -1), ax = [
+  tx,
+  nx
 ];
-function tx(o, t, n, a, e, r) {
-  return R(), z("svg", Z_, ex);
+function ox(o, t, n, a, e, r) {
+  return R(), z("svg", ex, ax);
 }
-var nx = /* @__PURE__ */ B(J_, [["render", tx], ["__file", "pie-chart.vue"]]), ax = {
+var rx = /* @__PURE__ */ B(q_, [["render", ox], ["__file", "pie-chart.vue"]]), lx = {
   name: "Place"
-}, ox = {
+}, ix = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rx = /* @__PURE__ */ D("path", {
+}, sx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 512a192 192 0 1 0 0-384 192 192 0 0 0 0 384zm0 64a256 256 0 1 1 0-512 256 256 0 0 1 0 512z"
-}, null, -1), lx = /* @__PURE__ */ D("path", {
+}, null, -1), dx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 512a32 32 0 0 1 32 32v256a32 32 0 1 1-64 0V544a32 32 0 0 1 32-32z"
-}, null, -1), ix = /* @__PURE__ */ D("path", {
+}, null, -1), cx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 649.088v64.96C269.76 732.352 192 771.904 192 800c0 37.696 139.904 96 320 96s320-58.304 320-96c0-28.16-77.76-67.648-192-85.952v-64.96C789.12 671.04 896 730.368 896 800c0 88.32-171.904 160-384 160s-384-71.68-384-160c0-69.696 106.88-128.96 256-150.912z"
-}, null, -1), sx = [
-  rx,
-  lx,
-  ix
+}, null, -1), ux = [
+  sx,
+  dx,
+  cx
 ];
-function dx(o, t, n, a, e, r) {
-  return R(), z("svg", ox, sx);
+function fx(o, t, n, a, e, r) {
+  return R(), z("svg", ix, ux);
 }
-var cx = /* @__PURE__ */ B(ax, [["render", dx], ["__file", "place.vue"]]), ux = {
+var mx = /* @__PURE__ */ B(lx, [["render", fx], ["__file", "place.vue"]]), vx = {
   name: "Platform"
-}, fx = {
+}, hx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, mx = /* @__PURE__ */ D("path", {
+}, px = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 832v-64h128v64h192v64H256v-64h192zM128 704V128h768v576H128z"
-}, null, -1), vx = [
-  mx
+}, null, -1), gx = [
+  px
 ];
-function hx(o, t, n, a, e, r) {
-  return R(), z("svg", fx, vx);
+function yx(o, t, n, a, e, r) {
+  return R(), z("svg", hx, gx);
 }
-var px = /* @__PURE__ */ B(ux, [["render", hx], ["__file", "platform.vue"]]), gx = {
+var Ax = /* @__PURE__ */ B(vx, [["render", yx], ["__file", "platform.vue"]]), _x = {
   name: "Plus"
-}, yx = {
+}, xx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ax = /* @__PURE__ */ D("path", {
+}, wx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 480V128a32 32 0 0 1 64 0v352h352a32 32 0 1 1 0 64H544v352a32 32 0 1 1-64 0V544H128a32 32 0 0 1 0-64h352z"
-}, null, -1), _x = [
-  Ax
+}, null, -1), Ex = [
+  wx
 ];
-function xx(o, t, n, a, e, r) {
-  return R(), z("svg", yx, _x);
+function Cx(o, t, n, a, e, r) {
+  return R(), z("svg", xx, Ex);
 }
-var wx = /* @__PURE__ */ B(gx, [["render", xx], ["__file", "plus.vue"]]), Ex = {
+var Sx = /* @__PURE__ */ B(_x, [["render", Cx], ["__file", "plus.vue"]]), bx = {
   name: "Pointer"
-}, Cx = {
+}, Dx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Sx = /* @__PURE__ */ D("path", {
+}, Mx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M511.552 128c-35.584 0-64.384 28.8-64.384 64.448v516.48L274.048 570.88a94.272 94.272 0 0 0-112.896-3.456 44.416 44.416 0 0 0-8.96 62.208L332.8 870.4A64 64 0 0 0 384 896h512V575.232a64 64 0 0 0-45.632-61.312l-205.952-61.76A96 96 0 0 1 576 360.192V192.448C576 156.8 547.2 128 511.552 128zM359.04 556.8l24.128 19.2V192.448a128.448 128.448 0 1 1 256.832 0v167.744a32 32 0 0 0 22.784 30.656l206.016 61.76A128 128 0 0 1 960 575.232V896a64 64 0 0 1-64 64H384a128 128 0 0 1-102.4-51.2L101.056 668.032A108.416 108.416 0 0 1 128 512.512a158.272 158.272 0 0 1 185.984 8.32L359.04 556.8z"
-}, null, -1), bx = [
-  Sx
+}, null, -1), Tx = [
+  Mx
 ];
-function Dx(o, t, n, a, e, r) {
-  return R(), z("svg", Cx, bx);
+function Rx(o, t, n, a, e, r) {
+  return R(), z("svg", Dx, Tx);
 }
-var Mx = /* @__PURE__ */ B(Ex, [["render", Dx], ["__file", "pointer.vue"]]), Tx = {
+var zx = /* @__PURE__ */ B(bx, [["render", Rx], ["__file", "pointer.vue"]]), $x = {
   name: "Position"
-}, Rx = {
+}, Hx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, zx = /* @__PURE__ */ D("path", {
+}, Ix = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m249.6 417.088 319.744 43.072 39.168 310.272L845.12 178.88 249.6 417.088zm-129.024 47.168a32 32 0 0 1-7.68-61.44l777.792-311.04a32 32 0 0 1 41.6 41.6l-310.336 775.68a32 32 0 0 1-61.44-7.808L512 516.992l-391.424-52.736z"
-}, null, -1), $x = [
-  zx
+}, null, -1), Bx = [
+  Ix
 ];
-function Hx(o, t, n, a, e, r) {
-  return R(), z("svg", Rx, $x);
+function Px(o, t, n, a, e, r) {
+  return R(), z("svg", Hx, Bx);
 }
-var Ix = /* @__PURE__ */ B(Tx, [["render", Hx], ["__file", "position.vue"]]), Bx = {
+var Nx = /* @__PURE__ */ B($x, [["render", Px], ["__file", "position.vue"]]), Lx = {
   name: "Postcard"
-}, Px = {
+}, Ox = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Nx = /* @__PURE__ */ D("path", {
+}, Vx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 224a32 32 0 0 0-32 32v512a32 32 0 0 0 32 32h704a32 32 0 0 0 32-32V256a32 32 0 0 0-32-32H160zm0-64h704a96 96 0 0 1 96 96v512a96 96 0 0 1-96 96H160a96 96 0 0 1-96-96V256a96 96 0 0 1 96-96z"
-}, null, -1), Lx = /* @__PURE__ */ D("path", {
+}, null, -1), Fx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 320a64 64 0 1 1 0 128 64 64 0 0 1 0-128zM288 448h256q32 0 32 32t-32 32H288q-32 0-32-32t32-32zm0 128h256q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), Ox = [
-  Nx,
-  Lx
+}, null, -1), jx = [
+  Vx,
+  Fx
 ];
-function Vx(o, t, n, a, e, r) {
-  return R(), z("svg", Px, Ox);
+function Ux(o, t, n, a, e, r) {
+  return R(), z("svg", Ox, jx);
 }
-var Fx = /* @__PURE__ */ B(Bx, [["render", Vx], ["__file", "postcard.vue"]]), jx = {
+var Qx = /* @__PURE__ */ B(Lx, [["render", Ux], ["__file", "postcard.vue"]]), kx = {
   name: "Pouring"
-}, Ux = {
+}, Wx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qx = /* @__PURE__ */ D("path", {
+}, Gx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m739.328 291.328-35.2-6.592-12.8-33.408a192.064 192.064 0 0 0-365.952 23.232l-9.92 40.896-41.472 7.04a176.32 176.32 0 0 0-146.24 173.568c0 97.28 78.72 175.936 175.808 175.936h400a192 192 0 0 0 35.776-380.672zM959.552 480a256 256 0 0 1-256 256h-400A239.808 239.808 0 0 1 63.744 496.192a240.32 240.32 0 0 1 199.488-236.8 256.128 256.128 0 0 1 487.872-30.976A256.064 256.064 0 0 1 959.552 480zM224 800a32 32 0 0 1 32 32v96a32 32 0 1 1-64 0v-96a32 32 0 0 1 32-32zm192 0a32 32 0 0 1 32 32v96a32 32 0 1 1-64 0v-96a32 32 0 0 1 32-32zm192 0a32 32 0 0 1 32 32v96a32 32 0 1 1-64 0v-96a32 32 0 0 1 32-32zm192 0a32 32 0 0 1 32 32v96a32 32 0 1 1-64 0v-96a32 32 0 0 1 32-32z"
-}, null, -1), kx = [
-  Qx
+}, null, -1), Yx = [
+  Gx
 ];
-function Wx(o, t, n, a, e, r) {
-  return R(), z("svg", Ux, kx);
+function Kx(o, t, n, a, e, r) {
+  return R(), z("svg", Wx, Yx);
 }
-var Gx = /* @__PURE__ */ B(jx, [["render", Wx], ["__file", "pouring.vue"]]), Yx = {
+var Jx = /* @__PURE__ */ B(kx, [["render", Kx], ["__file", "pouring.vue"]]), Zx = {
   name: "Present"
-}, Kx = {
+}, Xx = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Jx = /* @__PURE__ */ D("path", {
+}, qx = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 896V640H192v-64h288V320H192v576h288zm64 0h288V320H544v256h288v64H544v256zM128 256h768v672a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V256z"
-}, null, -1), Zx = /* @__PURE__ */ D("path", {
+}, null, -1), ew = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M96 256h832q32 0 32 32t-32 32H96q-32 0-32-32t32-32z"
-}, null, -1), Xx = /* @__PURE__ */ D("path", {
+}, null, -1), tw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M416 256a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), qx = /* @__PURE__ */ D("path", {
+}, null, -1), nw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M608 256a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), ew = [
-  Jx,
-  Zx,
-  Xx,
-  qx
+}, null, -1), aw = [
+  qx,
+  ew,
+  tw,
+  nw
 ];
-function tw(o, t, n, a, e, r) {
-  return R(), z("svg", Kx, ew);
+function ow(o, t, n, a, e, r) {
+  return R(), z("svg", Xx, aw);
 }
-var nw = /* @__PURE__ */ B(Yx, [["render", tw], ["__file", "present.vue"]]), aw = {
+var rw = /* @__PURE__ */ B(Zx, [["render", ow], ["__file", "present.vue"]]), lw = {
   name: "PriceTag"
-}, ow = {
+}, iw = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rw = /* @__PURE__ */ D("path", {
+}, sw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 318.336V896h576V318.336L552.512 115.84a64 64 0 0 0-81.024 0L224 318.336zM593.024 66.304l259.2 212.096A32 32 0 0 1 864 303.168V928a32 32 0 0 1-32 32H192a32 32 0 0 1-32-32V303.168a32 32 0 0 1 11.712-24.768l259.2-212.096a128 128 0 0 1 162.112 0z"
-}, null, -1), lw = /* @__PURE__ */ D("path", {
+}, null, -1), dw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 448a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), iw = [
-  rw,
-  lw
+}, null, -1), cw = [
+  sw,
+  dw
 ];
-function sw(o, t, n, a, e, r) {
-  return R(), z("svg", ow, iw);
+function uw(o, t, n, a, e, r) {
+  return R(), z("svg", iw, cw);
 }
-var dw = /* @__PURE__ */ B(aw, [["render", sw], ["__file", "price-tag.vue"]]), cw = {
+var fw = /* @__PURE__ */ B(lw, [["render", uw], ["__file", "price-tag.vue"]]), mw = {
   name: "Printer"
-}, uw = {
+}, vw = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, fw = /* @__PURE__ */ D("path", {
+}, hw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 768H105.024c-14.272 0-19.456-1.472-24.64-4.288a29.056 29.056 0 0 1-12.16-12.096C65.536 746.432 64 741.248 64 727.04V379.072c0-42.816 4.48-58.304 12.8-73.984 8.384-15.616 20.672-27.904 36.288-36.288 15.68-8.32 31.168-12.8 73.984-12.8H256V64h512v192h68.928c42.816 0 58.304 4.48 73.984 12.8 15.616 8.384 27.904 20.672 36.288 36.288 8.32 15.68 12.8 31.168 12.8 73.984v347.904c0 14.272-1.472 19.456-4.288 24.64a29.056 29.056 0 0 1-12.096 12.16c-5.184 2.752-10.368 4.224-24.64 4.224H768v192H256V768zm64-192v320h384V576H320zm-64 128V512h512v192h128V379.072c0-29.376-1.408-36.48-5.248-43.776a23.296 23.296 0 0 0-10.048-10.048c-7.232-3.84-14.4-5.248-43.776-5.248H187.072c-29.376 0-36.48 1.408-43.776 5.248a23.296 23.296 0 0 0-10.048 10.048c-3.84 7.232-5.248 14.4-5.248 43.776V704h128zm64-448h384V128H320v128zm-64 128h64v64h-64v-64zm128 0h64v64h-64v-64z"
-}, null, -1), mw = [
-  fw
+}, null, -1), pw = [
+  hw
 ];
-function vw(o, t, n, a, e, r) {
-  return R(), z("svg", uw, mw);
+function gw(o, t, n, a, e, r) {
+  return R(), z("svg", vw, pw);
 }
-var hw = /* @__PURE__ */ B(cw, [["render", vw], ["__file", "printer.vue"]]), pw = {
+var yw = /* @__PURE__ */ B(mw, [["render", gw], ["__file", "printer.vue"]]), Aw = {
   name: "Promotion"
-}, gw = {
+}, _w = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, yw = /* @__PURE__ */ D("path", {
+}, xw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m64 448 832-320-128 704-446.08-243.328L832 192 242.816 545.472 64 448zm256 512V657.024L512 768 320 960z"
-}, null, -1), Aw = [
-  yw
+}, null, -1), ww = [
+  xw
 ];
-function _w(o, t, n, a, e, r) {
-  return R(), z("svg", gw, Aw);
+function Ew(o, t, n, a, e, r) {
+  return R(), z("svg", _w, ww);
 }
-var xw = /* @__PURE__ */ B(pw, [["render", _w], ["__file", "promotion.vue"]]), ww = {
+var Cw = /* @__PURE__ */ B(Aw, [["render", Ew], ["__file", "promotion.vue"]]), Sw = {
   name: "QuartzWatch"
-}, Ew = {
+}, bw = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, Cw = /* @__PURE__ */ D("path", {
+}, Dw = /* @__PURE__ */ D("path", {
   d: "M422.02 602.01v-.03c-6.68-5.99-14.35-8.83-23.01-8.51-8.67.32-16.17 3.66-22.5 10.02-6.33 6.36-9.5 13.7-9.5 22.02s3 15.82 8.99 22.5c8.68 8.68 19.02 11.35 31.01 8s19.49-10.85 22.5-22.5c3.01-11.65.51-22.15-7.49-31.49v-.01zM384 512c0-9.35-3-17.02-8.99-23.01-6-5.99-13.66-8.99-23.01-8.99-9.35 0-17.02 3-23.01 8.99-5.99 6-8.99 13.66-8.99 23.01s3 17.02 8.99 23.01c6 5.99 13.66 8.99 23.01 8.99 9.35 0 17.02-3 23.01-8.99 5.99-6 8.99-13.67 8.99-23.01zm6.53-82.49c11.65 3.01 22.15.51 31.49-7.49h.04c5.99-6.68 8.83-14.34 8.51-23.01-.32-8.67-3.66-16.16-10.02-22.5-6.36-6.33-13.7-9.5-22.02-9.5s-15.82 3-22.5 8.99c-8.68 8.69-11.35 19.02-8 31.01 3.35 11.99 10.85 19.49 22.5 22.5zm242.94 0c11.67-3.03 19.01-10.37 22.02-22.02 3.01-11.65.51-22.15-7.49-31.49h.01c-6.68-5.99-14.18-8.99-22.5-8.99s-15.66 3.16-22.02 9.5c-6.36 6.34-9.7 13.84-10.02 22.5-.32 8.66 2.52 16.33 8.51 23.01 9.32 8.02 19.82 10.52 31.49 7.49zM512 640c-9.35 0-17.02 3-23.01 8.99-5.99 6-8.99 13.66-8.99 23.01s3 17.02 8.99 23.01c6 5.99 13.67 8.99 23.01 8.99 9.35 0 17.02-3 23.01-8.99 5.99-6 8.99-13.66 8.99-23.01s-3-17.02-8.99-23.01c-6-5.99-13.66-8.99-23.01-8.99zm183.01-151.01c-6-5.99-13.66-8.99-23.01-8.99s-17.02 3-23.01 8.99c-5.99 6-8.99 13.66-8.99 23.01s3 17.02 8.99 23.01c6 5.99 13.66 8.99 23.01 8.99s17.02-3 23.01-8.99c5.99-6 8.99-13.67 8.99-23.01 0-9.35-3-17.02-8.99-23.01z",
   fill: "currentColor"
-}, null, -1), Sw = /* @__PURE__ */ D("path", {
+}, null, -1), Mw = /* @__PURE__ */ D("path", {
   d: "M832 512c-2-90.67-33.17-166.17-93.5-226.5-20.43-20.42-42.6-37.49-66.5-51.23V64H352v170.26c-23.9 13.74-46.07 30.81-66.5 51.24-60.33 60.33-91.49 135.83-93.5 226.5 2 90.67 33.17 166.17 93.5 226.5 20.43 20.43 42.6 37.5 66.5 51.24V960h320V789.74c23.9-13.74 46.07-30.81 66.5-51.24 60.33-60.34 91.49-135.83 93.5-226.5zM416 128h192v78.69c-29.85-9.03-61.85-13.93-96-14.69-34.15.75-66.15 5.65-96 14.68V128zm192 768H416v-78.68c29.85 9.03 61.85 13.93 96 14.68 34.15-.75 66.15-5.65 96-14.68V896zm-96-128c-72.66-2.01-132.99-27.01-180.99-75.01S258.01 584.66 256 512c2.01-72.66 27.01-132.99 75.01-180.99S439.34 258.01 512 256c72.66 2.01 132.99 27.01 180.99 75.01S765.99 439.34 768 512c-2.01 72.66-27.01 132.99-75.01 180.99S584.66 765.99 512 768z",
   fill: "currentColor"
-}, null, -1), bw = /* @__PURE__ */ D("path", {
+}, null, -1), Tw = /* @__PURE__ */ D("path", {
   d: "M512 320c-9.35 0-17.02 3-23.01 8.99-5.99 6-8.99 13.66-8.99 23.01 0 9.35 3 17.02 8.99 23.01 6 5.99 13.67 8.99 23.01 8.99 9.35 0 17.02-3 23.01-8.99 5.99-6 8.99-13.66 8.99-23.01 0-9.35-3-17.02-8.99-23.01-6-5.99-13.66-8.99-23.01-8.99zm112.99 273.5c-8.66-.32-16.33 2.52-23.01 8.51-7.98 9.32-10.48 19.82-7.49 31.49s10.49 19.17 22.5 22.5 22.35.66 31.01-8v.04c5.99-6.68 8.99-14.18 8.99-22.5s-3.16-15.66-9.5-22.02-13.84-9.7-22.5-10.02z",
   fill: "currentColor"
-}, null, -1), Dw = [
-  Cw,
-  Sw,
-  bw
+}, null, -1), Rw = [
+  Dw,
+  Mw,
+  Tw
 ];
-function Mw(o, t, n, a, e, r) {
-  return R(), z("svg", Ew, Dw);
+function zw(o, t, n, a, e, r) {
+  return R(), z("svg", bw, Rw);
 }
-var Tw = /* @__PURE__ */ B(ww, [["render", Mw], ["__file", "quartz-watch.vue"]]), Rw = {
+var $w = /* @__PURE__ */ B(Sw, [["render", zw], ["__file", "quartz-watch.vue"]]), Hw = {
   name: "QuestionFilled"
-}, zw = {
+}, Iw = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $w = /* @__PURE__ */ D("path", {
+}, Bw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm23.744 191.488c-52.096 0-92.928 14.784-123.2 44.352-30.976 29.568-45.76 70.4-45.76 122.496h80.256c0-29.568 5.632-52.8 17.6-68.992 13.376-19.712 35.2-28.864 66.176-28.864 23.936 0 42.944 6.336 56.32 19.712 12.672 13.376 19.712 31.68 19.712 54.912 0 17.6-6.336 34.496-19.008 49.984l-8.448 9.856c-45.76 40.832-73.216 70.4-82.368 89.408-9.856 19.008-14.08 42.24-14.08 68.992v9.856h80.96v-9.856c0-16.896 3.52-31.68 10.56-45.76 6.336-12.672 15.488-24.64 28.16-35.2 33.792-29.568 54.208-48.576 60.544-55.616 16.896-22.528 26.048-51.392 26.048-86.592 0-42.944-14.08-76.736-42.24-101.376-28.16-25.344-65.472-37.312-111.232-37.312zm-12.672 406.208a54.272 54.272 0 0 0-38.72 14.784 49.408 49.408 0 0 0-15.488 38.016c0 15.488 4.928 28.16 15.488 38.016A54.848 54.848 0 0 0 523.072 768c15.488 0 28.16-4.928 38.72-14.784a51.52 51.52 0 0 0 16.192-38.72 51.968 51.968 0 0 0-15.488-38.016 55.936 55.936 0 0 0-39.424-14.784z"
-}, null, -1), Hw = [
-  $w
+}, null, -1), Pw = [
+  Bw
 ];
-function Iw(o, t, n, a, e, r) {
-  return R(), z("svg", zw, Hw);
+function Nw(o, t, n, a, e, r) {
+  return R(), z("svg", Iw, Pw);
 }
-var Bw = /* @__PURE__ */ B(Rw, [["render", Iw], ["__file", "question-filled.vue"]]), Pw = {
+var Lw = /* @__PURE__ */ B(Hw, [["render", Nw], ["__file", "question-filled.vue"]]), Ow = {
   name: "Rank"
-}, Nw = {
+}, Vw = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Lw = /* @__PURE__ */ D("path", {
+}, Fw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m186.496 544 41.408 41.344a32 32 0 1 1-45.248 45.312l-96-96a32 32 0 0 1 0-45.312l96-96a32 32 0 1 1 45.248 45.312L186.496 480h290.816V186.432l-41.472 41.472a32 32 0 1 1-45.248-45.184l96-96.128a32 32 0 0 1 45.312 0l96 96.064a32 32 0 0 1-45.248 45.184l-41.344-41.28V480H832l-41.344-41.344a32 32 0 0 1 45.248-45.312l96 96a32 32 0 0 1 0 45.312l-96 96a32 32 0 0 1-45.248-45.312L832 544H541.312v293.44l41.344-41.28a32 32 0 1 1 45.248 45.248l-96 96a32 32 0 0 1-45.312 0l-96-96a32 32 0 1 1 45.312-45.248l41.408 41.408V544H186.496z"
-}, null, -1), Ow = [
-  Lw
+}, null, -1), jw = [
+  Fw
 ];
-function Vw(o, t, n, a, e, r) {
-  return R(), z("svg", Nw, Ow);
+function Uw(o, t, n, a, e, r) {
+  return R(), z("svg", Vw, jw);
 }
-var Fw = /* @__PURE__ */ B(Pw, [["render", Vw], ["__file", "rank.vue"]]), jw = {
+var Qw = /* @__PURE__ */ B(Ow, [["render", Uw], ["__file", "rank.vue"]]), kw = {
   name: "ReadingLamp"
-}, Uw = {
+}, Ww = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qw = /* @__PURE__ */ D("path", {
+}, Gw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 896h320q32 0 32 32t-32 32H352q-32 0-32-32t32-32zm-44.672-768-99.52 448h608.384l-99.52-448H307.328zm-25.6-64h460.608a32 32 0 0 1 31.232 25.088l113.792 512A32 32 0 0 1 856.128 640H167.872a32 32 0 0 1-31.232-38.912l113.792-512A32 32 0 0 1 281.664 64z"
-}, null, -1), kw = /* @__PURE__ */ D("path", {
+}, null, -1), Yw = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M672 576q32 0 32 32v128q0 32-32 32t-32-32V608q0-32 32-32zm-192-.064h64V960h-64z"
-}, null, -1), Ww = [
-  Qw,
-  kw
+}, null, -1), Kw = [
+  Gw,
+  Yw
 ];
-function Gw(o, t, n, a, e, r) {
-  return R(), z("svg", Uw, Ww);
+function Jw(o, t, n, a, e, r) {
+  return R(), z("svg", Ww, Kw);
 }
-var Yw = /* @__PURE__ */ B(jw, [["render", Gw], ["__file", "reading-lamp.vue"]]), Kw = {
+var Zw = /* @__PURE__ */ B(kw, [["render", Jw], ["__file", "reading-lamp.vue"]]), Xw = {
   name: "Reading"
-}, Jw = {
+}, qw = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Zw = /* @__PURE__ */ D("path", {
+}, eE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m512 863.36 384-54.848v-638.72L525.568 222.72a96 96 0 0 1-27.136 0L128 169.792v638.72l384 54.848zM137.024 106.432l370.432 52.928a32 32 0 0 0 9.088 0l370.432-52.928A64 64 0 0 1 960 169.792v638.72a64 64 0 0 1-54.976 63.36l-388.48 55.488a32 32 0 0 1-9.088 0l-388.48-55.488A64 64 0 0 1 64 808.512v-638.72a64 64 0 0 1 73.024-63.36z"
-}, null, -1), Xw = /* @__PURE__ */ D("path", {
+}, null, -1), tE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 192h64v704h-64z"
-}, null, -1), qw = [
-  Zw,
-  Xw
+}, null, -1), nE = [
+  eE,
+  tE
 ];
-function eE(o, t, n, a, e, r) {
-  return R(), z("svg", Jw, qw);
+function aE(o, t, n, a, e, r) {
+  return R(), z("svg", qw, nE);
 }
-var tE = /* @__PURE__ */ B(Kw, [["render", eE], ["__file", "reading.vue"]]), nE = {
+var oE = /* @__PURE__ */ B(Xw, [["render", aE], ["__file", "reading.vue"]]), rE = {
   name: "RefreshLeft"
-}, aE = {
+}, lE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, oE = /* @__PURE__ */ D("path", {
+}, iE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M289.088 296.704h92.992a32 32 0 0 1 0 64H232.96a32 32 0 0 1-32-32V179.712a32 32 0 0 1 64 0v50.56a384 384 0 0 1 643.84 282.88 384 384 0 0 1-383.936 384 384 384 0 0 1-384-384h64a320 320 0 1 0 640 0 320 320 0 0 0-555.712-216.448z"
-}, null, -1), rE = [
-  oE
+}, null, -1), sE = [
+  iE
 ];
-function lE(o, t, n, a, e, r) {
-  return R(), z("svg", aE, rE);
+function dE(o, t, n, a, e, r) {
+  return R(), z("svg", lE, sE);
 }
-var iE = /* @__PURE__ */ B(nE, [["render", lE], ["__file", "refresh-left.vue"]]), sE = {
+var cE = /* @__PURE__ */ B(rE, [["render", dE], ["__file", "refresh-left.vue"]]), uE = {
   name: "RefreshRight"
-}, dE = {
+}, fE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, cE = /* @__PURE__ */ D("path", {
+}, mE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M784.512 230.272v-50.56a32 32 0 1 1 64 0v149.056a32 32 0 0 1-32 32H667.52a32 32 0 1 1 0-64h92.992A320 320 0 1 0 524.8 833.152a320 320 0 0 0 320-320h64a384 384 0 0 1-384 384 384 384 0 0 1-384-384 384 384 0 0 1 643.712-282.88z"
-}, null, -1), uE = [
-  cE
+}, null, -1), vE = [
+  mE
 ];
-function fE(o, t, n, a, e, r) {
-  return R(), z("svg", dE, uE);
+function hE(o, t, n, a, e, r) {
+  return R(), z("svg", fE, vE);
 }
-var mE = /* @__PURE__ */ B(sE, [["render", fE], ["__file", "refresh-right.vue"]]), vE = {
+var pE = /* @__PURE__ */ B(uE, [["render", hE], ["__file", "refresh-right.vue"]]), gE = {
   name: "Refresh"
-}, hE = {
+}, yE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pE = /* @__PURE__ */ D("path", {
+}, AE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M771.776 794.88A384 384 0 0 1 128 512h64a320 320 0 0 0 555.712 216.448H654.72a32 32 0 1 1 0-64h149.056a32 32 0 0 1 32 32v148.928a32 32 0 1 1-64 0v-50.56zM276.288 295.616h92.992a32 32 0 0 1 0 64H220.16a32 32 0 0 1-32-32V178.56a32 32 0 0 1 64 0v50.56A384 384 0 0 1 896.128 512h-64a320 320 0 0 0-555.776-216.384z"
-}, null, -1), gE = [
-  pE
+}, null, -1), _E = [
+  AE
 ];
-function yE(o, t, n, a, e, r) {
-  return R(), z("svg", hE, gE);
+function xE(o, t, n, a, e, r) {
+  return R(), z("svg", yE, _E);
 }
-var AE = /* @__PURE__ */ B(vE, [["render", yE], ["__file", "refresh.vue"]]), _E = {
+var wE = /* @__PURE__ */ B(gE, [["render", xE], ["__file", "refresh.vue"]]), EE = {
   name: "Refrigerator"
-}, xE = {
+}, CE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wE = /* @__PURE__ */ D("path", {
+}, SE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 448h512V160a32 32 0 0 0-32-32H288a32 32 0 0 0-32 32v288zm0 64v352a32 32 0 0 0 32 32h448a32 32 0 0 0 32-32V512H256zm32-448h448a96 96 0 0 1 96 96v704a96 96 0 0 1-96 96H288a96 96 0 0 1-96-96V160a96 96 0 0 1 96-96zm32 224h64v96h-64v-96zm0 288h64v96h-64v-96z"
-}, null, -1), EE = [
-  wE
+}, null, -1), bE = [
+  SE
 ];
-function CE(o, t, n, a, e, r) {
-  return R(), z("svg", xE, EE);
+function DE(o, t, n, a, e, r) {
+  return R(), z("svg", CE, bE);
 }
-var SE = /* @__PURE__ */ B(_E, [["render", CE], ["__file", "refrigerator.vue"]]), bE = {
+var ME = /* @__PURE__ */ B(EE, [["render", DE], ["__file", "refrigerator.vue"]]), TE = {
   name: "RemoveFilled"
-}, DE = {
+}, RE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ME = /* @__PURE__ */ D("path", {
+}, zE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zM288 512a38.4 38.4 0 0 0 38.4 38.4h371.2a38.4 38.4 0 0 0 0-76.8H326.4A38.4 38.4 0 0 0 288 512z"
-}, null, -1), TE = [
-  ME
+}, null, -1), $E = [
+  zE
 ];
-function RE(o, t, n, a, e, r) {
-  return R(), z("svg", DE, TE);
+function HE(o, t, n, a, e, r) {
+  return R(), z("svg", RE, $E);
 }
-var zE = /* @__PURE__ */ B(bE, [["render", RE], ["__file", "remove-filled.vue"]]), $E = {
+var IE = /* @__PURE__ */ B(TE, [["render", HE], ["__file", "remove-filled.vue"]]), BE = {
   name: "Remove"
-}, HE = {
+}, PE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, IE = /* @__PURE__ */ D("path", {
+}, NE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 480h320a32 32 0 1 1 0 64H352a32 32 0 0 1 0-64z"
-}, null, -1), BE = /* @__PURE__ */ D("path", {
+}, null, -1), LE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), PE = [
-  IE,
-  BE
+}, null, -1), OE = [
+  NE,
+  LE
 ];
-function NE(o, t, n, a, e, r) {
-  return R(), z("svg", HE, PE);
+function VE(o, t, n, a, e, r) {
+  return R(), z("svg", PE, OE);
 }
-var LE = /* @__PURE__ */ B($E, [["render", NE], ["__file", "remove.vue"]]), OE = {
+var FE = /* @__PURE__ */ B(BE, [["render", VE], ["__file", "remove.vue"]]), jE = {
   name: "Right"
-}, VE = {
+}, UE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, FE = /* @__PURE__ */ D("path", {
+}, QE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M754.752 480H160a32 32 0 1 0 0 64h594.752L521.344 777.344a32 32 0 0 0 45.312 45.312l288-288a32 32 0 0 0 0-45.312l-288-288a32 32 0 1 0-45.312 45.312L754.752 480z"
-}, null, -1), jE = [
-  FE
+}, null, -1), kE = [
+  QE
 ];
-function UE(o, t, n, a, e, r) {
-  return R(), z("svg", VE, jE);
+function WE(o, t, n, a, e, r) {
+  return R(), z("svg", UE, kE);
 }
-var QE = /* @__PURE__ */ B(OE, [["render", UE], ["__file", "right.vue"]]), kE = {
+var GE = /* @__PURE__ */ B(jE, [["render", WE], ["__file", "right.vue"]]), YE = {
   name: "ScaleToOriginal"
-}, WE = {
+}, KE = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, GE = /* @__PURE__ */ D("path", {
+}, JE = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M813.176 180.706a60.235 60.235 0 0 1 60.236 60.235v481.883a60.235 60.235 0 0 1-60.236 60.235H210.824a60.235 60.235 0 0 1-60.236-60.235V240.94a60.235 60.235 0 0 1 60.236-60.235h602.352zm0-60.235H210.824A120.47 120.47 0 0 0 90.353 240.94v481.883a120.47 120.47 0 0 0 120.47 120.47h602.353a120.47 120.47 0 0 0 120.471-120.47V240.94a120.47 120.47 0 0 0-120.47-120.47zm-120.47 180.705a30.118 30.118 0 0 0-30.118 30.118v301.177a30.118 30.118 0 0 0 60.236 0V331.294a30.118 30.118 0 0 0-30.118-30.118zm-361.412 0a30.118 30.118 0 0 0-30.118 30.118v301.177a30.118 30.118 0 1 0 60.236 0V331.294a30.118 30.118 0 0 0-30.118-30.118zM512 361.412a30.118 30.118 0 0 0-30.118 30.117v30.118a30.118 30.118 0 0 0 60.236 0V391.53A30.118 30.118 0 0 0 512 361.412zM512 512a30.118 30.118 0 0 0-30.118 30.118v30.117a30.118 30.118 0 0 0 60.236 0v-30.117A30.118 30.118 0 0 0 512 512z"
-}, null, -1), YE = [
-  GE
+}, null, -1), ZE = [
+  JE
 ];
-function KE(o, t, n, a, e, r) {
-  return R(), z("svg", WE, YE);
+function XE(o, t, n, a, e, r) {
+  return R(), z("svg", KE, ZE);
 }
-var JE = /* @__PURE__ */ B(kE, [["render", KE], ["__file", "scale-to-original.vue"]]), ZE = {
+var qE = /* @__PURE__ */ B(YE, [["render", XE], ["__file", "scale-to-original.vue"]]), eC = {
   name: "School"
-}, XE = {
+}, tC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qE = /* @__PURE__ */ D("path", {
+}, nC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 128v704h576V128H224zm-32-64h640a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H192a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z"
-}, null, -1), eC = /* @__PURE__ */ D("path", {
+}, null, -1), aC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M64 832h896v64H64zm256-640h128v96H320z"
-}, null, -1), tC = /* @__PURE__ */ D("path", {
+}, null, -1), oC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 832h256v-64a128 128 0 1 0-256 0v64zm128-256a192 192 0 0 1 192 192v128H320V768a192 192 0 0 1 192-192zM320 384h128v96H320zm256-192h128v96H576zm0 192h128v96H576z"
-}, null, -1), nC = [
-  qE,
-  eC,
-  tC
+}, null, -1), rC = [
+  nC,
+  aC,
+  oC
 ];
-function aC(o, t, n, a, e, r) {
-  return R(), z("svg", XE, nC);
+function lC(o, t, n, a, e, r) {
+  return R(), z("svg", tC, rC);
 }
-var oC = /* @__PURE__ */ B(ZE, [["render", aC], ["__file", "school.vue"]]), rC = {
+var iC = /* @__PURE__ */ B(eC, [["render", lC], ["__file", "school.vue"]]), sC = {
   name: "Scissor"
-}, lC = {
+}, dC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, iC = /* @__PURE__ */ D("path", {
+}, cC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m512.064 578.368-106.88 152.768a160 160 0 1 1-23.36-78.208L472.96 522.56 196.864 128.256a32 32 0 1 1 52.48-36.736l393.024 561.344a160 160 0 1 1-23.36 78.208l-106.88-152.704zm54.4-189.248 208.384-297.6a32 32 0 0 1 52.48 36.736l-221.76 316.672-39.04-55.808zm-376.32 425.856a96 96 0 1 0 110.144-157.248 96 96 0 0 0-110.08 157.248zm643.84 0a96 96 0 1 0-110.08-157.248 96 96 0 0 0 110.08 157.248z"
-}, null, -1), sC = [
-  iC
+}, null, -1), uC = [
+  cC
 ];
-function dC(o, t, n, a, e, r) {
-  return R(), z("svg", lC, sC);
+function fC(o, t, n, a, e, r) {
+  return R(), z("svg", dC, uC);
 }
-var cC = /* @__PURE__ */ B(rC, [["render", dC], ["__file", "scissor.vue"]]), uC = {
+var mC = /* @__PURE__ */ B(sC, [["render", fC], ["__file", "scissor.vue"]]), vC = {
   name: "Search"
-}, fC = {
+}, hC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, mC = /* @__PURE__ */ D("path", {
+}, pC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704 352 352 0 0 0 0 704z"
-}, null, -1), vC = [
-  mC
+}, null, -1), gC = [
+  pC
 ];
-function hC(o, t, n, a, e, r) {
-  return R(), z("svg", fC, vC);
+function yC(o, t, n, a, e, r) {
+  return R(), z("svg", hC, gC);
 }
-var pC = /* @__PURE__ */ B(uC, [["render", hC], ["__file", "search.vue"]]), gC = {
+var AC = /* @__PURE__ */ B(vC, [["render", yC], ["__file", "search.vue"]]), _C = {
   name: "Select"
-}, yC = {
+}, xC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, AC = /* @__PURE__ */ D("path", {
+}, wC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M77.248 415.04a64 64 0 0 1 90.496 0l226.304 226.304L846.528 188.8a64 64 0 1 1 90.56 90.496l-543.04 543.04-316.8-316.8a64 64 0 0 1 0-90.496z"
-}, null, -1), _C = [
-  AC
+}, null, -1), EC = [
+  wC
 ];
-function xC(o, t, n, a, e, r) {
-  return R(), z("svg", yC, _C);
+function CC(o, t, n, a, e, r) {
+  return R(), z("svg", xC, EC);
 }
-var wC = /* @__PURE__ */ B(gC, [["render", xC], ["__file", "select.vue"]]), EC = {
+var SC = /* @__PURE__ */ B(_C, [["render", CC], ["__file", "select.vue"]]), bC = {
   name: "Sell"
-}, CC = {
+}, DC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, SC = /* @__PURE__ */ D("path", {
+}, MC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 288h131.072a32 32 0 0 1 31.808 28.8L886.4 512h-64.384l-16-160H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96H217.92l-51.2 512H512v64H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4zm-64 0v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4h256zm201.408 483.84L768 698.496V928a32 32 0 1 1-64 0V698.496l-73.344 73.344a32 32 0 1 1-45.248-45.248l128-128a32 32 0 0 1 45.248 0l128 128a32 32 0 1 1-45.248 45.248z"
-}, null, -1), bC = [
-  SC
+}, null, -1), TC = [
+  MC
 ];
-function DC(o, t, n, a, e, r) {
-  return R(), z("svg", CC, bC);
+function RC(o, t, n, a, e, r) {
+  return R(), z("svg", DC, TC);
 }
-var MC = /* @__PURE__ */ B(EC, [["render", DC], ["__file", "sell.vue"]]), TC = {
+var zC = /* @__PURE__ */ B(bC, [["render", RC], ["__file", "sell.vue"]]), $C = {
   name: "SemiSelect"
-}, RC = {
+}, HC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, zC = /* @__PURE__ */ D("path", {
+}, IC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 448h768q64 0 64 64t-64 64H128q-64 0-64-64t64-64z"
-}, null, -1), $C = [
-  zC
+}, null, -1), BC = [
+  IC
 ];
-function HC(o, t, n, a, e, r) {
-  return R(), z("svg", RC, $C);
+function PC(o, t, n, a, e, r) {
+  return R(), z("svg", HC, BC);
 }
-var IC = /* @__PURE__ */ B(TC, [["render", HC], ["__file", "semi-select.vue"]]), BC = {
+var NC = /* @__PURE__ */ B($C, [["render", PC], ["__file", "semi-select.vue"]]), LC = {
   name: "Service"
-}, PC = {
+}, OC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, NC = /* @__PURE__ */ D("path", {
+}, VC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M864 409.6a192 192 0 0 1-37.888 349.44A256.064 256.064 0 0 1 576 960h-96a32 32 0 1 1 0-64h96a192.064 192.064 0 0 0 181.12-128H736a32 32 0 0 1-32-32V416a32 32 0 0 1 32-32h32c10.368 0 20.544.832 30.528 2.432a288 288 0 0 0-573.056 0A193.235 193.235 0 0 1 256 384h32a32 32 0 0 1 32 32v320a32 32 0 0 1-32 32h-32a192 192 0 0 1-96-358.4 352 352 0 0 1 704 0zM256 448a128 128 0 1 0 0 256V448zm640 128a128 128 0 0 0-128-128v256a128 128 0 0 0 128-128z"
-}, null, -1), LC = [
-  NC
+}, null, -1), FC = [
+  VC
 ];
-function OC(o, t, n, a, e, r) {
-  return R(), z("svg", PC, LC);
+function jC(o, t, n, a, e, r) {
+  return R(), z("svg", OC, FC);
 }
-var VC = /* @__PURE__ */ B(BC, [["render", OC], ["__file", "service.vue"]]), FC = {
+var UC = /* @__PURE__ */ B(LC, [["render", jC], ["__file", "service.vue"]]), QC = {
   name: "SetUp"
-}, jC = {
+}, kC = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, UC = /* @__PURE__ */ D("path", {
+}, WC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 160a64 64 0 0 0-64 64v576a64 64 0 0 0 64 64h576a64 64 0 0 0 64-64V224a64 64 0 0 0-64-64H224zm0-64h576a128 128 0 0 1 128 128v576a128 128 0 0 1-128 128H224A128 128 0 0 1 96 800V224A128 128 0 0 1 224 96z"
-}, null, -1), QC = /* @__PURE__ */ D("path", {
+}, null, -1), GC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 416a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), kC = /* @__PURE__ */ D("path", {
+}, null, -1), YC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 320h256q32 0 32 32t-32 32H480q-32 0-32-32t32-32zm160 416a64 64 0 1 0 0-128 64 64 0 0 0 0 128zm0 64a128 128 0 1 1 0-256 128 128 0 0 1 0 256z"
-}, null, -1), WC = /* @__PURE__ */ D("path", {
+}, null, -1), KC = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 640h256q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), GC = [
-  UC,
-  QC,
-  kC,
-  WC
+}, null, -1), JC = [
+  WC,
+  GC,
+  YC,
+  KC
 ];
-function YC(o, t, n, a, e, r) {
-  return R(), z("svg", jC, GC);
+function ZC(o, t, n, a, e, r) {
+  return R(), z("svg", kC, JC);
 }
-var KC = /* @__PURE__ */ B(FC, [["render", YC], ["__file", "set-up.vue"]]), JC = {
+var XC = /* @__PURE__ */ B(QC, [["render", ZC], ["__file", "set-up.vue"]]), qC = {
   name: "Setting"
-}, ZC = {
+}, eS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, XC = /* @__PURE__ */ D("path", {
+}, tS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M600.704 64a32 32 0 0 1 30.464 22.208l35.2 109.376c14.784 7.232 28.928 15.36 42.432 24.512l112.384-24.192a32 32 0 0 1 34.432 15.36L944.32 364.8a32 32 0 0 1-4.032 37.504l-77.12 85.12a357.12 357.12 0 0 1 0 49.024l77.12 85.248a32 32 0 0 1 4.032 37.504l-88.704 153.6a32 32 0 0 1-34.432 15.296L708.8 803.904c-13.44 9.088-27.648 17.28-42.368 24.512l-35.264 109.376A32 32 0 0 1 600.704 960H423.296a32 32 0 0 1-30.464-22.208L357.696 828.48a351.616 351.616 0 0 1-42.56-24.64l-112.32 24.256a32 32 0 0 1-34.432-15.36L79.68 659.2a32 32 0 0 1 4.032-37.504l77.12-85.248a357.12 357.12 0 0 1 0-48.896l-77.12-85.248A32 32 0 0 1 79.68 364.8l88.704-153.6a32 32 0 0 1 34.432-15.296l112.32 24.256c13.568-9.152 27.776-17.408 42.56-24.64l35.2-109.312A32 32 0 0 1 423.232 64H600.64zm-23.424 64H446.72l-36.352 113.088-24.512 11.968a294.113 294.113 0 0 0-34.816 20.096l-22.656 15.36-116.224-25.088-65.28 113.152 79.68 88.192-1.92 27.136a293.12 293.12 0 0 0 0 40.192l1.92 27.136-79.808 88.192 65.344 113.152 116.224-25.024 22.656 15.296a294.113 294.113 0 0 0 34.816 20.096l24.512 11.968L446.72 896h130.688l36.48-113.152 24.448-11.904a288.282 288.282 0 0 0 34.752-20.096l22.592-15.296 116.288 25.024 65.28-113.152-79.744-88.192 1.92-27.136a293.12 293.12 0 0 0 0-40.256l-1.92-27.136 79.808-88.128-65.344-113.152-116.288 24.96-22.592-15.232a287.616 287.616 0 0 0-34.752-20.096l-24.448-11.904L577.344 128zM512 320a192 192 0 1 1 0 384 192 192 0 0 1 0-384zm0 64a128 128 0 1 0 0 256 128 128 0 0 0 0-256z"
-}, null, -1), qC = [
-  XC
+}, null, -1), nS = [
+  tS
 ];
-function eS(o, t, n, a, e, r) {
-  return R(), z("svg", ZC, qC);
+function aS(o, t, n, a, e, r) {
+  return R(), z("svg", eS, nS);
 }
-var tS = /* @__PURE__ */ B(JC, [["render", eS], ["__file", "setting.vue"]]), nS = {
+var oS = /* @__PURE__ */ B(qC, [["render", aS], ["__file", "setting.vue"]]), rS = {
   name: "Share"
-}, aS = {
+}, lS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, oS = /* @__PURE__ */ D("path", {
+}, iS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m679.872 348.8-301.76 188.608a127.808 127.808 0 0 1 5.12 52.16l279.936 104.96a128 128 0 1 1-22.464 59.904l-279.872-104.96a128 128 0 1 1-16.64-166.272l301.696-188.608a128 128 0 1 1 33.92 54.272z"
-}, null, -1), rS = [
-  oS
+}, null, -1), sS = [
+  iS
 ];
-function lS(o, t, n, a, e, r) {
-  return R(), z("svg", aS, rS);
+function dS(o, t, n, a, e, r) {
+  return R(), z("svg", lS, sS);
 }
-var iS = /* @__PURE__ */ B(nS, [["render", lS], ["__file", "share.vue"]]), sS = {
+var cS = /* @__PURE__ */ B(rS, [["render", dS], ["__file", "share.vue"]]), uS = {
   name: "Ship"
-}, dS = {
+}, fS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, cS = /* @__PURE__ */ D("path", {
+}, mS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 386.88V448h405.568a32 32 0 0 1 30.72 40.768l-76.48 267.968A192 192 0 0 1 687.168 896H336.832a192 192 0 0 1-184.64-139.264L75.648 488.768A32 32 0 0 1 106.368 448H448V117.888a32 32 0 0 1 47.36-28.096l13.888 7.616L512 96v2.88l231.68 126.4a32 32 0 0 1-2.048 57.216L512 386.88zm0-70.272 144.768-65.792L512 171.84v144.768zM512 512H148.864l18.24 64H856.96l18.24-64H512zM185.408 640l28.352 99.2A128 128 0 0 0 336.832 832h350.336a128 128 0 0 0 123.072-92.8l28.352-99.2H185.408z"
-}, null, -1), uS = [
-  cS
+}, null, -1), vS = [
+  mS
 ];
-function fS(o, t, n, a, e, r) {
-  return R(), z("svg", dS, uS);
+function hS(o, t, n, a, e, r) {
+  return R(), z("svg", fS, vS);
 }
-var mS = /* @__PURE__ */ B(sS, [["render", fS], ["__file", "ship.vue"]]), vS = {
+var pS = /* @__PURE__ */ B(uS, [["render", hS], ["__file", "ship.vue"]]), gS = {
   name: "Shop"
-}, hS = {
+}, yS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pS = /* @__PURE__ */ D("path", {
+}, AS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 704h64v192H256V704h64v64h384v-64zm188.544-152.192C894.528 559.616 896 567.616 896 576a96 96 0 1 1-192 0 96 96 0 1 1-192 0 96 96 0 1 1-192 0 96 96 0 1 1-192 0c0-8.384 1.408-16.384 3.392-24.192L192 128h640l60.544 423.808z"
-}, null, -1), gS = [
-  pS
+}, null, -1), _S = [
+  AS
 ];
-function yS(o, t, n, a, e, r) {
-  return R(), z("svg", hS, gS);
+function xS(o, t, n, a, e, r) {
+  return R(), z("svg", yS, _S);
 }
-var AS = /* @__PURE__ */ B(vS, [["render", yS], ["__file", "shop.vue"]]), _S = {
+var wS = /* @__PURE__ */ B(gS, [["render", xS], ["__file", "shop.vue"]]), ES = {
   name: "ShoppingBag"
-}, xS = {
+}, CS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wS = /* @__PURE__ */ D("path", {
+}, SS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 320v96a32 32 0 0 1-32 32h-32V320H384v128h-32a32 32 0 0 1-32-32v-96H192v576h640V320H704zm-384-64a192 192 0 1 1 384 0h160a32 32 0 0 1 32 32v640a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V288a32 32 0 0 1 32-32h160zm64 0h256a128 128 0 1 0-256 0z"
-}, null, -1), ES = /* @__PURE__ */ D("path", {
+}, null, -1), bS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 704h640v64H192z"
-}, null, -1), CS = [
-  wS,
-  ES
+}, null, -1), DS = [
+  SS,
+  bS
 ];
-function SS(o, t, n, a, e, r) {
-  return R(), z("svg", xS, CS);
+function MS(o, t, n, a, e, r) {
+  return R(), z("svg", CS, DS);
 }
-var bS = /* @__PURE__ */ B(_S, [["render", SS], ["__file", "shopping-bag.vue"]]), DS = {
+var TS = /* @__PURE__ */ B(ES, [["render", MS], ["__file", "shopping-bag.vue"]]), RS = {
   name: "ShoppingCartFull"
-}, MS = {
+}, zS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, TS = /* @__PURE__ */ D("path", {
+}, $S = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M432 928a48 48 0 1 1 0-96 48 48 0 0 1 0 96zm320 0a48 48 0 1 1 0-96 48 48 0 0 1 0 96zM96 128a32 32 0 0 1 0-64h160a32 32 0 0 1 31.36 25.728L320.64 256H928a32 32 0 0 1 31.296 38.72l-96 448A32 32 0 0 1 832 768H384a32 32 0 0 1-31.36-25.728L229.76 128H96zm314.24 576h395.904l82.304-384H333.44l76.8 384z"
-}, null, -1), RS = /* @__PURE__ */ D("path", {
+}, null, -1), HS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M699.648 256 608 145.984 516.352 256h183.296zm-140.8-151.04a64 64 0 0 1 98.304 0L836.352 320H379.648l179.2-215.04z"
-}, null, -1), zS = [
-  TS,
-  RS
+}, null, -1), IS = [
+  $S,
+  HS
 ];
-function $S(o, t, n, a, e, r) {
-  return R(), z("svg", MS, zS);
+function BS(o, t, n, a, e, r) {
+  return R(), z("svg", zS, IS);
 }
-var HS = /* @__PURE__ */ B(DS, [["render", $S], ["__file", "shopping-cart-full.vue"]]), IS = {
+var PS = /* @__PURE__ */ B(RS, [["render", BS], ["__file", "shopping-cart-full.vue"]]), NS = {
   name: "ShoppingCart"
-}, BS = {
+}, LS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, PS = /* @__PURE__ */ D("path", {
+}, OS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M432 928a48 48 0 1 1 0-96 48 48 0 0 1 0 96zm320 0a48 48 0 1 1 0-96 48 48 0 0 1 0 96zM96 128a32 32 0 0 1 0-64h160a32 32 0 0 1 31.36 25.728L320.64 256H928a32 32 0 0 1 31.296 38.72l-96 448A32 32 0 0 1 832 768H384a32 32 0 0 1-31.36-25.728L229.76 128H96zm314.24 576h395.904l82.304-384H333.44l76.8 384z"
-}, null, -1), NS = [
-  PS
+}, null, -1), VS = [
+  OS
 ];
-function LS(o, t, n, a, e, r) {
-  return R(), z("svg", BS, NS);
+function FS(o, t, n, a, e, r) {
+  return R(), z("svg", LS, VS);
 }
-var OS = /* @__PURE__ */ B(IS, [["render", LS], ["__file", "shopping-cart.vue"]]), VS = {
+var jS = /* @__PURE__ */ B(NS, [["render", FS], ["__file", "shopping-cart.vue"]]), US = {
   name: "ShoppingTrolley"
-}, FS = {
+}, QS = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, jS = /* @__PURE__ */ D("path", {
+}, kS = /* @__PURE__ */ D("path", {
   d: "M368 833c-13.3 0-24.5 4.5-33.5 13.5S321 866.7 321 880s4.5 24.5 13.5 33.5 20.2 13.8 33.5 14.5c13.3-.7 24.5-5.5 33.5-14.5S415 893.3 415 880s-4.5-24.5-13.5-33.5S381.3 833 368 833zm439-193c7.4 0 13.8-2.2 19.5-6.5S836 623.3 838 616l112-448c2-10-.2-19.2-6.5-27.5S929 128 919 128H96c-9.3 0-17 3-23 9s-9 13.7-9 23 3 17 9 23 13.7 9 23 9h96v576h672c9.3 0 17-3 23-9s9-13.7 9-23-3-17-9-23-13.7-9-23-9H256v-64h551zM256 192h622l-96 384H256V192zm432 641c-13.3 0-24.5 4.5-33.5 13.5S641 866.7 641 880s4.5 24.5 13.5 33.5 20.2 13.8 33.5 14.5c13.3-.7 24.5-5.5 33.5-14.5S735 893.3 735 880s-4.5-24.5-13.5-33.5S701.3 833 688 833z",
   fill: "currentColor"
-}, null, -1), US = [
-  jS
+}, null, -1), WS = [
+  kS
 ];
-function QS(o, t, n, a, e, r) {
-  return R(), z("svg", FS, US);
+function GS(o, t, n, a, e, r) {
+  return R(), z("svg", QS, WS);
 }
-var kS = /* @__PURE__ */ B(VS, [["render", QS], ["__file", "shopping-trolley.vue"]]), WS = {
+var YS = /* @__PURE__ */ B(US, [["render", GS], ["__file", "shopping-trolley.vue"]]), KS = {
   name: "Smoking"
-}, GS = {
+}, JS = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, YS = /* @__PURE__ */ D("path", {
+}, ZS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 576v128h640V576H256zm-32-64h704a32 32 0 0 1 32 32v192a32 32 0 0 1-32 32H224a32 32 0 0 1-32-32V544a32 32 0 0 1 32-32z"
-}, null, -1), KS = /* @__PURE__ */ D("path", {
+}, null, -1), XS = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 576h64v128h-64zM256 64h64v320h-64zM128 192h64v192h-64zM64 512h64v256H64z"
-}, null, -1), JS = [
-  YS,
-  KS
+}, null, -1), qS = [
+  ZS,
+  XS
 ];
-function ZS(o, t, n, a, e, r) {
-  return R(), z("svg", GS, JS);
+function eb(o, t, n, a, e, r) {
+  return R(), z("svg", JS, qS);
 }
-var XS = /* @__PURE__ */ B(WS, [["render", ZS], ["__file", "smoking.vue"]]), qS = {
+var tb = /* @__PURE__ */ B(KS, [["render", eb], ["__file", "smoking.vue"]]), nb = {
   name: "Soccer"
-}, eb = {
+}, ab = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, tb = /* @__PURE__ */ D("path", {
+}, ob = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M418.496 871.04 152.256 604.8c-16.512 94.016-2.368 178.624 42.944 224 44.928 44.928 129.344 58.752 223.296 42.24zm72.32-18.176a573.056 573.056 0 0 0 224.832-137.216 573.12 573.12 0 0 0 137.216-224.832L533.888 171.84a578.56 578.56 0 0 0-227.52 138.496A567.68 567.68 0 0 0 170.432 532.48l320.384 320.384zM871.04 418.496c16.512-93.952 2.688-178.368-42.24-223.296-44.544-44.544-128.704-58.048-222.592-41.536L871.04 418.496zM149.952 874.048c-112.96-112.96-88.832-408.96 111.168-608.96C461.056 65.152 760.96 36.928 874.048 149.952c113.024 113.024 86.784 411.008-113.152 610.944-199.936 199.936-497.92 226.112-610.944 113.152zm452.544-497.792 22.656-22.656a32 32 0 0 1 45.248 45.248l-22.656 22.656 45.248 45.248A32 32 0 1 1 647.744 512l-45.248-45.248L557.248 512l45.248 45.248a32 32 0 1 1-45.248 45.248L512 557.248l-45.248 45.248L512 647.744a32 32 0 1 1-45.248 45.248l-45.248-45.248-22.656 22.656a32 32 0 1 1-45.248-45.248l22.656-22.656-45.248-45.248A32 32 0 1 1 376.256 512l45.248 45.248L466.752 512l-45.248-45.248a32 32 0 1 1 45.248-45.248L512 466.752l45.248-45.248L512 376.256a32 32 0 0 1 45.248-45.248l45.248 45.248z"
-}, null, -1), nb = [
-  tb
+}, null, -1), rb = [
+  ob
 ];
-function ab(o, t, n, a, e, r) {
-  return R(), z("svg", eb, nb);
+function lb(o, t, n, a, e, r) {
+  return R(), z("svg", ab, rb);
 }
-var ob = /* @__PURE__ */ B(qS, [["render", ab], ["__file", "soccer.vue"]]), rb = {
+var ib = /* @__PURE__ */ B(nb, [["render", lb], ["__file", "soccer.vue"]]), sb = {
   name: "SoldOut"
-}, lb = {
+}, db = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ib = /* @__PURE__ */ D("path", {
+}, cb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 288h131.072a32 32 0 0 1 31.808 28.8L886.4 512h-64.384l-16-160H704v96a32 32 0 1 1-64 0v-96H384v96a32 32 0 0 1-64 0v-96H217.92l-51.2 512H512v64H131.328a32 32 0 0 1-31.808-35.2l57.6-576a32 32 0 0 1 31.808-28.8H320v-22.336C320 154.688 405.504 64 512 64s192 90.688 192 201.664v22.4zm-64 0v-22.336C640 189.248 582.272 128 512 128c-70.272 0-128 61.248-128 137.664v22.4h256zm201.408 476.16a32 32 0 1 1 45.248 45.184l-128 128a32 32 0 0 1-45.248 0l-128-128a32 32 0 1 1 45.248-45.248L704 837.504V608a32 32 0 1 1 64 0v229.504l73.408-73.408z"
-}, null, -1), sb = [
-  ib
+}, null, -1), ub = [
+  cb
 ];
-function db(o, t, n, a, e, r) {
-  return R(), z("svg", lb, sb);
+function fb(o, t, n, a, e, r) {
+  return R(), z("svg", db, ub);
 }
-var cb = /* @__PURE__ */ B(rb, [["render", db], ["__file", "sold-out.vue"]]), ub = {
+var mb = /* @__PURE__ */ B(sb, [["render", fb], ["__file", "sold-out.vue"]]), vb = {
   name: "SortDown"
-}, fb = {
+}, hb = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, mb = /* @__PURE__ */ D("path", {
+}, pb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M576 96v709.568L333.312 562.816A32 32 0 1 0 288 608l297.408 297.344A32 32 0 0 0 640 882.688V96a32 32 0 0 0-64 0z"
-}, null, -1), vb = [
-  mb
+}, null, -1), gb = [
+  pb
 ];
-function hb(o, t, n, a, e, r) {
-  return R(), z("svg", fb, vb);
+function yb(o, t, n, a, e, r) {
+  return R(), z("svg", hb, gb);
 }
-var pb = /* @__PURE__ */ B(ub, [["render", hb], ["__file", "sort-down.vue"]]), gb = {
+var Ab = /* @__PURE__ */ B(vb, [["render", yb], ["__file", "sort-down.vue"]]), _b = {
   name: "SortUp"
-}, yb = {
+}, xb = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ab = /* @__PURE__ */ D("path", {
+}, wb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 141.248V928a32 32 0 1 0 64 0V218.56l242.688 242.688A32 32 0 1 0 736 416L438.592 118.656A32 32 0 0 0 384 141.248z"
-}, null, -1), _b = [
-  Ab
+}, null, -1), Eb = [
+  wb
 ];
-function xb(o, t, n, a, e, r) {
-  return R(), z("svg", yb, _b);
+function Cb(o, t, n, a, e, r) {
+  return R(), z("svg", xb, Eb);
 }
-var wb = /* @__PURE__ */ B(gb, [["render", xb], ["__file", "sort-up.vue"]]), Eb = {
+var Sb = /* @__PURE__ */ B(_b, [["render", Cb], ["__file", "sort-up.vue"]]), bb = {
   name: "Sort"
-}, Cb = {
+}, Db = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Sb = /* @__PURE__ */ D("path", {
+}, Mb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 96a32 32 0 0 1 64 0v786.752a32 32 0 0 1-54.592 22.656L95.936 608a32 32 0 0 1 0-45.312h.128a32 32 0 0 1 45.184 0L384 805.632V96zm192 45.248a32 32 0 0 1 54.592-22.592L928.064 416a32 32 0 0 1 0 45.312h-.128a32 32 0 0 1-45.184 0L640 218.496V928a32 32 0 1 1-64 0V141.248z"
-}, null, -1), bb = [
-  Sb
+}, null, -1), Tb = [
+  Mb
 ];
-function Db(o, t, n, a, e, r) {
-  return R(), z("svg", Cb, bb);
+function Rb(o, t, n, a, e, r) {
+  return R(), z("svg", Db, Tb);
 }
-var Mb = /* @__PURE__ */ B(Eb, [["render", Db], ["__file", "sort.vue"]]), Tb = {
+var zb = /* @__PURE__ */ B(bb, [["render", Rb], ["__file", "sort.vue"]]), $b = {
   name: "Stamp"
-}, Rb = {
+}, Hb = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, zb = /* @__PURE__ */ D("path", {
+}, Ib = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M624 475.968V640h144a128 128 0 0 1 128 128H128a128 128 0 0 1 128-128h144V475.968a192 192 0 1 1 224 0zM128 896v-64h768v64H128z"
-}, null, -1), $b = [
-  zb
+}, null, -1), Bb = [
+  Ib
 ];
-function Hb(o, t, n, a, e, r) {
-  return R(), z("svg", Rb, $b);
+function Pb(o, t, n, a, e, r) {
+  return R(), z("svg", Hb, Bb);
 }
-var Ib = /* @__PURE__ */ B(Tb, [["render", Hb], ["__file", "stamp.vue"]]), Bb = {
+var Nb = /* @__PURE__ */ B($b, [["render", Pb], ["__file", "stamp.vue"]]), Lb = {
   name: "StarFilled"
-}, Pb = {
+}, Ob = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Nb = /* @__PURE__ */ D("path", {
+}, Vb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M283.84 867.84 512 747.776l228.16 119.936a6.4 6.4 0 0 0 9.28-6.72l-43.52-254.08 184.512-179.904a6.4 6.4 0 0 0-3.52-10.88l-255.104-37.12L517.76 147.904a6.4 6.4 0 0 0-11.52 0L392.192 379.072l-255.104 37.12a6.4 6.4 0 0 0-3.52 10.88L318.08 606.976l-43.584 254.08a6.4 6.4 0 0 0 9.28 6.72z"
-}, null, -1), Lb = [
-  Nb
+}, null, -1), Fb = [
+  Vb
 ];
-function Ob(o, t, n, a, e, r) {
-  return R(), z("svg", Pb, Lb);
+function jb(o, t, n, a, e, r) {
+  return R(), z("svg", Ob, Fb);
 }
-var Vb = /* @__PURE__ */ B(Bb, [["render", Ob], ["__file", "star-filled.vue"]]), Fb = {
+var Ub = /* @__PURE__ */ B(Lb, [["render", jb], ["__file", "star-filled.vue"]]), Qb = {
   name: "Star"
-}, jb = {
+}, kb = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Ub = /* @__PURE__ */ D("path", {
+}, Wb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m512 747.84 228.16 119.936a6.4 6.4 0 0 0 9.28-6.72l-43.52-254.08 184.512-179.904a6.4 6.4 0 0 0-3.52-10.88l-255.104-37.12L517.76 147.904a6.4 6.4 0 0 0-11.52 0L392.192 379.072l-255.104 37.12a6.4 6.4 0 0 0-3.52 10.88L318.08 606.976l-43.584 254.08a6.4 6.4 0 0 0 9.28 6.72L512 747.84zM313.6 924.48a70.4 70.4 0 0 1-102.144-74.24l37.888-220.928L88.96 472.96A70.4 70.4 0 0 1 128 352.896l221.76-32.256 99.2-200.96a70.4 70.4 0 0 1 126.208 0l99.2 200.96 221.824 32.256a70.4 70.4 0 0 1 39.04 120.064L774.72 629.376l37.888 220.928a70.4 70.4 0 0 1-102.144 74.24L512 820.096l-198.4 104.32z"
-}, null, -1), Qb = [
-  Ub
+}, null, -1), Gb = [
+  Wb
 ];
-function kb(o, t, n, a, e, r) {
-  return R(), z("svg", jb, Qb);
+function Yb(o, t, n, a, e, r) {
+  return R(), z("svg", kb, Gb);
 }
-var Wb = /* @__PURE__ */ B(Fb, [["render", kb], ["__file", "star.vue"]]), Gb = {
+var Kb = /* @__PURE__ */ B(Qb, [["render", Yb], ["__file", "star.vue"]]), Jb = {
   name: "Stopwatch"
-}, Yb = {
+}, Zb = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Kb = /* @__PURE__ */ D("path", {
+}, Xb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a384 384 0 1 0 0-768 384 384 0 0 0 0 768zm0 64a448 448 0 1 1 0-896 448 448 0 0 1 0 896z"
-}, null, -1), Jb = /* @__PURE__ */ D("path", {
+}, null, -1), qb = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M672 234.88c-39.168 174.464-80 298.624-122.688 372.48-64 110.848-202.624 30.848-138.624-80C453.376 453.44 540.48 355.968 672 234.816z"
-}, null, -1), Zb = [
-  Kb,
-  Jb
+}, null, -1), eD = [
+  Xb,
+  qb
 ];
-function Xb(o, t, n, a, e, r) {
-  return R(), z("svg", Yb, Zb);
+function tD(o, t, n, a, e, r) {
+  return R(), z("svg", Zb, eD);
 }
-var qb = /* @__PURE__ */ B(Gb, [["render", Xb], ["__file", "stopwatch.vue"]]), eD = {
+var nD = /* @__PURE__ */ B(Jb, [["render", tD], ["__file", "stopwatch.vue"]]), aD = {
   name: "SuccessFilled"
-}, tD = {
+}, oD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, nD = /* @__PURE__ */ D("path", {
+}, rD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm-55.808 536.384-99.52-99.584a38.4 38.4 0 1 0-54.336 54.336l126.72 126.72a38.272 38.272 0 0 0 54.336 0l262.4-262.464a38.4 38.4 0 1 0-54.272-54.336L456.192 600.384z"
-}, null, -1), aD = [
-  nD
+}, null, -1), lD = [
+  rD
 ];
-function oD(o, t, n, a, e, r) {
-  return R(), z("svg", tD, aD);
+function iD(o, t, n, a, e, r) {
+  return R(), z("svg", oD, lD);
 }
-var Na = /* @__PURE__ */ B(eD, [["render", oD], ["__file", "success-filled.vue"]]), rD = {
+var La = /* @__PURE__ */ B(aD, [["render", iD], ["__file", "success-filled.vue"]]), sD = {
   name: "Sugar"
-}, lD = {
+}, dD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, iD = /* @__PURE__ */ D("path", {
+}, cD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m801.728 349.184 4.48 4.48a128 128 0 0 1 0 180.992L534.656 806.144a128 128 0 0 1-181.056 0l-4.48-4.48-19.392 109.696a64 64 0 0 1-108.288 34.176L78.464 802.56a64 64 0 0 1 34.176-108.288l109.76-19.328-4.544-4.544a128 128 0 0 1 0-181.056l271.488-271.488a128 128 0 0 1 181.056 0l4.48 4.48 19.392-109.504a64 64 0 0 1 108.352-34.048l142.592 143.04a64 64 0 0 1-34.24 108.16l-109.248 19.2zm-548.8 198.72h447.168v2.24l60.8-60.8a63.808 63.808 0 0 0 18.752-44.416h-426.88l-89.664 89.728a64.064 64.064 0 0 0-10.24 13.248zm0 64c2.752 4.736 6.144 9.152 10.176 13.248l135.744 135.744a64 64 0 0 0 90.496 0L638.4 611.904H252.928zm490.048-230.976L625.152 263.104a64 64 0 0 0-90.496 0L416.768 380.928h326.208zM123.712 757.312l142.976 142.976 24.32-137.6a25.6 25.6 0 0 0-29.696-29.632l-137.6 24.256zm633.6-633.344-24.32 137.472a25.6 25.6 0 0 0 29.632 29.632l137.28-24.064-142.656-143.04z"
-}, null, -1), sD = [
-  iD
+}, null, -1), uD = [
+  cD
 ];
-function dD(o, t, n, a, e, r) {
-  return R(), z("svg", lD, sD);
+function fD(o, t, n, a, e, r) {
+  return R(), z("svg", dD, uD);
 }
-var cD = /* @__PURE__ */ B(rD, [["render", dD], ["__file", "sugar.vue"]]), uD = {
+var mD = /* @__PURE__ */ B(sD, [["render", fD], ["__file", "sugar.vue"]]), vD = {
   name: "SuitcaseLine"
-}, fD = {
+}, hD = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, mD = /* @__PURE__ */ D("path", {
+}, pD = /* @__PURE__ */ D("path", {
   d: "M922.5 229.5c-24.32-24.34-54.49-36.84-90.5-37.5H704v-64c-.68-17.98-7.02-32.98-19.01-44.99S658.01 64.66 640 64H384c-17.98.68-32.98 7.02-44.99 19.01S320.66 110 320 128v64H192c-35.99.68-66.16 13.18-90.5 37.5C77.16 253.82 64.66 283.99 64 320v448c.68 35.99 13.18 66.16 37.5 90.5s54.49 36.84 90.5 37.5h640c35.99-.68 66.16-13.18 90.5-37.5s36.84-54.49 37.5-90.5V320c-.68-35.99-13.18-66.16-37.5-90.5zM384 128h256v64H384v-64zM256 832h-64c-17.98-.68-32.98-7.02-44.99-19.01S128.66 786.01 128 768V448h128v384zm448 0H320V448h384v384zm192-64c-.68 17.98-7.02 32.98-19.01 44.99S850.01 831.34 832 832h-64V448h128v320zm0-384H128v-64c.69-17.98 7.02-32.98 19.01-44.99S173.99 256.66 192 256h640c17.98.69 32.98 7.02 44.99 19.01S895.34 301.99 896 320v64z",
   fill: "currentColor"
-}, null, -1), vD = [
-  mD
+}, null, -1), gD = [
+  pD
 ];
-function hD(o, t, n, a, e, r) {
-  return R(), z("svg", fD, vD);
+function yD(o, t, n, a, e, r) {
+  return R(), z("svg", hD, gD);
 }
-var pD = /* @__PURE__ */ B(uD, [["render", hD], ["__file", "suitcase-line.vue"]]), gD = {
+var AD = /* @__PURE__ */ B(vD, [["render", yD], ["__file", "suitcase-line.vue"]]), _D = {
   name: "Suitcase"
-}, yD = {
+}, xD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, AD = /* @__PURE__ */ D("path", {
+}, wD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 384h768v-64a64 64 0 0 0-64-64H192a64 64 0 0 0-64 64v64zm0 64v320a64 64 0 0 0 64 64h640a64 64 0 0 0 64-64V448H128zm64-256h640a128 128 0 0 1 128 128v448a128 128 0 0 1-128 128H192A128 128 0 0 1 64 768V320a128 128 0 0 1 128-128z"
-}, null, -1), _D = /* @__PURE__ */ D("path", {
+}, null, -1), ED = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M384 128v64h256v-64H384zm0-64h256a64 64 0 0 1 64 64v64a64 64 0 0 1-64 64H384a64 64 0 0 1-64-64v-64a64 64 0 0 1 64-64z"
-}, null, -1), xD = [
-  AD,
-  _D
+}, null, -1), CD = [
+  wD,
+  ED
 ];
-function wD(o, t, n, a, e, r) {
-  return R(), z("svg", yD, xD);
+function SD(o, t, n, a, e, r) {
+  return R(), z("svg", xD, CD);
 }
-var ED = /* @__PURE__ */ B(gD, [["render", wD], ["__file", "suitcase.vue"]]), CD = {
+var bD = /* @__PURE__ */ B(_D, [["render", SD], ["__file", "suitcase.vue"]]), DD = {
   name: "Sunny"
-}, SD = {
+}, MD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, bD = /* @__PURE__ */ D("path", {
+}, TD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 704a192 192 0 1 0 0-384 192 192 0 0 0 0 384zm0 64a256 256 0 1 1 0-512 256 256 0 0 1 0 512zm0-704a32 32 0 0 1 32 32v64a32 32 0 0 1-64 0V96a32 32 0 0 1 32-32zm0 768a32 32 0 0 1 32 32v64a32 32 0 1 1-64 0v-64a32 32 0 0 1 32-32zM195.2 195.2a32 32 0 0 1 45.248 0l45.248 45.248a32 32 0 1 1-45.248 45.248L195.2 240.448a32 32 0 0 1 0-45.248zm543.104 543.104a32 32 0 0 1 45.248 0l45.248 45.248a32 32 0 0 1-45.248 45.248l-45.248-45.248a32 32 0 0 1 0-45.248zM64 512a32 32 0 0 1 32-32h64a32 32 0 0 1 0 64H96a32 32 0 0 1-32-32zm768 0a32 32 0 0 1 32-32h64a32 32 0 1 1 0 64h-64a32 32 0 0 1-32-32zM195.2 828.8a32 32 0 0 1 0-45.248l45.248-45.248a32 32 0 0 1 45.248 45.248L240.448 828.8a32 32 0 0 1-45.248 0zm543.104-543.104a32 32 0 0 1 0-45.248l45.248-45.248a32 32 0 0 1 45.248 45.248l-45.248 45.248a32 32 0 0 1-45.248 0z"
-}, null, -1), DD = [
-  bD
+}, null, -1), RD = [
+  TD
 ];
-function MD(o, t, n, a, e, r) {
-  return R(), z("svg", SD, DD);
+function zD(o, t, n, a, e, r) {
+  return R(), z("svg", MD, RD);
 }
-var TD = /* @__PURE__ */ B(CD, [["render", MD], ["__file", "sunny.vue"]]), RD = {
+var $D = /* @__PURE__ */ B(DD, [["render", zD], ["__file", "sunny.vue"]]), HD = {
   name: "Sunrise"
-}, zD = {
+}, ID = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, $D = /* @__PURE__ */ D("path", {
+}, BD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M32 768h960a32 32 0 1 1 0 64H32a32 32 0 1 1 0-64zm129.408-96a352 352 0 0 1 701.184 0h-64.32a288 288 0 0 0-572.544 0h-64.32zM512 128a32 32 0 0 1 32 32v96a32 32 0 0 1-64 0v-96a32 32 0 0 1 32-32zm407.296 168.704a32 32 0 0 1 0 45.248l-67.84 67.84a32 32 0 1 1-45.248-45.248l67.84-67.84a32 32 0 0 1 45.248 0zm-814.592 0a32 32 0 0 1 45.248 0l67.84 67.84a32 32 0 1 1-45.248 45.248l-67.84-67.84a32 32 0 0 1 0-45.248z"
-}, null, -1), HD = [
-  $D
+}, null, -1), PD = [
+  BD
 ];
-function ID(o, t, n, a, e, r) {
-  return R(), z("svg", zD, HD);
+function ND(o, t, n, a, e, r) {
+  return R(), z("svg", ID, PD);
 }
-var BD = /* @__PURE__ */ B(RD, [["render", ID], ["__file", "sunrise.vue"]]), PD = {
+var LD = /* @__PURE__ */ B(HD, [["render", ND], ["__file", "sunrise.vue"]]), OD = {
   name: "Sunset"
-}, ND = {
+}, VD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, LD = /* @__PURE__ */ D("path", {
+}, FD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M82.56 640a448 448 0 1 1 858.88 0h-67.2a384 384 0 1 0-724.288 0H82.56zM32 704h960q32 0 32 32t-32 32H32q-32 0-32-32t32-32zm256 128h448q32 0 32 32t-32 32H288q-32 0-32-32t32-32z"
-}, null, -1), OD = [
-  LD
+}, null, -1), jD = [
+  FD
 ];
-function VD(o, t, n, a, e, r) {
-  return R(), z("svg", ND, OD);
+function UD(o, t, n, a, e, r) {
+  return R(), z("svg", VD, jD);
 }
-var FD = /* @__PURE__ */ B(PD, [["render", VD], ["__file", "sunset.vue"]]), jD = {
+var QD = /* @__PURE__ */ B(OD, [["render", UD], ["__file", "sunset.vue"]]), kD = {
   name: "SwitchButton"
-}, UD = {
+}, WD = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, QD = /* @__PURE__ */ D("path", {
+}, GD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M352 159.872V230.4a352 352 0 1 0 320 0v-70.528A416.128 416.128 0 0 1 512 960a416 416 0 0 1-160-800.128z"
-}, null, -1), kD = /* @__PURE__ */ D("path", {
+}, null, -1), YD = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64q32 0 32 32v320q0 32-32 32t-32-32V96q0-32 32-32z"
-}, null, -1), WD = [
-  QD,
-  kD
+}, null, -1), KD = [
+  GD,
+  YD
 ];
-function GD(o, t, n, a, e, r) {
-  return R(), z("svg", UD, WD);
+function JD(o, t, n, a, e, r) {
+  return R(), z("svg", WD, KD);
 }
-var YD = /* @__PURE__ */ B(jD, [["render", GD], ["__file", "switch-button.vue"]]), KD = {
+var ZD = /* @__PURE__ */ B(kD, [["render", JD], ["__file", "switch-button.vue"]]), XD = {
   name: "SwitchFilled"
-}, JD = {
+}, qD = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, ZD = /* @__PURE__ */ D("path", {
+}, eM = /* @__PURE__ */ D("path", {
   d: "M247.47 358.4v.04c.07 19.17 7.72 37.53 21.27 51.09s31.92 21.2 51.09 21.27c39.86 0 72.41-32.6 72.41-72.4s-32.6-72.36-72.41-72.36-72.36 32.55-72.36 72.36z",
   fill: "currentColor"
-}, null, -1), XD = /* @__PURE__ */ D("path", {
+}, null, -1), tM = /* @__PURE__ */ D("path", {
   d: "M492.38 128H324.7c-52.16 0-102.19 20.73-139.08 57.61a196.655 196.655 0 0 0-57.61 139.08V698.7c-.01 25.84 5.08 51.42 14.96 75.29s24.36 45.56 42.63 63.83 39.95 32.76 63.82 42.65a196.67 196.67 0 0 0 75.28 14.98h167.68c3.03 0 5.46-2.43 5.46-5.42V133.42c.6-2.99-1.83-5.42-5.46-5.42zm-56.11 705.88H324.7c-17.76.13-35.36-3.33-51.75-10.18s-31.22-16.94-43.61-29.67c-25.3-25.35-39.81-59.1-39.81-95.32V324.69c-.13-17.75 3.33-35.35 10.17-51.74a131.695 131.695 0 0 1 29.64-43.62c25.39-25.3 59.14-39.81 95.36-39.81h111.57v644.36zm402.12-647.67a196.655 196.655 0 0 0-139.08-57.61H580.48c-3.03 0-4.82 2.43-4.82 4.82v757.16c-.6 2.99 1.79 5.42 5.42 5.42h118.23a196.69 196.69 0 0 0 139.08-57.61A196.655 196.655 0 0 0 896 699.31V325.29a196.69 196.69 0 0 0-57.61-139.08zm-111.3 441.92c-42.83 0-77.82-34.99-77.82-77.82s34.98-77.82 77.82-77.82c42.83 0 77.82 34.99 77.82 77.82s-34.99 77.82-77.82 77.82z",
   fill: "currentColor"
-}, null, -1), qD = [
-  ZD,
-  XD
+}, null, -1), nM = [
+  eM,
+  tM
 ];
-function eM(o, t, n, a, e, r) {
-  return R(), z("svg", JD, qD);
+function aM(o, t, n, a, e, r) {
+  return R(), z("svg", qD, nM);
 }
-var tM = /* @__PURE__ */ B(KD, [["render", eM], ["__file", "switch-filled.vue"]]), nM = {
+var oM = /* @__PURE__ */ B(XD, [["render", aM], ["__file", "switch-filled.vue"]]), rM = {
   name: "Switch"
-}, aM = {
+}, lM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, oM = /* @__PURE__ */ D("path", {
+}, iM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M118.656 438.656a32 32 0 0 1 0-45.248L416 96l4.48-3.776A32 32 0 0 1 461.248 96l3.712 4.48a32.064 32.064 0 0 1-3.712 40.832L218.56 384H928a32 32 0 1 1 0 64H141.248a32 32 0 0 1-22.592-9.344zM64 608a32 32 0 0 1 32-32h786.752a32 32 0 0 1 22.656 54.592L608 928l-4.48 3.776a32.064 32.064 0 0 1-40.832-49.024L805.632 640H96a32 32 0 0 1-32-32z"
-}, null, -1), rM = [
-  oM
+}, null, -1), sM = [
+  iM
 ];
-function lM(o, t, n, a, e, r) {
-  return R(), z("svg", aM, rM);
+function dM(o, t, n, a, e, r) {
+  return R(), z("svg", lM, sM);
 }
-var iM = /* @__PURE__ */ B(nM, [["render", lM], ["__file", "switch.vue"]]), sM = {
+var cM = /* @__PURE__ */ B(rM, [["render", dM], ["__file", "switch.vue"]]), uM = {
   name: "TakeawayBox"
-}, dM = {
+}, fM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, cM = /* @__PURE__ */ D("path", {
+}, mM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M832 384H192v448h640V384zM96 320h832V128H96v192zm800 64v480a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V384H64a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32h896a32 32 0 0 1 32 32v256a32 32 0 0 1-32 32h-64zM416 512h192a32 32 0 0 1 0 64H416a32 32 0 0 1 0-64z"
-}, null, -1), uM = [
-  cM
+}, null, -1), vM = [
+  mM
 ];
-function fM(o, t, n, a, e, r) {
-  return R(), z("svg", dM, uM);
+function hM(o, t, n, a, e, r) {
+  return R(), z("svg", fM, vM);
 }
-var mM = /* @__PURE__ */ B(sM, [["render", fM], ["__file", "takeaway-box.vue"]]), vM = {
+var pM = /* @__PURE__ */ B(uM, [["render", hM], ["__file", "takeaway-box.vue"]]), gM = {
   name: "Ticket"
-}, hM = {
+}, yM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, pM = /* @__PURE__ */ D("path", {
+}, AM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 832H64V640a128 128 0 1 0 0-256V192h576v160h64V192h256v192a128 128 0 1 0 0 256v192H704V672h-64v160zm0-416v192h64V416h-64z"
-}, null, -1), gM = [
-  pM
+}, null, -1), _M = [
+  AM
 ];
-function yM(o, t, n, a, e, r) {
-  return R(), z("svg", hM, gM);
+function xM(o, t, n, a, e, r) {
+  return R(), z("svg", yM, _M);
 }
-var AM = /* @__PURE__ */ B(vM, [["render", yM], ["__file", "ticket.vue"]]), _M = {
+var wM = /* @__PURE__ */ B(gM, [["render", xM], ["__file", "ticket.vue"]]), EM = {
   name: "Tickets"
-}, xM = {
+}, CM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, wM = /* @__PURE__ */ D("path", {
+}, SM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M192 128v768h640V128H192zm-32-64h704a32 32 0 0 1 32 32v832a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32zm160 448h384v64H320v-64zm0-192h192v64H320v-64zm0 384h384v64H320v-64z"
-}, null, -1), EM = [
-  wM
+}, null, -1), bM = [
+  SM
 ];
-function CM(o, t, n, a, e, r) {
-  return R(), z("svg", xM, EM);
+function DM(o, t, n, a, e, r) {
+  return R(), z("svg", CM, bM);
 }
-var SM = /* @__PURE__ */ B(_M, [["render", CM], ["__file", "tickets.vue"]]), bM = {
+var MM = /* @__PURE__ */ B(EM, [["render", DM], ["__file", "tickets.vue"]]), TM = {
   name: "Timer"
-}, DM = {
+}, RM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, MM = /* @__PURE__ */ D("path", {
+}, zM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 896a320 320 0 1 0 0-640 320 320 0 0 0 0 640zm0 64a384 384 0 1 1 0-768 384 384 0 0 1 0 768z"
-}, null, -1), TM = /* @__PURE__ */ D("path", {
+}, null, -1), $M = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 320a32 32 0 0 1 32 32l-.512 224a32 32 0 1 1-64 0L480 352a32 32 0 0 1 32-32z"
-}, null, -1), RM = /* @__PURE__ */ D("path", {
+}, null, -1), HM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M448 576a64 64 0 1 0 128 0 64 64 0 1 0-128 0zm96-448v128h-64V128h-96a32 32 0 0 1 0-64h256a32 32 0 1 1 0 64h-96z"
-}, null, -1), zM = [
-  MM,
-  TM,
-  RM
+}, null, -1), IM = [
+  zM,
+  $M,
+  HM
 ];
-function $M(o, t, n, a, e, r) {
-  return R(), z("svg", DM, zM);
+function BM(o, t, n, a, e, r) {
+  return R(), z("svg", RM, IM);
 }
-var HM = /* @__PURE__ */ B(bM, [["render", $M], ["__file", "timer.vue"]]), IM = {
+var PM = /* @__PURE__ */ B(TM, [["render", BM], ["__file", "timer.vue"]]), NM = {
   name: "ToiletPaper"
-}, BM = {
+}, LM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, PM = /* @__PURE__ */ D("path", {
+}, OM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M595.2 128H320a192 192 0 0 0-192 192v576h384V352c0-90.496 32.448-171.2 83.2-224zM736 64c123.712 0 224 128.96 224 288S859.712 640 736 640H576v320H64V320A256 256 0 0 1 320 64h416zM576 352v224h160c84.352 0 160-97.28 160-224s-75.648-224-160-224-160 97.28-160 224z"
-}, null, -1), NM = /* @__PURE__ */ D("path", {
+}, null, -1), VM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M736 448c-35.328 0-64-43.008-64-96s28.672-96 64-96 64 43.008 64 96-28.672 96-64 96z"
-}, null, -1), LM = [
-  PM,
-  NM
+}, null, -1), FM = [
+  OM,
+  VM
 ];
-function OM(o, t, n, a, e, r) {
-  return R(), z("svg", BM, LM);
+function jM(o, t, n, a, e, r) {
+  return R(), z("svg", LM, FM);
 }
-var VM = /* @__PURE__ */ B(IM, [["render", OM], ["__file", "toilet-paper.vue"]]), FM = {
+var UM = /* @__PURE__ */ B(NM, [["render", jM], ["__file", "toilet-paper.vue"]]), QM = {
   name: "Tools"
-}, jM = {
+}, kM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, UM = /* @__PURE__ */ D("path", {
+}, WM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M764.416 254.72a351.68 351.68 0 0 1 86.336 149.184H960v192.064H850.752a351.68 351.68 0 0 1-86.336 149.312l54.72 94.72-166.272 96-54.592-94.72a352.64 352.64 0 0 1-172.48 0L371.136 936l-166.272-96 54.72-94.72a351.68 351.68 0 0 1-86.336-149.312H64v-192h109.248a351.68 351.68 0 0 1 86.336-149.312L204.8 160l166.208-96h.192l54.656 94.592a352.64 352.64 0 0 1 172.48 0L652.8 64h.128L819.2 160l-54.72 94.72zM704 499.968a192 192 0 1 0-384 0 192 192 0 0 0 384 0z"
-}, null, -1), QM = [
-  UM
+}, null, -1), GM = [
+  WM
 ];
-function kM(o, t, n, a, e, r) {
-  return R(), z("svg", jM, QM);
+function YM(o, t, n, a, e, r) {
+  return R(), z("svg", kM, GM);
 }
-var WM = /* @__PURE__ */ B(FM, [["render", kM], ["__file", "tools.vue"]]), GM = {
+var KM = /* @__PURE__ */ B(QM, [["render", YM], ["__file", "tools.vue"]]), JM = {
   name: "TopLeft"
-}, YM = {
+}, ZM = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, KM = /* @__PURE__ */ D("path", {
+}, XM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M256 256h416a32 32 0 1 0 0-64H224a32 32 0 0 0-32 32v448a32 32 0 0 0 64 0V256z"
-}, null, -1), JM = /* @__PURE__ */ D("path", {
+}, null, -1), qM = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M246.656 201.344a32 32 0 0 0-45.312 45.312l544 544a32 32 0 0 0 45.312-45.312l-544-544z"
-}, null, -1), ZM = [
-  KM,
-  JM
+}, null, -1), eT = [
+  XM,
+  qM
 ];
-function XM(o, t, n, a, e, r) {
-  return R(), z("svg", YM, ZM);
+function tT(o, t, n, a, e, r) {
+  return R(), z("svg", ZM, eT);
 }
-var qM = /* @__PURE__ */ B(GM, [["render", XM], ["__file", "top-left.vue"]]), eT = {
+var nT = /* @__PURE__ */ B(JM, [["render", tT], ["__file", "top-left.vue"]]), aT = {
   name: "TopRight"
-}, tT = {
+}, oT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, nT = /* @__PURE__ */ D("path", {
+}, rT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M768 256H353.6a32 32 0 1 1 0-64H800a32 32 0 0 1 32 32v448a32 32 0 0 1-64 0V256z"
-}, null, -1), aT = /* @__PURE__ */ D("path", {
+}, null, -1), lT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M777.344 201.344a32 32 0 0 1 45.312 45.312l-544 544a32 32 0 0 1-45.312-45.312l544-544z"
-}, null, -1), oT = [
-  nT,
-  aT
+}, null, -1), iT = [
+  rT,
+  lT
 ];
-function rT(o, t, n, a, e, r) {
-  return R(), z("svg", tT, oT);
+function sT(o, t, n, a, e, r) {
+  return R(), z("svg", oT, iT);
 }
-var lT = /* @__PURE__ */ B(eT, [["render", rT], ["__file", "top-right.vue"]]), iT = {
+var dT = /* @__PURE__ */ B(aT, [["render", sT], ["__file", "top-right.vue"]]), cT = {
   name: "Top"
-}, sT = {
+}, uT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, dT = /* @__PURE__ */ D("path", {
+}, fT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M572.235 205.282v600.365a30.118 30.118 0 1 1-60.235 0V205.282L292.382 438.633a28.913 28.913 0 0 1-42.646 0 33.43 33.43 0 0 1 0-45.236l271.058-288.045a28.913 28.913 0 0 1 42.647 0L834.5 393.397a33.43 33.43 0 0 1 0 45.176 28.913 28.913 0 0 1-42.647 0l-219.618-233.23z"
-}, null, -1), cT = [
-  dT
+}, null, -1), mT = [
+  fT
 ];
-function uT(o, t, n, a, e, r) {
-  return R(), z("svg", sT, cT);
+function vT(o, t, n, a, e, r) {
+  return R(), z("svg", uT, mT);
 }
-var fT = /* @__PURE__ */ B(iT, [["render", uT], ["__file", "top.vue"]]), mT = {
+var hT = /* @__PURE__ */ B(cT, [["render", vT], ["__file", "top.vue"]]), pT = {
   name: "TrendCharts"
-}, vT = {
+}, gT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, hT = /* @__PURE__ */ D("path", {
+}, yT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 896V128h768v768H128zm291.712-327.296 128 102.4 180.16-201.792-47.744-42.624-139.84 156.608-128-102.4-180.16 201.792 47.744 42.624 139.84-156.608zM816 352a48 48 0 1 0-96 0 48 48 0 0 0 96 0z"
-}, null, -1), pT = [
-  hT
+}, null, -1), AT = [
+  yT
 ];
-function gT(o, t, n, a, e, r) {
-  return R(), z("svg", vT, pT);
+function _T(o, t, n, a, e, r) {
+  return R(), z("svg", gT, AT);
 }
-var yT = /* @__PURE__ */ B(mT, [["render", gT], ["__file", "trend-charts.vue"]]), AT = {
+var xT = /* @__PURE__ */ B(pT, [["render", _T], ["__file", "trend-charts.vue"]]), wT = {
   name: "TrophyBase"
-}, _T = {
+}, ET = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, xT = /* @__PURE__ */ D("path", {
+}, CT = /* @__PURE__ */ D("path", {
   d: "M918.4 201.6c-6.4-6.4-12.8-9.6-22.4-9.6H768V96c0-9.6-3.2-16-9.6-22.4C752 67.2 745.6 64 736 64H288c-9.6 0-16 3.2-22.4 9.6C259.2 80 256 86.4 256 96v96H128c-9.6 0-16 3.2-22.4 9.6-6.4 6.4-9.6 16-9.6 22.4 3.2 108.8 25.6 185.6 64 224 34.4 34.4 77.56 55.65 127.65 61.99 10.91 20.44 24.78 39.25 41.95 56.41 40.86 40.86 91 65.47 150.4 71.9V768h-96c-9.6 0-16 3.2-22.4 9.6-6.4 6.4-9.6 12.8-9.6 22.4s3.2 16 9.6 22.4c6.4 6.4 12.8 9.6 22.4 9.6h256c9.6 0 16-3.2 22.4-9.6 6.4-6.4 9.6-12.8 9.6-22.4s-3.2-16-9.6-22.4c-6.4-6.4-12.8-9.6-22.4-9.6h-96V637.26c59.4-7.71 109.54-30.01 150.4-70.86 17.2-17.2 31.51-36.06 42.81-56.55 48.93-6.51 90.02-27.7 126.79-61.85 38.4-38.4 60.8-112 64-224 0-6.4-3.2-16-9.6-22.4zM256 438.4c-19.2-6.4-35.2-19.2-51.2-35.2-22.4-22.4-35.2-70.4-41.6-147.2H256v182.4zm390.4 80C608 553.6 566.4 576 512 576s-99.2-19.2-134.4-57.6C342.4 480 320 438.4 320 384V128h384v256c0 54.4-19.2 99.2-57.6 134.4zm172.8-115.2c-16 16-32 25.6-51.2 35.2V256h92.8c-6.4 76.8-19.2 124.8-41.6 147.2zM768 896H256c-9.6 0-16 3.2-22.4 9.6-6.4 6.4-9.6 12.8-9.6 22.4s3.2 16 9.6 22.4c6.4 6.4 12.8 9.6 22.4 9.6h512c9.6 0 16-3.2 22.4-9.6 6.4-6.4 9.6-12.8 9.6-22.4s-3.2-16-9.6-22.4c-6.4-6.4-12.8-9.6-22.4-9.6z",
   fill: "currentColor"
-}, null, -1), wT = [
-  xT
+}, null, -1), ST = [
+  CT
 ];
-function ET(o, t, n, a, e, r) {
-  return R(), z("svg", _T, wT);
+function bT(o, t, n, a, e, r) {
+  return R(), z("svg", ET, ST);
 }
-var CT = /* @__PURE__ */ B(AT, [["render", ET], ["__file", "trophy-base.vue"]]), ST = {
+var DT = /* @__PURE__ */ B(wT, [["render", bT], ["__file", "trophy-base.vue"]]), MT = {
   name: "Trophy"
-}, bT = {
+}, TT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, DT = /* @__PURE__ */ D("path", {
+}, RT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 896V702.08A256.256 256.256 0 0 1 264.064 512h-32.64a96 96 0 0 1-91.968-68.416L93.632 290.88a76.8 76.8 0 0 1 73.6-98.88H256V96a32 32 0 0 1 32-32h448a32 32 0 0 1 32 32v96h88.768a76.8 76.8 0 0 1 73.6 98.88L884.48 443.52A96 96 0 0 1 792.576 512h-32.64A256.256 256.256 0 0 1 544 702.08V896h128a32 32 0 1 1 0 64H352a32 32 0 1 1 0-64h128zm224-448V128H320v320a192 192 0 1 0 384 0zm64 0h24.576a32 32 0 0 0 30.656-22.784l45.824-152.768A12.8 12.8 0 0 0 856.768 256H768v192zm-512 0V256h-88.768a12.8 12.8 0 0 0-12.288 16.448l45.824 152.768A32 32 0 0 0 231.424 448H256z"
-}, null, -1), MT = [
-  DT
+}, null, -1), zT = [
+  RT
 ];
-function TT(o, t, n, a, e, r) {
-  return R(), z("svg", bT, MT);
+function $T(o, t, n, a, e, r) {
+  return R(), z("svg", TT, zT);
 }
-var RT = /* @__PURE__ */ B(ST, [["render", TT], ["__file", "trophy.vue"]]), zT = {
+var HT = /* @__PURE__ */ B(MT, [["render", $T], ["__file", "trophy.vue"]]), IT = {
   name: "TurnOff"
-}, $T = {
+}, BT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, HT = /* @__PURE__ */ D("path", {
+}, PT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M329.956 257.138a254.862 254.862 0 0 0 0 509.724h364.088a254.862 254.862 0 0 0 0-509.724H329.956zm0-72.818h364.088a327.68 327.68 0 1 1 0 655.36H329.956a327.68 327.68 0 1 1 0-655.36z"
-}, null, -1), IT = /* @__PURE__ */ D("path", {
+}, null, -1), NT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M329.956 621.227a109.227 109.227 0 1 0 0-218.454 109.227 109.227 0 0 0 0 218.454zm0 72.817a182.044 182.044 0 1 1 0-364.088 182.044 182.044 0 0 1 0 364.088z"
-}, null, -1), BT = [
-  HT,
-  IT
+}, null, -1), LT = [
+  PT,
+  NT
 ];
-function PT(o, t, n, a, e, r) {
-  return R(), z("svg", $T, BT);
+function OT(o, t, n, a, e, r) {
+  return R(), z("svg", BT, LT);
 }
-var NT = /* @__PURE__ */ B(zT, [["render", PT], ["__file", "turn-off.vue"]]), LT = {
+var VT = /* @__PURE__ */ B(IT, [["render", OT], ["__file", "turn-off.vue"]]), FT = {
   name: "Umbrella"
-}, OT = {
+}, jT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, VT = /* @__PURE__ */ D("path", {
+}, UT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M320 768a32 32 0 1 1 64 0 64 64 0 0 0 128 0V512H64a448 448 0 1 1 896 0H576v256a128 128 0 1 1-256 0zm570.688-320a384.128 384.128 0 0 0-757.376 0h757.376z"
-}, null, -1), FT = [
-  VT
+}, null, -1), QT = [
+  UT
 ];
-function jT(o, t, n, a, e, r) {
-  return R(), z("svg", OT, FT);
+function kT(o, t, n, a, e, r) {
+  return R(), z("svg", jT, QT);
 }
-var UT = /* @__PURE__ */ B(LT, [["render", jT], ["__file", "umbrella.vue"]]), QT = {
+var WT = /* @__PURE__ */ B(FT, [["render", kT], ["__file", "umbrella.vue"]]), GT = {
   name: "Unlock"
-}, kT = {
+}, YT = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, WT = /* @__PURE__ */ D("path", {
+}, KT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M224 448a32 32 0 0 0-32 32v384a32 32 0 0 0 32 32h576a32 32 0 0 0 32-32V480a32 32 0 0 0-32-32H224zm0-64h576a96 96 0 0 1 96 96v384a96 96 0 0 1-96 96H224a96 96 0 0 1-96-96V480a96 96 0 0 1 96-96z"
-}, null, -1), GT = /* @__PURE__ */ D("path", {
+}, null, -1), JT = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 544a32 32 0 0 1 32 32v192a32 32 0 1 1-64 0V576a32 32 0 0 1 32-32zm178.304-295.296A192.064 192.064 0 0 0 320 320v64h352l96 38.4V448H256V320a256 256 0 0 1 493.76-95.104l-59.456 23.808z"
-}, null, -1), YT = [
-  WT,
-  GT
+}, null, -1), ZT = [
+  KT,
+  JT
 ];
-function KT(o, t, n, a, e, r) {
-  return R(), z("svg", kT, YT);
+function XT(o, t, n, a, e, r) {
+  return R(), z("svg", YT, ZT);
 }
-var JT = /* @__PURE__ */ B(QT, [["render", KT], ["__file", "unlock.vue"]]), ZT = {
+var qT = /* @__PURE__ */ B(GT, [["render", XT], ["__file", "unlock.vue"]]), eR = {
   name: "UploadFilled"
-}, XT = {
+}, tR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qT = /* @__PURE__ */ D("path", {
+}, nR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M544 864V672h128L512 480 352 672h128v192H320v-1.6c-5.376.32-10.496 1.6-16 1.6A240 240 0 0 1 64 624c0-123.136 93.12-223.488 212.608-237.248A239.808 239.808 0 0 1 512 192a239.872 239.872 0 0 1 235.456 194.752c119.488 13.76 212.48 114.112 212.48 237.248a240 240 0 0 1-240 240c-5.376 0-10.56-1.28-16-1.6v1.6H544z"
-}, null, -1), eR = [
-  qT
+}, null, -1), aR = [
+  nR
 ];
-function tR(o, t, n, a, e, r) {
-  return R(), z("svg", XT, eR);
+function oR(o, t, n, a, e, r) {
+  return R(), z("svg", tR, aR);
 }
-var nR = /* @__PURE__ */ B(ZT, [["render", tR], ["__file", "upload-filled.vue"]]), aR = {
+var rR = /* @__PURE__ */ B(eR, [["render", oR], ["__file", "upload-filled.vue"]]), lR = {
   name: "Upload"
-}, oR = {
+}, iR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rR = /* @__PURE__ */ D("path", {
+}, sR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 832h704a32 32 0 1 1 0 64H160a32 32 0 1 1 0-64zm384-578.304V704h-64V247.296L237.248 490.048 192 444.8 508.8 128l316.8 316.8-45.312 45.248L544 253.696z"
-}, null, -1), lR = [
-  rR
+}, null, -1), dR = [
+  sR
 ];
-function iR(o, t, n, a, e, r) {
-  return R(), z("svg", oR, lR);
+function cR(o, t, n, a, e, r) {
+  return R(), z("svg", iR, dR);
 }
-var sR = /* @__PURE__ */ B(aR, [["render", iR], ["__file", "upload.vue"]]), dR = {
+var uR = /* @__PURE__ */ B(lR, [["render", cR], ["__file", "upload.vue"]]), fR = {
   name: "UserFilled"
-}, cR = {
+}, mR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, uR = /* @__PURE__ */ D("path", {
+}, vR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M288 320a224 224 0 1 0 448 0 224 224 0 1 0-448 0zm544 608H160a32 32 0 0 1-32-32v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 0 1-32 32z"
-}, null, -1), fR = [
-  uR
+}, null, -1), hR = [
+  vR
 ];
-function mR(o, t, n, a, e, r) {
-  return R(), z("svg", cR, fR);
+function pR(o, t, n, a, e, r) {
+  return R(), z("svg", mR, hR);
 }
-var vR = /* @__PURE__ */ B(dR, [["render", mR], ["__file", "user-filled.vue"]]), hR = {
+var gR = /* @__PURE__ */ B(fR, [["render", pR], ["__file", "user-filled.vue"]]), yR = {
   name: "User"
-}, pR = {
+}, AR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, gR = /* @__PURE__ */ D("path", {
+}, _R = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 512a192 192 0 1 0 0-384 192 192 0 0 0 0 384zm0 64a256 256 0 1 1 0-512 256 256 0 0 1 0 512zm320 320v-96a96 96 0 0 0-96-96H288a96 96 0 0 0-96 96v96a32 32 0 1 1-64 0v-96a160 160 0 0 1 160-160h448a160 160 0 0 1 160 160v96a32 32 0 1 1-64 0z"
-}, null, -1), yR = [
-  gR
+}, null, -1), xR = [
+  _R
 ];
-function AR(o, t, n, a, e, r) {
-  return R(), z("svg", pR, yR);
+function wR(o, t, n, a, e, r) {
+  return R(), z("svg", AR, xR);
 }
-var _R = /* @__PURE__ */ B(hR, [["render", AR], ["__file", "user.vue"]]), xR = {
+var ER = /* @__PURE__ */ B(yR, [["render", wR], ["__file", "user.vue"]]), CR = {
   name: "Van"
-}, wR = {
+}, SR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, ER = /* @__PURE__ */ D("path", {
+}, bR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128.896 736H96a32 32 0 0 1-32-32V224a32 32 0 0 1 32-32h576a32 32 0 0 1 32 32v96h164.544a32 32 0 0 1 31.616 27.136l54.144 352A32 32 0 0 1 922.688 736h-91.52a144 144 0 1 1-286.272 0H415.104a144 144 0 1 1-286.272 0zm23.36-64a143.872 143.872 0 0 1 239.488 0H568.32c17.088-25.6 42.24-45.376 71.744-55.808V256H128v416h24.256zm655.488 0h77.632l-19.648-128H704v64.896A144 144 0 0 1 807.744 672zm48.128-192-14.72-96H704v96h151.872zM688 832a80 80 0 1 0 0-160 80 80 0 0 0 0 160zm-416 0a80 80 0 1 0 0-160 80 80 0 0 0 0 160z"
-}, null, -1), CR = [
-  ER
+}, null, -1), DR = [
+  bR
 ];
-function SR(o, t, n, a, e, r) {
-  return R(), z("svg", wR, CR);
+function MR(o, t, n, a, e, r) {
+  return R(), z("svg", SR, DR);
 }
-var bR = /* @__PURE__ */ B(xR, [["render", SR], ["__file", "van.vue"]]), DR = {
+var TR = /* @__PURE__ */ B(CR, [["render", MR], ["__file", "van.vue"]]), RR = {
   name: "VideoCameraFilled"
-}, MR = {
+}, zR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, TR = /* @__PURE__ */ D("path", {
+}, $R = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m768 576 192-64v320l-192-64v96a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V480a32 32 0 0 1 32-32h640a32 32 0 0 1 32 32v96zM192 768v64h384v-64H192zm192-480a160 160 0 0 1 320 0 160 160 0 0 1-320 0zm64 0a96 96 0 1 0 192.064-.064A96 96 0 0 0 448 288zm-320 32a128 128 0 1 1 256.064.064A128 128 0 0 1 128 320zm64 0a64 64 0 1 0 128 0 64 64 0 0 0-128 0z"
-}, null, -1), RR = [
-  TR
+}, null, -1), HR = [
+  $R
 ];
-function zR(o, t, n, a, e, r) {
-  return R(), z("svg", MR, RR);
+function IR(o, t, n, a, e, r) {
+  return R(), z("svg", zR, HR);
 }
-var $R = /* @__PURE__ */ B(DR, [["render", zR], ["__file", "video-camera-filled.vue"]]), HR = {
+var BR = /* @__PURE__ */ B(RR, [["render", IR], ["__file", "video-camera-filled.vue"]]), PR = {
   name: "VideoCamera"
-}, IR = {
+}, NR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, BR = /* @__PURE__ */ D("path", {
+}, LR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 768V256H128v512h576zm64-416 192-96v512l-192-96v128a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V224a32 32 0 0 1 32-32h640a32 32 0 0 1 32 32v128zm0 71.552v176.896l128 64V359.552l-128 64zM192 320h192v64H192v-64z"
-}, null, -1), PR = [
-  BR
+}, null, -1), OR = [
+  LR
 ];
-function NR(o, t, n, a, e, r) {
-  return R(), z("svg", IR, PR);
+function VR(o, t, n, a, e, r) {
+  return R(), z("svg", NR, OR);
 }
-var LR = /* @__PURE__ */ B(HR, [["render", NR], ["__file", "video-camera.vue"]]), OR = {
+var FR = /* @__PURE__ */ B(PR, [["render", VR], ["__file", "video-camera.vue"]]), jR = {
   name: "VideoPause"
-}, VR = {
+}, UR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, FR = /* @__PURE__ */ D("path", {
+}, QR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 832a384 384 0 0 0 0-768 384 384 0 0 0 0 768zm-96-544q32 0 32 32v256q0 32-32 32t-32-32V384q0-32 32-32zm192 0q32 0 32 32v256q0 32-32 32t-32-32V384q0-32 32-32z"
-}, null, -1), jR = [
-  FR
+}, null, -1), kR = [
+  QR
 ];
-function UR(o, t, n, a, e, r) {
-  return R(), z("svg", VR, jR);
+function WR(o, t, n, a, e, r) {
+  return R(), z("svg", UR, kR);
 }
-var QR = /* @__PURE__ */ B(OR, [["render", UR], ["__file", "video-pause.vue"]]), kR = {
+var GR = /* @__PURE__ */ B(jR, [["render", WR], ["__file", "video-pause.vue"]]), YR = {
   name: "VideoPlay"
-}, WR = {
+}, KR = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, GR = /* @__PURE__ */ D("path", {
+}, JR = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 832a384 384 0 0 0 0-768 384 384 0 0 0 0 768zm-48-247.616L668.608 512 464 375.616v272.768zm10.624-342.656 249.472 166.336a48 48 0 0 1 0 79.872L474.624 718.272A48 48 0 0 1 400 678.336V345.6a48 48 0 0 1 74.624-39.936z"
-}, null, -1), YR = [
-  GR
+}, null, -1), ZR = [
+  JR
 ];
-function KR(o, t, n, a, e, r) {
-  return R(), z("svg", WR, YR);
+function XR(o, t, n, a, e, r) {
+  return R(), z("svg", KR, ZR);
 }
-var JR = /* @__PURE__ */ B(kR, [["render", KR], ["__file", "video-play.vue"]]), ZR = {
+var qR = /* @__PURE__ */ B(YR, [["render", XR], ["__file", "video-play.vue"]]), ez = {
   name: "View"
-}, XR = {
+}, tz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, qR = /* @__PURE__ */ D("path", {
+}, nz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 160c320 0 512 352 512 352S832 864 512 864 0 512 0 512s192-352 512-352zm0 64c-225.28 0-384.128 208.064-436.8 288 52.608 79.872 211.456 288 436.8 288 225.28 0 384.128-208.064 436.8-288-52.608-79.872-211.456-288-436.8-288zm0 64a224 224 0 1 1 0 448 224 224 0 0 1 0-448zm0 64a160.192 160.192 0 0 0-160 160c0 88.192 71.744 160 160 160s160-71.808 160-160-71.744-160-160-160z"
-}, null, -1), ez = [
-  qR
+}, null, -1), az = [
+  nz
 ];
-function tz(o, t, n, a, e, r) {
-  return R(), z("svg", XR, ez);
+function oz(o, t, n, a, e, r) {
+  return R(), z("svg", tz, az);
 }
-var nz = /* @__PURE__ */ B(ZR, [["render", tz], ["__file", "view.vue"]]), az = {
+var rz = /* @__PURE__ */ B(ez, [["render", oz], ["__file", "view.vue"]]), lz = {
   name: "WalletFilled"
-}, oz = {
+}, iz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, rz = /* @__PURE__ */ D("path", {
+}, sz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M688 512a112 112 0 1 0 0 224h208v160H128V352h768v160H688zm32 160h-32a48 48 0 0 1 0-96h32a48 48 0 0 1 0 96zm-80-544 128 160H384l256-160z"
-}, null, -1), lz = [
-  rz
+}, null, -1), dz = [
+  sz
 ];
-function iz(o, t, n, a, e, r) {
-  return R(), z("svg", oz, lz);
+function cz(o, t, n, a, e, r) {
+  return R(), z("svg", iz, dz);
 }
-var sz = /* @__PURE__ */ B(az, [["render", iz], ["__file", "wallet-filled.vue"]]), dz = {
+var uz = /* @__PURE__ */ B(lz, [["render", cz], ["__file", "wallet-filled.vue"]]), fz = {
   name: "Wallet"
-}, cz = {
+}, mz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, uz = /* @__PURE__ */ D("path", {
+}, vz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M640 288h-64V128H128v704h384v32a32 32 0 0 0 32 32H96a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32h512a32 32 0 0 1 32 32v192z"
-}, null, -1), fz = /* @__PURE__ */ D("path", {
+}, null, -1), hz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M128 320v512h768V320H128zm-32-64h832a32 32 0 0 1 32 32v576a32 32 0 0 1-32 32H96a32 32 0 0 1-32-32V288a32 32 0 0 1 32-32z"
-}, null, -1), mz = /* @__PURE__ */ D("path", {
+}, null, -1), pz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M704 640a64 64 0 1 1 0-128 64 64 0 0 1 0 128z"
-}, null, -1), vz = [
-  uz,
-  fz,
-  mz
+}, null, -1), gz = [
+  vz,
+  hz,
+  pz
 ];
-function hz(o, t, n, a, e, r) {
-  return R(), z("svg", cz, vz);
+function yz(o, t, n, a, e, r) {
+  return R(), z("svg", mz, gz);
 }
-var pz = /* @__PURE__ */ B(dz, [["render", hz], ["__file", "wallet.vue"]]), gz = {
+var Az = /* @__PURE__ */ B(fz, [["render", yz], ["__file", "wallet.vue"]]), _z = {
   name: "WarnTriangleFilled"
-}, yz = {
+}, xz = {
   xmlns: "http://www.w3.org/2000/svg",
   viewBox: "0 0 1024 1024",
   style: { "enable-background": "new 0 0 1024 1024" },
   "xml:space": "preserve"
-}, Az = /* @__PURE__ */ D("path", {
+}, wz = /* @__PURE__ */ D("path", {
   d: "M928.99 755.83 574.6 203.25c-12.89-20.16-36.76-32.58-62.6-32.58s-49.71 12.43-62.6 32.58L95.01 755.83c-12.91 20.12-12.9 44.91.01 65.03 12.92 20.12 36.78 32.51 62.59 32.49h708.78c25.82.01 49.68-12.37 62.59-32.49 12.91-20.12 12.92-44.91.01-65.03zM554.67 768h-85.33v-85.33h85.33V768zm0-426.67v298.66h-85.33V341.32l85.33.01z",
   fill: "currentColor"
-}, null, -1), _z = [
-  Az
+}, null, -1), Ez = [
+  wz
 ];
-function xz(o, t, n, a, e, r) {
-  return R(), z("svg", yz, _z);
+function Cz(o, t, n, a, e, r) {
+  return R(), z("svg", xz, Ez);
 }
-var wz = /* @__PURE__ */ B(gz, [["render", xz], ["__file", "warn-triangle-filled.vue"]]), Ez = {
+var Sz = /* @__PURE__ */ B(_z, [["render", Cz], ["__file", "warn-triangle-filled.vue"]]), bz = {
   name: "WarningFilled"
-}, Cz = {
+}, Dz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Sz = /* @__PURE__ */ D("path", {
+}, Mz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 192a58.432 58.432 0 0 0-58.24 63.744l23.36 256.384a35.072 35.072 0 0 0 69.76 0l23.296-256.384A58.432 58.432 0 0 0 512 256zm0 512a51.2 51.2 0 1 0 0-102.4 51.2 51.2 0 0 0 0 102.4z"
-}, null, -1), bz = [
-  Sz
+}, null, -1), Tz = [
+  Mz
 ];
-function Dz(o, t, n, a, e, r) {
-  return R(), z("svg", Cz, bz);
+function Rz(o, t, n, a, e, r) {
+  return R(), z("svg", Dz, Tz);
 }
-var La = /* @__PURE__ */ B(Ez, [["render", Dz], ["__file", "warning-filled.vue"]]), Mz = {
+var Oa = /* @__PURE__ */ B(bz, [["render", Rz], ["__file", "warning-filled.vue"]]), zz = {
   name: "Warning"
-}, Tz = {
+}, $z = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Rz = /* @__PURE__ */ D("path", {
+}, Hz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 64a448 448 0 1 1 0 896 448 448 0 0 1 0-896zm0 832a384 384 0 0 0 0-768 384 384 0 0 0 0 768zm48-176a48 48 0 1 1-96 0 48 48 0 0 1 96 0zm-48-464a32 32 0 0 1 32 32v288a32 32 0 0 1-64 0V288a32 32 0 0 1 32-32z"
-}, null, -1), zz = [
-  Rz
+}, null, -1), Iz = [
+  Hz
 ];
-function $z(o, t, n, a, e, r) {
-  return R(), z("svg", Tz, zz);
+function Bz(o, t, n, a, e, r) {
+  return R(), z("svg", $z, Iz);
 }
-var Hz = /* @__PURE__ */ B(Mz, [["render", $z], ["__file", "warning.vue"]]), Iz = {
+var Pz = /* @__PURE__ */ B(zz, [["render", Bz], ["__file", "warning.vue"]]), Nz = {
   name: "Watch"
-}, Bz = {
+}, Lz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Pz = /* @__PURE__ */ D("path", {
+}, Oz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M512 768a256 256 0 1 0 0-512 256 256 0 0 0 0 512zm0 64a320 320 0 1 1 0-640 320 320 0 0 1 0 640z"
-}, null, -1), Nz = /* @__PURE__ */ D("path", {
+}, null, -1), Vz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 352a32 32 0 0 1 32 32v160a32 32 0 0 1-64 0V384a32 32 0 0 1 32-32z"
-}, null, -1), Lz = /* @__PURE__ */ D("path", {
+}, null, -1), Fz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M480 512h128q32 0 32 32t-32 32H480q-32 0-32-32t32-32zm128-256V128H416v128h-64V64h320v192h-64zM416 768v128h192V768h64v192H352V768h64z"
-}, null, -1), Oz = [
-  Pz,
-  Nz,
-  Lz
+}, null, -1), jz = [
+  Oz,
+  Vz,
+  Fz
 ];
-function Vz(o, t, n, a, e, r) {
-  return R(), z("svg", Bz, Oz);
+function Uz(o, t, n, a, e, r) {
+  return R(), z("svg", Lz, jz);
 }
-var Fz = /* @__PURE__ */ B(Iz, [["render", Vz], ["__file", "watch.vue"]]), jz = {
+var Qz = /* @__PURE__ */ B(Nz, [["render", Uz], ["__file", "watch.vue"]]), kz = {
   name: "Watermelon"
-}, Uz = {
+}, Wz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Qz = /* @__PURE__ */ D("path", {
+}, Gz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m683.072 600.32-43.648 162.816-61.824-16.512 53.248-198.528L576 493.248l-158.4 158.4-45.248-45.248 158.4-158.4-55.616-55.616-198.528 53.248-16.512-61.824 162.816-43.648L282.752 200A384 384 0 0 0 824 741.248L683.072 600.32zm231.552 141.056a448 448 0 1 1-632-632l632 632z"
-}, null, -1), kz = [
-  Qz
+}, null, -1), Yz = [
+  Gz
 ];
-function Wz(o, t, n, a, e, r) {
-  return R(), z("svg", Uz, kz);
+function Kz(o, t, n, a, e, r) {
+  return R(), z("svg", Wz, Yz);
 }
-var Gz = /* @__PURE__ */ B(jz, [["render", Wz], ["__file", "watermelon.vue"]]), Yz = {
+var Jz = /* @__PURE__ */ B(kz, [["render", Kz], ["__file", "watermelon.vue"]]), Zz = {
   name: "WindPower"
-}, Kz = {
+}, Xz = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, Jz = /* @__PURE__ */ D("path", {
+}, qz = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "M160 64q32 0 32 32v832q0 32-32 32t-32-32V96q0-32 32-32zm416 354.624 128-11.584V168.96l-128-11.52v261.12zm-64 5.824V151.552L320 134.08V160h-64V64l616.704 56.064A96 96 0 0 1 960 215.68v144.64a96 96 0 0 1-87.296 95.616L256 512V224h64v217.92l192-17.472zm256-23.232 98.88-8.96A32 32 0 0 0 896 360.32V215.68a32 32 0 0 0-29.12-31.872l-98.88-8.96v226.368z"
-}, null, -1), Zz = [
-  Jz
+}, null, -1), e$ = [
+  qz
 ];
-function Xz(o, t, n, a, e, r) {
-  return R(), z("svg", Kz, Zz);
+function t$(o, t, n, a, e, r) {
+  return R(), z("svg", Xz, e$);
 }
-var qz = /* @__PURE__ */ B(Yz, [["render", Xz], ["__file", "wind-power.vue"]]), e$ = {
+var n$ = /* @__PURE__ */ B(Zz, [["render", t$], ["__file", "wind-power.vue"]]), a$ = {
   name: "ZoomIn"
-}, t$ = {
+}, o$ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, n$ = /* @__PURE__ */ D("path", {
+}, r$ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704 352 352 0 0 0 0 704zm-32-384v-96a32 32 0 0 1 64 0v96h96a32 32 0 0 1 0 64h-96v96a32 32 0 0 1-64 0v-96h-96a32 32 0 0 1 0-64h96z"
-}, null, -1), a$ = [
-  n$
+}, null, -1), l$ = [
+  r$
 ];
-function o$(o, t, n, a, e, r) {
-  return R(), z("svg", t$, a$);
+function i$(o, t, n, a, e, r) {
+  return R(), z("svg", o$, l$);
 }
-var r$ = /* @__PURE__ */ B(e$, [["render", o$], ["__file", "zoom-in.vue"]]), l$ = {
+var s$ = /* @__PURE__ */ B(a$, [["render", i$], ["__file", "zoom-in.vue"]]), d$ = {
   name: "ZoomOut"
-}, i$ = {
+}, c$ = {
   viewBox: "0 0 1024 1024",
   xmlns: "http://www.w3.org/2000/svg"
-}, s$ = /* @__PURE__ */ D("path", {
+}, u$ = /* @__PURE__ */ D("path", {
   fill: "currentColor",
   d: "m795.904 750.72 124.992 124.928a32 32 0 0 1-45.248 45.248L750.656 795.904a416 416 0 1 1 45.248-45.248zM480 832a352 352 0 1 0 0-704 352 352 0 0 0 0 704zM352 448h256a32 32 0 0 1 0 64H352a32 32 0 0 1 0-64z"
-}, null, -1), d$ = [
-  s$
+}, null, -1), f$ = [
+  u$
 ];
-function c$(o, t, n, a, e, r) {
-  return R(), z("svg", i$, d$);
+function m$(o, t, n, a, e, r) {
+  return R(), z("svg", c$, f$);
 }
-var u$ = /* @__PURE__ */ B(l$, [["render", c$], ["__file", "zoom-out.vue"]]);
-const Br = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+var v$ = /* @__PURE__ */ B(d$, [["render", m$], ["__file", "zoom-out.vue"]]);
+const Pr = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  AddLocation: Ui,
-  Aim: Ji,
-  AlarmClock: as,
-  Apple: ds,
-  ArrowDown: xs,
-  ArrowDownBold: hs,
-  ArrowLeft: Hs,
-  ArrowLeftBold: Ds,
-  ArrowRight: ks,
-  ArrowRightBold: Os,
-  ArrowUp: ad,
-  ArrowUpBold: Zs,
-  Avatar: dd,
-  Back: pd,
-  Baseball: Ed,
-  Basketball: Td,
-  Bell: Ud,
-  BellFilled: Bd,
-  Bicycle: Kd,
-  Bottom: hc,
-  BottomLeft: nc,
-  BottomRight: dc,
-  Bowl: xc,
-  Box: Tc,
-  Briefcase: Bc,
-  Brush: Gc,
-  BrushFilled: Fc,
-  Burger: qc,
-  Calendar: r2,
-  Camera: g2,
-  CameraFilled: u2,
-  CaretBottom: E2,
-  CaretLeft: T2,
-  CaretRight: B2,
-  CaretTop: F2,
-  Cellphone: G2,
-  ChatDotRound: e0,
-  ChatDotSquare: i0,
-  ChatLineRound: v0,
-  ChatLineSquare: x0,
-  ChatRound: D0,
-  ChatSquare: H0,
-  Check: O0,
-  Checked: k0,
-  Cherry: Z0,
-  Chicken: au,
-  ChromeFilled: uu,
-  CircleCheck: Cu,
-  CircleCheckFilled: gu,
-  CircleClose: Pu,
-  CircleCloseFilled: Ba,
-  CirclePlus: Ju,
-  CirclePlusFilled: ju,
-  Clock: o1,
-  Close: Ir,
-  CloseBold: c1,
-  Cloudy: x1,
-  Coffee: H1,
-  CoffeeCup: D1,
-  Coin: F1,
-  ColdDrink: G1,
-  Collection: lf,
-  CollectionTag: q1,
-  Comment: mf,
-  Compass: _f,
-  Connection: Df,
-  Coordinate: If,
-  CopyDocument: Ff,
-  Cpu: Yf,
-  CreditCard: t4,
-  Crop: s4,
-  DArrowLeft: v4,
-  DArrowRight: _4,
-  DCaret: b4,
-  DataAnalysis: $4,
-  DataBoard: V4,
-  DataLine: W4,
-  Delete: f3,
-  DeleteFilled: X4,
-  DeleteLocation: l3,
-  Dessert: y3,
-  Discount: S3,
-  Dish: N3,
-  DishDot: z3,
-  Document: Am,
-  DocumentAdd: U3,
-  DocumentChecked: K3,
-  DocumentCopy: tm,
-  DocumentDelete: im,
-  DocumentRemove: mm,
-  Download: Sm,
-  Drizzling: zm,
-  Edit: Qm,
-  EditPen: Nm,
-  Eleme: nv,
-  ElemeFilled: Jm,
-  ElementPlus: sv,
-  Expand: vv,
-  Failed: _v,
-  Female: Mv,
-  Files: Iv,
-  Film: Fv,
-  Filter: Gv,
-  Finished: qv,
-  FirstAidKit: lh,
-  Flag: fh,
-  Fold: yh,
-  Folder: ep,
-  FolderAdd: Ch,
-  FolderChecked: Rh,
-  FolderDelete: Ph,
-  FolderOpened: jh,
-  FolderRemove: Yh,
-  Food: lp,
-  Football: mp,
-  ForkSpoon: Ap,
-  Fries: Sp,
-  FullScreen: zp,
-  Goblet: t6,
-  GobletFull: Np,
-  GobletSquare: Kp,
-  GobletSquareFull: Up,
-  GoldMedal: s6,
-  Goods: _6,
-  GoodsFilled: v6,
-  Grape: b6,
-  Grid: $6,
-  Guide: O6,
-  Handbag: k6,
-  Headset: Z6,
-  Help: d8,
-  HelpFilled: a8,
-  Hide: p8,
-  Histogram: w8,
-  HomeFilled: M8,
-  HotWater: I8,
-  House: V8,
-  IceCream: og,
-  IceCreamRound: W8,
-  IceCreamSquare: X8,
-  IceDrink: cg,
-  IceTea: pg,
-  InfoFilled: Pa,
-  Iphone: Dg,
-  Key: Hg,
-  KnifeFork: Og,
-  Lightning: Wg,
-  Link: Xg,
-  List: o5,
-  Loading: c5,
-  Location: z5,
-  LocationFilled: p5,
-  LocationInformation: C5,
-  Lock: L5,
-  Lollipop: Q5,
-  MagicStick: J5,
-  Magnet: n9,
-  Male: c9,
-  Management: p9,
-  MapLocation: E9,
-  Medal: R9,
-  Memo: L9,
-  Menu: Q9,
-  Message: a7,
-  MessageBox: J9,
-  Mic: d7,
-  Microphone: h7,
-  MilkTea: x7,
-  Minus: D7,
-  Money: B7,
-  Monitor: F7,
-  Moon: ey,
-  MoonNight: Y7,
-  More: fy,
-  MoreFilled: ly,
-  MostlyCloudy: yy,
-  Mouse: Sy,
-  Mug: zy,
-  Mute: ky,
-  MuteNotification: Ly,
-  NoSmoking: Zy,
-  Notebook: oA,
-  Notification: uA,
-  Odometer: AA,
-  OfficeBuilding: DA,
-  Open: IA,
-  Operation: VA,
-  Opportunity: WA,
-  Orange: XA,
-  Paperclip: o_,
-  PartlyCloudy: u_,
-  Pear: g_,
-  Phone: T_,
-  PhoneFilled: E_,
-  Picture: K_,
-  PictureFilled: B_,
-  PictureRounded: j_,
-  PieChart: nx,
-  Place: cx,
-  Platform: px,
-  Plus: wx,
-  Pointer: Mx,
-  Position: Ix,
-  Postcard: Fx,
-  Pouring: Gx,
-  Present: nw,
-  PriceTag: dw,
-  Printer: hw,
-  Promotion: xw,
-  QuartzWatch: Tw,
-  QuestionFilled: Bw,
-  Rank: Fw,
-  Reading: tE,
-  ReadingLamp: Yw,
-  Refresh: AE,
-  RefreshLeft: iE,
-  RefreshRight: mE,
-  Refrigerator: SE,
-  Remove: LE,
-  RemoveFilled: zE,
-  Right: QE,
-  ScaleToOriginal: JE,
-  School: oC,
-  Scissor: cC,
-  Search: pC,
-  Select: wC,
-  Sell: MC,
-  SemiSelect: IC,
-  Service: VC,
-  SetUp: KC,
-  Setting: tS,
-  Share: iS,
-  Ship: mS,
-  Shop: AS,
-  ShoppingBag: bS,
-  ShoppingCart: OS,
-  ShoppingCartFull: HS,
-  ShoppingTrolley: kS,
-  Smoking: XS,
-  Soccer: ob,
-  SoldOut: cb,
-  Sort: Mb,
-  SortDown: pb,
-  SortUp: wb,
-  Stamp: Ib,
-  Star: Wb,
-  StarFilled: Vb,
-  Stopwatch: qb,
-  SuccessFilled: Na,
-  Sugar: cD,
-  Suitcase: ED,
-  SuitcaseLine: pD,
-  Sunny: TD,
-  Sunrise: BD,
-  Sunset: FD,
-  Switch: iM,
-  SwitchButton: YD,
-  SwitchFilled: tM,
-  TakeawayBox: mM,
-  Ticket: AM,
-  Tickets: SM,
-  Timer: HM,
-  ToiletPaper: VM,
-  Tools: WM,
-  Top: fT,
-  TopLeft: qM,
-  TopRight: lT,
-  TrendCharts: yT,
-  Trophy: RT,
-  TrophyBase: CT,
-  TurnOff: NT,
-  Umbrella: UT,
-  Unlock: JT,
-  Upload: sR,
-  UploadFilled: nR,
-  User: _R,
-  UserFilled: vR,
-  Van: bR,
-  VideoCamera: LR,
-  VideoCameraFilled: $R,
-  VideoPause: QR,
-  VideoPlay: JR,
-  View: nz,
-  Wallet: pz,
-  WalletFilled: sz,
-  WarnTriangleFilled: wz,
-  Warning: Hz,
-  WarningFilled: La,
-  Watch: Fz,
-  Watermelon: Gz,
-  WindPower: qz,
-  ZoomIn: r$,
-  ZoomOut: u$
+  AddLocation: Wi,
+  Aim: qi,
+  AlarmClock: ls,
+  Apple: fs,
+  ArrowDown: Cs,
+  ArrowDownBold: ys,
+  ArrowLeft: Ps,
+  ArrowLeftBold: Rs,
+  ArrowRight: Ys,
+  ArrowRightBold: js,
+  ArrowUp: ld,
+  ArrowUpBold: ed,
+  Avatar: fd,
+  Back: Ad,
+  Baseball: bd,
+  Basketball: $d,
+  Bell: Wd,
+  BellFilled: Ld,
+  Bicycle: Xd,
+  Bottom: yc,
+  BottomLeft: rc,
+  BottomRight: fc,
+  Bowl: Cc,
+  Box: $c,
+  Briefcase: Lc,
+  Brush: Jc,
+  BrushFilled: Qc,
+  Burger: n2,
+  Calendar: s2,
+  Camera: _2,
+  CameraFilled: v2,
+  CaretBottom: b2,
+  CaretLeft: $2,
+  CaretRight: L2,
+  CaretTop: Q2,
+  Cellphone: J2,
+  ChatDotRound: a0,
+  ChatDotSquare: c0,
+  ChatLineRound: g0,
+  ChatLineSquare: C0,
+  ChatRound: R0,
+  ChatSquare: P0,
+  Check: j0,
+  Checked: Y0,
+  Cherry: eu,
+  Chicken: lu,
+  ChromeFilled: vu,
+  CircleCheck: Du,
+  CircleCheckFilled: _u,
+  CircleClose: Ou,
+  CircleCloseFilled: Pa,
+  CirclePlus: qu,
+  CirclePlusFilled: ku,
+  Clock: i1,
+  Close: Br,
+  CloseBold: m1,
+  Cloudy: C1,
+  Coffee: P1,
+  CoffeeCup: R1,
+  Coin: Q1,
+  ColdDrink: J1,
+  Collection: cf,
+  CollectionTag: nf,
+  Comment: pf,
+  Compass: Ef,
+  Connection: Rf,
+  Coordinate: Nf,
+  CopyDocument: Qf,
+  Cpu: Zf,
+  CreditCard: o4,
+  Crop: u4,
+  DArrowLeft: g4,
+  DArrowRight: E4,
+  DCaret: T4,
+  DataAnalysis: B4,
+  DataBoard: U4,
+  DataLine: K4,
+  Delete: h3,
+  DeleteFilled: t3,
+  DeleteLocation: d3,
+  Dessert: x3,
+  Discount: M3,
+  Dish: V3,
+  DishDot: I3,
+  Document: wm,
+  DocumentAdd: W3,
+  DocumentChecked: X3,
+  DocumentCopy: om,
+  DocumentDelete: cm,
+  DocumentRemove: pm,
+  Download: Mm,
+  Drizzling: Im,
+  Edit: Gm,
+  EditPen: Vm,
+  Eleme: rv,
+  ElemeFilled: qm,
+  ElementPlus: uv,
+  Expand: gv,
+  Failed: Ev,
+  Female: zv,
+  Files: Nv,
+  Film: Qv,
+  Filter: Jv,
+  Finished: nh,
+  FirstAidKit: dh,
+  Flag: hh,
+  Fold: xh,
+  Folder: ap,
+  FolderAdd: Dh,
+  FolderChecked: Hh,
+  FolderDelete: Oh,
+  FolderOpened: kh,
+  FolderRemove: Zh,
+  Food: dp,
+  Football: pp,
+  ForkSpoon: wp,
+  Fries: Mp,
+  FullScreen: Ip,
+  Goblet: o6,
+  GobletFull: Vp,
+  GobletSquare: Xp,
+  GobletSquareFull: Wp,
+  GoldMedal: u6,
+  Goods: E6,
+  GoodsFilled: g6,
+  Grape: T6,
+  Grid: B6,
+  Guide: j6,
+  Handbag: Y6,
+  Headset: e8,
+  Help: f8,
+  HelpFilled: l8,
+  Hide: A8,
+  Histogram: S8,
+  HomeFilled: z8,
+  HotWater: N8,
+  House: U8,
+  IceCream: ig,
+  IceCreamRound: K8,
+  IceCreamSquare: tg,
+  IceDrink: mg,
+  IceTea: Ag,
+  InfoFilled: Na,
+  Iphone: Rg,
+  Key: Pg,
+  KnifeFork: jg,
+  Lightning: Kg,
+  Link: t5,
+  List: i5,
+  Loading: m5,
+  Location: I5,
+  LocationFilled: A5,
+  LocationInformation: D5,
+  Lock: F5,
+  Lollipop: G5,
+  MagicStick: q5,
+  Magnet: r9,
+  Male: m9,
+  Management: A9,
+  MapLocation: b9,
+  Medal: H9,
+  Memo: F9,
+  Menu: G9,
+  Message: l7,
+  MessageBox: q9,
+  Mic: f7,
+  Microphone: y7,
+  MilkTea: C7,
+  Minus: R7,
+  Money: L7,
+  Monitor: Q7,
+  Moon: ay,
+  MoonNight: Z7,
+  More: hy,
+  MoreFilled: dy,
+  MostlyCloudy: xy,
+  Mouse: My,
+  Mug: Iy,
+  Mute: Yy,
+  MuteNotification: Fy,
+  NoSmoking: eA,
+  Notebook: iA,
+  Notification: vA,
+  Odometer: wA,
+  OfficeBuilding: RA,
+  Open: NA,
+  Operation: UA,
+  Opportunity: KA,
+  Orange: t_,
+  Paperclip: i_,
+  PartlyCloudy: v_,
+  Pear: __,
+  Phone: $_,
+  PhoneFilled: b_,
+  Picture: X_,
+  PictureFilled: L_,
+  PictureRounded: k_,
+  PieChart: rx,
+  Place: mx,
+  Platform: Ax,
+  Plus: Sx,
+  Pointer: zx,
+  Position: Nx,
+  Postcard: Qx,
+  Pouring: Jx,
+  Present: rw,
+  PriceTag: fw,
+  Printer: yw,
+  Promotion: Cw,
+  QuartzWatch: $w,
+  QuestionFilled: Lw,
+  Rank: Qw,
+  Reading: oE,
+  ReadingLamp: Zw,
+  Refresh: wE,
+  RefreshLeft: cE,
+  RefreshRight: pE,
+  Refrigerator: ME,
+  Remove: FE,
+  RemoveFilled: IE,
+  Right: GE,
+  ScaleToOriginal: qE,
+  School: iC,
+  Scissor: mC,
+  Search: AC,
+  Select: SC,
+  Sell: zC,
+  SemiSelect: NC,
+  Service: UC,
+  SetUp: XC,
+  Setting: oS,
+  Share: cS,
+  Ship: pS,
+  Shop: wS,
+  ShoppingBag: TS,
+  ShoppingCart: jS,
+  ShoppingCartFull: PS,
+  ShoppingTrolley: YS,
+  Smoking: tb,
+  Soccer: ib,
+  SoldOut: mb,
+  Sort: zb,
+  SortDown: Ab,
+  SortUp: Sb,
+  Stamp: Nb,
+  Star: Kb,
+  StarFilled: Ub,
+  Stopwatch: nD,
+  SuccessFilled: La,
+  Sugar: mD,
+  Suitcase: bD,
+  SuitcaseLine: AD,
+  Sunny: $D,
+  Sunrise: LD,
+  Sunset: QD,
+  Switch: cM,
+  SwitchButton: ZD,
+  SwitchFilled: oM,
+  TakeawayBox: pM,
+  Ticket: wM,
+  Tickets: MM,
+  Timer: PM,
+  ToiletPaper: UM,
+  Tools: KM,
+  Top: hT,
+  TopLeft: nT,
+  TopRight: dT,
+  TrendCharts: xT,
+  Trophy: HT,
+  TrophyBase: DT,
+  TurnOff: VT,
+  Umbrella: WT,
+  Unlock: qT,
+  Upload: uR,
+  UploadFilled: rR,
+  User: ER,
+  UserFilled: gR,
+  Van: TR,
+  VideoCamera: FR,
+  VideoCameraFilled: BR,
+  VideoPause: GR,
+  VideoPlay: qR,
+  View: rz,
+  Wallet: Az,
+  WalletFilled: uz,
+  WarnTriangleFilled: Sz,
+  Warning: Pz,
+  WarningFilled: Oa,
+  Watch: Qz,
+  Watermelon: Jz,
+  WindPower: n$,
+  ZoomIn: s$,
+  ZoomOut: v$
 }, Symbol.toStringTag, { value: "Module" })), et = (o) => o.replace(/(A-Z)/g, "$1").toLocaleLowerCase();
-function f$(o) {
+function h$(o) {
   for (var t = -1, n = o == null ? 0 : o.length, a = {}; ++t < n; ) {
     var e = o[t];
     a[e[0]] = e[1];
   }
   return a;
 }
-var Ao;
-const rn = typeof window < "u", bn = (o) => typeof o == "number", m$ = (o) => typeof o == "string", v$ = () => {
+var _o;
+const ln = typeof window < "u", Dn = (o) => typeof o == "number", p$ = (o) => typeof o == "string", g$ = () => {
 };
-rn && ((Ao = window == null ? void 0 : window.navigator) != null && Ao.userAgent) && /iP(ad|hone|od)/.test(window.navigator.userAgent);
-function Pr(o) {
+ln && ((_o = window == null ? void 0 : window.navigator) != null && _o.userAgent) && /iP(ad|hone|od)/.test(window.navigator.userAgent);
+function Nr(o) {
   return typeof o == "function" ? o() : re(o);
 }
-function h$(o) {
+function y$(o) {
   return o;
 }
-function Oa(o) {
-  return Ei() ? (Ci(o), !0) : !1;
+function Va(o) {
+  return bi() ? (Di(o), !0) : !1;
 }
-function p$(o, t = !0) {
-  $a() ? on(o) : t ? o() : zr(o);
+function A$(o, t = !0) {
+  Ha() ? rn(o) : t ? o() : $r(o);
 }
-function g$(o, t, n = {}) {
+function _$(o, t, n = {}) {
   const {
     immediate: a = !0
   } = n, e = he(!1);
@@ -19529,78 +19529,78 @@ function g$(o, t, n = {}) {
   function s(...d) {
     l(), e.value = !0, r = setTimeout(() => {
       e.value = !1, r = null, o(...d);
-    }, Pr(t));
+    }, Nr(t));
   }
-  return a && (e.value = !0, rn && s()), Oa(i), {
+  return a && (e.value = !0, ln && s()), Va(i), {
     isPending: e,
     start: s,
     stop: i
   };
 }
-function Nr(o) {
+function Lr(o) {
   var t;
-  const n = Pr(o);
+  const n = Nr(o);
   return (t = n == null ? void 0 : n.$el) != null ? t : n;
 }
-const Lr = rn ? window : void 0;
-function y$(...o) {
+const Or = ln ? window : void 0;
+function x$(...o) {
   let t, n, a, e;
-  if (m$(o[0]) || Array.isArray(o[0]) ? ([n, a, e] = o, t = Lr) : [t, n, a, e] = o, !t)
-    return v$;
+  if (p$(o[0]) || Array.isArray(o[0]) ? ([n, a, e] = o, t = Or) : [t, n, a, e] = o, !t)
+    return g$;
   Array.isArray(n) || (n = [n]), Array.isArray(a) || (a = [a]);
   const r = [], l = () => {
     r.forEach((c) => c()), r.length = 0;
-  }, i = (c, f, h) => (c.addEventListener(f, h, e), () => c.removeEventListener(f, h, e)), s = je(() => Nr(t), (c) => {
+  }, i = (c, f, h) => (c.addEventListener(f, h, e), () => c.removeEventListener(f, h, e)), s = je(() => Lr(t), (c) => {
     l(), c && r.push(...n.flatMap((f) => a.map((h) => i(c, f, h))));
   }, { immediate: !0, flush: "post" }), d = () => {
     s(), l();
   };
-  return Oa(d), d;
+  return Va(d), d;
 }
-function A$(o, t = !1) {
+function w$(o, t = !1) {
   const n = he(), a = () => n.value = Boolean(o());
-  return a(), p$(a, t), n;
+  return a(), A$(a, t), n;
 }
-const pa = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {}, ga = "__vueuse_ssr_handlers__";
-pa[ga] = pa[ga] || {};
-pa[ga];
-var _o = Object.getOwnPropertySymbols, _$ = Object.prototype.hasOwnProperty, x$ = Object.prototype.propertyIsEnumerable, w$ = (o, t) => {
+const ga = typeof globalThis < "u" ? globalThis : typeof window < "u" ? window : typeof global < "u" ? global : typeof self < "u" ? self : {}, ya = "__vueuse_ssr_handlers__";
+ga[ya] = ga[ya] || {};
+ga[ya];
+var xo = Object.getOwnPropertySymbols, E$ = Object.prototype.hasOwnProperty, C$ = Object.prototype.propertyIsEnumerable, S$ = (o, t) => {
   var n = {};
   for (var a in o)
-    _$.call(o, a) && t.indexOf(a) < 0 && (n[a] = o[a]);
-  if (o != null && _o)
-    for (var a of _o(o))
-      t.indexOf(a) < 0 && x$.call(o, a) && (n[a] = o[a]);
+    E$.call(o, a) && t.indexOf(a) < 0 && (n[a] = o[a]);
+  if (o != null && xo)
+    for (var a of xo(o))
+      t.indexOf(a) < 0 && C$.call(o, a) && (n[a] = o[a]);
   return n;
 };
-function E$(o, t, n = {}) {
-  const a = n, { window: e = Lr } = a, r = w$(a, ["window"]);
+function b$(o, t, n = {}) {
+  const a = n, { window: e = Or } = a, r = S$(a, ["window"]);
   let l;
-  const i = A$(() => e && "ResizeObserver" in e), s = () => {
+  const i = w$(() => e && "ResizeObserver" in e), s = () => {
     l && (l.disconnect(), l = void 0);
-  }, d = je(() => Nr(o), (f) => {
+  }, d = je(() => Lr(o), (f) => {
     s(), i.value && e && f && (l = new ResizeObserver(t), l.observe(f, r));
   }, { immediate: !0, flush: "post" }), c = () => {
     s(), d();
   };
-  return Oa(c), {
+  return Va(c), {
     isSupported: i,
     stop: c
   };
 }
-var xo;
+var wo;
 (function(o) {
   o.UP = "UP", o.RIGHT = "RIGHT", o.DOWN = "DOWN", o.LEFT = "LEFT", o.NONE = "NONE";
-})(xo || (xo = {}));
-var C$ = Object.defineProperty, wo = Object.getOwnPropertySymbols, S$ = Object.prototype.hasOwnProperty, b$ = Object.prototype.propertyIsEnumerable, Eo = (o, t, n) => t in o ? C$(o, t, { enumerable: !0, configurable: !0, writable: !0, value: n }) : o[t] = n, D$ = (o, t) => {
+})(wo || (wo = {}));
+var D$ = Object.defineProperty, Eo = Object.getOwnPropertySymbols, M$ = Object.prototype.hasOwnProperty, T$ = Object.prototype.propertyIsEnumerable, Co = (o, t, n) => t in o ? D$(o, t, { enumerable: !0, configurable: !0, writable: !0, value: n }) : o[t] = n, R$ = (o, t) => {
   for (var n in t || (t = {}))
-    S$.call(t, n) && Eo(o, n, t[n]);
-  if (wo)
-    for (var n of wo(t))
-      b$.call(t, n) && Eo(o, n, t[n]);
+    M$.call(t, n) && Co(o, n, t[n]);
+  if (Eo)
+    for (var n of Eo(t))
+      T$.call(t, n) && Co(o, n, t[n]);
   return o;
 };
-const M$ = {
+const z$ = {
   easeInSine: [0.12, 0, 0.39, 0],
   easeOutSine: [0.61, 1, 0.88, 1],
   easeInOutSine: [0.37, 0, 0.63, 1],
@@ -19626,69 +19626,69 @@ const M$ = {
   easeOutBack: [0.34, 1.56, 0.64, 1],
   easeInOutBack: [0.68, -0.6, 0.32, 1.6]
 };
-D$({
-  linear: h$
-}, M$);
+R$({
+  linear: y$
+}, z$);
 process.env.NODE_ENV !== "production" && Object.freeze({});
 process.env.NODE_ENV !== "production" && Object.freeze([]);
-const T$ = Object.prototype.hasOwnProperty, Co = (o, t) => T$.call(o, t), ya = (o) => typeof o == "function", qt = (o) => typeof o == "string", Or = (o) => o !== null && typeof o == "object", R$ = (o) => o === void 0, z$ = (o) => typeof Element > "u" ? !1 : o instanceof Element, $$ = (o) => qt(o) ? !Number.isNaN(Number(o)) : !1, So = (o) => Object.keys(o);
-class H$ extends Error {
+const $$ = Object.prototype.hasOwnProperty, So = (o, t) => $$.call(o, t), Aa = (o) => typeof o == "function", en = (o) => typeof o == "string", Vr = (o) => o !== null && typeof o == "object", H$ = (o) => o === void 0, I$ = (o) => typeof Element > "u" ? !1 : o instanceof Element, B$ = (o) => en(o) ? !Number.isNaN(Number(o)) : !1, bo = (o) => Object.keys(o);
+class P$ extends Error {
   constructor(t) {
     super(t), this.name = "ElementPlusError";
   }
 }
-function Va(o, t) {
+function Fa(o, t) {
   if (process.env.NODE_ENV !== "production") {
-    const n = qt(o) ? new H$(`[${o}] ${t}`) : o;
+    const n = en(o) ? new P$(`[${o}] ${t}`) : o;
     console.warn(n);
   }
 }
-const I$ = "utils/dom/style";
-function B$(o, t = "px") {
+const N$ = "utils/dom/style";
+function L$(o, t = "px") {
   if (!o)
     return "";
-  if (bn(o) || $$(o))
+  if (Dn(o) || B$(o))
     return `${o}${t}`;
-  if (qt(o))
+  if (en(o))
     return o;
-  Va(I$, "binding value must be a string or number");
+  Fa(N$, "binding value must be a string or number");
 }
-const Vr = "__epPropKey", ot = (o) => o, P$ = (o) => Or(o) && !!o[Vr], Fr = (o, t) => {
-  if (!Or(o) || P$(o))
+const Fr = "__epPropKey", ot = (o) => o, O$ = (o) => Vr(o) && !!o[Fr], jr = (o, t) => {
+  if (!Vr(o) || O$(o))
     return o;
   const { values: n, required: a, default: e, type: r, validator: l } = o, s = {
     type: r,
     required: !!a,
     validator: n || l ? (d) => {
       let c = !1, f = [];
-      if (n && (f = Array.from(n), Co(o, "default") && f.push(e), c || (c = f.includes(d))), l && (c || (c = l(d))), !c && f.length > 0) {
+      if (n && (f = Array.from(n), So(o, "default") && f.push(e), c || (c = f.includes(d))), l && (c || (c = l(d))), !c && f.length > 0) {
         const h = [...new Set(f)].map((u) => JSON.stringify(u)).join(", ");
-        Si(`Invalid prop: validation failed${t ? ` for prop "${t}"` : ""}. Expected one of [${h}], got value ${JSON.stringify(d)}.`);
+        Mi(`Invalid prop: validation failed${t ? ` for prop "${t}"` : ""}. Expected one of [${h}], got value ${JSON.stringify(d)}.`);
       }
       return c;
     } : void 0,
-    [Vr]: !0
+    [Fr]: !0
   };
-  return Co(o, "default") && (s.default = e), s;
-}, Fn = (o) => f$(Object.entries(o).map(([t, n]) => [
+  return So(o, "default") && (s.default = e), s;
+}, jn = (o) => h$(Object.entries(o).map(([t, n]) => [
   t,
-  Fr(n, t)
-])), N$ = ot([
+  jr(n, t)
+])), V$ = ot([
   String,
   Object,
   Function
-]), L$ = {
-  Close: Ir,
-  SuccessFilled: Na,
-  InfoFilled: Pa,
-  WarningFilled: La,
-  CircleCloseFilled: Ba
-}, bo = {
-  success: Na,
-  warning: La,
-  error: Ba,
-  info: Pa
-}, jr = (o, t) => {
+]), F$ = {
+  Close: Br,
+  SuccessFilled: La,
+  InfoFilled: Na,
+  WarningFilled: Oa,
+  CircleCloseFilled: Pa
+}, Do = {
+  success: La,
+  warning: Oa,
+  error: Pa,
+  info: Na
+}, Ur = (o, t) => {
   if (o.install = (n) => {
     for (const a of [o, ...Object.values(t ?? {})])
       n.component(a.name, a);
@@ -19696,9 +19696,9 @@ const Vr = "__epPropKey", ot = (o) => o, P$ = (o) => Or(o) && !!o[Vr], Fr = (o, 
     for (const [n, a] of Object.entries(t))
       o[n] = a;
   return o;
-}, O$ = (o, t) => (o.install = (n) => {
+}, j$ = (o, t) => (o.install = (n) => {
   o._context = n._context, n.config.globalProperties[t] = o;
-}, o), V$ = {
+}, o), U$ = {
   tab: "Tab",
   enter: "Enter",
   space: "Space",
@@ -19714,53 +19714,53 @@ const Vr = "__epPropKey", ot = (o) => o, P$ = (o) => Or(o) && !!o[Vr], Fr = (o, 
   pageDown: "PageDown",
   home: "Home",
   end: "End"
-}, F$ = ["", "default", "small", "large"], j$ = (o) => o, Ur = Symbol(), Dn = he();
-function Fa(o, t = void 0) {
-  const n = $a() ? Di(Ur, Dn) : Dn;
+}, Q$ = ["", "default", "small", "large"], k$ = (o) => o, Qr = Symbol(), Mn = he();
+function ja(o, t = void 0) {
+  const n = Ha() ? Ri(Qr, Mn) : Mn;
   return o ? Re(() => {
     var a, e;
     return (e = (a = n.value) == null ? void 0 : a[o]) != null ? e : t;
   }) : n;
 }
-const U$ = (o, t, n = !1) => {
+const W$ = (o, t, n = !1) => {
   var a;
-  const e = !!$a(), r = e ? Fa() : void 0, l = (a = t == null ? void 0 : t.provide) != null ? a : e ? bi : void 0;
+  const e = !!Ha(), r = e ? ja() : void 0, l = (a = t == null ? void 0 : t.provide) != null ? a : e ? Ti : void 0;
   if (!l) {
-    Va("provideGlobalConfig", "provideGlobalConfig() can only be used inside setup().");
+    Fa("provideGlobalConfig", "provideGlobalConfig() can only be used inside setup().");
     return;
   }
   const i = Re(() => {
     const s = re(o);
-    return r != null && r.value ? Q$(r.value, s) : s;
+    return r != null && r.value ? G$(r.value, s) : s;
   });
-  return l(Ur, i), (n || !Dn.value) && (Dn.value = i.value), i;
-}, Q$ = (o, t) => {
+  return l(Qr, i), (n || !Mn.value) && (Mn.value = i.value), i;
+}, G$ = (o, t) => {
   var n;
-  const a = [.../* @__PURE__ */ new Set([...So(o), ...So(t)])], e = {};
+  const a = [.../* @__PURE__ */ new Set([...bo(o), ...bo(t)])], e = {};
   for (const r of a)
     e[r] = (n = t[r]) != null ? n : o[r];
   return e;
-}, k$ = Fr({
+}, Y$ = jr({
   type: String,
-  values: F$,
+  values: Q$,
   required: !1
-}), W$ = "el", G$ = "is-", ht = (o, t, n, a, e) => {
+}), K$ = "el", J$ = "is-", pt = (o, t, n, a, e) => {
   let r = `${o}-${t}`;
   return n && (r += `-${n}`), a && (r += `__${a}`), e && (r += `--${e}`), r;
-}, ja = (o) => {
-  const t = Fa("namespace", W$);
+}, Ua = (o) => {
+  const t = ja("namespace", K$);
   return {
     namespace: t,
-    b: (m = "") => ht(t.value, o, m, "", ""),
-    e: (m) => m ? ht(t.value, o, "", m, "") : "",
-    m: (m) => m ? ht(t.value, o, "", "", m) : "",
-    be: (m, p) => m && p ? ht(t.value, o, m, p, "") : "",
-    em: (m, p) => m && p ? ht(t.value, o, "", m, p) : "",
-    bm: (m, p) => m && p ? ht(t.value, o, m, "", p) : "",
-    bem: (m, p, v) => m && p && v ? ht(t.value, o, m, p, v) : "",
+    b: (m = "") => pt(t.value, o, m, "", ""),
+    e: (m) => m ? pt(t.value, o, "", m, "") : "",
+    m: (m) => m ? pt(t.value, o, "", "", m) : "",
+    be: (m, p) => m && p ? pt(t.value, o, m, p, "") : "",
+    em: (m, p) => m && p ? pt(t.value, o, "", m, p) : "",
+    bm: (m, p) => m && p ? pt(t.value, o, m, "", p) : "",
+    bem: (m, p, v) => m && p && v ? pt(t.value, o, m, p, v) : "",
     is: (m, ...p) => {
       const v = p.length >= 1 ? p[0] : !0;
-      return m && v ? `${G$}${m}` : "";
+      return m && v ? `${J$}${m}` : "";
     },
     cssVar: (m) => {
       const p = {};
@@ -19777,38 +19777,38 @@ const U$ = (o, t, n = !1) => {
     },
     cssVarBlockName: (m) => `--${t.value}-${o}-${m}`
   };
-}, Do = he(0), Y$ = () => {
-  const o = Fa("zIndex", 2e3), t = Re(() => o.value + Do.value);
+}, Mo = he(0), Z$ = () => {
+  const o = ja("zIndex", 2e3), t = Re(() => o.value + Mo.value);
   return {
     initialZIndex: o,
     currentZIndex: t,
-    nextZIndex: () => (Do.value++, t.value)
+    nextZIndex: () => (Mo.value++, t.value)
   };
 };
-var Ua = (o, t) => {
+var Qa = (o, t) => {
   const n = o.__vccOpts || o;
   for (const [a, e] of t)
     n[a] = e;
   return n;
 };
-const K$ = Fn({
+const X$ = jn({
   size: {
     type: ot([Number, String])
   },
   color: {
     type: String
   }
-}), J$ = xe({
+}), q$ = xe({
   name: "ElIcon",
   inheritAttrs: !1
-}), Z$ = /* @__PURE__ */ xe({
-  ...J$,
-  props: K$,
+}), eH = /* @__PURE__ */ xe({
+  ...q$,
+  props: X$,
   setup(o) {
-    const t = o, n = ja("icon"), a = Re(() => {
+    const t = o, n = Ua("icon"), a = Re(() => {
       const { size: e, color: r } = t;
       return !e && !r ? {} : {
-        fontSize: R$(e) ? void 0 : B$(e),
+        fontSize: H$(e) ? void 0 : L$(e),
         "--color": r
       };
     });
@@ -19820,8 +19820,8 @@ const K$ = Fn({
     ], 16));
   }
 });
-var X$ = /* @__PURE__ */ Ua(Z$, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/icon/src/icon.vue"]]);
-const Mo = jr(X$), q$ = Fn({
+var tH = /* @__PURE__ */ Qa(eH, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/icon/src/icon.vue"]]);
+const To = Ur(tH), nH = jn({
   value: {
     type: [String, Number],
     default: ""
@@ -19837,25 +19837,25 @@ const Mo = jr(X$), q$ = Fn({
     values: ["primary", "success", "warning", "info", "danger"],
     default: "danger"
   }
-}), eH = ["textContent"], tH = xe({
+}), aH = ["textContent"], oH = xe({
   name: "ElBadge"
-}), nH = /* @__PURE__ */ xe({
-  ...tH,
-  props: q$,
+}), rH = /* @__PURE__ */ xe({
+  ...oH,
+  props: nH,
   setup(o, { expose: t }) {
-    const n = o, a = ja("badge"), e = Re(() => n.isDot ? "" : bn(n.value) && bn(n.max) ? n.max < n.value ? `${n.max}+` : `${n.value}` : `${n.value}`);
+    const n = o, a = Ua("badge"), e = Re(() => n.isDot ? "" : Dn(n.value) && Dn(n.max) ? n.max < n.value ? `${n.max}+` : `${n.value}` : `${n.value}`);
     return t({
       content: e
     }), (r, l) => (R(), z("div", {
       class: Ge(re(a).b())
     }, [
       Ie(r.$slots, "default"),
-      de($r, {
+      de(Hr, {
         name: `${re(a).namespace.value}-zoom-in-center`,
         persisted: ""
       }, {
         default: oe(() => [
-          Ha(D("sup", {
+          Ia(D("sup", {
             class: Ge([
               re(a).e("content"),
               re(a).em("content", r.type),
@@ -19863,8 +19863,8 @@ const Mo = jr(X$), q$ = Fn({
               re(a).is("dot", r.isDot)
             ]),
             textContent: be(re(e))
-          }, null, 10, eH), [
-            [Hr, !r.hidden && (re(e) || r.isDot)]
+          }, null, 10, aH), [
+            [Ir, !r.hidden && (re(e) || r.isDot)]
           ])
         ]),
         _: 1
@@ -19872,12 +19872,12 @@ const Mo = jr(X$), q$ = Fn({
     ], 2));
   }
 });
-var aH = /* @__PURE__ */ Ua(nH, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/badge/src/badge.vue"]]);
-const oH = jr(aH);
-function rH(o) {
+var lH = /* @__PURE__ */ Qa(rH, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/badge/src/badge.vue"]]);
+const iH = Ur(lH);
+function sH(o) {
   return o && o.__esModule && Object.prototype.hasOwnProperty.call(o, "default") ? o.default : o;
 }
-const Aa = {}, lH = Fn({
+const _a = {}, dH = jn({
   a11y: {
     type: Boolean,
     default: !0
@@ -19885,7 +19885,7 @@ const Aa = {}, lH = Fn({
   locale: {
     type: ot(Object)
   },
-  size: k$,
+  size: Y$,
   button: {
     type: ot(Object)
   },
@@ -19907,16 +19907,16 @@ const Aa = {}, lH = Fn({
 });
 xe({
   name: "ElConfigProvider",
-  props: lH,
+  props: dH,
   setup(o, { slots: t }) {
     je(() => o.message, (a) => {
-      Object.assign(Aa, a ?? {});
+      Object.assign(_a, a ?? {});
     }, { immediate: !0, deep: !0 });
-    const n = U$(o);
+    const n = W$(o);
     return () => Ie(t, "default", { config: n == null ? void 0 : n.value });
   }
 });
-const Qr = ["success", "info", "warning", "error"], Be = j$({
+const kr = ["success", "info", "warning", "error"], Be = k$({
   customClass: "",
   center: !1,
   dangerouslyUseHTMLString: !1,
@@ -19931,8 +19931,8 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
   zIndex: 0,
   grouping: !1,
   repeatNum: 1,
-  appendTo: rn ? document.body : void 0
-}), iH = Fn({
+  appendTo: ln ? document.body : void 0
+}), cH = jn({
   customClass: {
     type: String,
     default: Be.customClass
@@ -19950,7 +19950,7 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
     default: Be.duration
   },
   icon: {
-    type: N$,
+    type: V$,
     default: Be.icon
   },
   id: {
@@ -19975,7 +19975,7 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
   },
   type: {
     type: String,
-    values: Qr,
+    values: kr,
     default: Be.type
   },
   offset: {
@@ -19994,33 +19994,33 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
     type: Number,
     default: Be.repeatNum
   }
-}), sH = {
+}), uH = {
   destroy: () => !0
-}, Ke = Mi([]), dH = (o) => {
+}, Ke = zi([]), fH = (o) => {
   const t = Ke.findIndex((e) => e.id === o), n = Ke[t];
   let a;
   return t > 0 && (a = Ke[t - 1]), { current: n, prev: a };
-}, cH = (o) => {
-  const { prev: t } = dH(o);
+}, mH = (o) => {
+  const { prev: t } = fH(o);
   return t ? t.vm.exposed.bottom.value : 0;
-}, uH = ["id"], fH = ["innerHTML"], mH = xe({
+}, vH = ["id"], hH = ["innerHTML"], pH = xe({
   name: "ElMessage"
-}), vH = /* @__PURE__ */ xe({
-  ...mH,
-  props: iH,
-  emits: sH,
+}), gH = /* @__PURE__ */ xe({
+  ...pH,
+  props: cH,
+  emits: uH,
   setup(o, { expose: t }) {
-    const n = o, { Close: a } = L$, e = ja("message"), r = he(), l = he(!1), i = he(0);
+    const n = o, { Close: a } = F$, e = Ua("message"), r = he(), l = he(!1), i = he(0);
     let s;
     const d = Re(() => n.type ? n.type === "error" ? "danger" : n.type : "info"), c = Re(() => {
       const A = n.type;
-      return { [e.bm("icon", A)]: A && bo[A] };
-    }), f = Re(() => n.icon || bo[n.type] || ""), h = Re(() => cH(n.id)), u = Re(() => n.offset + h.value), m = Re(() => i.value + u.value), p = Re(() => ({
+      return { [e.bm("icon", A)]: A && Do[A] };
+    }), f = Re(() => n.icon || Do[n.type] || ""), h = Re(() => mH(n.id)), u = Re(() => n.offset + h.value), m = Re(() => i.value + u.value), p = Re(() => ({
       top: `${u.value}px`,
       zIndex: n.zIndex
     }));
     function v() {
-      n.duration !== 0 && ({ stop: s } = g$(() => {
+      n.duration !== 0 && ({ stop: s } = _$(() => {
         g();
       }, n.duration));
     }
@@ -20031,26 +20031,26 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
       l.value = !1;
     }
     function _({ code: A }) {
-      A === V$.esc && g();
+      A === U$.esc && g();
     }
-    return on(() => {
+    return rn(() => {
       v(), l.value = !0;
     }), je(() => n.repeatNum, () => {
       y(), v();
-    }), y$(document, "keydown", _), E$(r, () => {
+    }), x$(document, "keydown", _), b$(r, () => {
       i.value = r.value.getBoundingClientRect().height;
     }), t({
       visible: l,
       bottom: m,
       close: g
-    }), (A, x) => (R(), fe($r, {
+    }), (A, x) => (R(), fe(Hr, {
       name: re(e).b("fade"),
       onBeforeLeave: A.onClose,
       onAfterLeave: x[0] || (x[0] = (w) => A.$emit("destroy")),
       persisted: ""
     }, {
       default: oe(() => [
-        Ha(D("div", {
+        Ia(D("div", {
           id: A.id,
           ref_key: "messageRef",
           ref: r,
@@ -20061,18 +20061,18 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
             re(e).is("closable", A.showClose),
             A.customClass
           ]),
-          style: xn(re(p)),
+          style: wn(re(p)),
           role: "alert",
           onMouseenter: y,
           onMouseleave: v
         }, [
-          A.repeatNum > 1 ? (R(), fe(re(oH), {
+          A.repeatNum > 1 ? (R(), fe(re(iH), {
             key: 0,
             value: A.repeatNum,
             type: re(d),
             class: Ge(re(e).e("badge"))
           }, null, 8, ["value", "type", "class"])) : He("v-if", !0),
-          re(f) ? (R(), fe(re(Mo), {
+          re(f) ? (R(), fe(re(To), {
             key: 1,
             class: Ge([re(e).e("icon"), re(c)])
           }, {
@@ -20087,66 +20087,66 @@ const Qr = ["success", "info", "warning", "error"], Be = j$({
               D("p", {
                 class: Ge(re(e).e("content")),
                 innerHTML: A.message
-              }, null, 10, fH)
+              }, null, 10, hH)
             ], 2112)) : (R(), z("p", {
               key: 0,
               class: Ge(re(e).e("content"))
             }, be(A.message), 3))
           ]),
-          A.showClose ? (R(), fe(re(Mo), {
+          A.showClose ? (R(), fe(re(To), {
             key: 2,
             class: Ge(re(e).e("closeBtn")),
-            onClick: Ti(g, ["stop"])
+            onClick: $i(g, ["stop"])
           }, {
             default: oe(() => [
               de(re(a))
             ]),
             _: 1
           }, 8, ["class", "onClick"])) : He("v-if", !0)
-        ], 46, uH), [
-          [Hr, l.value]
+        ], 46, vH), [
+          [Ir, l.value]
         ])
       ]),
       _: 3
     }, 8, ["name", "onBeforeLeave"]));
   }
 });
-var hH = /* @__PURE__ */ Ua(vH, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/message/src/message.vue"]]);
-let pH = 1;
-const kr = (o) => {
-  const t = !o || qt(o) || Ia(o) || ya(o) ? { message: o } : o, n = {
+var yH = /* @__PURE__ */ Qa(gH, [["__file", "/home/runner/work/element-plus/element-plus/packages/components/message/src/message.vue"]]);
+let AH = 1;
+const Wr = (o) => {
+  const t = !o || en(o) || Ba(o) || Aa(o) ? { message: o } : o, n = {
     ...Be,
     ...t
   };
   if (!n.appendTo)
     n.appendTo = document.body;
-  else if (qt(n.appendTo)) {
+  else if (en(n.appendTo)) {
     let a = document.querySelector(n.appendTo);
-    z$(a) || (Va("ElMessage", "the appendTo option is not an HTMLElement. Falling back to document.body."), a = document.body), n.appendTo = a;
+    I$(a) || (Fa("ElMessage", "the appendTo option is not an HTMLElement. Falling back to document.body."), a = document.body), n.appendTo = a;
   }
   return n;
-}, gH = (o) => {
+}, _H = (o) => {
   const t = Ke.indexOf(o);
   if (t === -1)
     return;
   Ke.splice(t, 1);
   const { handler: n } = o;
   n.close();
-}, yH = ({ appendTo: o, ...t }, n) => {
-  const { nextZIndex: a } = Y$(), e = `message_${pH++}`, r = t.onClose, l = document.createElement("div"), i = {
+}, xH = ({ appendTo: o, ...t }, n) => {
+  const { nextZIndex: a } = Z$(), e = `message_${AH++}`, r = t.onClose, l = document.createElement("div"), i = {
     ...t,
     zIndex: a() + t.zIndex,
     id: e,
     onClose: () => {
-      r == null || r(), gH(f);
+      r == null || r(), _H(f);
     },
     onDestroy: () => {
-      go(null, l);
+      yo(null, l);
     }
-  }, s = de(hH, i, ya(i.message) || Ia(i.message) ? {
-    default: ya(i.message) ? i.message : () => i.message
+  }, s = de(yH, i, Aa(i.message) || Ba(i.message) ? {
+    default: Aa(i.message) ? i.message : () => i.message
   } : null);
-  s.appContext = n || Ot._context, go(s, l), o.appendChild(l.firstElementChild);
+  s.appContext = n || Vt._context, yo(s, l), o.appendChild(l.firstElementChild);
   const d = s.component, f = {
     id: e,
     vnode: s,
@@ -20159,14 +20159,14 @@ const kr = (o) => {
     props: s.component.props
   };
   return f;
-}, Ot = (o = {}, t) => {
-  if (!rn)
+}, Vt = (o = {}, t) => {
+  if (!ln)
     return { close: () => {
     } };
-  if (bn(Aa.max) && Ke.length >= Aa.max)
+  if (Dn(_a.max) && Ke.length >= _a.max)
     return { close: () => {
     } };
-  const n = kr(o);
+  const n = Wr(o);
   if (n.grouping && Ke.length) {
     const e = Ke.find(({ vnode: r }) => {
       var l;
@@ -20175,25 +20175,25 @@ const kr = (o) => {
     if (e)
       return e.props.repeatNum += 1, e.props.type = n.type, e.handler;
   }
-  const a = yH(n, t);
+  const a = xH(n, t);
   return Ke.push(a), a.handler;
 };
-Qr.forEach((o) => {
-  Ot[o] = (t = {}, n) => {
-    const a = kr(t);
-    return Ot({ ...a, type: o }, n);
+kr.forEach((o) => {
+  Vt[o] = (t = {}, n) => {
+    const a = Wr(t);
+    return Vt({ ...a, type: o }, n);
   };
 });
-function AH(o) {
+function wH(o) {
   for (const t of Ke)
     (!o || o === t.props.type) && t.handler.close();
 }
-Ot.closeAll = AH;
-Ot._context = null;
-const _H = O$(Ot, "$message"), xH = (o) => {
+Vt.closeAll = wH;
+Vt._context = null;
+const EH = j$(Vt, "$message"), CH = (o) => {
   const t = document.createElement("input");
-  t.value = o, document.body.appendChild(t), t.select(), document.execCommand("Copy"), document.body.removeChild(t), _H.success("复制成功");
-}, wH = { class: "container" }, EH = ["onClick"], CH = { class: "text" }, SH = /* @__PURE__ */ xe({
+  t.value = o, document.body.appendChild(t), t.select(), document.execCommand("Copy"), document.body.removeChild(t), EH.success("复制成功");
+}, SH = { class: "container" }, bH = ["onClick"], DH = { class: "text" }, MH = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     title: { default: "选择图标" },
@@ -20211,7 +20211,7 @@ const _H = O$(Ot, "$message"), xH = (o) => {
       t("update:visible", !n.visible);
     }, r = (l) => {
       let i = `<el-icon-${et(l)} />`;
-      xH(i), a.value = !1;
+      CH(i), a.value = !1;
     };
     return (l, i) => {
       const s = ue("el-button"), d = ue("el-scrollbar"), c = ue("el-dialog");
@@ -20233,8 +20233,8 @@ const _H = O$(Ot, "$message"), xH = (o) => {
           default: oe(() => [
             de(d, { height: "500px" }, {
               default: oe(() => [
-                D("div", wH, [
-                  (R(!0), z(ye, null, Ce(Object.keys(Br), (f, h) => (R(), z("div", {
+                D("div", SH, [
+                  (R(!0), z(ye, null, Ce(Object.keys(Pr), (f, h) => (R(), z("div", {
                     class: "item",
                     key: h,
                     onClick: (u) => r(f)
@@ -20242,8 +20242,8 @@ const _H = O$(Ot, "$message"), xH = (o) => {
                     D("div", null, [
                       (R(), fe(Ue(`el-icon-${re(et)(f)}`)))
                     ]),
-                    D("div", CH, be(f), 1)
-                  ], 8, EH))), 128))
+                    D("div", DH, be(f), 1)
+                  ], 8, bH))), 128))
                 ])
               ]),
               _: 1
@@ -20255,11 +20255,11 @@ const _H = O$(Ot, "$message"), xH = (o) => {
     };
   }
 });
-const bH = /* @__PURE__ */ Et(SH, [["__scopeId", "data-v-fd9ef3f0"]]), DH = {
+const TH = /* @__PURE__ */ Ct(MH, [["__scopeId", "data-v-62209e8f"]]), RH = {
   install(o) {
-    o.component("choose-icon", bH);
+    o.component("choose-icon", TH);
   }
-}, MH = { class: "trend" }, TH = { key: 1 }, RH = { class: "icon" }, zH = /* @__PURE__ */ xe({
+}, zH = { class: "trend" }, $H = { key: 1 }, HH = { class: "icon" }, IH = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     type: {
@@ -20300,31 +20300,31 @@ const bH = /* @__PURE__ */ Et(SH, [["__scopeId", "data-v-fd9ef3f0"]]), DH = {
     }
   },
   setup(o) {
-    const t = o, n = Ri(), a = Re(() => t.type === "up" ? t.upTextColor : t.downTextColor);
-    return (e, r) => (R(), z("div", MH, [
+    const t = o, n = Hi(), a = Re(() => t.type === "up" ? t.upTextColor : t.downTextColor);
+    return (e, r) => (R(), z("div", zH, [
       D("div", {
         class: "text",
-        style: xn({ color: re(a) })
+        style: wn({ color: re(a) })
       }, [
-        re(n).default ? Ie(e.$slots, "default", { key: 0 }, void 0, !0) : (R(), z("div", TH, be(o.text), 1))
+        re(n).default ? Ie(e.$slots, "default", { key: 0 }, void 0, !0) : (R(), z("div", $H, be(o.text), 1))
       ], 4),
-      D("div", RH, [
+      D("div", HH, [
         o.type === "up" ? (R(), fe(Ue(`el-icon-${re(et)(o.upIcon)}`), {
           key: 0,
-          style: xn({ color: o.reverseColor ? "#52c41a" : o.upIconColor })
+          style: wn({ color: o.reverseColor ? "#52c41a" : o.upIconColor })
         }, null, 8, ["style"])) : (R(), fe(Ue(`el-icon-${re(et)(o.downIcon)}`), {
           key: 1,
-          style: xn({ color: o.reverseColor ? "#f5222d" : o.downIconColor })
+          style: wn({ color: o.reverseColor ? "#f5222d" : o.downIconColor })
         }, null, 8, ["style"]))
       ])
     ]));
   }
 });
-const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
+const BH = /* @__PURE__ */ Ct(IH, [["__scopeId", "data-v-8c801fd8"]]), PH = {
   install(o) {
-    o.component("trend", $H);
+    o.component("trend", BH);
   }
-}, IH = /* @__PURE__ */ xe({
+}, NH = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     icon: {
@@ -20371,26 +20371,26 @@ const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
       });
     };
   }
-}), BH = {
+}), LH = {
   install(o) {
-    o.component("notification", IH);
+    o.component("notification", NH);
   }
-}, PH = { class: "list-tabs__item" }, NH = ["onClick"], LH = {
+}, OH = { class: "list-tabs__item" }, VH = ["onClick"], FH = {
   key: 0,
   class: "avatar"
-}, OH = { class: "content" }, VH = {
+}, jH = { class: "content" }, UH = {
   key: 0,
   class: "title"
-}, FH = {
+}, QH = {
   key: 1,
   class: "time"
-}, jH = {
+}, kH = {
   key: 2,
   class: "time"
-}, UH = { class: "actions" }, QH = ["onClick"], kH = {
+}, WH = { class: "actions" }, GH = ["onClick"], YH = {
   key: 0,
   class: "a-icon"
-}, WH = { class: "a-text" }, GH = /* @__PURE__ */ xe({
+}, KH = { class: "a-text" }, JH = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     list: {
@@ -20411,7 +20411,7 @@ const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
     };
     return (e, r) => {
       const l = ue("el-avatar"), i = ue("el-tag"), s = ue("el-scrollbar"), d = ue("el-tab-pane"), c = ue("el-tabs");
-      return R(), z("div", PH, [
+      return R(), z("div", OH, [
         de(c, null, {
           default: oe(() => [
             (R(!0), z(ye, null, Ce(o.list, (f, h) => (R(), fe(d, {
@@ -20426,14 +20426,14 @@ const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
                       key: m,
                       onClick: (p) => n(u, m)
                     }, [
-                      u.avatar ? (R(), z("div", LH, [
+                      u.avatar ? (R(), z("div", FH, [
                         de(l, {
                           size: "small",
                           src: u.avatar
                         }, null, 8, ["src"])
                       ])) : He("", !0),
-                      D("div", OH, [
-                        u.title ? (R(), z("div", VH, [
+                      D("div", jH, [
+                        u.title ? (R(), z("div", UH, [
                           D("div", null, be(u.title), 1),
                           u.tag ? (R(), fe(i, {
                             key: 0,
@@ -20441,26 +20441,26 @@ const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
                             size: "mini"
                           }, {
                             default: oe(() => [
-                              ha(be(u.tag), 1)
+                              pa(be(u.tag), 1)
                             ]),
                             _: 2
                           }, 1032, ["type"])) : He("", !0)
                         ])) : He("", !0),
-                        u.desc ? (R(), z("div", FH, be(u.desc), 1)) : He("", !0),
-                        u.time ? (R(), z("div", jH, be(u.time), 1)) : He("", !0)
+                        u.desc ? (R(), z("div", QH, be(u.desc), 1)) : He("", !0),
+                        u.time ? (R(), z("div", kH, be(u.time), 1)) : He("", !0)
                       ])
-                    ], 8, NH))), 128)),
-                    D("div", UH, [
+                    ], 8, VH))), 128)),
+                    D("div", WH, [
                       (R(!0), z(ye, null, Ce(o.actions, (u, m) => (R(), z("div", {
                         class: Ge(["a-item", { border: m !== o.actions.length - 1 }]),
                         onClick: (p) => a(u, m),
                         key: m
                       }, [
-                        u.icon ? (R(), z("div", kH, [
+                        u.icon ? (R(), z("div", YH, [
                           (R(), fe(Ue(`el-icon-${re(et)(u.icon)}`)))
                         ])) : He("", !0),
-                        D("div", WH, be(u.text), 1)
-                      ], 10, QH))), 128))
+                        D("div", KH, be(u.text), 1)
+                      ], 10, GH))), 128))
                     ])
                   ]),
                   _: 2
@@ -20475,11 +20475,11 @@ const $H = /* @__PURE__ */ Et(zH, [["__scopeId", "data-v-9171915d"]]), HH = {
     };
   }
 });
-const YH = /* @__PURE__ */ Et(GH, [["__scopeId", "data-v-cc87a09d"]]), KH = {
+const ZH = /* @__PURE__ */ Ct(JH, [["__scopeId", "data-v-040fc9f3"]]), XH = {
   install(o) {
-    o.component("notification-list", YH);
+    o.component("notification-list", ZH);
   }
-}, JH = /* @__PURE__ */ xe({
+}, qH = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     data: {
@@ -20558,11 +20558,11 @@ const YH = /* @__PURE__ */ Et(GH, [["__scopeId", "data-v-cc87a09d"]]), KH = {
     };
   }
 });
-const ZH = /* @__PURE__ */ Et(JH, [["__scopeId", "data-v-da51bc1b"]]);
-function XH(o) {
-  return typeof o == "function" || Object.prototype.toString.call(o) === "[object Object]" && !Ia(o);
+const eI = /* @__PURE__ */ Ct(qH, [["__scopeId", "data-v-d992dfb4"]]);
+function tI(o) {
+  return typeof o == "function" || Object.prototype.toString.call(o) === "[object Object]" && !Ba(o);
 }
-const qH = /* @__PURE__ */ xe({
+const nI = /* @__PURE__ */ xe({
   props: {
     data: {
       type: Array,
@@ -20595,7 +20595,7 @@ const qH = /* @__PURE__ */ xe({
   },
   setup(o, t) {
     const n = (e) => e.map((r) => {
-      r[o.icon] && (r.i = Br[r[o.icon]]);
+      r[o.icon] && (r.i = Pr[r[o.icon]]);
       const l = {
         title: () => de(ye, null, [de(r.i, null, null), de("span", null, [r[o.name]])])
       };
@@ -20609,22 +20609,22 @@ const qH = /* @__PURE__ */ xe({
       }, {
         default: () => [de(r.i, null, null), de("span", null, [r[o.name]])]
       });
-    }), a = zi();
+    }), a = Ii();
     return () => {
       let e;
       return de(ue("el-menu"), Te({
         "default-active": o.defaultActive,
         router: o.router
-      }, a), XH(e = n(o.data)) ? e : {
+      }, a), tI(e = n(o.data)) ? e : {
         default: () => [e]
       });
     };
   }
-}), eI = {
+}), aI = {
   install(o) {
-    o.component("m-menu", ZH), o.component("infinite-menu", qH);
+    o.component("m-menu", eI), o.component("infinite-menu", nI);
   }
-}, tI = /* @__PURE__ */ xe({
+}, oI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     percentage: {
@@ -20642,7 +20642,7 @@ const qH = /* @__PURE__ */ xe({
   },
   setup(o) {
     const t = o, n = he(0);
-    return on(() => {
+    return rn(() => {
       if (t.isAnimation) {
         const a = Math.ceil(t.time / t.percentage), e = setInterval(() => {
           n.value += 1, n.value >= t.percentage && (n.value = t.percentage, clearInterval(e));
@@ -20658,11 +20658,11 @@ const qH = /* @__PURE__ */ xe({
       }, a.$attrs), null, 16, ["percentage", "isAnimation", "time"]);
     };
   }
-}), nI = {
+}), rI = {
   install(o) {
-    o.component("m-progress", tI);
+    o.component("m-progress", oI);
   }
-}, aI = { style: { display: "flex" } }, oI = { style: { "margin-right": "20px" } }, rI = /* @__PURE__ */ xe({
+}, lI = { style: { display: "flex" } }, iI = { style: { "margin-right": "20px" } }, sI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     startPlaceholder: {
@@ -20710,8 +20710,8 @@ const qH = /* @__PURE__ */ xe({
     };
     return (i, s) => {
       const d = ue("el-time-select");
-      return R(), z("div", aI, [
-        D("div", oI, [
+      return R(), z("div", lI, [
+        D("div", iI, [
           de(d, Te({
             modelValue: n.value,
             "onUpdate:modelValue": s[0] || (s[0] = (c) => n.value = c),
@@ -20739,11 +20739,11 @@ const qH = /* @__PURE__ */ xe({
       ]);
     };
   }
-}), lI = {
+}), dI = {
   install(o) {
-    o.component("choose-time", rI);
+    o.component("choose-time", sI);
   }
-}, iI = { style: { display: "flex" } }, sI = { style: { "margin-right": "20px" } }, dI = /* @__PURE__ */ xe({
+}, cI = { style: { display: "flex" } }, uI = { style: { "margin-right": "20px" } }, fI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     startPlaceholder: {
@@ -20777,8 +20777,8 @@ const qH = /* @__PURE__ */ xe({
     };
     return (c, f) => {
       const h = ue("el-date-picker");
-      return R(), z("div", iI, [
-        D("div", sI, [
+      return R(), z("div", cI, [
+        D("div", uI, [
           de(h, Te({
             modelValue: a.value,
             "onUpdate:modelValue": f[0] || (f[0] = (u) => a.value = u),
@@ -20802,11 +20802,11 @@ const qH = /* @__PURE__ */ xe({
       ]);
     };
   }
-}), cI = {
+}), mI = {
   install(o) {
-    o.component("choose-date", dI);
+    o.component("choose-date", fI);
   }
-}, Xn = {
+}, qn = {
   cities: {
     A: [{
       id: 56,
@@ -24643,7 +24643,7 @@ const qH = /* @__PURE__ */ xe({
       name: "遵化"
     }]
   }
-}, uI = [
+}, vI = [
   {
     name: "安徽",
     id: "A",
@@ -24666,7 +24666,7 @@ const qH = /* @__PURE__ */ xe({
       "宣城"
     ]
   }
-], fI = [
+], hI = [
   {
     name: "福建",
     id: "F",
@@ -24682,7 +24682,7 @@ const qH = /* @__PURE__ */ xe({
       "宁德"
     ]
   }
-], mI = [
+], pI = [
   {
     name: "广东",
     id: "G",
@@ -24762,7 +24762,7 @@ const qH = /* @__PURE__ */ xe({
       "甘南藏族自治州"
     ]
   }
-], vI = [
+], gI = [
   {
     name: "河北",
     id: "H",
@@ -24886,7 +24886,7 @@ const qH = /* @__PURE__ */ xe({
       "琼中黎族苗族自治县"
     ]
   }
-], hI = [
+], yI = [
   {
     name: "吉林",
     id: "J",
@@ -24936,7 +24936,7 @@ const qH = /* @__PURE__ */ xe({
       "上饶"
     ]
   }
-], pI = [
+], AI = [
   {
     name: "辽宁",
     id: "L",
@@ -24957,7 +24957,7 @@ const qH = /* @__PURE__ */ xe({
       "葫芦岛"
     ]
   }
-], gI = [
+], _I = [
   {
     name: "内蒙古",
     id: "N",
@@ -24986,7 +24986,7 @@ const qH = /* @__PURE__ */ xe({
       "中卫"
     ]
   }
-], yI = [
+], xI = [
   {
     name: "青海",
     id: "Q",
@@ -25001,7 +25001,7 @@ const qH = /* @__PURE__ */ xe({
       "海西蒙古族藏族自治州"
     ]
   }
-], AI = [
+], wI = [
   {
     name: "山西",
     id: "S",
@@ -25081,7 +25081,7 @@ const qH = /* @__PURE__ */ xe({
       "商洛"
     ]
   }
-], _I = [
+], EI = [
   {
     name: "西藏",
     id: "X",
@@ -25124,7 +25124,7 @@ const qH = /* @__PURE__ */ xe({
       "胡杨河"
     ]
   }
-], xI = [
+], CI = [
   {
     name: "云南",
     id: "Y",
@@ -25147,7 +25147,7 @@ const qH = /* @__PURE__ */ xe({
       "迪庆藏族自治州"
     ]
   }
-], wI = [
+], SI = [
   {
     name: "浙江",
     id: "Z",
@@ -25165,19 +25165,19 @@ const qH = /* @__PURE__ */ xe({
       "丽水"
     ]
   }
-], To = {
-  A: uI,
-  F: fI,
-  G: mI,
-  H: vI,
-  J: hI,
-  L: pI,
-  N: gI,
-  Q: yI,
-  S: AI,
-  X: _I,
-  Y: xI,
-  Z: wI,
+], Ro = {
+  A: vI,
+  F: hI,
+  G: pI,
+  H: gI,
+  J: yI,
+  L: AI,
+  N: _I,
+  Q: xI,
+  S: wI,
+  X: EI,
+  Y: CI,
+  Z: SI,
   直辖市: [
     {
       name: "直辖市",
@@ -25200,11 +25200,11 @@ const qH = /* @__PURE__ */ xe({
       ]
     }
   ]
-}, EI = { class: "result" }, CI = { class: "container" }, SI = { key: 0 }, bI = { class: "city" }, DI = ["onClick"], MI = { class: "city-name" }, TI = ["onClick"], RI = { key: 1 }, zI = { class: "province" }, $I = ["onClick"], HI = { class: "province-name" }, II = ["onClick"], BI = /* @__PURE__ */ xe({
+}, bI = { class: "result" }, DI = { class: "container" }, MI = { key: 0 }, TI = { class: "city" }, RI = ["onClick"], zI = { class: "city-name" }, $I = ["onClick"], HI = { key: 1 }, II = { class: "province" }, BI = ["onClick"], PI = { class: "province-name" }, NI = ["onClick"], LI = /* @__PURE__ */ xe({
   __name: "index",
   emits: ["changeCity", "changeProvince"],
   setup(o, { emit: t }) {
-    const n = Object.values(Xn.cities).flat(1 / 0), a = he("请选择"), e = he(!1), r = he("按城市"), l = he(""), i = he(n), s = (u) => {
+    const n = Object.values(qn.cities).flat(1 / 0), a = he("请选择"), e = he(!1), r = he("按城市"), l = he(""), i = he(n), s = (u) => {
       a.value = u.name, e.value = !1, t("changeCity", u);
     }, d = (u) => {
       const m = document.getElementById(u);
@@ -25228,7 +25228,7 @@ const qH = /* @__PURE__ */ xe({
         trigger: "click"
       }, {
         reference: oe(() => [
-          D("div", EI, [
+          D("div", bI, [
             D("div", null, be(a.value), 1),
             D("div", null, [
               de(p, {
@@ -25238,7 +25238,7 @@ const qH = /* @__PURE__ */ xe({
           ])
         ]),
         default: oe(() => [
-          D("div", CI, [
+          D("div", DI, [
             de(x, null, {
               default: oe(() => [
                 de(g, { span: 8 }, {
@@ -25286,17 +25286,17 @@ const qH = /* @__PURE__ */ xe({
               ]),
               _: 1
             }),
-            r.value === "按城市" ? (R(), z("div", SI, [
-              D("div", bI, [
-                (R(!0), z(ye, null, Ce(re(Xn).cities, (b, T) => (R(), z("div", {
+            r.value === "按城市" ? (R(), z("div", MI, [
+              D("div", TI, [
+                (R(!0), z(ye, null, Ce(re(qn).cities, (b, T) => (R(), z("div", {
                   class: "city-item",
                   key: T,
                   onClick: (S) => d(T)
-                }, be(T), 9, DI))), 128))
+                }, be(T), 9, RI))), 128))
               ]),
               de(w, { height: "300px" }, {
                 default: oe(() => [
-                  (R(!0), z(ye, null, Ce(re(Xn).cities, (b, T) => (R(), fe(x, {
+                  (R(!0), z(ye, null, Ce(re(qn).cities, (b, T) => (R(), fe(x, {
                     key: T,
                     id: T,
                     style: { "margin-bottom": "10px" }
@@ -25304,18 +25304,18 @@ const qH = /* @__PURE__ */ xe({
                     default: oe(() => [
                       de(g, { span: 2 }, {
                         default: oe(() => [
-                          ha(be(T) + ":", 1)
+                          pa(be(T) + ":", 1)
                         ]),
                         _: 2
                       }, 1024),
                       de(g, { span: 22 }, {
                         default: oe(() => [
-                          D("div", MI, [
+                          D("div", zI, [
                             (R(!0), z(ye, null, Ce(b, (S) => (R(), z("div", {
                               class: "city-name-item",
                               key: S.id,
                               onClick: (E) => s(S)
-                            }, be(S.name), 9, TI))), 128))
+                            }, be(S.name), 9, $I))), 128))
                           ])
                         ]),
                         _: 2
@@ -25326,17 +25326,17 @@ const qH = /* @__PURE__ */ xe({
                 ]),
                 _: 1
               })
-            ])) : (R(), z("div", RI, [
-              D("div", zI, [
-                (R(!0), z(ye, null, Ce(re(To), (b, T) => (R(), z("div", {
+            ])) : (R(), z("div", HI, [
+              D("div", II, [
+                (R(!0), z(ye, null, Ce(re(Ro), (b, T) => (R(), z("div", {
                   class: "province-item",
                   key: T,
                   onClick: (S) => d(T)
-                }, be(T), 9, $I))), 128))
+                }, be(T), 9, BI))), 128))
               ]),
               de(w, { height: "300px" }, {
                 default: oe(() => [
-                  (R(!0), z(ye, null, Ce(re(To), (b, T) => (R(), z(ye, { key: T }, [
+                  (R(!0), z(ye, null, Ce(re(Ro), (b, T) => (R(), z(ye, { key: T }, [
                     (R(!0), z(ye, null, Ce(b, (S) => (R(), fe(x, {
                       key: S.id,
                       id: S.id,
@@ -25345,18 +25345,18 @@ const qH = /* @__PURE__ */ xe({
                       default: oe(() => [
                         de(g, { span: 4 }, {
                           default: oe(() => [
-                            ha(be(S.name) + ":", 1)
+                            pa(be(S.name) + ":", 1)
                           ]),
                           _: 2
                         }, 1024),
                         de(g, { span: 20 }, {
                           default: oe(() => [
-                            D("div", HI, [
+                            D("div", PI, [
                               (R(!0), z(ye, null, Ce(S.data, (E, M) => (R(), z("div", {
                                 class: "province-name-item",
                                 key: M,
                                 onClick: ($) => c(E)
-                              }, be(E), 9, II))), 128))
+                              }, be(E), 9, NI))), 128))
                             ])
                           ]),
                           _: 2
@@ -25376,12 +25376,12 @@ const qH = /* @__PURE__ */ xe({
     };
   }
 });
-const PI = /* @__PURE__ */ Et(BI, [["__scopeId", "data-v-9aa749cc"]]), NI = {
+const OI = /* @__PURE__ */ Ct(LI, [["__scopeId", "data-v-94bdd9a9"]]), VI = {
   install(o) {
-    o.component("choose-city", PI);
+    o.component("choose-city", OI);
   }
 };
-var Wr = { exports: {} };
+var Gr = { exports: {} };
 (function(o, t) {
   (function(a, e) {
     o.exports = e();
@@ -25934,7 +25934,7 @@ var Wr = { exports: {} };
           }, S.prototype.removeClass = function(E) {
             var M;
             return E ? (0, s.default)(M = this).call(M, function($) {
-              if (!!$.className) {
+              if ($.className) {
                 var I = $.className.split(/\s/);
                 I = (0, m.default)(I).call(I, function(H) {
                   return H = (0, c.default)(H).call(H), !(!H || H === E);
@@ -26663,7 +26663,7 @@ var Wr = { exports: {} };
               M && E.css("height", M + "px").css("overflow-y", "auto");
               var $ = y.tabs || [], I = [], H = [];
               (0, i.default)($).call($, function(N, L) {
-                if (!!N) {
+                if (N) {
                   var F = N.title || "", O = N.tpl || "", V = f.default('<li class="w-e-item">' + F + "</li>");
                   S.append(V);
                   var Q = f.default(O);
@@ -26678,7 +26678,7 @@ var Wr = { exports: {} };
               }), g.on("click", function(N) {
                 N.stopPropagation();
               }), v.$elem.append(g), y.setLinkValue && y.setLinkValue(g, "text"), y.setLinkValue && y.setLinkValue(g, "link"), (0, i.default)($).call($, function(N, L) {
-                if (!!N) {
+                if (N) {
                   var F = N.events || [];
                   (0, i.default)(F).call(F, function(O) {
                     var V, Q = O.selector, Z = O.type, k = O.fn || h.EMPTY_FN, ee = H[L], X = (V = O.bindEnter) !== null && V !== void 0 ? V : !1, W = function(q) {
@@ -27498,14 +27498,14 @@ var Wr = { exports: {} };
             }, S.src = v;
           }, p.prototype.uploadImg = function(v) {
             var y = this;
-            if (!!v.length) {
+            if (v.length) {
               var g = this.editor, _ = g.config, A = "validate.", x = function(W) {
                 return g.i18next.t(A + W);
               }, w = _.uploadImgServer, C = _.uploadImgShowBase64, b = _.uploadImgMaxSize, T = b / 1024 / 1024, S = _.uploadImgMaxLength, E = _.uploadFileName, M = _.uploadImgParams, $ = _.uploadImgParamsWithUrl, I = _.uploadImgHeaders, H = _.uploadImgHooks, P = _.uploadImgTimeout, N = _.withCredentials, L = _.customUploadImg;
               if (!(!L && !w && !C)) {
                 var F = [], O = [];
                 if (f.arrForEach(v, function(X) {
-                  if (!!X) {
+                  if (X) {
                     var W = X.name || X.type.replace("/", "."), Y = X.size;
                     if (!(!W || !Y)) {
                       var q = g.config.uploadImgAccept.join("|"), le = ".(" + q + ")$", ve = new RegExp(le, "i");
@@ -27594,7 +27594,7 @@ var Wr = { exports: {} };
                 C && f.arrForEach(v, function(X) {
                   var W = y, Y = new FileReader();
                   Y.readAsDataURL(X), Y.onload = function() {
-                    if (!!this.result) {
+                    if (this.result) {
                       var q = this.result.toString();
                       W.insertImg(q, q);
                     }
@@ -27625,7 +27625,7 @@ var Wr = { exports: {} };
         a.isAllTodo = f;
         function h(p, v, y) {
           var g;
-          if (!!p.hasChildNodes()) {
+          if (p.hasChildNodes()) {
             var _ = p.cloneNode(), A = !1;
             v.nodeValue === "" && (A = !0);
             var x = [];
@@ -28189,7 +28189,7 @@ var Wr = { exports: {} };
             }
           }, u.prototype.hide = function() {
             var m = this.$container;
-            !this._show || (m.hide(), this._show = !1);
+            this._show && (m.hide(), this._show = !1);
           }, (0, l.default)(u.prototype, "isShow", {
             get: function() {
               return this._show;
@@ -28317,7 +28317,7 @@ var Wr = { exports: {} };
             return !(!v.length || !y.length || g.equal(v) || g.equal(y));
           }, p.prototype.handleSelectionRangeNodes = function(v) {
             var y = this.editor, g = y.selection, _ = v.toLowerCase(), A = g.getSelectionContainerElem(), x = g.getSelectionStartElem().getNodeTop(y), w = g.getSelectionEndElem().getNodeTop(y);
-            if (!!this.validator(x, w, y.$textElem)) {
+            if (this.validator(x, w, y.$textElem)) {
               var C = g.getRange(), b = C == null ? void 0 : C.collapsed;
               y.$textElem.equal(A) || (A = A.getNodeTop(y));
               var T = {
@@ -29251,7 +29251,7 @@ var Wr = { exports: {} };
         };
       },
       function(n, a, e) {
-        var r = e(5), l = e(43), i = e(8), s = e(36), d = e(109), c = e(53), f = e(110), h = e(37), u = e(111), m = e(13), p = e(41), v = e(83), y = e(34), g = e(102), _ = e(66), A = e(115), x = e(116), w = e(117).set, C = e(176), b = e(119), T = e(177), S = e(85), E = e(120), M = e(42), $ = e(101), I = e(10), H = e(86), P = I("species"), N = "Promise", L = M.get, F = M.set, O = M.getterFor(N), V = d, Q = i.TypeError, Z = i.document, k = i.process, ee = s("fetch"), X = S.f, W = X, Y = y(k) == "process", q = !!(Z && Z.createEvent && i.dispatchEvent), le = "unhandledrejection", ve = "rejectionhandled", Ee = 0, Qe = 1, un = 2, Oe = 1, Qt = 2, Tt, Ve, Ze, Rt, Xe = $(N, function() {
+        var r = e(5), l = e(43), i = e(8), s = e(36), d = e(109), c = e(53), f = e(110), h = e(37), u = e(111), m = e(13), p = e(41), v = e(83), y = e(34), g = e(102), _ = e(66), A = e(115), x = e(116), w = e(117).set, C = e(176), b = e(119), T = e(177), S = e(85), E = e(120), M = e(42), $ = e(101), I = e(10), H = e(86), P = I("species"), N = "Promise", L = M.get, F = M.set, O = M.getterFor(N), V = d, Q = i.TypeError, Z = i.document, k = i.process, ee = s("fetch"), X = S.f, W = X, Y = y(k) == "process", q = !!(Z && Z.createEvent && i.dispatchEvent), le = "unhandledrejection", ve = "rejectionhandled", Ee = 0, Qe = 1, fn = 2, Oe = 1, Wt = 2, Rt, Ve, Ze, zt, Xe = $(N, function() {
           var te = g(V) !== String(V);
           if (!te && (H === 66 || !Y && typeof PromiseRejectionEvent != "function") || l && !V.prototype.finally)
             return !0;
@@ -29264,84 +29264,84 @@ var Wr = { exports: {} };
           }, ce = G.constructor = {};
           return ce[P] = ie, !(G.then(function() {
           }) instanceof ie);
-        }), Jn = Xe || !A(function(te) {
+        }), Zn = Xe || !A(function(te) {
           V.all(te).catch(function() {
           });
-        }), zt = function(te) {
+        }), $t = function(te) {
           var G;
           return m(te) && typeof (G = te.then) == "function" ? G : !1;
-        }, mt = function(te, G, ie) {
+        }, vt = function(te, G, ie) {
           if (!G.notified) {
             G.notified = !0;
             var ce = G.reactions;
             C(function() {
               for (var J = G.value, K = G.state == Qe, ne = 0; ce.length > ne; ) {
-                var se = ce[ne++], me = K ? se.ok : se.fail, De = se.resolve, Fe = se.reject, We = se.domain, Ne, Wt, fn;
+                var se = ce[ne++], me = K ? se.ok : se.fail, De = se.resolve, Fe = se.reject, We = se.domain, Ne, Yt, mn;
                 try {
-                  me ? (K || (G.rejection === Qt && It(te, G), G.rejection = Oe), me === !0 ? Ne = J : (We && We.enter(), Ne = me(J), We && (We.exit(), fn = !0)), Ne === se.promise ? Fe(Q("Promise-chain cycle")) : (Wt = zt(Ne)) ? Wt.call(Ne, De, Fe) : De(Ne)) : Fe(J);
-                } catch (xi) {
-                  We && !fn && We.exit(), Fe(xi);
+                  me ? (K || (G.rejection === Wt && Bt(te, G), G.rejection = Oe), me === !0 ? Ne = J : (We && We.enter(), Ne = me(J), We && (We.exit(), mn = !0)), Ne === se.promise ? Fe(Q("Promise-chain cycle")) : (Yt = $t(Ne)) ? Yt.call(Ne, De, Fe) : De(Ne)) : Fe(J);
+                } catch (Ci) {
+                  We && !mn && We.exit(), Fe(Ci);
                 }
               }
-              G.reactions = [], G.notified = !1, ie && !G.rejection && kt(te, G);
+              G.reactions = [], G.notified = !1, ie && !G.rejection && Gt(te, G);
             });
           }
-        }, $t = function(te, G, ie) {
+        }, Ht = function(te, G, ie) {
           var ce, J;
           q ? (ce = Z.createEvent("Event"), ce.promise = G, ce.reason = ie, ce.initEvent(te, !1, !0), i.dispatchEvent(ce)) : ce = { promise: G, reason: ie }, (J = i["on" + te]) ? J(ce) : te === le && T("Unhandled promise rejection", ie);
-        }, kt = function(te, G) {
+        }, Gt = function(te, G) {
           w.call(i, function() {
-            var ie = G.value, ce = Ht(G), J;
+            var ie = G.value, ce = It(G), J;
             if (ce && (J = E(function() {
-              Y ? k.emit("unhandledRejection", ie, te) : $t(le, te, ie);
-            }), G.rejection = Y || Ht(G) ? Qt : Oe, J.error))
+              Y ? k.emit("unhandledRejection", ie, te) : Ht(le, te, ie);
+            }), G.rejection = Y || It(G) ? Wt : Oe, J.error))
               throw J.value;
           });
-        }, Ht = function(te) {
+        }, It = function(te) {
           return te.rejection !== Oe && !te.parent;
-        }, It = function(te, G) {
+        }, Bt = function(te, G) {
           w.call(i, function() {
-            Y ? k.emit("rejectionHandled", te) : $t(ve, te, G.value);
+            Y ? k.emit("rejectionHandled", te) : Ht(ve, te, G.value);
           });
         }, qe = function(te, G, ie, ce) {
           return function(J) {
             te(G, ie, J, ce);
           };
         }, at = function(te, G, ie, ce) {
-          G.done || (G.done = !0, ce && (G = ce), G.value = ie, G.state = un, mt(te, G, !0));
-        }, vt = function(te, G, ie, ce) {
+          G.done || (G.done = !0, ce && (G = ce), G.value = ie, G.state = fn, vt(te, G, !0));
+        }, ht = function(te, G, ie, ce) {
           if (!G.done) {
             G.done = !0, ce && (G = ce);
             try {
               if (te === ie)
                 throw Q("Promise can't be resolved itself");
-              var J = zt(ie);
+              var J = $t(ie);
               J ? C(function() {
                 var K = { done: !1 };
                 try {
                   J.call(
                     ie,
-                    qe(vt, te, K, G),
+                    qe(ht, te, K, G),
                     qe(at, te, K, G)
                   );
                 } catch (ne) {
                   at(te, K, ne, G);
                 }
-              }) : (G.value = ie, G.state = Qe, mt(te, G, !1));
+              }) : (G.value = ie, G.state = Qe, vt(te, G, !1));
             } catch (K) {
               at(te, { done: !1 }, K, G);
             }
           }
         };
         Xe && (V = function(G) {
-          v(this, V, N), p(G), Tt.call(this);
+          v(this, V, N), p(G), Rt.call(this);
           var ie = L(this);
           try {
-            G(qe(vt, this, ie), qe(at, this, ie));
+            G(qe(ht, this, ie), qe(at, this, ie));
           } catch (ce) {
             at(this, ie, ce);
           }
-        }, Tt = function(G) {
+        }, Rt = function(G) {
           F(this, {
             type: N,
             done: !1,
@@ -29352,23 +29352,23 @@ var Wr = { exports: {} };
             state: Ee,
             value: void 0
           });
-        }, Tt.prototype = f(V.prototype, {
+        }, Rt.prototype = f(V.prototype, {
           then: function(G, ie) {
             var ce = O(this), J = X(x(this, V));
-            return J.ok = typeof G == "function" ? G : !0, J.fail = typeof ie == "function" && ie, J.domain = Y ? k.domain : void 0, ce.parent = !0, ce.reactions.push(J), ce.state != Ee && mt(this, ce, !1), J.promise;
+            return J.ok = typeof G == "function" ? G : !0, J.fail = typeof ie == "function" && ie, J.domain = Y ? k.domain : void 0, ce.parent = !0, ce.reactions.push(J), ce.state != Ee && vt(this, ce, !1), J.promise;
           },
           catch: function(te) {
             return this.then(void 0, te);
           }
         }), Ve = function() {
-          var te = new Tt(), G = L(te);
-          this.promise = te, this.resolve = qe(vt, te, G), this.reject = qe(at, te, G);
+          var te = new Rt(), G = L(te);
+          this.promise = te, this.resolve = qe(ht, te, G), this.reject = qe(at, te, G);
         }, S.f = X = function(te) {
           return te === V || te === Ze ? new Ve(te) : W(te);
-        }, !l && typeof d == "function" && (Rt = d.prototype.then, c(d.prototype, "then", function(G, ie) {
+        }, !l && typeof d == "function" && (zt = d.prototype.then, c(d.prototype, "then", function(G, ie) {
           var ce = this;
           return new V(function(J, K) {
-            Rt.call(ce, J, K);
+            zt.call(ce, J, K);
           }).then(G, ie);
         }, { unsafe: !0 }), typeof ee == "function" && r({ global: !0, enumerable: !0, forced: !0 }, {
           fetch: function(G) {
@@ -29385,14 +29385,14 @@ var Wr = { exports: {} };
           resolve: function(G) {
             return b(l && this === Ze ? V : this, G);
           }
-        }), r({ target: N, stat: !0, forced: Jn }, {
+        }), r({ target: N, stat: !0, forced: Zn }, {
           all: function(G) {
             var ie = this, ce = X(ie), J = ce.resolve, K = ce.reject, ne = E(function() {
               var se = p(ie.resolve), me = [], De = 0, Fe = 1;
               _(G, function(We) {
-                var Ne = De++, Wt = !1;
-                me.push(void 0), Fe++, se.call(ie, We).then(function(fn) {
-                  Wt || (Wt = !0, me[Ne] = fn, --Fe || J(me));
+                var Ne = De++, Yt = !1;
+                me.push(void 0), Fe++, se.call(ie, We).then(function(mn) {
+                  Yt || (Yt = !0, me[Ne] = mn, --Fe || J(me));
                 }, K);
               }), --Fe || J(me);
             });
@@ -29857,54 +29857,54 @@ var Wr = { exports: {} };
         });
       },
       function(n, a, e) {
-        var r = e(5), l = e(8), i = e(36), s = e(43), d = e(14), c = e(76), f = e(106), h = e(11), u = e(16), m = e(55), p = e(13), v = e(25), y = e(31), g = e(30), _ = e(60), A = e(48), x = e(77), w = e(52), C = e(126), b = e(235), T = e(127), S = e(71), E = e(18), M = e(59), $ = e(19), I = e(53), H = e(74), P = e(63), N = e(51), L = e(64), F = e(10), O = e(93), V = e(12), Q = e(37), Z = e(42), k = e(32).forEach, ee = P("hidden"), X = "Symbol", W = "prototype", Y = F("toPrimitive"), q = Z.set, le = Z.getterFor(X), ve = Object[W], Ee = l.Symbol, Qe = i("JSON", "stringify"), un = S.f, Oe = E.f, Qt = b.f, Tt = M.f, Ve = H("symbols"), Ze = H("op-symbols"), Rt = H("string-to-symbol-registry"), Xe = H("symbol-to-string-registry"), Jn = H("wks"), zt = l.QObject, mt = !zt || !zt[W] || !zt[W].findChild, $t = d && h(function() {
+        var r = e(5), l = e(8), i = e(36), s = e(43), d = e(14), c = e(76), f = e(106), h = e(11), u = e(16), m = e(55), p = e(13), v = e(25), y = e(31), g = e(30), _ = e(60), A = e(48), x = e(77), w = e(52), C = e(126), b = e(235), T = e(127), S = e(71), E = e(18), M = e(59), $ = e(19), I = e(53), H = e(74), P = e(63), N = e(51), L = e(64), F = e(10), O = e(93), V = e(12), Q = e(37), Z = e(42), k = e(32).forEach, ee = P("hidden"), X = "Symbol", W = "prototype", Y = F("toPrimitive"), q = Z.set, le = Z.getterFor(X), ve = Object[W], Ee = l.Symbol, Qe = i("JSON", "stringify"), fn = S.f, Oe = E.f, Wt = b.f, Rt = M.f, Ve = H("symbols"), Ze = H("op-symbols"), zt = H("string-to-symbol-registry"), Xe = H("symbol-to-string-registry"), Zn = H("wks"), $t = l.QObject, vt = !$t || !$t[W] || !$t[W].findChild, Ht = d && h(function() {
           return x(Oe({}, "a", {
             get: function() {
               return Oe(this, "a", { value: 7 }).a;
             }
           })).a != 7;
         }) ? function(J, K, ne) {
-          var se = un(ve, K);
+          var se = fn(ve, K);
           se && delete ve[K], Oe(J, K, ne), se && J !== ve && Oe(ve, K, se);
-        } : Oe, kt = function(J, K) {
+        } : Oe, Gt = function(J, K) {
           var ne = Ve[J] = x(Ee[W]);
           return q(ne, {
             type: X,
             tag: J,
             description: K
           }), d || (ne.description = K), ne;
-        }, Ht = f ? function(J) {
+        }, It = f ? function(J) {
           return typeof J == "symbol";
         } : function(J) {
           return Object(J) instanceof Ee;
-        }, It = function(K, ne, se) {
-          K === ve && It(Ze, ne, se), v(K);
+        }, Bt = function(K, ne, se) {
+          K === ve && Bt(Ze, ne, se), v(K);
           var me = _(ne, !0);
-          return v(se), u(Ve, me) ? (se.enumerable ? (u(K, ee) && K[ee][me] && (K[ee][me] = !1), se = x(se, { enumerable: A(0, !1) })) : (u(K, ee) || Oe(K, ee, A(1, {})), K[ee][me] = !0), $t(K, me, se)) : Oe(K, me, se);
+          return v(se), u(Ve, me) ? (se.enumerable ? (u(K, ee) && K[ee][me] && (K[ee][me] = !1), se = x(se, { enumerable: A(0, !1) })) : (u(K, ee) || Oe(K, ee, A(1, {})), K[ee][me] = !0), Ht(K, me, se)) : Oe(K, me, se);
         }, qe = function(K, ne) {
           v(K);
           var se = g(ne), me = w(se).concat(ie(se));
           return k(me, function(De) {
-            (!d || vt.call(se, De)) && It(K, De, se[De]);
+            (!d || ht.call(se, De)) && Bt(K, De, se[De]);
           }), K;
         }, at = function(K, ne) {
           return ne === void 0 ? x(K) : qe(x(K), ne);
-        }, vt = function(K) {
-          var ne = _(K, !0), se = Tt.call(this, ne);
+        }, ht = function(K) {
+          var ne = _(K, !0), se = Rt.call(this, ne);
           return this === ve && u(Ve, ne) && !u(Ze, ne) ? !1 : se || !u(this, ne) || !u(Ve, ne) || u(this, ee) && this[ee][ne] ? se : !0;
         }, te = function(K, ne) {
           var se = g(K), me = _(ne, !0);
           if (!(se === ve && u(Ve, me) && !u(Ze, me))) {
-            var De = un(se, me);
+            var De = fn(se, me);
             return De && u(Ve, me) && !(u(se, ee) && se[ee][me]) && (De.enumerable = !0), De;
           }
         }, G = function(K) {
-          var ne = Qt(g(K)), se = [];
+          var ne = Wt(g(K)), se = [];
           return k(ne, function(me) {
             !u(Ve, me) && !u(N, me) && se.push(me);
           }), se;
         }, ie = function(K) {
-          var ne = K === ve, se = Qt(ne ? Ze : g(K)), me = [];
+          var ne = K === ve, se = Wt(ne ? Ze : g(K)), me = [];
           return k(se, function(De) {
             u(Ve, De) && (!ne || u(ve, De)) && me.push(Ve[De]);
           }), me;
@@ -29913,47 +29913,47 @@ var Wr = { exports: {} };
           if (this instanceof Ee)
             throw TypeError("Symbol is not a constructor");
           var K = !arguments.length || arguments[0] === void 0 ? void 0 : String(arguments[0]), ne = L(K), se = function(me) {
-            this === ve && se.call(Ze, me), u(this, ee) && u(this[ee], ne) && (this[ee][ne] = !1), $t(this, ne, A(1, me));
+            this === ve && se.call(Ze, me), u(this, ee) && u(this[ee], ne) && (this[ee][ne] = !1), Ht(this, ne, A(1, me));
           };
-          return d && mt && $t(ve, ne, { configurable: !0, set: se }), kt(ne, K);
+          return d && vt && Ht(ve, ne, { configurable: !0, set: se }), Gt(ne, K);
         }, I(Ee[W], "toString", function() {
           return le(this).tag;
         }), I(Ee, "withoutSetter", function(J) {
-          return kt(L(J), J);
-        }), M.f = vt, E.f = It, S.f = te, C.f = b.f = G, T.f = ie, O.f = function(J) {
-          return kt(F(J), J);
+          return Gt(L(J), J);
+        }), M.f = ht, E.f = Bt, S.f = te, C.f = b.f = G, T.f = ie, O.f = function(J) {
+          return Gt(F(J), J);
         }, d && (Oe(Ee[W], "description", {
           configurable: !0,
           get: function() {
             return le(this).description;
           }
-        }), s || I(ve, "propertyIsEnumerable", vt, { unsafe: !0 }))), r({ global: !0, wrap: !0, forced: !c, sham: !c }, {
+        }), s || I(ve, "propertyIsEnumerable", ht, { unsafe: !0 }))), r({ global: !0, wrap: !0, forced: !c, sham: !c }, {
           Symbol: Ee
-        }), k(w(Jn), function(J) {
+        }), k(w(Zn), function(J) {
           V(J);
         }), r({ target: X, stat: !0, forced: !c }, {
           for: function(J) {
             var K = String(J);
-            if (u(Rt, K))
-              return Rt[K];
+            if (u(zt, K))
+              return zt[K];
             var ne = Ee(K);
-            return Rt[K] = ne, Xe[ne] = K, ne;
+            return zt[K] = ne, Xe[ne] = K, ne;
           },
           keyFor: function(K) {
-            if (!Ht(K))
+            if (!It(K))
               throw TypeError(K + " is not a symbol");
             if (u(Xe, K))
               return Xe[K];
           },
           useSetter: function() {
-            mt = !0;
+            vt = !0;
           },
           useSimple: function() {
-            mt = !1;
+            vt = !1;
           }
         }), r({ target: "Object", stat: !0, forced: !c, sham: !d }, {
           create: at,
-          defineProperty: It,
+          defineProperty: Bt,
           defineProperties: qe,
           getOwnPropertyDescriptor: te
         }), r({ target: "Object", stat: !0, forced: !c }, {
@@ -29974,9 +29974,9 @@ var Wr = { exports: {} };
             stringify: function(K, ne, se) {
               for (var me = [K], De = 1, Fe; arguments.length > De; )
                 me.push(arguments[De++]);
-              if (Fe = ne, !(!p(ne) && K === void 0 || Ht(K)))
+              if (Fe = ne, !(!p(ne) && K === void 0 || It(K)))
                 return m(ne) || (ne = function(We, Ne) {
-                  if (typeof Fe == "function" && (Ne = Fe.call(this, We, Ne)), !Ht(Ne))
+                  if (typeof Fe == "function" && (Ne = Fe.call(this, We, Ne)), !It(Ne))
                     return Ne;
                 }), me[1] = ne, Qe.apply(null, me);
             }
@@ -30709,7 +30709,7 @@ var Wr = { exports: {} };
             var p = window.getSelection();
             if (p.rangeCount !== 0) {
               var v = p.getRangeAt(0), y = this.getSelectionContainerElem(v);
-              if (!!(y != null && y.length) && !(y.attr("contenteditable") === "false" || y.parentUntil("[contenteditable=false]"))) {
+              if (y != null && y.length && !(y.attr("contenteditable") === "false" || y.parentUntil("[contenteditable=false]"))) {
                 var g = this.editor, _ = g.$textElem;
                 if (_.isContain(y)) {
                   if (_.elems[0] === y.elems[0]) {
@@ -30756,7 +30756,7 @@ var Wr = { exports: {} };
             m && p && (m.removeAllRanges(), m.addRange(p));
           }, u.prototype.createEmptyRange = function() {
             var m = this.editor, p = this.getRange(), v;
-            if (!!p && !!this.isSelectionEmpty())
+            if (p && this.isSelectionEmpty())
               try {
                 c.UA.isWebkit() ? (m.cmd.do("insertHTML", "&#8203;"), p.setEnd(p.endContainer, p.endOffset + 1), this.saveRange(p)) : (v = d.default("<strong>&#8203;</strong>"), m.cmd.do("insertElem", v), this.createRangeByElem(v, !0));
               } catch {
@@ -30767,7 +30767,7 @@ var Wr = { exports: {} };
             var y = document.createRange();
             y.setStart(m, 0), y.setEnd(p, p.childNodes.length || 1), this.saveRange(y), this.restoreSelection();
           }, u.prototype.createRangeByElem = function(m, p, v) {
-            if (!!m.length) {
+            if (m.length) {
               var y = m.elems[0], g = document.createRange();
               v ? g.selectNodeContents(y) : g.selectNode(y), p != null && (g.collapse(p), p || (this.saveRange(g), this.editor.selection.moveCursor(y))), this.saveRange(g);
             }
@@ -30778,7 +30778,7 @@ var Wr = { exports: {} };
             var v, y = this.getRange(), g = m.nodeType === 3 ? (v = m.nodeValue) === null || v === void 0 ? void 0 : v.length : m.childNodes.length;
             (c.UA.isFirefox || c.UA.isIE()) && g !== 0 && (m.nodeType === 3 || m.childNodes[g - 1].nodeName === "BR") && (g = g - 1);
             var _ = p ?? g;
-            !y || m && (y.setStart(m, _), y.setEnd(m, _), this.restoreSelection());
+            y && m && (y.setStart(m, _), y.setEnd(m, _), this.restoreSelection());
           }, u.prototype.getCursorPos = function() {
             var m = window.getSelection();
             return m == null ? void 0 : m.anchorOffset;
@@ -30816,7 +30816,7 @@ var Wr = { exports: {} };
             var u = this.editor;
             u.config.styleWithCSS && document.execCommand("styleWithCSS", !1, "true");
             var m = u.selection;
-            if (!!m.getRange()) {
+            if (m.getRange()) {
               switch (m.restoreSelection(), f) {
                 case "insertHTML":
                   this.insertHTML(h);
@@ -30914,7 +30914,7 @@ var Wr = { exports: {} };
             x = (0, d.default)(x).call(x), x === "" && (x = g.EMPTY_P), (0, c.default)(x).call(x, "<") !== 0 && (x = "<p>" + x + "</p>"), C.html(x), w.initSelection();
           }, A.prototype.setJSON = function(x) {
             var w = y.default(x).children(), C = this.editor, b = C.$textElem;
-            !w || b.replaceChildAll(w);
+            w && b.replaceChildAll(w);
           }, A.prototype.getJSON = function() {
             var x = this.editor, w = x.$textElem;
             return v.default(w);
@@ -31044,7 +31044,7 @@ var Wr = { exports: {} };
                 var $ = M.parentUntil("a");
                 $ != null && (S = $);
               }
-              if (!!S) {
+              if (S) {
                 var I = C.linkClickEvents;
                 (0, s.default)(I).call(I, function(H) {
                   return H(S);
@@ -31066,7 +31066,7 @@ var Wr = { exports: {} };
                 var $ = M.parentUntil("pre");
                 $ !== null && (S = $);
               }
-              if (!!S) {
+              if (S) {
                 var I = C.codeClickEvents;
                 (0, s.default)(I).call(I, function(H) {
                   return H(S);
@@ -31185,7 +31185,7 @@ var Wr = { exports: {} };
               p(A);
               return;
             }
-            if (!!A.equal(g)) {
+            if (A.equal(g)) {
               var x = _.getNodeName();
               x === "P" && _.attr("data-we-empty-p") === null || _.text() || p(_);
             }
@@ -31250,9 +31250,9 @@ var Wr = { exports: {} };
         });
         function i(s, d) {
           function c() {
-            if (!!s.cmd.queryCommandSupported("insertHTML")) {
+            if (s.cmd.queryCommandSupported("insertHTML")) {
               var f = s.selection.getSelectionContainerElem();
-              if (!!f) {
+              if (f) {
                 var h = f.parent(), u = f.getNodeName(), m = h.getNodeName();
                 u == "CODE" || m === "CODE" || m === "PRE" || /hljs/.test(m) ? s.cmd.do("insertHTML", s.config.languageTab) : s.cmd.do("insertHTML", "&nbsp;&nbsp;&nbsp;&nbsp;");
               }
@@ -31295,7 +31295,7 @@ var Wr = { exports: {} };
             var x = y.config, w = x.pasteFilterStyle, C = x.pasteIgnoreImg, b = x.pasteTextHandle, T = d.getPasteHtml(A, w, C), S = d.getPasteText(A);
             S = S.replace(/\n/gm, "<br>");
             var E = y.selection.getSelectionContainerElem();
-            if (!!E) {
+            if (E) {
               var M = E == null ? void 0 : E.getNodeName(), $ = E == null ? void 0 : E.getNodeTop(y), I = "";
               if ($.elems[0] && (I = $ == null ? void 0 : $.getNodeName()), M === "CODE" || I === "PRE") {
                 b && c.isFunction(b) && (S = "" + (b(S) || "")), y.cmd.do("insertHTML", u(S));
@@ -31316,7 +31316,7 @@ var Wr = { exports: {} };
                 }), P.insertNode && (P.deleteContents(), P.insertNode(L)), y.selection.clearWindowSelectionRange();
                 return;
               }
-              if (!!T)
+              if (T)
                 try {
                   b && c.isFunction(b) && (T = "" + (b(T) || ""));
                   var O = /[\.\#\@]?\w+[ ]+\{[^}]*\}/.test(T);
@@ -31400,7 +31400,7 @@ var Wr = { exports: {} };
               }
             },
             characters: function(M) {
-              !M || m(w, A) || x.push(M);
+              M && (m(w, A) || x.push(M));
             },
             endElement: function(M) {
               if (!m(M, A)) {
@@ -31956,9 +31956,9 @@ var Wr = { exports: {} };
         function p(v, y, g) {
           var _ = f.getRandom("input-link"), A = f.getRandom("input-text"), x = f.getRandom("btn-ok"), w = f.getRandom("btn-del"), C = u.default(v) ? "inline-block" : "none", b;
           function T() {
-            if (!!u.default(v)) {
+            if (u.default(v)) {
               var I = v.selection.getSelectionContainerElem();
-              !I || (v.selection.createRangeByElem(I), v.selection.restoreSelection(), b = I);
+              I && (v.selection.createRangeByElem(I), v.selection.restoreSelection(), b = I);
             }
           }
           function S(I, H) {
@@ -31966,7 +31966,7 @@ var Wr = { exports: {} };
             L.innerText = I, L.href = H, u.default(v) && T(), v.cmd.do("insertElem", N);
           }
           function E() {
-            if (!!u.default(v))
+            if (u.default(v))
               if (T(), b.getNodeName() === "A") {
                 var I, H = b.elems[0], P = H.parentElement;
                 P && (0, i.default)(I = u.EXTRA_TAG).call(I, P.nodeName) ? P.innerHTML = H.innerHTML : v.cmd.do("insertHTML", "<span>" + H.innerHTML + "</span>");
@@ -32025,7 +32025,7 @@ var Wr = { exports: {} };
                       var ve = W.substring(0, le), Ee = W.substring(le);
                       q === ve && (W = q + Ee);
                     }
-                    if (!!X && (W || (W = X), !!M(W, X))) {
+                    if (X && (W || (W = X), !!M(W, X))) {
                       if ((V == null ? void 0 : V.nodeName) === "A")
                         return V.setAttribute("href", X), V.innerText = W, !0;
                       if ((V == null ? void 0 : V.nodeName) !== "A" && (0, i.default)(N = u.EXTRA_TAG).call(N, V.nodeName)) {
@@ -32708,7 +32708,7 @@ var Wr = { exports: {} };
                 type: "click",
                 fn: function() {
                   var E, M = c.default("#" + g), $ = (0, i.default)(E = M.val()).call(E);
-                  if (!!$ && !!C($))
+                  if ($ && C($))
                     return w($), !0;
                 },
                 bindEnter: !0
@@ -32734,7 +32734,7 @@ var Wr = { exports: {} };
           }
           return g.prototype.uploadVideo = function(_) {
             var A = this;
-            if (!!_.length) {
+            if (_.length) {
               var x = this.editor, w = x.config, C = "validate.", b = function(q) {
                 return x.i18next.t(C + q);
               }, T = w.uploadVideoServer, S = w.uploadVideoMaxSize, E = S / 1024, M = w.uploadVideoName, $ = w.uploadVideoParams, I = w.uploadVideoParamsWithUrl, H = w.uploadVideoHeaders, P = w.uploadVideoHooks, N = w.uploadVideoTimeout, L = w.withVideoCredentials, F = w.customUploadVideo, O = w.uploadVideoAccept, V = [], Q = [];
@@ -32973,7 +32973,7 @@ var Wr = { exports: {} };
         });
         var i = e(6);
         function s(d) {
-          if (!!i.UA.isFirefox) {
+          if (i.UA.isFirefox) {
             var c = d.txt, f = d.selection, h = c.eventHooks.keydownEvents;
             h.push(function(u) {
               var m = f.getSelectionContainerElem();
@@ -33051,7 +33051,7 @@ var Wr = { exports: {} };
         function h(m, p) {
           if (!(!f(p, m) && c(p, m))) {
             var v = s.getPasteImgs(m);
-            if (!!v.length) {
+            if (v.length) {
               var y = new d.default(p);
               y.uploadImg(v);
             }
@@ -33299,7 +33299,7 @@ var Wr = { exports: {} };
                 }
               else
                 p.nodeType !== 3 && (y = p.childNodes[v - 1]);
-              if (!!y) {
+              if (y) {
                 for (var g = y; g.childNodes.length; )
                   g = g.childNodes[g.childNodes.length - 1];
                 g instanceof HTMLElement && g.tagName === "IMG" && (g.remove(), h.preventDefault());
@@ -33395,7 +33395,7 @@ var Wr = { exports: {} };
                 type: "click",
                 fn: function() {
                   var F, O = c.default("#" + A), V = (0, s.default)(F = O.val()).call(F);
-                  if (!!V) {
+                  if (V) {
                     var Q;
                     if (v.showLinkImgAlt) {
                       var Z;
@@ -33406,7 +33406,7 @@ var Wr = { exports: {} };
                       var ee;
                       k = (0, s.default)(ee = c.default("#" + w).val()).call(ee);
                     }
-                    if (!!S(V))
+                    if (S(V))
                       return y.insertImg(V, Q, k), !0;
                   }
                 },
@@ -33910,7 +33910,7 @@ var Wr = { exports: {} };
             var y = this.editor;
             y.selection.restoreSelection();
             var g = f.default(y.selection.getSelectionContainerElem());
-            if (!!g.elems.length) {
+            if (g.elems.length) {
               if (g && y.$textElem.equal(g)) {
                 for (var _ = !1, A = f.default(y.selection.getSelectionStartElem()).elems[0], x = f.default(y.selection.getSelectionEndElem()).elems[0], w = this.getDom(A), C = this.getDom(x), b = g.elems[0].children, T = 0; T < b.length; T++) {
                   var S = b[T];
@@ -33999,7 +33999,7 @@ var Wr = { exports: {} };
             var u = this.editor;
             u.history.revoke();
             var m = u.$textElem.children();
-            if (!!(m != null && m.length)) {
+            if (m != null && m.length) {
               var p = m.last();
               u.selection.createRangeByElem(p, !1, !0), u.selection.restoreSelection();
             }
@@ -34026,7 +34026,7 @@ var Wr = { exports: {} };
             var u = this.editor;
             u.history.restore();
             var m = u.$textElem.children();
-            if (!!(m != null && m.length)) {
+            if (m != null && m.length) {
               var p = m.last();
               u.selection.createRangeByElem(p, !1, !0), u.selection.restoreSelection();
             }
@@ -34542,9 +34542,9 @@ var Wr = { exports: {} };
             (P == null ? void 0 : P.getNextSibling().elems.length) === 0 && c.default(h.EMPTY_P).insertAfter(P);
           }
           function w() {
-            if (!!f.default(m)) {
+            if (f.default(m)) {
               var T = m.selection.getSelectionStartElem(), S = T == null ? void 0 : T.getNodeTop(m);
-              !S || (m.selection.createRangeByElem(S), m.selection.restoreSelection());
+              S && (m.selection.createRangeByElem(S), m.selection.restoreSelection());
             }
           }
           var C = function(S) {
@@ -34571,7 +34571,7 @@ var Wr = { exports: {} };
                   type: "click",
                   fn: function() {
                     var S = document.getElementById(g), E = c.default("#" + _), M = E.val(), $ = S.value;
-                    if (!!$)
+                    if ($)
                       return f.default(m) ? !1 : (x(M, $), !0);
                   }
                 }
@@ -34671,7 +34671,7 @@ var Wr = { exports: {} };
           }
           return p.prototype.clickHandler = function() {
             var v = this.editor, y = v.selection.getRange(), g = v.selection.getSelectionContainerElem();
-            if (!!(g != null && g.length)) {
+            if (g != null && g.length) {
               var _ = d.default(g.elems[0]), A = _.parentUntil("TABLE", g.elems[0]), x = _.children();
               _.getNodeName() !== "CODE" && (A && d.default(A.elems[0]).getNodeName() === "TABLE" || x && x.length !== 0 && d.default(x.elems[0]).getNodeName() === "IMG" && !(y != null && y.collapsed) || this.createSplitLine());
             }
@@ -35027,7 +35027,7 @@ var Wr = { exports: {} };
           g.removeClass(f), g.addClass(c), p.removeClass(h), p.css("z-index", "auto"), v.css("height", _.height + "px");
         };
         var u = function(p) {
-          if (!p.textSelector && !!p.config.showFullScreen) {
+          if (!p.textSelector && p.config.showFullScreen) {
             var v = p.$toolbarElem, y = d.default(`<div class="w-e-menu" data-title="全屏">
             <i class="` + c + `"></i>
         </div>`);
@@ -35658,7 +35658,7 @@ var Wr = { exports: {} };
             }
           }
           function v() {
-            !h || (u.remove(), m.remove(), f.$textElem.show(), h = !1, f.isEnable = !0);
+            h && (u.remove(), m.remove(), f.$textElem.show(), h = !1, f.isEnable = !0);
           }
           return {
             disable: p,
@@ -35769,11 +35769,11 @@ var Wr = { exports: {} };
       }
     ]).default;
   });
-})(Wr);
-const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
+})(Gr);
+const FI = /* @__PURE__ */ sH(Gr.exports), jI = {
   key: 1,
   id: "editor"
-}, VI = /* @__PURE__ */ xe({
+}, UI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     options: {
@@ -35788,8 +35788,8 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
   setup(o, { expose: t, emit: n }) {
     const a = o, e = he({}), r = he({}), l = he(), i = he(), s = () => {
       a.options.forEach((x) => {
-        e.value[x.prop] = x.value, r.value[x.prop] = x.rules, x.type === "editor" && zr(() => {
-          const w = new LI("#editor");
+        e.value[x.prop] = x.value, r.value[x.prop] = x.rules, x.type === "editor" && $r(() => {
+          const w = new FI("#editor");
           w.config.placeholder = x.placeholder || "请输入", w.create(), w.txt.html(x.value), w.config.onchange = (C) => {
             e.value[x.prop] = C;
           }, i.value = w;
@@ -35823,7 +35823,7 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
       },
       validate: () => l.value.validate,
       getFormData: () => e.value
-    }), on(() => {
+    }), rn(() => {
       s();
     }), (x, w) => {
       const C = ue("el-form-item"), b = ue("el-upload"), T = ue("el-form");
@@ -35881,7 +35881,7 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
                     Ie(x.$slots, "uploadTip")
                   ]),
                   _: 2
-                }, 1040, ["http-request"])) : S.type === "editor" ? (R(), z("div", OI)) : (R(), fe(Ue(`el-${S.type}`), Te({
+                }, 1040, ["http-request"])) : S.type === "editor" ? (R(), z("div", jI)) : (R(), fe(Ue(`el-${S.type}`), Te({
                   key: 2,
                   modelValue: e.value[S.prop],
                   "onUpdate:modelValue": (M) => e.value[S.prop] = M,
@@ -35905,11 +35905,11 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
       }, 16, ["model", "rules"]);
     };
   }
-}), FI = {
+}), QI = {
   install(o) {
-    o.component("m-form", VI);
+    o.component("m-form", UI);
   }
-}, jI = /* @__PURE__ */ xe({
+}, kI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     visible: {
@@ -35956,17 +35956,17 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
       }, 16, ["modelValue"]);
     };
   }
-}), UI = {
+}), WI = {
   install(o) {
-    o.component("modal-form", jI);
+    o.component("modal-form", kI);
   }
-}, QI = {
+}, GI = {
   key: 0,
   style: { display: "flex", "align-items": "center" }
-}, kI = { class: "icons" }, WI = { key: 1 }, GI = {
+}, YI = { class: "icons" }, KI = { key: 1 }, JI = {
   key: 0,
   class: "pagination"
-}, YI = /* @__PURE__ */ xe({
+}, ZI = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     options: {
@@ -36017,18 +36017,18 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
     }, c = (f, h, u) => {
     };
     return (f, h) => {
-      const u = ue("el-input"), m = ue("el-icon-check"), p = ue("el-icon-close"), v = ue("el-icon-edit"), y = ue("el-table-column"), g = ue("el-table"), _ = $i("loading");
+      const u = ue("el-input"), m = ue("el-icon-check"), p = ue("el-icon-close"), v = ue("el-icon-edit"), y = ue("el-table-column"), g = ue("el-table"), _ = Bi("loading");
       return R(), z(ye, null, [
-        Ha((R(), fe(g, Te({ data: o.data }, f.$attrs, { onRowClick: c }), {
+        Ia((R(), fe(g, Te({ data: o.data }, f.$attrs, { onRowClick: c }), {
           default: oe(() => [
-            (R(!0), z(ye, null, Ce(re(e), (A, x) => (R(), fe(y, yo(Te({ key: x }, A)), {
+            (R(!0), z(ye, null, Ce(re(e), (A, x) => (R(), fe(y, Ao(Te({ key: x }, A)), {
               default: oe((w) => [
-                a.value === w.$index + w.column.id ? (R(), z("div", QI, [
+                a.value === w.$index + w.column.id ? (R(), z("div", GI, [
                   de(u, {
                     modelValue: w.row[A.prop],
                     "onUpdate:modelValue": (C) => w.row[A.prop] = C
                   }, null, 8, ["modelValue", "onUpdate:modelValue"]),
-                  D("div", kI, [
+                  D("div", YI, [
                     de(m, {
                       class: "icon-check",
                       onClick: (C) => s(w)
@@ -36042,7 +36042,7 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
                   A.slot ? Ie(f.$slots, A.slot, {
                     key: 0,
                     scope: w
-                  }, void 0, !0) : (R(), z("span", WI, be(w.row[A.prop]), 1))
+                  }, void 0, !0) : (R(), z("span", KI, be(w.row[A.prop]), 1))
                 ], 64)),
                 A.editable && a.value !== w.$index + w.column.id ? (R(), fe(v, {
                   key: 2,
@@ -36052,7 +36052,7 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
               ]),
               _: 2
             }, 1040))), 128)),
-            (R(!0), z(ye, null, Ce(re(r), (A, x) => (R(), fe(y, yo(Te({ key: x }, A)), {
+            (R(!0), z(ye, null, Ce(re(r), (A, x) => (R(), fe(y, Ao(Te({ key: x }, A)), {
               default: oe((w) => [
                 Ie(f.$slots, "action", { scope: w }, void 0, !0)
               ]),
@@ -36063,23 +36063,23 @@ const LI = /* @__PURE__ */ rH(Wr.exports), OI = {
         }, 16, ["data"])), [
           [_, re(l)]
         ]),
-        o.pagination ? (R(), z("div", GI)) : He("", !0)
+        o.pagination ? (R(), z("div", JI)) : He("", !0)
       ], 64);
     };
   }
 });
-const KI = /* @__PURE__ */ Et(YI, [["__scopeId", "data-v-ace5b391"]]), JI = {
+const XI = /* @__PURE__ */ Ct(ZI, [["__scopeId", "data-v-15455883"]]), qI = {
   install(o) {
-    o.component("m-table", KI);
+    o.component("m-table", XI);
   }
 };
-var jn, ae, Gr, Gt, Ro, Yr, Mn = {}, Kr = [], ZI = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
+var Un, ae, Yr, Ft, At, zo, Kr, Jr, Tn = {}, Zr = [], eB = /acit|ex(?:s|g|n|p|$)|rph|grid|ows|mnc|ntw|ine[ch]|zoo|^ord|itera/i;
 function rt(o, t) {
   for (var n in t)
     o[n] = t[n];
   return o;
 }
-function Jr(o) {
+function Xr(o) {
   var t = o.parentNode;
   t && t.removeChild(o);
 }
@@ -36087,13 +36087,13 @@ function U(o, t, n) {
   var a, e, r, l = {};
   for (r in t)
     r == "key" ? a = t[r] : r == "ref" ? e = t[r] : l[r] = t[r];
-  if (arguments.length > 2 && (l.children = arguments.length > 3 ? jn.call(arguments, 2) : n), typeof o == "function" && o.defaultProps != null)
+  if (arguments.length > 2 && (l.children = arguments.length > 3 ? Un.call(arguments, 2) : n), typeof o == "function" && o.defaultProps != null)
     for (r in o.defaultProps)
       l[r] === void 0 && (l[r] = o.defaultProps[r]);
-  return wn(o, l, a, e, null);
+  return En(o, l, a, e, null);
 }
-function wn(o, t, n, a, e) {
-  var r = { type: o, props: t, key: n, ref: a, __k: null, __: null, __b: 0, __e: null, __d: void 0, __c: null, __h: null, constructor: void 0, __v: e ?? ++Gr };
+function En(o, t, n, a, e) {
+  var r = { type: o, props: t, key: n, ref: a, __k: null, __: null, __b: 0, __e: null, __d: void 0, __c: null, __h: null, constructor: void 0, __v: e ?? ++Yr };
   return e == null && ae.vnode != null && ae.vnode(r), r;
 }
 function tt() {
@@ -36102,18 +36102,72 @@ function tt() {
 function Se(o) {
   return o.children;
 }
+function tB(o, t, n, a, e) {
+  var r;
+  for (r in n)
+    r === "children" || r === "key" || r in t || Rn(o, r, null, n[r], a);
+  for (r in t)
+    e && typeof t[r] != "function" || r === "children" || r === "key" || r === "value" || r === "checked" || n[r] === t[r] || Rn(o, r, t[r], n[r], a);
+}
+function $o(o, t, n) {
+  t[0] === "-" ? o.setProperty(t, n ?? "") : o[t] = n == null ? "" : typeof n != "number" || eB.test(t) ? n : n + "px";
+}
+function Rn(o, t, n, a, e) {
+  var r;
+  e:
+    if (t === "style")
+      if (typeof n == "string")
+        o.style.cssText = n;
+      else {
+        if (typeof a == "string" && (o.style.cssText = a = ""), a)
+          for (t in a)
+            n && t in n || $o(o.style, t, "");
+        if (n)
+          for (t in n)
+            a && n[t] === a[t] || $o(o.style, t, n[t]);
+      }
+    else if (t[0] === "o" && t[1] === "n")
+      r = t !== (t = t.replace(/Capture$/, "")), t = t.toLowerCase() in o ? t.toLowerCase().slice(2) : t.slice(2), o.l || (o.l = {}), o.l[t + r] = n, n ? a || o.addEventListener(t, r ? Io : Ho, r) : o.removeEventListener(t, r ? Io : Ho, r);
+    else if (t !== "dangerouslySetInnerHTML") {
+      if (e)
+        t = t.replace(/xlink(H|:h)/, "h").replace(/sName$/, "s");
+      else if (t !== "width" && t !== "height" && t !== "href" && t !== "list" && t !== "form" && t !== "tabIndex" && t !== "download" && t in o)
+        try {
+          o[t] = n ?? "";
+          break e;
+        } catch {
+        }
+      typeof n == "function" || (n == null || n === !1 && t.indexOf("-") == -1 ? o.removeAttribute(t) : o.setAttribute(t, n));
+    }
+}
+function Ho(o) {
+  Ft = !0;
+  try {
+    return this.l[o.type + !1](ae.event ? ae.event(o) : o);
+  } finally {
+    Ft = !1;
+  }
+}
+function Io(o) {
+  Ft = !0;
+  try {
+    return this.l[o.type + !0](ae.event ? ae.event(o) : o);
+  } finally {
+    Ft = !1;
+  }
+}
 function Le(o, t) {
   this.props = o, this.context = t;
 }
-function en(o, t) {
+function tn(o, t) {
   if (t == null)
-    return o.__ ? en(o.__, o.__.__k.indexOf(o) + 1) : null;
+    return o.__ ? tn(o.__, o.__.__k.indexOf(o) + 1) : null;
   for (var n; t < o.__k.length; t++)
     if ((n = o.__k[t]) != null && n.__e != null)
       return n.__e;
-  return typeof o.type == "function" ? en(o) : null;
+  return typeof o.type == "function" ? tn(o) : null;
 }
-function Zr(o) {
+function qr(o) {
   var t, n;
   if ((o = o.__) != null && o.__c != null) {
     for (o.__e = o.__c.base = null, t = 0; t < o.__k.length; t++)
@@ -36121,25 +36175,29 @@ function Zr(o) {
         o.__e = o.__c.base = n.__e;
         break;
       }
-    return Zr(o);
+    return qr(o);
   }
 }
-function _a(o) {
-  (!o.__d && (o.__d = !0) && Gt.push(o) && !Tn.__r++ || Ro !== ae.debounceRendering) && ((Ro = ae.debounceRendering) || setTimeout)(Tn);
+function nB(o) {
+  Ft ? setTimeout(o) : Kr(o);
 }
-function Tn() {
-  for (var o; Tn.__r = Gt.length; )
-    o = Gt.sort(function(t, n) {
-      return t.__v.__b - n.__v.__b;
-    }), Gt = [], o.some(function(t) {
-      var n, a, e, r, l, i;
-      t.__d && (l = (r = (n = t).__v).__e, (i = n.__P) && (a = [], (e = rt({}, r)).__v = r.__v + 1, Qa(i, r, e, n.__n, i.ownerSVGElement !== void 0, r.__h != null ? [l] : null, a, l ?? en(r), r.__h), tl(a, r), r.__e != l && Zr(r)));
-    });
+function xa(o) {
+  (!o.__d && (o.__d = !0) && At.push(o) && !zn.__r++ || zo !== ae.debounceRendering) && ((zo = ae.debounceRendering) || nB)(zn);
 }
-function Xr(o, t, n, a, e, r, l, i, s, d) {
-  var c, f, h, u, m, p, v, y = a && a.__k || Kr, g = y.length;
+function zn() {
+  var o, t, n, a, e, r, l, i;
+  for (At.sort(function(s, d) {
+    return s.__v.__b - d.__v.__b;
+  }); o = At.shift(); )
+    o.__d && (t = At.length, a = void 0, e = void 0, l = (r = (n = o).__v).__e, (i = n.__P) && (a = [], (e = rt({}, r)).__v = r.__v + 1, ka(i, r, e, n.__n, i.ownerSVGElement !== void 0, r.__h != null ? [l] : null, a, l ?? tn(r), r.__h), ol(a, r), r.__e != l && qr(r)), At.length > t && At.sort(function(s, d) {
+      return s.__v.__b - d.__v.__b;
+    }));
+  zn.__r = 0;
+}
+function el(o, t, n, a, e, r, l, i, s, d) {
+  var c, f, h, u, m, p, v, y = a && a.__k || Zr, g = y.length;
   for (n.__k = [], c = 0; c < t.length; c++)
-    if ((u = n.__k[c] = (u = t[c]) == null || typeof u == "boolean" ? null : typeof u == "string" || typeof u == "number" || typeof u == "bigint" ? wn(null, u, null, null, u) : Array.isArray(u) ? wn(Se, { children: u }, null, null, null) : u.__b > 0 ? wn(u.type, u.props, u.key, u.ref ? u.ref : null, u.__v) : u) != null) {
+    if ((u = n.__k[c] = (u = t[c]) == null || typeof u == "boolean" ? null : typeof u == "string" || typeof u == "number" || typeof u == "bigint" ? En(null, u, null, null, u) : Array.isArray(u) ? En(Se, { children: u }, null, null, null) : u.__b > 0 ? En(u.type, u.props, u.key, u.ref ? u.ref : null, u.__v) : u) != null) {
       if (u.__ = n, u.__b = n.__b + 1, (h = y[c]) === null || h && u.key == h.key && u.type === h.type)
         y[c] = void 0;
       else
@@ -36150,25 +36208,25 @@ function Xr(o, t, n, a, e, r, l, i, s, d) {
           }
           h = null;
         }
-      Qa(o, u, h = h || Mn, e, r, l, i, s, d), m = u.__e, (f = u.ref) && h.ref != f && (v || (v = []), h.ref && v.push(h.ref, null, u), v.push(f, u.__c || m, u)), m != null ? (p == null && (p = m), typeof u.type == "function" && u.__k === h.__k ? u.__d = s = qr(u, s, o) : s = el(o, u, h, y, m, s), typeof n.type == "function" && (n.__d = s)) : s && h.__e == s && s.parentNode != o && (s = en(h));
+      ka(o, u, h = h || Tn, e, r, l, i, s, d), m = u.__e, (f = u.ref) && h.ref != f && (v || (v = []), h.ref && v.push(h.ref, null, u), v.push(f, u.__c || m, u)), m != null ? (p == null && (p = m), typeof u.type == "function" && u.__k === h.__k ? u.__d = s = tl(u, s, o) : s = nl(o, u, h, y, m, s), typeof n.type == "function" && (n.__d = s)) : s && h.__e == s && s.parentNode != o && (s = tn(h));
     }
   for (n.__e = p, c = g; c--; )
-    y[c] != null && al(y[c], y[c]);
+    y[c] != null && (typeof n.type == "function" && y[c].__e != null && y[c].__e == n.__d && (n.__d = al(a).nextSibling), ll(y[c], y[c]));
   if (v)
     for (c = 0; c < v.length; c++)
-      nl(v[c], v[++c], v[++c]);
+      rl(v[c], v[++c], v[++c]);
 }
-function qr(o, t, n) {
+function tl(o, t, n) {
   for (var a, e = o.__k, r = 0; e && r < e.length; r++)
-    (a = e[r]) && (a.__ = o, t = typeof a.type == "function" ? qr(a, t, n) : el(n, a, a, e, a.__e, t));
+    (a = e[r]) && (a.__ = o, t = typeof a.type == "function" ? tl(a, t, n) : nl(n, a, a, e, a.__e, t));
   return t;
 }
-function Rn(o, t) {
+function $n(o, t) {
   return t = t || [], o == null || typeof o == "boolean" || (Array.isArray(o) ? o.some(function(n) {
-    Rn(n, t);
+    $n(n, t);
   }) : t.push(o)), t;
 }
-function el(o, t, n, a, e, r) {
+function nl(o, t, n, a, e, r) {
   var l, i, s;
   if (t.__d !== void 0)
     l = t.__d, t.__d = void 0;
@@ -36184,51 +36242,18 @@ function el(o, t, n, a, e, r) {
       }
   return l !== void 0 ? l : e.nextSibling;
 }
-function XI(o, t, n, a, e) {
-  var r;
-  for (r in n)
-    r === "children" || r === "key" || r in t || zn(o, r, null, n[r], a);
-  for (r in t)
-    e && typeof t[r] != "function" || r === "children" || r === "key" || r === "value" || r === "checked" || n[r] === t[r] || zn(o, r, t[r], n[r], a);
+function al(o) {
+  var t, n, a;
+  if (o.type == null || typeof o.type == "string")
+    return o.__e;
+  if (o.__k) {
+    for (t = o.__k.length - 1; t >= 0; t--)
+      if ((n = o.__k[t]) && (a = al(n)))
+        return a;
+  }
+  return null;
 }
-function zo(o, t, n) {
-  t[0] === "-" ? o.setProperty(t, n) : o[t] = n == null ? "" : typeof n != "number" || ZI.test(t) ? n : n + "px";
-}
-function zn(o, t, n, a, e) {
-  var r;
-  e:
-    if (t === "style")
-      if (typeof n == "string")
-        o.style.cssText = n;
-      else {
-        if (typeof a == "string" && (o.style.cssText = a = ""), a)
-          for (t in a)
-            n && t in n || zo(o.style, t, "");
-        if (n)
-          for (t in n)
-            a && n[t] === a[t] || zo(o.style, t, n[t]);
-      }
-    else if (t[0] === "o" && t[1] === "n")
-      r = t !== (t = t.replace(/Capture$/, "")), t = t.toLowerCase() in o ? t.toLowerCase().slice(2) : t.slice(2), o.l || (o.l = {}), o.l[t + r] = n, n ? a || o.addEventListener(t, r ? Ho : $o, r) : o.removeEventListener(t, r ? Ho : $o, r);
-    else if (t !== "dangerouslySetInnerHTML") {
-      if (e)
-        t = t.replace(/xlink(H|:h)/, "h").replace(/sName$/, "s");
-      else if (t !== "href" && t !== "list" && t !== "form" && t !== "tabIndex" && t !== "download" && t in o)
-        try {
-          o[t] = n ?? "";
-          break e;
-        } catch {
-        }
-      typeof n == "function" || (n == null || n === !1 && t.indexOf("-") == -1 ? o.removeAttribute(t) : o.setAttribute(t, n));
-    }
-}
-function $o(o) {
-  this.l[o.type + !1](ae.event ? ae.event(o) : o);
-}
-function Ho(o) {
-  this.l[o.type + !0](ae.event ? ae.event(o) : o);
-}
-function Qa(o, t, n, a, e, r, l, i, s) {
+function ka(o, t, n, a, e, r, l, i, s) {
   var d, c, f, h, u, m, p, v, y, g, _, A, x, w, C, b = t.type;
   if (t.constructor !== void 0)
     return null;
@@ -36236,11 +36261,11 @@ function Qa(o, t, n, a, e, r, l, i, s) {
   try {
     e:
       if (typeof b == "function") {
-        if (v = t.props, y = (d = b.contextType) && a[d.__c], g = d ? y ? y.props.value : d.__ : a, n.__c ? p = (c = t.__c = n.__c).__ = c.__E : ("prototype" in b && b.prototype.render ? t.__c = c = new b(v, g) : (t.__c = c = new Le(v, g), c.constructor = b, c.render = eB), y && y.sub(c), c.props = v, c.state || (c.state = {}), c.context = g, c.__n = a, f = c.__d = !0, c.__h = [], c._sb = []), c.__s == null && (c.__s = c.state), b.getDerivedStateFromProps != null && (c.__s == c.state && (c.__s = rt({}, c.__s)), rt(c.__s, b.getDerivedStateFromProps(v, c.__s))), h = c.props, u = c.state, f)
+        if (v = t.props, y = (d = b.contextType) && a[d.__c], g = d ? y ? y.props.value : d.__ : a, n.__c ? p = (c = t.__c = n.__c).__ = c.__E : ("prototype" in b && b.prototype.render ? t.__c = c = new b(v, g) : (t.__c = c = new Le(v, g), c.constructor = b, c.render = oB), y && y.sub(c), c.props = v, c.state || (c.state = {}), c.context = g, c.__n = a, f = c.__d = !0, c.__h = [], c._sb = []), c.__s == null && (c.__s = c.state), b.getDerivedStateFromProps != null && (c.__s == c.state && (c.__s = rt({}, c.__s)), rt(c.__s, b.getDerivedStateFromProps(v, c.__s))), h = c.props, u = c.state, c.__v = t, f)
           b.getDerivedStateFromProps == null && c.componentWillMount != null && c.componentWillMount(), c.componentDidMount != null && c.__h.push(c.componentDidMount);
         else {
           if (b.getDerivedStateFromProps == null && v !== h && c.componentWillReceiveProps != null && c.componentWillReceiveProps(v, g), !c.__e && c.shouldComponentUpdate != null && c.shouldComponentUpdate(v, c.__s, g) === !1 || t.__v === n.__v) {
-            for (c.props = v, c.state = c.__s, t.__v !== n.__v && (c.__d = !1), c.__v = t, t.__e = n.__e, t.__k = n.__k, t.__k.forEach(function(T) {
+            for (t.__v !== n.__v && (c.props = v, c.state = c.__s, c.__d = !1), t.__e = n.__e, t.__k = n.__k, t.__k.forEach(function(T) {
               T && (T.__ = t);
             }), _ = 0; _ < c._sb.length; _++)
               c.__h.push(c._sb[_]);
@@ -36251,7 +36276,7 @@ function Qa(o, t, n, a, e, r, l, i, s) {
             c.componentDidUpdate(h, u, m);
           });
         }
-        if (c.context = g, c.props = v, c.__v = t, c.__P = o, A = ae.__r, x = 0, "prototype" in b && b.prototype.render) {
+        if (c.context = g, c.props = v, c.__P = o, A = ae.__r, x = 0, "prototype" in b && b.prototype.render) {
           for (c.state = c.__s, c.__d = !1, A && A(t), d = c.render(c.props, c.state, c.context), w = 0; w < c._sb.length; w++)
             c.__h.push(c._sb[w]);
           c._sb = [];
@@ -36259,15 +36284,15 @@ function Qa(o, t, n, a, e, r, l, i, s) {
           do
             c.__d = !1, A && A(t), d = c.render(c.props, c.state, c.context), c.state = c.__s;
           while (c.__d && ++x < 25);
-        c.state = c.__s, c.getChildContext != null && (a = rt(rt({}, a), c.getChildContext())), f || c.getSnapshotBeforeUpdate == null || (m = c.getSnapshotBeforeUpdate(h, u)), C = d != null && d.type === Se && d.key == null ? d.props.children : d, Xr(o, Array.isArray(C) ? C : [C], t, n, a, e, r, l, i, s), c.base = t.__e, t.__h = null, c.__h.length && l.push(c), p && (c.__E = c.__ = null), c.__e = !1;
+        c.state = c.__s, c.getChildContext != null && (a = rt(rt({}, a), c.getChildContext())), f || c.getSnapshotBeforeUpdate == null || (m = c.getSnapshotBeforeUpdate(h, u)), C = d != null && d.type === Se && d.key == null ? d.props.children : d, el(o, Array.isArray(C) ? C : [C], t, n, a, e, r, l, i, s), c.base = t.__e, t.__h = null, c.__h.length && l.push(c), p && (c.__E = c.__ = null), c.__e = !1;
       } else
-        r == null && t.__v === n.__v ? (t.__k = n.__k, t.__e = n.__e) : t.__e = qI(n.__e, t, n, a, e, r, l, s);
+        r == null && t.__v === n.__v ? (t.__k = n.__k, t.__e = n.__e) : t.__e = aB(n.__e, t, n, a, e, r, l, s);
     (d = ae.diffed) && d(t);
   } catch (T) {
     t.__v = null, (s || r != null) && (t.__e = i, t.__h = !!s, r[r.indexOf(i)] = null), ae.__e(T, t, n);
   }
 }
-function tl(o, t) {
+function ol(o, t) {
   ae.__c && ae.__c(t, o), o.some(function(n) {
     try {
       o = n.__h, n.__h = [], o.some(function(a) {
@@ -36278,7 +36303,7 @@ function tl(o, t) {
     }
   });
 }
-function qI(o, t, n, a, e, r, l, i) {
+function aB(o, t, n, a, e, r, l, i) {
   var s, d, c, f = n.props, h = t.props, u = t.type, m = 0;
   if (u === "svg" && (e = !0), r != null) {
     for (; m < r.length; m++)
@@ -36295,31 +36320,31 @@ function qI(o, t, n, a, e, r, l, i) {
   if (u === null)
     f === h || i && o.data === h || (o.data = h);
   else {
-    if (r = r && jn.call(o.childNodes), d = (f = n.props || Mn).dangerouslySetInnerHTML, c = h.dangerouslySetInnerHTML, !i) {
+    if (r = r && Un.call(o.childNodes), d = (f = n.props || Tn).dangerouslySetInnerHTML, c = h.dangerouslySetInnerHTML, !i) {
       if (r != null)
         for (f = {}, m = 0; m < o.attributes.length; m++)
           f[o.attributes[m].name] = o.attributes[m].value;
       (c || d) && (c && (d && c.__html == d.__html || c.__html === o.innerHTML) || (o.innerHTML = c && c.__html || ""));
     }
-    if (XI(o, h, f, e, i), c)
+    if (tB(o, h, f, e, i), c)
       t.__k = [];
-    else if (m = t.props.children, Xr(o, Array.isArray(m) ? m : [m], t, n, a, e && u !== "foreignObject", r, l, r ? r[0] : n.__k && en(n, 0), i), r != null)
+    else if (m = t.props.children, el(o, Array.isArray(m) ? m : [m], t, n, a, e && u !== "foreignObject", r, l, r ? r[0] : n.__k && tn(n, 0), i), r != null)
       for (m = r.length; m--; )
-        r[m] != null && Jr(r[m]);
-    i || ("value" in h && (m = h.value) !== void 0 && (m !== o.value || u === "progress" && !m || u === "option" && m !== f.value) && zn(o, "value", m, f.value, !1), "checked" in h && (m = h.checked) !== void 0 && m !== o.checked && zn(o, "checked", m, f.checked, !1));
+        r[m] != null && Xr(r[m]);
+    i || ("value" in h && (m = h.value) !== void 0 && (m !== o.value || u === "progress" && !m || u === "option" && m !== f.value) && Rn(o, "value", m, f.value, !1), "checked" in h && (m = h.checked) !== void 0 && m !== o.checked && Rn(o, "checked", m, f.checked, !1));
   }
   return o;
 }
-function nl(o, t, n) {
+function rl(o, t, n) {
   try {
     typeof o == "function" ? o(t) : o.current = t;
   } catch (a) {
     ae.__e(a, n);
   }
 }
-function al(o, t, n) {
+function ll(o, t, n) {
   var a, e;
-  if (ae.unmount && ae.unmount(o), (a = o.ref) && (a.current && a.current !== o.__e || nl(a, null, t)), (a = o.__c) != null) {
+  if (ae.unmount && ae.unmount(o), (a = o.ref) && (a.current && a.current !== o.__e || rl(a, null, t)), (a = o.__c) != null) {
     if (a.componentWillUnmount)
       try {
         a.componentWillUnmount();
@@ -36330,25 +36355,27 @@ function al(o, t, n) {
   }
   if (a = o.__k)
     for (e = 0; e < a.length; e++)
-      a[e] && al(a[e], t, n || typeof o.type != "function");
-  n || o.__e == null || Jr(o.__e), o.__ = o.__e = o.__d = void 0;
+      a[e] && ll(a[e], t, n || typeof o.type != "function");
+  n || o.__e == null || Xr(o.__e), o.__ = o.__e = o.__d = void 0;
 }
-function eB(o, t, n) {
+function oB(o, t, n) {
   return this.constructor(o, n);
 }
-function tn(o, t, n) {
+function nn(o, t, n) {
   var a, e, r;
-  ae.__ && ae.__(o, t), e = (a = typeof n == "function") ? null : n && n.__k || t.__k, r = [], Qa(t, o = (!a && n || t).__k = U(Se, null, [o]), e || Mn, Mn, t.ownerSVGElement !== void 0, !a && n ? [n] : e ? null : t.firstChild ? jn.call(t.childNodes) : null, r, !a && n ? n : e ? e.__e : t.firstChild, a), tl(r, o);
+  ae.__ && ae.__(o, t), e = (a = typeof n == "function") ? null : n && n.__k || t.__k, r = [], ka(t, o = (!a && n || t).__k = U(Se, null, [o]), e || Tn, Tn, t.ownerSVGElement !== void 0, !a && n ? [n] : e ? null : t.firstChild ? Un.call(t.childNodes) : null, r, !a && n ? n : e ? e.__e : t.firstChild, a), ol(r, o);
 }
-function tB(o, t) {
-  var n = { __c: t = "__cC" + Yr++, __: o, Consumer: function(a, e) {
+function rB(o, t) {
+  var n = { __c: t = "__cC" + Jr++, __: o, Consumer: function(a, e) {
     return a.children(e);
   }, Provider: function(a) {
     var e, r;
     return this.getChildContext || (e = [], (r = {})[t] = this, this.getChildContext = function() {
       return r;
     }, this.shouldComponentUpdate = function(l) {
-      this.props.value !== l.value && e.some(_a);
+      this.props.value !== l.value && e.some(function(i) {
+        i.__e = !0, xa(i);
+      });
     }, this.sub = function(l) {
       e.push(l);
       var i = l.componentWillUnmount;
@@ -36359,7 +36386,7 @@ function tB(o, t) {
   } };
   return n.Provider.__ = n.Consumer.contextType = n;
 }
-jn = Kr.slice, ae = { __e: function(o, t, n, a) {
+Un = Zr.slice, ae = { __e: function(o, t, n, a) {
   for (var e, r, l; t = t.__; )
     if ((e = t.__c) && !e.__)
       try {
@@ -36369,80 +36396,80 @@ jn = Kr.slice, ae = { __e: function(o, t, n, a) {
         o = i;
       }
   throw o;
-} }, Gr = 0, Le.prototype.setState = function(o, t) {
+} }, Yr = 0, Ft = !1, Le.prototype.setState = function(o, t) {
   var n;
-  n = this.__s != null && this.__s !== this.state ? this.__s : this.__s = rt({}, this.state), typeof o == "function" && (o = o(rt({}, n), this.props)), o && rt(n, o), o != null && this.__v && (t && this._sb.push(t), _a(this));
+  n = this.__s != null && this.__s !== this.state ? this.__s : this.__s = rt({}, this.state), typeof o == "function" && (o = o(rt({}, n), this.props)), o && rt(n, o), o != null && this.__v && (t && this._sb.push(t), xa(this));
 }, Le.prototype.forceUpdate = function(o) {
-  this.__v && (this.__e = !0, o && this.__h.push(o), _a(this));
-}, Le.prototype.render = Se, Gt = [], Tn.__r = 0, Yr = 0;
-var Ye, qn, Io, ol = [], ea = [], Bo = ae.__b, Po = ae.__r, No = ae.diffed, Lo = ae.__c, Oo = ae.unmount;
-function nB() {
-  for (var o; o = ol.shift(); )
+  this.__v && (this.__e = !0, o && this.__h.push(o), xa(this));
+}, Le.prototype.render = Se, At = [], Kr = typeof Promise == "function" ? Promise.prototype.then.bind(Promise.resolve()) : setTimeout, zn.__r = 0, Jr = 0;
+var Ye, ea, Bo, il = [], ta = [], Po = ae.__b, No = ae.__r, Lo = ae.diffed, Oo = ae.__c, Vo = ae.unmount;
+function lB() {
+  for (var o; o = il.shift(); )
     if (o.__P && o.__H)
       try {
-        o.__H.__h.forEach(En), o.__H.__h.forEach(xa), o.__H.__h = [];
+        o.__H.__h.forEach(Cn), o.__H.__h.forEach(wa), o.__H.__h = [];
       } catch (t) {
         o.__H.__h = [], ae.__e(t, o.__v);
       }
 }
 ae.__b = function(o) {
-  Ye = null, Bo && Bo(o);
+  Ye = null, Po && Po(o);
 }, ae.__r = function(o) {
-  Po && Po(o);
-  var t = (Ye = o.__c).__H;
-  t && (qn === Ye ? (t.__h = [], Ye.__h = [], t.__.forEach(function(n) {
-    n.__N && (n.__ = n.__N), n.__V = ea, n.__N = n.i = void 0;
-  })) : (t.__h.forEach(En), t.__h.forEach(xa), t.__h = [])), qn = Ye;
-}, ae.diffed = function(o) {
   No && No(o);
+  var t = (Ye = o.__c).__H;
+  t && (ea === Ye ? (t.__h = [], Ye.__h = [], t.__.forEach(function(n) {
+    n.__N && (n.__ = n.__N), n.__V = ta, n.__N = n.i = void 0;
+  })) : (t.__h.forEach(Cn), t.__h.forEach(wa), t.__h = [])), ea = Ye;
+}, ae.diffed = function(o) {
+  Lo && Lo(o);
   var t = o.__c;
-  t && t.__H && (t.__H.__h.length && (ol.push(t) !== 1 && Io === ae.requestAnimationFrame || ((Io = ae.requestAnimationFrame) || aB)(nB)), t.__H.__.forEach(function(n) {
-    n.i && (n.__H = n.i), n.__V !== ea && (n.__ = n.__V), n.i = void 0, n.__V = ea;
-  })), qn = Ye = null;
+  t && t.__H && (t.__H.__h.length && (il.push(t) !== 1 && Bo === ae.requestAnimationFrame || ((Bo = ae.requestAnimationFrame) || iB)(lB)), t.__H.__.forEach(function(n) {
+    n.i && (n.__H = n.i), n.__V !== ta && (n.__ = n.__V), n.i = void 0, n.__V = ta;
+  })), ea = Ye = null;
 }, ae.__c = function(o, t) {
   t.some(function(n) {
     try {
-      n.__h.forEach(En), n.__h = n.__h.filter(function(a) {
-        return !a.__ || xa(a);
+      n.__h.forEach(Cn), n.__h = n.__h.filter(function(a) {
+        return !a.__ || wa(a);
       });
     } catch (a) {
       t.some(function(e) {
         e.__h && (e.__h = []);
       }), t = [], ae.__e(a, n.__v);
     }
-  }), Lo && Lo(o, t);
+  }), Oo && Oo(o, t);
 }, ae.unmount = function(o) {
-  Oo && Oo(o);
+  Vo && Vo(o);
   var t, n = o.__c;
   n && n.__H && (n.__H.__.forEach(function(a) {
     try {
-      En(a);
+      Cn(a);
     } catch (e) {
       t = e;
     }
   }), n.__H = void 0, t && ae.__e(t, n.__v));
 };
-var Vo = typeof requestAnimationFrame == "function";
-function aB(o) {
+var Fo = typeof requestAnimationFrame == "function";
+function iB(o) {
   var t, n = function() {
-    clearTimeout(a), Vo && cancelAnimationFrame(t), setTimeout(o);
+    clearTimeout(a), Fo && cancelAnimationFrame(t), setTimeout(o);
   }, a = setTimeout(n, 100);
-  Vo && (t = requestAnimationFrame(n));
+  Fo && (t = requestAnimationFrame(n));
 }
-function En(o) {
+function Cn(o) {
   var t = Ye, n = o.__c;
   typeof n == "function" && (o.__c = void 0, n()), Ye = t;
 }
-function xa(o) {
+function wa(o) {
   var t = Ye;
   o.__c = o.__(), Ye = t;
 }
-function oB(o, t) {
+function sB(o, t) {
   for (var n in t)
     o[n] = t[n];
   return o;
 }
-function Fo(o, t) {
+function jo(o, t) {
   for (var n in o)
     if (n !== "__source" && !(n in t))
       return !0;
@@ -36451,55 +36478,55 @@ function Fo(o, t) {
       return !0;
   return !1;
 }
-function jo(o) {
+function Uo(o) {
   this.props = o;
 }
-(jo.prototype = new Le()).isPureReactComponent = !0, jo.prototype.shouldComponentUpdate = function(o, t) {
-  return Fo(this.props, o) || Fo(this.state, t);
+(Uo.prototype = new Le()).isPureReactComponent = !0, Uo.prototype.shouldComponentUpdate = function(o, t) {
+  return jo(this.props, o) || jo(this.state, t);
 };
-var Uo = ae.__b;
+var Qo = ae.__b;
 ae.__b = function(o) {
-  o.type && o.type.__f && o.ref && (o.props.ref = o.ref, o.ref = null), Uo && Uo(o);
+  o.type && o.type.__f && o.ref && (o.props.ref = o.ref, o.ref = null), Qo && Qo(o);
 };
-var rB = ae.__e;
+var dB = ae.__e;
 ae.__e = function(o, t, n, a) {
   if (o.then) {
     for (var e, r = t; r = r.__; )
       if ((e = r.__c) && e.__c)
         return t.__e == null && (t.__e = n.__e, t.__k = n.__k), e.__c(o, t);
   }
-  rB(o, t, n, a);
+  dB(o, t, n, a);
 };
-var Qo = ae.unmount;
-function rl(o, t, n) {
+var ko = ae.unmount;
+function sl(o, t, n) {
   return o && (o.__c && o.__c.__H && (o.__c.__H.__.forEach(function(a) {
     typeof a.__c == "function" && a.__c();
-  }), o.__c.__H = null), (o = oB({}, o)).__c != null && (o.__c.__P === n && (o.__c.__P = t), o.__c = null), o.__k = o.__k && o.__k.map(function(a) {
-    return rl(a, t, n);
+  }), o.__c.__H = null), (o = sB({}, o)).__c != null && (o.__c.__P === n && (o.__c.__P = t), o.__c = null), o.__k = o.__k && o.__k.map(function(a) {
+    return sl(a, t, n);
   })), o;
 }
-function ll(o, t, n) {
+function dl(o, t, n) {
   return o && (o.__v = null, o.__k = o.__k && o.__k.map(function(a) {
-    return ll(a, t, n);
+    return dl(a, t, n);
   }), o.__c && o.__c.__P === t && (o.__e && n.insertBefore(o.__e, o.__d), o.__c.__e = !0, o.__c.__P = n)), o;
 }
-function ta() {
+function na() {
   this.__u = 0, this.t = null, this.__b = null;
 }
-function il(o) {
+function cl(o) {
   var t = o.__.__c;
   return t && t.__a && t.__a(o);
 }
-function mn() {
+function vn() {
   this.u = null, this.o = null;
 }
 ae.unmount = function(o) {
   var t = o.__c;
-  t && t.__R && t.__R(), t && o.__h === !0 && (o.type = null), Qo && Qo(o);
-}, (ta.prototype = new Le()).__c = function(o, t) {
+  t && t.__R && t.__R(), t && o.__h === !0 && (o.type = null), ko && ko(o);
+}, (na.prototype = new Le()).__c = function(o, t) {
   var n = t.__c, a = this;
   a.t == null && (a.t = []), a.t.push(n);
-  var e = il(a.__v), r = !1, l = function() {
+  var e = cl(a.__v), r = !1, l = function() {
     r || (r = !0, n.__R = null, e ? e(i) : i());
   };
   n.__R = l;
@@ -36507,7 +36534,7 @@ ae.unmount = function(o) {
     if (!--a.__u) {
       if (a.state.__a) {
         var d = a.state.__a;
-        a.__v.__k[0] = ll(d, d.__c.__P, d.__c.__O);
+        a.__v.__k[0] = dl(d, d.__c.__P, d.__c.__O);
       }
       var c;
       for (a.setState({ __a: a.__b = null }); c = a.t.pop(); )
@@ -36515,20 +36542,20 @@ ae.unmount = function(o) {
     }
   }, s = t.__h === !0;
   a.__u++ || s || a.setState({ __a: a.__b = a.__v.__k[0] }), o.then(l, l);
-}, ta.prototype.componentWillUnmount = function() {
+}, na.prototype.componentWillUnmount = function() {
   this.t = [];
-}, ta.prototype.render = function(o, t) {
+}, na.prototype.render = function(o, t) {
   if (this.__b) {
     if (this.__v.__k) {
       var n = document.createElement("div"), a = this.__v.__k[0].__c;
-      this.__v.__k[0] = rl(this.__b, n, a.__O = a.__P);
+      this.__v.__k[0] = sl(this.__b, n, a.__O = a.__P);
     }
     this.__b = null;
   }
   var e = t.__a && U(Se, null, o.fallback);
   return e && (e.__h = null), [U(Se, null, t.__a ? null : o.children), e];
 };
-var ko = function(o, t, n) {
+var Wo = function(o, t, n) {
   if (++n[1] === n[0] && o.o.delete(t), o.props.revealOrder && (o.props.revealOrder[0] !== "t" || !o.o.size))
     for (n = o.u; n; ) {
       for (; n.length > 3; )
@@ -36538,49 +36565,49 @@ var ko = function(o, t, n) {
       o.u = n = n[2];
     }
 };
-function lB(o) {
+function cB(o) {
   return this.getChildContext = function() {
     return o.context;
   }, o.children;
 }
-function iB(o) {
+function uB(o) {
   var t = this, n = o.i;
   t.componentWillUnmount = function() {
-    tn(null, t.l), t.l = null, t.i = null;
+    nn(null, t.l), t.l = null, t.i = null;
   }, t.i && t.i !== n && t.componentWillUnmount(), o.__v ? (t.l || (t.i = n, t.l = { nodeType: 1, parentNode: n, childNodes: [], appendChild: function(a) {
     this.childNodes.push(a), t.i.appendChild(a);
   }, insertBefore: function(a, e) {
     this.childNodes.push(a), t.i.appendChild(a);
   }, removeChild: function(a) {
     this.childNodes.splice(this.childNodes.indexOf(a) >>> 1, 1), t.i.removeChild(a);
-  } }), tn(U(lB, { context: t.context }, o.__v), t.l)) : t.l && t.componentWillUnmount();
+  } }), nn(U(cB, { context: t.context }, o.__v), t.l)) : t.l && t.componentWillUnmount();
 }
-function sB(o, t) {
-  var n = U(iB, { __v: o, i: t });
+function fB(o, t) {
+  var n = U(uB, { __v: o, i: t });
   return n.containerInfo = t, n;
 }
-(mn.prototype = new Le()).__a = function(o) {
-  var t = this, n = il(t.__v), a = t.o.get(o);
+(vn.prototype = new Le()).__a = function(o) {
+  var t = this, n = cl(t.__v), a = t.o.get(o);
   return a[0]++, function(e) {
     var r = function() {
-      t.props.revealOrder ? (a.push(e), ko(t, o, a)) : e();
+      t.props.revealOrder ? (a.push(e), Wo(t, o, a)) : e();
     };
     n ? n(r) : r();
   };
-}, mn.prototype.render = function(o) {
+}, vn.prototype.render = function(o) {
   this.u = null, this.o = /* @__PURE__ */ new Map();
-  var t = Rn(o.children);
+  var t = $n(o.children);
   o.revealOrder && o.revealOrder[0] === "b" && t.reverse();
   for (var n = t.length; n--; )
     this.o.set(t[n], this.u = [1, 0, this.u]);
   return o.children;
-}, mn.prototype.componentDidUpdate = mn.prototype.componentDidMount = function() {
+}, vn.prototype.componentDidUpdate = vn.prototype.componentDidMount = function() {
   var o = this;
   this.o.forEach(function(t, n) {
-    ko(o, n, t);
+    Wo(o, n, t);
   });
 };
-var dB = typeof Symbol < "u" && Symbol.for && Symbol.for("react.element") || 60103, cB = /^(?:accent|alignment|arabic|baseline|cap|clip(?!PathU)|color|dominant|fill|flood|font|glyph(?!R)|horiz|image|letter|lighting|marker(?!H|W|U)|overline|paint|pointer|shape|stop|strikethrough|stroke|text(?!L)|transform|underline|unicode|units|v|vector|vert|word|writing|x(?!C))[A-Z]/, uB = typeof document < "u", fB = function(o) {
+var mB = typeof Symbol < "u" && Symbol.for && Symbol.for("react.element") || 60103, vB = /^(?:accent|alignment|arabic|baseline|cap|clip(?!PathU)|color|dominant|fill|flood|font|glyph(?!R)|horiz|image|letter|lighting|marker(?!H|W|U)|overline|paint|pointer|shape|stop|strikethrough|stroke|text(?!L)|transform|underline|unicode|units|v|vector|vert|word|writing|x(?!C))[A-Z]/, hB = typeof document < "u", pB = function(o) {
   return (typeof Symbol < "u" && typeof Symbol() == "symbol" ? /fil|che|rad/i : /fil|che|ra/i).test(o);
 };
 Le.prototype.isReactComponent = {}, ["componentWillMount", "componentWillReceiveProps", "componentWillUpdate"].forEach(function(o) {
@@ -36590,70 +36617,70 @@ Le.prototype.isReactComponent = {}, ["componentWillMount", "componentWillReceive
     Object.defineProperty(this, o, { configurable: !0, writable: !0, value: t });
   } });
 });
-var Wo = ae.event;
-function mB() {
+var Go = ae.event;
+function gB() {
 }
-function vB() {
+function yB() {
   return this.cancelBubble;
 }
-function hB() {
+function AB() {
   return this.defaultPrevented;
 }
 ae.event = function(o) {
-  return Wo && (o = Wo(o)), o.persist = mB, o.isPropagationStopped = vB, o.isDefaultPrevented = hB, o.nativeEvent = o;
+  return Go && (o = Go(o)), o.persist = gB, o.isPropagationStopped = yB, o.isDefaultPrevented = AB, o.nativeEvent = o;
 };
-var Go = { configurable: !0, get: function() {
+var Yo = { configurable: !0, get: function() {
   return this.class;
-} }, Yo = ae.vnode;
+} }, Ko = ae.vnode;
 ae.vnode = function(o) {
   var t = o.type, n = o.props, a = n;
   if (typeof t == "string") {
     var e = t.indexOf("-") === -1;
     for (var r in a = {}, n) {
       var l = n[r];
-      uB && r === "children" && t === "noscript" || r === "value" && "defaultValue" in n && l == null || (r === "defaultValue" && "value" in n && n.value == null ? r = "value" : r === "download" && l === !0 ? l = "" : /ondoubleclick/i.test(r) ? r = "ondblclick" : /^onchange(textarea|input)/i.test(r + t) && !fB(n.type) ? r = "oninput" : /^onfocus$/i.test(r) ? r = "onfocusin" : /^onblur$/i.test(r) ? r = "onfocusout" : /^on(Ani|Tra|Tou|BeforeInp|Compo)/.test(r) ? r = r.toLowerCase() : e && cB.test(r) ? r = r.replace(/[A-Z0-9]/g, "-$&").toLowerCase() : l === null && (l = void 0), /^oninput$/i.test(r) && (r = r.toLowerCase(), a[r] && (r = "oninputCapture")), a[r] = l);
+      hB && r === "children" && t === "noscript" || r === "value" && "defaultValue" in n && l == null || (r === "defaultValue" && "value" in n && n.value == null ? r = "value" : r === "download" && l === !0 ? l = "" : /ondoubleclick/i.test(r) ? r = "ondblclick" : /^onchange(textarea|input)/i.test(r + t) && !pB(n.type) ? r = "oninput" : /^onfocus$/i.test(r) ? r = "onfocusin" : /^onblur$/i.test(r) ? r = "onfocusout" : /^on(Ani|Tra|Tou|BeforeInp|Compo)/.test(r) ? r = r.toLowerCase() : e && vB.test(r) ? r = r.replace(/[A-Z0-9]/g, "-$&").toLowerCase() : l === null && (l = void 0), /^oninput$/i.test(r) && (r = r.toLowerCase(), a[r] && (r = "oninputCapture")), a[r] = l);
     }
-    t == "select" && a.multiple && Array.isArray(a.value) && (a.value = Rn(n.children).forEach(function(i) {
+    t == "select" && a.multiple && Array.isArray(a.value) && (a.value = $n(n.children).forEach(function(i) {
       i.props.selected = a.value.indexOf(i.props.value) != -1;
-    })), t == "select" && a.defaultValue != null && (a.value = Rn(n.children).forEach(function(i) {
+    })), t == "select" && a.defaultValue != null && (a.value = $n(n.children).forEach(function(i) {
       i.props.selected = a.multiple ? a.defaultValue.indexOf(i.props.value) != -1 : a.defaultValue == i.props.value;
-    })), o.props = a, n.class != n.className && (Go.enumerable = "className" in n, n.className != null && (a.class = n.className), Object.defineProperty(a, "className", Go));
+    })), o.props = a, n.class != n.className && (Yo.enumerable = "className" in n, n.className != null && (a.class = n.className), Object.defineProperty(a, "className", Yo));
   }
-  o.$$typeof = dB, Yo && Yo(o);
+  o.$$typeof = mB, Ko && Ko(o);
 };
-var Ko = ae.__r;
+var Jo = ae.__r;
 ae.__r = function(o) {
-  Ko && Ko(o), o.__c;
+  Jo && Jo(o), o.__c;
 };
-const sl = [], wa = /* @__PURE__ */ new WeakMap();
-typeof document < "u" && wa.set(document, !0);
-function dl(o) {
-  o && typeof document < "u" && sl.push(cl(document.head, o));
+const ul = [], Ea = /* @__PURE__ */ new WeakMap();
+typeof document < "u" && Ea.set(document, !0);
+function fl(o) {
+  o && typeof document < "u" && ul.push(ml(document.head, o));
 }
-function pB(o) {
+function _B(o) {
   const t = o.getRootNode();
-  if (!wa.get(t)) {
-    wa.set(t, !0);
-    for (const n of sl)
-      cl(t, n.innerText);
+  if (!Ea.get(t)) {
+    Ea.set(t, !0);
+    for (const n of ul)
+      ml(t, n.innerText);
   }
 }
-function cl(o, t) {
-  const n = document.createElement("style"), a = gB();
+function ml(o, t) {
+  const n = document.createElement("style"), a = xB();
   return a && (n.nonce = a), n.innerText = t, o.appendChild(n), n;
 }
-let na;
-function gB() {
-  return na === void 0 && (na = yB()), na;
+let aa;
+function xB() {
+  return aa === void 0 && (aa = wB()), aa;
 }
-function yB() {
+function wB() {
   const o = document.querySelector('meta[name="csp-nonce"]');
   if (o && o.hasAttribute("content"))
     return o.getAttribute("content");
   const t = document.querySelector("script[nonce]");
   return t && t.nonce || "";
 }
-class ka {
+class Wa {
   constructor(t) {
     this.drainedOption = t, this.isRunning = !1, this.isDirty = !1, this.pauseDepths = {}, this.timeoutId = 0;
   }
@@ -36691,7 +36718,7 @@ class ka {
     this.drainedOption && this.drainedOption();
   }
 }
-function Wa(o) {
+function Ga(o) {
   o.parentNode && o.parentNode.removeChild(o);
 }
 function ze(o, t) {
@@ -36700,16 +36727,16 @@ function ze(o, t) {
   if (!document.documentElement.contains(o))
     return null;
   do {
-    if (AB(o, t))
+    if (EB(o, t))
       return o;
     o = o.parentElement || o.parentNode;
   } while (o !== null && o.nodeType === 1);
   return null;
 }
-function AB(o, t) {
+function EB(o, t) {
   return (o.matches || o.matchesSelector || o.msMatchesSelector).call(o, t);
 }
-function _B(o, t) {
+function CB(o, t) {
   let n = o instanceof HTMLElement ? [o] : o, a = [];
   for (let e = 0; e < n.length; e += 1) {
     let r = n[e].querySelectorAll(t);
@@ -36718,40 +36745,40 @@ function _B(o, t) {
   }
   return a;
 }
-const xB = /(top|left|right|bottom|width|height)$/i;
-function Yt(o, t) {
+const SB = /(top|left|right|bottom|width|height)$/i;
+function Kt(o, t) {
   for (let n in t)
-    ul(o, n, t[n]);
+    vl(o, n, t[n]);
 }
-function ul(o, t, n) {
-  n == null ? o.style[t] = "" : typeof n == "number" && xB.test(t) ? o.style[t] = `${n}px` : o.style[t] = n;
+function vl(o, t, n) {
+  n == null ? o.style[t] = "" : typeof n == "number" && SB.test(t) ? o.style[t] = `${n}px` : o.style[t] = n;
 }
-function fl(o) {
+function hl(o) {
   var t, n;
   return (n = (t = o.composedPath) === null || t === void 0 ? void 0 : t.call(o)[0]) !== null && n !== void 0 ? n : o.target;
 }
-let Jo = 0;
-function Un() {
-  return Jo += 1, "fc-dom-" + Jo;
+let Zo = 0;
+function Qn() {
+  return Zo += 1, "fc-dom-" + Zo;
 }
-function Qn(o) {
+function kn(o) {
   o.preventDefault();
 }
-function wB(o, t) {
+function bB(o, t) {
   return (n) => {
     let a = ze(n.target, o);
     a && t.call(a, n, a);
   };
 }
-function ml(o, t, n, a) {
-  let e = wB(n, a);
+function pl(o, t, n, a) {
+  let e = bB(n, a);
   return o.addEventListener(t, e), () => {
     o.removeEventListener(t, e);
   };
 }
-function EB(o, t, n, a) {
+function DB(o, t, n, a) {
   let e;
-  return ml(o, "mouseover", t, (r, l) => {
+  return pl(o, "mouseover", t, (r, l) => {
     if (l !== e) {
       e = l, n(r, l);
       let i = (s) => {
@@ -36761,27 +36788,27 @@ function EB(o, t, n, a) {
     }
   });
 }
-const Zo = [
+const Xo = [
   "webkitTransitionEnd",
   "otransitionend",
   "oTransitionEnd",
   "msTransitionEnd",
   "transitionend"
 ];
-function CB(o, t) {
+function MB(o, t) {
   let n = (a) => {
-    t(a), Zo.forEach((e) => {
+    t(a), Xo.forEach((e) => {
       o.removeEventListener(e, n);
     });
   };
-  Zo.forEach((a) => {
+  Xo.forEach((a) => {
     o.addEventListener(a, n);
   });
 }
-function vl(o) {
-  return Object.assign({ onClick: o }, hl(o));
+function gl(o) {
+  return Object.assign({ onClick: o }, yl(o));
 }
-function hl(o) {
+function yl(o) {
   return {
     tabIndex: 0,
     onKeyDown(t) {
@@ -36789,61 +36816,61 @@ function hl(o) {
     }
   };
 }
-let Xo = 0;
-function Ct() {
-  return Xo += 1, String(Xo);
-}
-function Ga() {
-  document.body.classList.add("fc-not-allowed");
+let qo = 0;
+function St() {
+  return qo += 1, String(qo);
 }
 function Ya() {
+  document.body.classList.add("fc-not-allowed");
+}
+function Ka() {
   document.body.classList.remove("fc-not-allowed");
 }
-function SB(o) {
-  o.classList.add("fc-unselectable"), o.addEventListener("selectstart", Qn);
-}
-function bB(o) {
-  o.classList.remove("fc-unselectable"), o.removeEventListener("selectstart", Qn);
-}
-function DB(o) {
-  o.addEventListener("contextmenu", Qn);
-}
-function MB(o) {
-  o.removeEventListener("contextmenu", Qn);
-}
 function TB(o) {
+  o.classList.add("fc-unselectable"), o.addEventListener("selectstart", kn);
+}
+function RB(o) {
+  o.classList.remove("fc-unselectable"), o.removeEventListener("selectstart", kn);
+}
+function zB(o) {
+  o.addEventListener("contextmenu", kn);
+}
+function $B(o) {
+  o.removeEventListener("contextmenu", kn);
+}
+function HB(o) {
   let t = [], n = [], a, e;
   for (typeof o == "string" ? n = o.split(/\s*,\s*/) : typeof o == "function" ? n = [o] : Array.isArray(o) && (n = o), a = 0; a < n.length; a += 1)
     e = n[a], typeof e == "string" ? t.push(e.charAt(0) === "-" ? { field: e.substring(1), order: -1 } : { field: e, order: 1 }) : typeof e == "function" && t.push({ func: e });
   return t;
 }
-function RB(o, t, n) {
+function IB(o, t, n) {
   let a, e;
   for (a = 0; a < n.length; a += 1)
-    if (e = zB(o, t, n[a]), e)
+    if (e = BB(o, t, n[a]), e)
       return e;
   return 0;
 }
-function zB(o, t, n) {
-  return n.func ? n.func(o, t) : $B(o[n.field], t[n.field]) * (n.order || 1);
+function BB(o, t, n) {
+  return n.func ? n.func(o, t) : PB(o[n.field], t[n.field]) * (n.order || 1);
 }
-function $B(o, t) {
+function PB(o, t) {
   return !o && !t ? 0 : t == null ? -1 : o == null ? 1 : typeof o == "string" || typeof t == "string" ? String(o).localeCompare(String(t)) : o - t;
 }
-function aa(o, t) {
+function oa(o, t) {
   let n = String(o);
   return "000".substr(0, t - n.length) + n;
 }
-function Kt(o, t, n) {
+function Jt(o, t, n) {
   return typeof o == "function" ? o(...t) : typeof o == "string" ? t.reduce((a, e, r) => a.replace("$" + r, e || ""), o) : n;
 }
-function HB(o, t) {
+function NB(o, t) {
   return o - t;
 }
-function oa(o) {
+function ra(o) {
   return o % 1 === 0;
 }
-function IB(o) {
+function LB(o) {
   let t = o.querySelector(".fc-scrollgrid-shrink-frame"), n = o.querySelector(".fc-scrollgrid-shrink-cushion");
   if (!t)
     throw new Error("needs fc-scrollgrid-shrink-frame className");
@@ -36851,12 +36878,12 @@ function IB(o) {
     throw new Error("needs fc-scrollgrid-shrink-cushion className");
   return o.getBoundingClientRect().width - t.getBoundingClientRect().width + n.getBoundingClientRect().width;
 }
-const BB = /^(-?)(?:(\d+)\.)?(\d+):(\d\d)(?::(\d\d)(?:\.(\d\d\d))?)?/;
+const OB = /^(-?)(?:(\d+)\.)?(\d+):(\d\d)(?::(\d\d)(?:\.(\d\d\d))?)?/;
 function pe(o, t) {
-  return typeof o == "string" ? PB(o) : typeof o == "object" && o ? qo(o) : typeof o == "number" ? qo({ [t || "milliseconds"]: o }) : null;
+  return typeof o == "string" ? VB(o) : typeof o == "object" && o ? er(o) : typeof o == "number" ? er({ [t || "milliseconds"]: o }) : null;
 }
-function PB(o) {
-  let t = BB.exec(o);
+function VB(o) {
+  let t = OB.exec(o);
   if (t) {
     let n = t[1] ? -1 : 1;
     return {
@@ -36868,7 +36895,7 @@ function PB(o) {
   }
   return null;
 }
-function qo(o) {
+function er(o) {
   let t = {
     years: o.years || o.year || 0,
     months: o.months || o.month || 0,
@@ -36877,10 +36904,10 @@ function qo(o) {
   }, n = o.weeks || o.week;
   return n && (t.days += n * 7, t.specifiedWeeks = !0), t;
 }
-function NB(o, t) {
+function FB(o, t) {
   return o.years === t.years && o.months === t.months && o.days === t.days && o.milliseconds === t.milliseconds;
 }
-function LB(o, t) {
+function jB(o, t) {
   return {
     years: o.years - t.years,
     months: o.months - t.months,
@@ -36888,19 +36915,19 @@ function LB(o, t) {
     milliseconds: o.milliseconds - t.milliseconds
   };
 }
-function OB(o) {
-  return Nt(o) / 365;
+function UB(o) {
+  return Lt(o) / 365;
 }
-function VB(o) {
-  return Nt(o) / 30;
+function QB(o) {
+  return Lt(o) / 30;
 }
-function Nt(o) {
-  return nn(o) / 864e5;
+function Lt(o) {
+  return an(o) / 864e5;
 }
-function nn(o) {
+function an(o) {
   return o.years * (365 * 864e5) + o.months * (30 * 864e5) + o.days * 864e5 + o.milliseconds;
 }
-function Ea(o) {
+function Ca(o) {
   let t = o.milliseconds;
   if (t) {
     if (t % 1e3 !== 0)
@@ -36925,8 +36952,8 @@ function dt(o, t, n) {
       return !1;
   return !0;
 }
-const FB = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-function er(o, t) {
+const kB = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+function tr(o, t) {
   let n = lt(o);
   return n[2] += t * 7, Pe(n);
 }
@@ -36934,40 +36961,40 @@ function $e(o, t) {
   let n = lt(o);
   return n[2] += t, Pe(n);
 }
-function _t(o, t) {
+function ct(o, t) {
   let n = lt(o);
   return n[6] += t, Pe(n);
 }
-function jB(o, t) {
-  return jt(o, t) / 7;
+function WB(o, t) {
+  return Qt(o, t) / 7;
 }
-function jt(o, t) {
+function Qt(o, t) {
   return (t.valueOf() - o.valueOf()) / (1e3 * 60 * 60 * 24);
 }
-function UB(o, t) {
+function GB(o, t) {
   return (t.valueOf() - o.valueOf()) / (1e3 * 60 * 60);
 }
-function QB(o, t) {
+function YB(o, t) {
   return (t.valueOf() - o.valueOf()) / (1e3 * 60);
 }
-function kB(o, t) {
+function KB(o, t) {
   return (t.valueOf() - o.valueOf()) / 1e3;
 }
-function WB(o, t) {
+function JB(o, t) {
   let n = Ae(o), a = Ae(t);
   return {
     years: 0,
     months: 0,
-    days: Math.round(jt(n, a)),
+    days: Math.round(Qt(n, a)),
     milliseconds: t.valueOf() - a.valueOf() - (o.valueOf() - n.valueOf())
   };
 }
-function GB(o, t) {
-  let n = $n(o, t);
+function ZB(o, t) {
+  let n = Hn(o, t);
   return n !== null && n % 7 === 0 ? n / 7 : null;
 }
-function $n(o, t) {
-  return it(o) === it(t) ? Math.round(jt(o, t)) : null;
+function Hn(o, t) {
+  return it(o) === it(t) ? Math.round(Qt(o, t)) : null;
 }
 function Ae(o) {
   return Pe([
@@ -36976,7 +37003,7 @@ function Ae(o) {
     o.getUTCDate()
   ]);
 }
-function YB(o) {
+function XB(o) {
   return Pe([
     o.getUTCFullYear(),
     o.getUTCMonth(),
@@ -36984,7 +37011,7 @@ function YB(o) {
     o.getUTCHours()
   ]);
 }
-function KB(o) {
+function qB(o) {
   return Pe([
     o.getUTCFullYear(),
     o.getUTCMonth(),
@@ -36993,7 +37020,7 @@ function KB(o) {
     o.getUTCMinutes()
   ]);
 }
-function JB(o) {
+function eP(o) {
   return Pe([
     o.getUTCFullYear(),
     o.getUTCMonth(),
@@ -37003,22 +37030,22 @@ function JB(o) {
     o.getUTCSeconds()
   ]);
 }
-function ZB(o, t, n) {
-  let a = o.getUTCFullYear(), e = ra(o, a, t, n);
+function tP(o, t, n) {
+  let a = o.getUTCFullYear(), e = la(o, a, t, n);
   if (e < 1)
-    return ra(o, a - 1, t, n);
-  let r = ra(o, a + 1, t, n);
+    return la(o, a - 1, t, n);
+  let r = la(o, a + 1, t, n);
   return r >= 1 ? Math.min(e, r) : e;
 }
-function ra(o, t, n, a) {
-  let e = Pe([t, 0, 1 + XB(t, n, a)]), r = Ae(o), l = Math.round(jt(e, r));
+function la(o, t, n, a) {
+  let e = Pe([t, 0, 1 + nP(t, n, a)]), r = Ae(o), l = Math.round(Qt(e, r));
   return Math.floor(l / 7) + 1;
 }
-function XB(o, t, n) {
+function nP(o, t, n) {
   let a = 7 + t - n;
   return -((7 + Pe([o, 0, a]).getUTCDay() - t) % 7) + a - 1;
 }
-function tr(o) {
+function nr(o) {
   return [
     o.getFullYear(),
     o.getMonth(),
@@ -37029,7 +37056,7 @@ function tr(o) {
     o.getMilliseconds()
   ];
 }
-function nr(o) {
+function ar(o) {
   return new Date(
     o[0],
     o[1] || 0,
@@ -37053,25 +37080,25 @@ function lt(o) {
 function Pe(o) {
   return o.length === 1 && (o = o.concat([0])), new Date(Date.UTC(...o));
 }
-function pl(o) {
+function Al(o) {
   return !isNaN(o.valueOf());
 }
 function it(o) {
   return o.getUTCHours() * 1e3 * 60 * 60 + o.getUTCMinutes() * 1e3 * 60 + o.getUTCSeconds() * 1e3 + o.getUTCMilliseconds();
 }
-function qB(o, t, n = !1) {
+function aP(o, t, n = !1) {
   let a = o.toISOString();
-  return a = a.replace(".000", ""), n && (a = a.replace("T00:00:00Z", "")), a.length > 10 && (t == null ? a = a.replace("Z", "") : t !== 0 && (a = a.replace("Z", Ja(t, !0)))), a;
+  return a = a.replace(".000", ""), n && (a = a.replace("T00:00:00Z", "")), a.length > 10 && (t == null ? a = a.replace("Z", "") : t !== 0 && (a = a.replace("Z", Za(t, !0)))), a;
 }
-function Ka(o) {
+function Ja(o) {
   return o.toISOString().replace(/T.*$/, "");
 }
-function eP(o) {
+function oP(o) {
   return o.toISOString().match(/^\d{4}-\d{2}/)[0];
 }
-function Ja(o, t = !1) {
+function Za(o, t = !1) {
   let n = o < 0 ? "-" : "+", a = Math.abs(o), e = Math.floor(a / 60), r = Math.round(a % 60);
-  return t ? `${n + aa(e, 2)}:${aa(r, 2)}` : `GMT${n}${e}${r ? `:${aa(r, 2)}` : ""}`;
+  return t ? `${n + oa(e, 2)}:${oa(r, 2)}` : `GMT${n}${e}${r ? `:${oa(r, 2)}` : ""}`;
 }
 function ge(o, t, n) {
   let a, e;
@@ -37086,7 +37113,7 @@ function ge(o, t, n) {
     return a = r, e;
   };
 }
-function Cn(o, t, n) {
+function Sn(o, t, n) {
   let a, e;
   return (r) => {
     if (!a)
@@ -37099,13 +37126,13 @@ function Cn(o, t, n) {
     return a = r, e;
   };
 }
-const ar = {
+const or = {
   week: 3,
   separator: 0,
   omitZeroMinute: 0,
   meridiem: 0,
   omitCommas: 0
-}, Hn = {
+}, In = {
   timeZoneName: 7,
   era: 6,
   year: 5,
@@ -37115,19 +37142,19 @@ const ar = {
   hour: 1,
   minute: 1,
   second: 1
-}, vn = /\s*([ap])\.?m\.?/i, tP = /,/g, nP = /\s+/g, aP = /\u200e/g, oP = /UTC|GMT/;
-class rP {
+}, hn = /\s*([ap])\.?m\.?/i, rP = /,/g, lP = /\s+/g, iP = /\u200e/g, sP = /UTC|GMT/;
+class dP {
   constructor(t) {
     let n = {}, a = {}, e = 0;
     for (let r in t)
-      r in ar ? (a[r] = t[r], e = Math.max(ar[r], e)) : (n[r] = t[r], r in Hn && (e = Math.max(Hn[r], e)));
-    this.standardDateProps = n, this.extendedSettings = a, this.severity = e, this.buildFormattingFunc = ge(or);
+      r in or ? (a[r] = t[r], e = Math.max(or[r], e)) : (n[r] = t[r], r in In && (e = Math.max(In[r], e)));
+    this.standardDateProps = n, this.extendedSettings = a, this.severity = e, this.buildFormattingFunc = ge(rr);
   }
   format(t, n) {
     return this.buildFormattingFunc(this.standardDateProps, this.extendedSettings, n)(t);
   }
   formatRange(t, n, a, e) {
-    let { standardDateProps: r, extendedSettings: l } = this, i = uP(t.marker, n.marker, a.calendarSystem);
+    let { standardDateProps: r, extendedSettings: l } = this, i = hP(t.marker, n.marker, a.calendarSystem);
     if (!i)
       return this.format(t, a);
     let s = i;
@@ -37135,7 +37162,7 @@ class rP {
     let d = this.format(t, a), c = this.format(n, a);
     if (d === c)
       return d;
-    let f = fP(r, s), h = or(f, l, a), u = h(t), m = h(n), p = mP(d, u, c, m), v = l.separator || e || a.defaultSeparator || "";
+    let f = pP(r, s), h = rr(f, l, a), u = h(t), m = h(n), p = gP(d, u, c, m), v = l.separator || e || a.defaultSeparator || "";
     return p ? p.before + u + v + m + p.after : d + v + c;
   }
   getLargestUnit() {
@@ -37155,12 +37182,12 @@ class rP {
     }
   }
 }
-function or(o, t, n) {
+function rr(o, t, n) {
   let a = Object.keys(o).length;
-  return a === 1 && o.timeZoneName === "short" ? (e) => Ja(e.timeZoneOffset) : a === 0 && t.week ? (e) => cP(n.computeWeekNumber(e.marker), n.weekText, n.weekTextLong, n.locale, t.week) : lP(o, t, n);
+  return a === 1 && o.timeZoneName === "short" ? (e) => Za(e.timeZoneOffset) : a === 0 && t.week ? (e) => vP(n.computeWeekNumber(e.marker), n.weekText, n.weekTextLong, n.locale, t.week) : cP(o, t, n);
 }
-function lP(o, t, n) {
-  o = Object.assign({}, o), t = Object.assign({}, t), iP(o, t), o.timeZone = "UTC";
+function cP(o, t, n) {
+  o = Object.assign({}, o), t = Object.assign({}, t), uP(o, t), o.timeZone = "UTC";
   let a = new Intl.DateTimeFormat(n.locale.codes, o), e;
   if (t.omitZeroMinute) {
     let r = Object.assign({}, o);
@@ -37170,33 +37197,33 @@ function lP(o, t, n) {
     let { marker: l } = r, i;
     e && !l.getUTCMinutes() ? i = e : i = a;
     let s = i.format(l);
-    return sP(s, r, o, t, n);
+    return fP(s, r, o, t, n);
   };
 }
-function iP(o, t) {
+function uP(o, t) {
   o.timeZoneName && (o.hour || (o.hour = "2-digit"), o.minute || (o.minute = "2-digit")), o.timeZoneName === "long" && (o.timeZoneName = "short"), t.omitZeroMinute && (o.second || o.millisecond) && delete t.omitZeroMinute;
 }
-function sP(o, t, n, a, e) {
-  return o = o.replace(aP, ""), n.timeZoneName === "short" && (o = dP(o, e.timeZone === "UTC" || t.timeZoneOffset == null ? "UTC" : Ja(t.timeZoneOffset))), a.omitCommas && (o = o.replace(tP, "").trim()), a.omitZeroMinute && (o = o.replace(":00", "")), a.meridiem === !1 ? o = o.replace(vn, "").trim() : a.meridiem === "narrow" ? o = o.replace(vn, (r, l) => l.toLocaleLowerCase()) : a.meridiem === "short" ? o = o.replace(vn, (r, l) => `${l.toLocaleLowerCase()}m`) : a.meridiem === "lowercase" && (o = o.replace(vn, (r) => r.toLocaleLowerCase())), o = o.replace(nP, " "), o = o.trim(), o;
+function fP(o, t, n, a, e) {
+  return o = o.replace(iP, ""), n.timeZoneName === "short" && (o = mP(o, e.timeZone === "UTC" || t.timeZoneOffset == null ? "UTC" : Za(t.timeZoneOffset))), a.omitCommas && (o = o.replace(rP, "").trim()), a.omitZeroMinute && (o = o.replace(":00", "")), a.meridiem === !1 ? o = o.replace(hn, "").trim() : a.meridiem === "narrow" ? o = o.replace(hn, (r, l) => l.toLocaleLowerCase()) : a.meridiem === "short" ? o = o.replace(hn, (r, l) => `${l.toLocaleLowerCase()}m`) : a.meridiem === "lowercase" && (o = o.replace(hn, (r) => r.toLocaleLowerCase())), o = o.replace(lP, " "), o = o.trim(), o;
 }
-function dP(o, t) {
+function mP(o, t) {
   let n = !1;
-  return o = o.replace(oP, () => (n = !0, t)), n || (o += ` ${t}`), o;
+  return o = o.replace(sP, () => (n = !0, t)), n || (o += ` ${t}`), o;
 }
-function cP(o, t, n, a, e) {
+function vP(o, t, n, a, e) {
   let r = [];
   return e === "long" ? r.push(n) : (e === "short" || e === "narrow") && r.push(t), (e === "long" || e === "short") && r.push(" "), r.push(a.simpleNumberFormat.format(o)), a.options.direction === "rtl" && r.reverse(), r.join("");
 }
-function uP(o, t, n) {
+function hP(o, t, n) {
   return n.getMarkerYear(o) !== n.getMarkerYear(t) ? 5 : n.getMarkerMonth(o) !== n.getMarkerMonth(t) ? 4 : n.getMarkerDay(o) !== n.getMarkerDay(t) ? 2 : it(o) !== it(t) ? 1 : 0;
 }
-function fP(o, t) {
+function pP(o, t) {
   let n = {};
   for (let a in o)
-    (!(a in Hn) || Hn[a] <= t) && (n[a] = o[a]);
+    (!(a in In) || In[a] <= t) && (n[a] = o[a]);
   return n;
 }
-function mP(o, t, n, a) {
+function gP(o, t, n, a) {
   let e = 0;
   for (; e < o.length; ) {
     let r = o.indexOf(t, e);
@@ -37221,7 +37248,7 @@ function mP(o, t, n, a) {
   }
   return null;
 }
-function rr(o, t) {
+function lr(o, t) {
   let n = t.markerToArray(o.marker);
   return {
     marker: o.marker,
@@ -37236,8 +37263,8 @@ function rr(o, t) {
     millisecond: n[6]
   };
 }
-function In(o, t, n, a) {
-  let e = rr(o, n.calendarSystem), r = t ? rr(t, n.calendarSystem) : null;
+function Bn(o, t, n, a) {
+  let e = lr(o, n.calendarSystem), r = t ? lr(t, n.calendarSystem) : null;
   return {
     date: e,
     start: e,
@@ -37247,32 +37274,32 @@ function In(o, t, n, a) {
     defaultSeparator: a || n.defaultSeparator
   };
 }
-class vP {
+class yP {
   constructor(t) {
     this.cmdStr = t;
   }
   format(t, n, a) {
-    return n.cmdFormatter(this.cmdStr, In(t, null, n, a));
+    return n.cmdFormatter(this.cmdStr, Bn(t, null, n, a));
   }
   formatRange(t, n, a, e) {
-    return a.cmdFormatter(this.cmdStr, In(t, n, a, e));
+    return a.cmdFormatter(this.cmdStr, Bn(t, n, a, e));
   }
 }
-class hP {
+class AP {
   constructor(t) {
     this.func = t;
   }
   format(t, n, a) {
-    return this.func(In(t, null, n, a));
+    return this.func(Bn(t, null, n, a));
   }
   formatRange(t, n, a, e) {
-    return this.func(In(t, n, a, e));
+    return this.func(Bn(t, n, a, e));
   }
 }
 function Me(o) {
-  return typeof o == "object" && o ? new rP(o) : typeof o == "string" ? new vP(o) : typeof o == "function" ? new hP(o) : null;
+  return typeof o == "object" && o ? new dP(o) : typeof o == "string" ? new yP(o) : typeof o == "function" ? new AP(o) : null;
 }
-const lr = {
+const ir = {
   navLinkDayClick: j,
   navLinkWeekClick: j,
   duration: pe,
@@ -37336,7 +37363,7 @@ const lr = {
   allDayMaintainDuration: Boolean,
   unselectAuto: Boolean,
   dropAccept: j,
-  eventOrder: TB,
+  eventOrder: HB,
   eventOrderStrict: Boolean,
   handleWindowResize: Boolean,
   windowResizeDelay: Number,
@@ -37442,7 +37469,7 @@ const lr = {
   handleCustomRendering: j,
   customRenderingMetaMap: j,
   customRenderingReplacesEl: Boolean
-}, Jt = {
+}, Zt = {
   eventDisplay: "auto",
   defaultRangeSeparator: " - ",
   titleRangeSeparator: " – ",
@@ -37494,7 +37521,7 @@ const lr = {
   eventMinWidth: 30,
   eventShortHeight: 30,
   monthStartFormat: { month: "long", day: "numeric" }
-}, ir = {
+}, sr = {
   datesSet: j,
   eventsSet: j,
   eventAdd: j,
@@ -37514,7 +37541,7 @@ const lr = {
   _noEventResize: j,
   _resize: j,
   _scrollRequest: j
-}, sr = {
+}, dr = {
   buttonText: j,
   buttonHints: j,
   views: j,
@@ -37522,25 +37549,25 @@ const lr = {
   initialEvents: j,
   events: j,
   eventSources: j
-}, pt = {
-  headerToolbar: gt,
-  footerToolbar: gt,
-  buttonText: gt,
-  buttonHints: gt,
-  buttonIcons: gt,
-  dateIncrement: gt,
-  plugins: hn,
-  events: hn,
-  eventSources: hn,
-  resources: hn
+}, gt = {
+  headerToolbar: yt,
+  footerToolbar: yt,
+  buttonText: yt,
+  buttonHints: yt,
+  buttonIcons: yt,
+  dateIncrement: yt,
+  plugins: pn,
+  events: pn,
+  eventSources: pn,
+  resources: pn
 };
-function gt(o, t) {
+function yt(o, t) {
   return typeof o == "object" && typeof t == "object" && o && t ? Je(o, t) : o === t;
 }
-function hn(o, t) {
+function pn(o, t) {
   return Array.isArray(o) && Array.isArray(t) ? dt(o, t) : o === t;
 }
-const pP = {
+const _P = {
   type: String,
   component: j,
   buttonText: String,
@@ -37552,10 +37579,10 @@ const pP = {
   didMount: j,
   willUnmount: j
 };
-function la(o) {
-  return Xa(o, pt);
+function ia(o) {
+  return qa(o, gt);
 }
-function Za(o, t) {
+function Xa(o, t) {
   let n = {}, a = {};
   for (let e in t)
     e in o && (n[e] = t[e](o[e]));
@@ -37566,12 +37593,12 @@ function Za(o, t) {
 function j(o) {
   return o;
 }
-const { hasOwnProperty: Bn } = Object.prototype;
-function Xa(o, t) {
+const { hasOwnProperty: Pn } = Object.prototype;
+function qa(o, t) {
   let n = {};
   if (t) {
     for (let a in t)
-      if (t[a] === gt) {
+      if (t[a] === yt) {
         let e = [];
         for (let r = o.length - 1; r >= 0; r -= 1) {
           let l = o[r][a];
@@ -37582,7 +37609,7 @@ function Xa(o, t) {
             break;
           }
         }
-        e.length && (n[a] = Xa(e));
+        e.length && (n[a] = qa(e));
       }
   }
   for (let a = o.length - 1; a >= 0; a -= 1) {
@@ -37592,25 +37619,25 @@ function Xa(o, t) {
   }
   return n;
 }
-function xt(o, t) {
+function wt(o, t) {
   let n = {};
   for (let a in o)
     t(o[a], a) && (n[a] = o[a]);
   return n;
 }
-function St(o, t) {
+function bt(o, t) {
   let n = {};
   for (let a in o)
     n[a] = t(o[a], a);
   return n;
 }
-function gl(o) {
+function _l(o) {
   let t = {};
   for (let n of o)
     t[n] = !0;
   return t;
 }
-function qa(o) {
+function eo(o) {
   let t = [];
   for (let n in o)
     t.push(o[n]);
@@ -37620,44 +37647,44 @@ function Je(o, t) {
   if (o === t)
     return !0;
   for (let n in o)
-    if (Bn.call(o, n) && !(n in t))
+    if (Pn.call(o, n) && !(n in t))
       return !1;
   for (let n in t)
-    if (Bn.call(t, n) && o[n] !== t[n])
+    if (Pn.call(t, n) && o[n] !== t[n])
       return !1;
   return !0;
 }
-const gP = /^on[A-Z]/;
-function yP(o, t) {
-  const n = Ca(o, t);
+const xP = /^on[A-Z]/;
+function wP(o, t) {
+  const n = Sa(o, t);
   for (let a of n)
-    if (!gP.test(a))
+    if (!xP.test(a))
       return !1;
   return !0;
 }
-function Ca(o, t) {
+function Sa(o, t) {
   let n = [];
   for (let a in o)
-    Bn.call(o, a) && (a in t || n.push(a));
+    Pn.call(o, a) && (a in t || n.push(a));
   for (let a in t)
-    Bn.call(t, a) && o[a] !== t[a] && n.push(a);
+    Pn.call(t, a) && o[a] !== t[a] && n.push(a);
   return n;
 }
-function ia(o, t, n = {}) {
+function sa(o, t, n = {}) {
   if (o === t)
     return !0;
   for (let a in t)
-    if (!(a in o && AP(o[a], t[a], n[a])))
+    if (!(a in o && EP(o[a], t[a], n[a])))
       return !1;
   for (let a in o)
     if (!(a in t))
       return !1;
   return !0;
 }
-function AP(o, t, n) {
+function EP(o, t, n) {
   return o === t || n === !0 ? !0 : n ? n(o, t) : !1;
 }
-function _P(o, t = 0, n, a = 1) {
+function CP(o, t = 0, n, a = 1) {
   let e = [];
   n == null && (n = Object.keys(o).length);
   for (let r = t; r < n; r += a) {
@@ -37666,14 +37693,14 @@ function _P(o, t = 0, n, a = 1) {
   }
   return e;
 }
-let yl = {};
-function xP(o, t) {
-  yl[o] = t;
+let xl = {};
+function SP(o, t) {
+  xl[o] = t;
 }
-function wP(o) {
-  return new yl[o]();
+function bP(o) {
+  return new xl[o]();
 }
-class EP {
+class DP {
   getMarkerYear(t) {
     return t.getUTCFullYear();
   }
@@ -37690,13 +37717,13 @@ class EP {
     return lt(t);
   }
 }
-xP("gregory", EP);
-const CP = /^\s*(\d{4})(-?(\d{2})(-?(\d{2})([T ](\d{2}):?(\d{2})(:?(\d{2})(\.(\d+))?)?(Z|(([-+])(\d{2})(:?(\d{2}))?))?)?)?)?$/;
-function SP(o) {
-  let t = CP.exec(o);
+SP("gregory", DP);
+const MP = /^\s*(\d{4})(-?(\d{2})(-?(\d{2})([T ](\d{2}):?(\d{2})(:?(\d{2})(\.(\d+))?)?(Z|(([-+])(\d{2})(:?(\d{2}))?))?)?)?)?$/;
+function TP(o) {
+  let t = MP.exec(o);
   if (t) {
     let n = new Date(Date.UTC(Number(t[1]), t[3] ? Number(t[3]) - 1 : 0, Number(t[5] || 1), Number(t[7] || 0), Number(t[8] || 0), Number(t[10] || 0), t[12] ? Number(`0.${t[12]}`) * 1e3 : 0));
-    if (pl(n)) {
+    if (Al(n)) {
       let a = null;
       return t[13] && (a = (t[15] === "-" ? -1 : 1) * (Number(t[16] || 0) * 60 + Number(t[18] || 0))), {
         marker: n,
@@ -37707,26 +37734,26 @@ function SP(o) {
   }
   return null;
 }
-class bP {
+class RP {
   constructor(t) {
     let n = this.timeZone = t.timeZone, a = n !== "local" && n !== "UTC";
-    t.namedTimeZoneImpl && a && (this.namedTimeZoneImpl = new t.namedTimeZoneImpl(n)), this.canComputeOffset = Boolean(!a || this.namedTimeZoneImpl), this.calendarSystem = wP(t.calendarSystem), this.locale = t.locale, this.weekDow = t.locale.week.dow, this.weekDoy = t.locale.week.doy, t.weekNumberCalculation === "ISO" && (this.weekDow = 1, this.weekDoy = 4), typeof t.firstDay == "number" && (this.weekDow = t.firstDay), typeof t.weekNumberCalculation == "function" && (this.weekNumberFunc = t.weekNumberCalculation), this.weekText = t.weekText != null ? t.weekText : t.locale.options.weekText, this.weekTextLong = (t.weekTextLong != null ? t.weekTextLong : t.locale.options.weekTextLong) || this.weekText, this.cmdFormatter = t.cmdFormatter, this.defaultSeparator = t.defaultSeparator;
+    t.namedTimeZoneImpl && a && (this.namedTimeZoneImpl = new t.namedTimeZoneImpl(n)), this.canComputeOffset = Boolean(!a || this.namedTimeZoneImpl), this.calendarSystem = bP(t.calendarSystem), this.locale = t.locale, this.weekDow = t.locale.week.dow, this.weekDoy = t.locale.week.doy, t.weekNumberCalculation === "ISO" && (this.weekDow = 1, this.weekDoy = 4), typeof t.firstDay == "number" && (this.weekDow = t.firstDay), typeof t.weekNumberCalculation == "function" && (this.weekNumberFunc = t.weekNumberCalculation), this.weekText = t.weekText != null ? t.weekText : t.locale.options.weekText, this.weekTextLong = (t.weekTextLong != null ? t.weekTextLong : t.locale.options.weekTextLong) || this.weekText, this.cmdFormatter = t.cmdFormatter, this.defaultSeparator = t.defaultSeparator;
   }
   createMarker(t) {
     let n = this.createMarkerMeta(t);
     return n === null ? null : n.marker;
   }
   createNowMarker() {
-    return this.canComputeOffset ? this.timestampToMarker(new Date().valueOf()) : Pe(tr(new Date()));
+    return this.canComputeOffset ? this.timestampToMarker(new Date().valueOf()) : Pe(nr(new Date()));
   }
   createMarkerMeta(t) {
     if (typeof t == "string")
       return this.parse(t);
     let n = null;
-    return typeof t == "number" ? n = this.timestampToMarker(t) : t instanceof Date ? (t = t.valueOf(), isNaN(t) || (n = this.timestampToMarker(t))) : Array.isArray(t) && (n = Pe(t)), n === null || !pl(n) ? null : { marker: n, isTimeUnspecified: !1, forcedTzo: null };
+    return typeof t == "number" ? n = this.timestampToMarker(t) : t instanceof Date ? (t = t.valueOf(), isNaN(t) || (n = this.timestampToMarker(t))) : Array.isArray(t) && (n = Pe(t)), n === null || !Al(n) ? null : { marker: n, isTimeUnspecified: !1, forcedTzo: null };
   }
   parse(t) {
-    let n = SP(t);
+    let n = TP(t);
     if (n === null)
       return null;
     let { marker: a } = n, e = null;
@@ -37737,6 +37764,9 @@ class bP {
   }
   getMonth(t) {
     return this.calendarSystem.getMarkerMonth(t);
+  }
+  getDay(t) {
+    return this.calendarSystem.getMarkerDay(t);
   }
   add(t, n) {
     let a = this.calendarSystem.markerToArray(t);
@@ -37764,14 +37794,14 @@ class bP {
   }
   greatestWholeUnit(t, n) {
     let a = this.diffWholeYears(t, n);
-    return a !== null ? { unit: "year", value: a } : (a = this.diffWholeMonths(t, n), a !== null ? { unit: "month", value: a } : (a = GB(t, n), a !== null ? { unit: "week", value: a } : (a = $n(t, n), a !== null ? { unit: "day", value: a } : (a = UB(t, n), oa(a) ? { unit: "hour", value: a } : (a = QB(t, n), oa(a) ? { unit: "minute", value: a } : (a = kB(t, n), oa(a) ? { unit: "second", value: a } : { unit: "millisecond", value: n.valueOf() - t.valueOf() }))))));
+    return a !== null ? { unit: "year", value: a } : (a = this.diffWholeMonths(t, n), a !== null ? { unit: "month", value: a } : (a = ZB(t, n), a !== null ? { unit: "week", value: a } : (a = Hn(t, n), a !== null ? { unit: "day", value: a } : (a = GB(t, n), ra(a) ? { unit: "hour", value: a } : (a = YB(t, n), ra(a) ? { unit: "minute", value: a } : (a = KB(t, n), ra(a) ? { unit: "second", value: a } : { unit: "millisecond", value: n.valueOf() - t.valueOf() }))))));
   }
   countDurationsBetween(t, n, a) {
     let e;
-    return a.years && (e = this.diffWholeYears(t, n), e !== null) ? e / OB(a) : a.months && (e = this.diffWholeMonths(t, n), e !== null) ? e / VB(a) : a.days && (e = $n(t, n), e !== null) ? e / Nt(a) : (n.valueOf() - t.valueOf()) / nn(a);
+    return a.years && (e = this.diffWholeYears(t, n), e !== null) ? e / UB(a) : a.months && (e = this.diffWholeMonths(t, n), e !== null) ? e / QB(a) : a.days && (e = Hn(t, n), e !== null) ? e / Lt(a) : (n.valueOf() - t.valueOf()) / an(a);
   }
   startOf(t, n) {
-    return n === "year" ? this.startOfYear(t) : n === "month" ? this.startOfMonth(t) : n === "week" ? this.startOfWeek(t) : n === "day" ? Ae(t) : n === "hour" ? YB(t) : n === "minute" ? KB(t) : n === "second" ? JB(t) : null;
+    return n === "year" ? this.startOfYear(t) : n === "month" ? this.startOfMonth(t) : n === "week" ? this.startOfWeek(t) : n === "day" ? Ae(t) : n === "hour" ? XB(t) : n === "minute" ? qB(t) : n === "second" ? eP(t) : null;
   }
   startOfYear(t) {
     return this.calendarSystem.arrayToMarker([
@@ -37792,7 +37822,7 @@ class bP {
     ]);
   }
   computeWeekNumber(t) {
-    return this.weekNumberFunc ? this.weekNumberFunc(this.toDate(t)) : ZB(t, this.weekDow, this.weekDoy);
+    return this.weekNumberFunc ? this.weekNumberFunc(this.toDate(t)) : tP(t, this.weekDow, this.weekDoy);
   }
   format(t, n, a = {}) {
     return n.format({
@@ -37801,7 +37831,7 @@ class bP {
     }, this);
   }
   formatRange(t, n, a, e = {}) {
-    return e.isEndExclusive && (n = _t(n, -1)), a.formatRange({
+    return e.isEndExclusive && (n = ct(n, -1)), a.formatRange({
       marker: t,
       timeZoneOffset: e.forcedStartTzo != null ? e.forcedStartTzo : this.offsetForMarker(t)
     }, {
@@ -37811,19 +37841,19 @@ class bP {
   }
   formatIso(t, n = {}) {
     let a = null;
-    return n.omitTimeZoneOffset || (n.forcedTzo != null ? a = n.forcedTzo : a = this.offsetForMarker(t)), qB(t, a, n.omitTime);
+    return n.omitTimeZoneOffset || (n.forcedTzo != null ? a = n.forcedTzo : a = this.offsetForMarker(t)), aP(t, a, n.omitTime);
   }
   timestampToMarker(t) {
-    return this.timeZone === "local" ? Pe(tr(new Date(t))) : this.timeZone === "UTC" || !this.namedTimeZoneImpl ? new Date(t) : Pe(this.namedTimeZoneImpl.timestampToArray(t));
+    return this.timeZone === "local" ? Pe(nr(new Date(t))) : this.timeZone === "UTC" || !this.namedTimeZoneImpl ? new Date(t) : Pe(this.namedTimeZoneImpl.timestampToArray(t));
   }
   offsetForMarker(t) {
-    return this.timeZone === "local" ? -nr(lt(t)).getTimezoneOffset() : this.timeZone === "UTC" ? 0 : this.namedTimeZoneImpl ? this.namedTimeZoneImpl.offsetForArray(lt(t)) : null;
+    return this.timeZone === "local" ? -ar(lt(t)).getTimezoneOffset() : this.timeZone === "UTC" ? 0 : this.namedTimeZoneImpl ? this.namedTimeZoneImpl.offsetForArray(lt(t)) : null;
   }
   toDate(t, n) {
-    return this.timeZone === "local" ? nr(lt(t)) : this.timeZone === "UTC" ? new Date(t.valueOf()) : this.namedTimeZoneImpl ? new Date(t.valueOf() - this.namedTimeZoneImpl.offsetForArray(lt(t)) * 1e3 * 60) : new Date(t.valueOf() - (n || 0));
+    return this.timeZone === "local" ? ar(lt(t)) : this.timeZone === "UTC" ? new Date(t.valueOf()) : this.namedTimeZoneImpl ? new Date(t.valueOf() - this.namedTimeZoneImpl.offsetForArray(lt(t)) * 1e3 * 60) : new Date(t.valueOf() - (n || 0));
   }
 }
-class ln {
+class sn {
   constructor(t) {
     this.iconOverrideOption && this.setIconOverride(t[this.iconOverrideOption]);
   }
@@ -37853,21 +37883,21 @@ class ln {
     return this.iconOverrideCustomButtonOption && (n = t[this.iconOverrideCustomButtonOption], n) ? `${this.baseIconClass} ${this.applyIconOverridePrefix(n)}` : "";
   }
 }
-ln.prototype.classes = {};
-ln.prototype.iconClasses = {};
-ln.prototype.baseIconClass = "";
-ln.prototype.iconOverridePrefix = "";
-function dr(o) {
+sn.prototype.classes = {};
+sn.prototype.iconClasses = {};
+sn.prototype.baseIconClass = "";
+sn.prototype.iconOverridePrefix = "";
+function cr(o) {
   o();
   let t = ae.debounceRendering, n = [];
   function a(e) {
     n.push(e);
   }
-  for (ae.debounceRendering = a, tn(U(DP, {}), document.createElement("div")); n.length; )
+  for (ae.debounceRendering = a, nn(U(zP, {}), document.createElement("div")); n.length; )
     n.shift()();
   ae.debounceRendering = t;
 }
-class DP extends Le {
+class zP extends Le {
   render() {
     return U("div", {});
   }
@@ -37875,8 +37905,8 @@ class DP extends Le {
     this.setState({});
   }
 }
-function Al(o) {
-  let t = tB(o), n = t.Provider;
+function wl(o) {
+  let t = rB(o), n = t.Provider;
   return t.Provider = function() {
     let a = !this.getChildContext, e = n.apply(this, arguments);
     if (a) {
@@ -37896,7 +37926,7 @@ function Al(o) {
     return e;
   }, t;
 }
-class MP {
+class $P {
   constructor(t, n, a, e) {
     this.execFunc = t, this.emitter = n, this.scrollTime = a, this.scrollTimeReset = e, this.handleScrollRequest = (r) => {
       this.queuedRequest = Object.assign({}, this.queuedRequest || {}, r), this.drain();
@@ -37917,8 +37947,8 @@ class MP {
     this.queuedRequest && this.execFunc(this.queuedRequest) && (this.queuedRequest = null);
   }
 }
-const bt = Al({});
-function TP(o, t, n, a, e, r, l, i, s, d, c, f, h) {
+const Dt = wl({});
+function HP(o, t, n, a, e, r, l, i, s, d, c, f, h) {
   return {
     dateEnv: e,
     options: n,
@@ -37939,60 +37969,58 @@ function TP(o, t, n, a, e, r, l, i, s, d, c, f, h) {
       d.off("_resize", u);
     },
     createScrollResponder(u) {
-      return new MP(u, d, pe(n.scrollTime), n.scrollTimeReset);
+      return new $P(u, d, pe(n.scrollTime), n.scrollTimeReset);
     },
     registerInteractiveComponent: f,
     unregisterInteractiveComponent: h
   };
 }
-class Dt extends Le {
+class Mt extends Le {
   shouldComponentUpdate(t, n) {
-    return this.debug && console.log(Ca(t, this.props), Ca(n, this.state)), !ia(this.props, t, this.propEquality) || !ia(this.state, n, this.stateEquality);
+    return this.debug && console.log(Sa(t, this.props), Sa(n, this.state)), !sa(this.props, t, this.propEquality) || !sa(this.state, n, this.stateEquality);
   }
   safeSetState(t) {
-    ia(this.state, Object.assign(Object.assign({}, this.state), t), this.stateEquality) || this.setState(t);
+    sa(this.state, Object.assign(Object.assign({}, this.state), t), this.stateEquality) || this.setState(t);
   }
 }
-Dt.addPropsEquality = RP;
-Dt.addStateEquality = zP;
-Dt.contextType = bt;
-Dt.prototype.propEquality = {};
-Dt.prototype.stateEquality = {};
-class we extends Dt {
+Mt.addPropsEquality = IP;
+Mt.addStateEquality = BP;
+Mt.contextType = Dt;
+Mt.prototype.propEquality = {};
+Mt.prototype.stateEquality = {};
+class we extends Mt {
 }
-we.contextType = bt;
-function RP(o) {
+we.contextType = Dt;
+function IP(o) {
   let t = Object.create(this.prototype.propEquality);
   Object.assign(t, o), this.prototype.propEquality = t;
 }
-function zP(o) {
+function BP(o) {
   let t = Object.create(this.prototype.stateEquality);
   Object.assign(t, o), this.prototype.stateEquality = t;
 }
-function ct(o, t) {
+function ut(o, t) {
   typeof o == "function" ? o(t) : o && (o.current = t);
 }
-class eo extends we {
+class to extends we {
   constructor() {
-    super(...arguments), this.id = Ct(), this.queuedDomNodes = [], this.currentDomNodes = [], this.handleEl = (t) => {
-      this.props.elRef && ct(this.props.elRef, t);
+    super(...arguments), this.id = St(), this.queuedDomNodes = [], this.currentDomNodes = [], this.handleEl = (t) => {
+      this.props.elRef && ut(this.props.elRef, t);
     };
   }
   render() {
-    const { props: t, context: n } = this, { options: a } = n, { customGenerator: e, defaultGenerator: r, renderProps: l } = t, i = xl(t);
+    const { props: t, context: n } = this, { options: a } = n, { customGenerator: e, defaultGenerator: r, renderProps: l } = t, i = Cl(t);
     let s = !1, d, c = [], f;
     if (e != null) {
       const h = typeof e == "function" ? e(l, U) : e;
       if (h === !0)
         s = !0;
-      else if (a.handleCustomRendering)
-        f = h;
       else {
-        const u = typeof h == "object";
-        u && "html" in h ? i.dangerouslySetInnerHTML = { __html: h.html } : u && "domNodes" in h ? c = Array.prototype.slice.call(h.domNodes) : d = h;
+        const u = h && typeof h == "object";
+        u && "html" in h ? i.dangerouslySetInnerHTML = { __html: h.html } : u && "domNodes" in h ? c = Array.prototype.slice.call(h.domNodes) : !u && typeof h != "function" ? d = h : f = h;
       }
     } else
-      s = !_l(t.generatorName, a);
+      s = !El(t.generatorName, a);
     return s && r && (d = r(l)), this.queuedDomNodes = c, this.currentGeneratorMeta = f, U(t.elTag, i, d);
   }
   componentDidMount() {
@@ -38009,51 +38037,54 @@ class eo extends we {
     const { props: a, context: e } = this, { handleCustomRendering: r, customRenderingMetaMap: l } = e.options;
     if (r) {
       const i = (n = this.currentGeneratorMeta) !== null && n !== void 0 ? n : l == null ? void 0 : l[a.generatorName];
-      i && r(Object.assign({
+      i && r(Object.assign(Object.assign({
         id: this.id,
         isActive: t,
         containerEl: this.base,
         reportNewContainerEl: this.handleEl,
         generatorMeta: i
-      }, a));
+      }, a), { elClasses: a.elClasses.filter(PP) }));
     }
   }
   applyQueueudDomNodes() {
     const { queuedDomNodes: t, currentDomNodes: n } = this, a = this.base;
     if (!dt(t, n)) {
-      n.forEach(Wa);
+      n.forEach(Ga);
       for (let e of t)
         a.appendChild(e);
       this.currentDomNodes = t;
     }
   }
 }
-eo.addPropsEquality({
+to.addPropsEquality({
   elClasses: dt,
   elStyle: Je,
-  elAttrs: yP,
+  elAttrs: wP,
   renderProps: Je
 });
-function _l(o, t) {
+function El(o, t) {
   var n;
   return Boolean(t.handleCustomRendering && o && ((n = t.customRenderingMetaMap) === null || n === void 0 ? void 0 : n[o]));
 }
-function xl(o, t) {
+function Cl(o, t) {
   const n = Object.assign(Object.assign({}, o.elAttrs), { ref: o.elRef });
   return (o.elClasses || t) && (n.className = (o.elClasses || []).concat(t || []).concat(n.className || []).filter(Boolean).join(" ")), o.elStyle && (n.style = o.elStyle), n;
 }
-const wl = Al(0);
+function PP(o) {
+  return Boolean(o);
+}
+const Sl = wl(0);
 class nt extends Le {
   constructor() {
-    super(...arguments), this.InnerContent = $P.bind(void 0, this);
+    super(...arguments), this.InnerContent = NP.bind(void 0, this);
   }
   render() {
-    const { props: t } = this, n = HP(t.classNameGenerator, t.renderProps);
+    const { props: t } = this, n = LP(t.classNameGenerator, t.renderProps);
     if (t.children) {
-      const a = xl(t, n), e = t.children(this.InnerContent, t.renderProps, a);
+      const a = Cl(t, n), e = t.children(this.InnerContent, t.renderProps, a);
       return t.elTag ? U(t.elTag, a, e) : e;
     } else
-      return U(eo, Object.assign(Object.assign({}, t), { elTag: t.elTag || "div", elClasses: (t.elClasses || []).concat(n), renderId: this.context }));
+      return U(to, Object.assign(Object.assign({}, t), { elTag: t.elTag || "div", elClasses: (t.elClasses || []).concat(n), renderId: this.context }));
   }
   componentDidMount() {
     var t, n;
@@ -38064,79 +38095,79 @@ class nt extends Le {
     (n = (t = this.props).willUnmount) === null || n === void 0 || n.call(t, Object.assign(Object.assign({}, this.props.renderProps), { el: this.base }));
   }
 }
-nt.contextType = wl;
-function $P(o, t) {
+nt.contextType = Sl;
+function NP(o, t) {
   const n = o.props;
-  return U(eo, Object.assign({ renderProps: n.renderProps, generatorName: n.generatorName, customGenerator: n.customGenerator, defaultGenerator: n.defaultGenerator, renderId: o.context }, t));
+  return U(to, Object.assign({ renderProps: n.renderProps, generatorName: n.generatorName, customGenerator: n.customGenerator, defaultGenerator: n.defaultGenerator, renderId: o.context }, t));
 }
-function HP(o, t) {
+function LP(o, t) {
   const n = typeof o == "function" ? o(t) : o || [];
   return typeof n == "string" ? [n] : n;
 }
-class cr extends we {
+class ur extends we {
   render() {
     let { props: t, context: n } = this, { options: a } = n, e = { view: n.viewApi };
     return U(nt, Object.assign({}, t, { elTag: t.elTag || "div", elClasses: [
-      ...El(t.viewSpec),
+      ...bl(t.viewSpec),
       ...t.elClasses || []
     ], renderProps: e, classNameGenerator: a.viewClassNames, generatorName: void 0, didMount: a.viewDidMount, willUnmount: a.viewWillUnmount }), () => t.children);
   }
 }
-function El(o) {
+function bl(o) {
   return [
     `fc-${o.type}-view`,
     "fc-view"
   ];
 }
-function IP(o, t) {
+function OP(o, t) {
   let n = null, a = null;
   return o.start && (n = t.createMarker(o.start)), o.end && (a = t.createMarker(o.end)), !n && !a || n && a && a < n ? null : { start: n, end: a };
 }
-function ur(o, t) {
+function fr(o, t) {
   let n = [], { start: a } = t, e, r;
-  for (o.sort(BP), e = 0; e < o.length; e += 1)
+  for (o.sort(VP), e = 0; e < o.length; e += 1)
     r = o[e], r.start > a && n.push({ start: a, end: r.start }), r.end > a && (a = r.end);
   return a < t.end && n.push({ start: a, end: t.end }), n;
 }
-function BP(o, t) {
+function VP(o, t) {
   return o.start.valueOf() - t.start.valueOf();
 }
-function Vt(o, t) {
+function jt(o, t) {
   let { start: n, end: a } = o, e = null;
   return t.start !== null && (n === null ? n = t.start : n = new Date(Math.max(n.valueOf(), t.start.valueOf()))), t.end != null && (a === null ? a = t.end : a = new Date(Math.min(a.valueOf(), t.end.valueOf()))), (n === null || a === null || n < a) && (e = { start: n, end: a }), e;
 }
-function PP(o, t) {
+function FP(o, t) {
   return (o.start === null ? null : o.start.valueOf()) === (t.start === null ? null : t.start.valueOf()) && (o.end === null ? null : o.end.valueOf()) === (t.end === null ? null : t.end.valueOf());
 }
-function to(o, t) {
+function no(o, t) {
   return (o.end === null || t.start === null || o.end > t.start) && (o.start === null || t.end === null || o.start < t.end);
 }
-function kn(o, t) {
+function Wn(o, t) {
   return (o.start === null || t.start !== null && t.start >= o.start) && (o.end === null || t.end !== null && t.end <= o.end);
 }
 function st(o, t) {
   return (o.start === null || t >= o.start) && (o.end === null || t < o.end);
 }
-function NP(o, t) {
+function jP(o, t) {
   return t.start != null && o < t.start ? t.start : t.end != null && o >= t.end ? new Date(t.end.valueOf() - 1) : o;
 }
-function Cl(o) {
-  let t = Math.floor(jt(o.start, o.end)) || 1, n = Ae(o.start), a = $e(n, t);
+function Dl(o) {
+  let t = Math.floor(Qt(o.start, o.end)) || 1, n = Ae(o.start), a = $e(n, t);
   return { start: n, end: a };
 }
-function Sl(o, t = pe(0)) {
+function Ml(o, t = pe(0)) {
   let n = null, a = null;
   if (o.end) {
     a = Ae(o.end);
     let e = o.end.valueOf() - a.valueOf();
-    e && e >= nn(t) && (a = $e(a, 1));
+    e && e >= an(t) && (a = $e(a, 1));
   }
   return o.start && (n = Ae(o.start), a && a <= n && (a = $e(n, 1))), { start: n, end: a };
 }
-function Pt(o, t, n, a) {
-  return a === "year" ? pe(n.diffWholeYears(o, t), "year") : a === "month" ? pe(n.diffWholeMonths(o, t), "month") : WB(o, t);
+function Nt(o, t, n, a) {
+  return a === "year" ? pe(n.diffWholeYears(o, t), "year") : a === "month" ? pe(n.diffWholeMonths(o, t), "month") : JB(o, t);
 }
-function LP(o, t) {
+function UP(o, t) {
   switch (t.type) {
     case "CHANGE_DATE":
       return t.dateMarker;
@@ -38144,16 +38175,16 @@ function LP(o, t) {
       return o;
   }
 }
-function OP(o, t) {
+function QP(o, t) {
   let n = o.initialDate;
-  return n != null ? t.createMarker(n) : sn(o.now, t);
+  return n != null ? t.createMarker(n) : dn(o.now, t);
 }
-function sn(o, t) {
+function dn(o, t) {
   return typeof o == "function" && (o = o()), o == null ? t.createNowMarker() : t.createMarker(o);
 }
-class bl {
+class Tl {
   constructor(t) {
-    this.props = t, this.nowDate = sn(t.nowInput, t.dateEnv), this.initHiddenDays();
+    this.props = t, this.nowDate = dn(t.nowInput, t.dateEnv), this.initHiddenDays();
   }
   buildPrev(t, n, a) {
     let { dateEnv: e } = this.props, r = e.subtract(
@@ -38171,7 +38202,7 @@ class bl {
   }
   build(t, n, a = !0) {
     let { props: e } = this, r, l, i, s, d, c;
-    return r = this.buildValidRange(), r = this.trimHiddenDays(r), a && (t = NP(t, r)), l = this.buildCurrentRangeInfo(t, n), i = /^(year|month|week|day)$/.test(l.unit), s = this.buildRenderRange(this.trimHiddenDays(l.range), l.unit, i), s = this.trimHiddenDays(s), d = s, e.showNonCurrentDates || (d = Vt(d, l.range)), d = this.adjustActiveRange(d), d = Vt(d, r), c = to(l.range, r), st(s, t) || (t = s.start), {
+    return r = this.buildValidRange(), r = this.trimHiddenDays(r), a && (t = jP(t, r)), l = this.buildCurrentRangeInfo(t, n), i = /^(year|month|week|day)$/.test(l.unit), s = this.buildRenderRange(this.trimHiddenDays(l.range), l.unit, i), s = this.trimHiddenDays(s), d = s, e.showNonCurrentDates || (d = jt(d, l.range)), d = this.adjustActiveRange(d), d = jt(d, r), c = no(l.range, r), st(s, t) || (t = s.start), {
       currentDate: t,
       validRange: r,
       currentRange: l.range,
@@ -38191,22 +38222,22 @@ class bl {
   }
   buildCurrentRangeInfo(t, n) {
     let { props: a } = this, e = null, r = null, l = null, i;
-    return a.duration ? (e = a.duration, r = a.durationUnit, l = this.buildRangeFromDuration(t, n, e, r)) : (i = this.props.dayCount) ? (r = "day", l = this.buildRangeFromDayCount(t, n, i)) : (l = this.buildCustomVisibleRange(t)) ? r = a.dateEnv.greatestWholeUnit(l.start, l.end).unit : (e = this.getFallbackDuration(), r = Ea(e).unit, l = this.buildRangeFromDuration(t, n, e, r)), { duration: e, unit: r, range: l };
+    return a.duration ? (e = a.duration, r = a.durationUnit, l = this.buildRangeFromDuration(t, n, e, r)) : (i = this.props.dayCount) ? (r = "day", l = this.buildRangeFromDayCount(t, n, i)) : (l = this.buildCustomVisibleRange(t)) ? r = a.dateEnv.greatestWholeUnit(l.start, l.end).unit : (e = this.getFallbackDuration(), r = Ca(e).unit, l = this.buildRangeFromDuration(t, n, e, r)), { duration: e, unit: r, range: l };
   }
   getFallbackDuration() {
     return pe({ day: 1 });
   }
   adjustActiveRange(t) {
     let { dateEnv: n, usesMinMaxTime: a, slotMinTime: e, slotMaxTime: r } = this.props, { start: l, end: i } = t;
-    return a && (Nt(e) < 0 && (l = Ae(l), l = n.add(l, e)), Nt(r) > 1 && (i = Ae(i), i = $e(i, -1), i = n.add(i, r))), { start: l, end: i };
+    return a && (Lt(e) < 0 && (l = Ae(l), l = n.add(l, e)), Lt(r) > 1 && (i = Ae(i), i = $e(i, -1), i = n.add(i, r))), { start: l, end: i };
   }
   buildRangeFromDuration(t, n, a, e) {
     let { dateEnv: r, dateAlignment: l } = this.props, i, s, d;
     if (!l) {
       let { dateIncrement: f } = this.props;
-      f && nn(f) < nn(a) ? l = Ea(f).unit : l = e;
+      f && an(f) < an(a) ? l = Ca(f).unit : l = e;
     }
-    Nt(a) <= 1 && this.isHiddenDay(i) && (i = this.skipHiddenDays(i, n), i = Ae(i));
+    Lt(a) <= 1 && this.isHiddenDay(i) && (i = this.skipHiddenDays(i, n), i = Ae(i));
     function c() {
       i = r.startOf(t, l), s = r.add(i, a), d = { start: i, end: s };
     }
@@ -38233,8 +38264,8 @@ class bl {
   }
   refineRange(t) {
     if (t) {
-      let n = IP(t, this.props.dateEnv);
-      return n && (n = Sl(n)), n;
+      let n = OP(t, this.props.dateEnv);
+      return n && (n = Ml(n)), n;
     }
     return null;
   }
@@ -38259,16 +38290,16 @@ class bl {
     return t;
   }
 }
-function no(o, t, n, a) {
+function ao(o, t, n, a) {
   return {
-    instanceId: Ct(),
+    instanceId: St(),
     defId: o,
     range: t,
     forcedStartTzo: n ?? null,
     forcedEndTzo: a ?? null
   };
 }
-function VP(o, t, n, a) {
+function kP(o, t, n, a) {
   for (let e = 0; e < a.length; e += 1) {
     let r = a[e].parse(o, n);
     if (r) {
@@ -38283,17 +38314,17 @@ function VP(o, t, n, a) {
   }
   return null;
 }
-function wt(o, t, n) {
+function Et(o, t, n) {
   let { dateEnv: a, pluginHooks: e, options: r } = n, { defs: l, instances: i } = o;
-  i = xt(i, (s) => !l[s.defId].recurringDef);
+  i = wt(i, (s) => !l[s.defId].recurringDef);
   for (let s in l) {
     let d = l[s];
     if (d.recurringDef) {
       let { duration: c } = d.recurringDef;
       c || (c = d.allDay ? r.defaultAllDayEventDuration : r.defaultTimedEventDuration);
-      let f = FP(d, c, t, a, e.recurringTypes);
+      let f = WP(d, c, t, a, e.recurringTypes);
       for (let h of f) {
-        let u = no(s, {
+        let u = ao(s, {
           start: h,
           end: a.add(h, c)
         });
@@ -38303,68 +38334,68 @@ function wt(o, t, n) {
   }
   return { defs: l, instances: i };
 }
-function FP(o, t, n, a, e) {
+function WP(o, t, n, a, e) {
   let l = e[o.recurringDef.typeId].expand(o.recurringDef.typeData, {
     start: a.subtract(n.start, t),
     end: n.end
   }, a);
   return o.allDay && (l = l.map(Ae)), l;
 }
-const Sn = {
+const bn = {
   id: String,
   groupId: String,
   title: String,
   url: String,
   interactive: Boolean
-}, Dl = {
+}, Rl = {
   start: j,
   end: j,
   date: j,
   allDay: Boolean
-}, jP = Object.assign(Object.assign(Object.assign({}, Sn), Dl), { extendedProps: j });
-function Ml(o, t, n, a, e = ao(n), r, l) {
-  let { refined: i, extra: s } = Tl(o, n, e), d = QP(t, n), c = VP(i, d, n.dateEnv, n.pluginHooks.recurringTypes);
+}, GP = Object.assign(Object.assign(Object.assign({}, bn), Rl), { extendedProps: j });
+function zl(o, t, n, a, e = oo(n), r, l) {
+  let { refined: i, extra: s } = $l(o, n, e), d = KP(t, n), c = kP(i, d, n.dateEnv, n.pluginHooks.recurringTypes);
   if (c) {
-    let h = Sa(i, s, t ? t.sourceId : "", c.allDay, Boolean(c.duration), n, r);
+    let h = ba(i, s, t ? t.sourceId : "", c.allDay, Boolean(c.duration), n, r);
     return h.recurringDef = {
       typeId: c.typeId,
       typeData: c.typeData,
       duration: c.duration
     }, { def: h, instance: null };
   }
-  let f = UP(i, d, n, a);
+  let f = YP(i, d, n, a);
   if (f) {
-    let h = Sa(i, s, t ? t.sourceId : "", f.allDay, f.hasEnd, n, r), u = no(h.defId, f.range, f.forcedStartTzo, f.forcedEndTzo);
+    let h = ba(i, s, t ? t.sourceId : "", f.allDay, f.hasEnd, n, r), u = ao(h.defId, f.range, f.forcedStartTzo, f.forcedEndTzo);
     return l && h.publicId && l[h.publicId] && (u.instanceId = l[h.publicId]), { def: h, instance: u };
   }
   return null;
 }
-function Tl(o, t, n = ao(t)) {
-  return Za(o, n);
+function $l(o, t, n = oo(t)) {
+  return Xa(o, n);
 }
-function ao(o) {
-  return Object.assign(Object.assign(Object.assign({}, Pn), jP), o.pluginHooks.eventRefiners);
+function oo(o) {
+  return Object.assign(Object.assign(Object.assign({}, Nn), GP), o.pluginHooks.eventRefiners);
 }
-function Sa(o, t, n, a, e, r, l) {
+function ba(o, t, n, a, e, r, l) {
   let i = {
     title: o.title || "",
     groupId: o.groupId || "",
     publicId: o.id || "",
     url: o.url || "",
     recurringDef: null,
-    defId: (l && o.id ? l[o.id] : "") || Ct(),
+    defId: (l && o.id ? l[o.id] : "") || St(),
     sourceId: n,
     allDay: a,
     hasEnd: e,
     interactive: o.interactive,
-    ui: Nn(o, r),
+    ui: Ln(o, r),
     extendedProps: Object.assign(Object.assign({}, o.extendedProps || {}), t)
   };
   for (let s of r.pluginHooks.eventDefMemberAdders)
     Object.assign(i, s(o));
   return Object.freeze(i.ui.classNames), Object.freeze(i.extendedProps), i;
 }
-function UP(o, t, n, a) {
+function YP(o, t, n, a) {
   let { allDay: e } = o, r, l = null, i = !1, s, d = null, c = o.start != null ? o.start : o.date;
   if (r = n.dateEnv.createMarkerMeta(c), r)
     l = r.marker;
@@ -38378,46 +38409,46 @@ function UP(o, t, n, a) {
     forcedEndTzo: s ? s.forcedTzo : null
   };
 }
-function QP(o, t) {
+function KP(o, t) {
   let n = null;
   return o && (n = o.defaultAllDay), n == null && (n = t.options.defaultAllDay), n;
 }
-function an(o, t, n, a, e, r) {
-  let l = ke(), i = ao(n);
+function on(o, t, n, a, e, r) {
+  let l = ke(), i = oo(n);
   for (let s of o) {
-    let d = Ml(s, t, n, a, i, e, r);
-    d && ba(d, l);
+    let d = zl(s, t, n, a, i, e, r);
+    d && Da(d, l);
   }
   return l;
 }
-function ba(o, t = ke()) {
+function Da(o, t = ke()) {
   return t.defs[o.def.defId] = o.def, o.instance && (t.instances[o.instance.instanceId] = o.instance), t;
 }
-function oo(o, t) {
+function ro(o, t) {
   let n = o.instances[t];
   if (n) {
-    let a = o.defs[n.defId], e = Wn(o, (r) => kP(a, r));
+    let a = o.defs[n.defId], e = Gn(o, (r) => JP(a, r));
     return e.defs[a.defId] = a, e.instances[n.instanceId] = n, e;
   }
   return ke();
 }
-function kP(o, t) {
+function JP(o, t) {
   return Boolean(o.groupId && o.groupId === t.groupId);
 }
 function ke() {
   return { defs: {}, instances: {} };
 }
-function ro(o, t) {
+function lo(o, t) {
   return {
     defs: Object.assign(Object.assign({}, o.defs), t.defs),
     instances: Object.assign(Object.assign({}, o.instances), t.instances)
   };
 }
-function Wn(o, t) {
-  let n = xt(o.defs, t), a = xt(o.instances, (e) => n[e.defId]);
+function Gn(o, t) {
+  let n = wt(o.defs, t), a = wt(o.instances, (e) => n[e.defId]);
   return { defs: n, instances: a };
 }
-function WP(o, t) {
+function ZP(o, t) {
   let { defs: n, instances: a } = o, e = {}, r = {};
   for (let l in n)
     t.defs[l] || (e[l] = n[l]);
@@ -38428,13 +38459,13 @@ function WP(o, t) {
     instances: r
   };
 }
-function GP(o, t) {
-  return Array.isArray(o) ? an(o, null, t, !0) : typeof o == "object" && o ? an([o], null, t, !0) : o != null ? String(o) : null;
+function XP(o, t) {
+  return Array.isArray(o) ? on(o, null, t, !0) : typeof o == "object" && o ? on([o], null, t, !0) : o != null ? String(o) : null;
 }
-function fr(o) {
+function mr(o) {
   return Array.isArray(o) ? o : typeof o == "string" ? o.split(/\s+/) : [];
 }
-const Pn = {
+const Nn = {
   display: String,
   editable: Boolean,
   startEditable: Boolean,
@@ -38442,13 +38473,13 @@ const Pn = {
   constraint: j,
   overlap: j,
   allow: j,
-  className: fr,
-  classNames: fr,
+  className: mr,
+  classNames: mr,
   color: String,
   backgroundColor: String,
   borderColor: String,
   textColor: String
-}, YP = {
+}, qP = {
   display: null,
   startEditable: null,
   durationEditable: null,
@@ -38460,8 +38491,8 @@ const Pn = {
   textColor: "",
   classNames: []
 };
-function Nn(o, t) {
-  let n = GP(o.constraint, t);
+function Ln(o, t) {
+  let n = XP(o.constraint, t);
   return {
     display: o.display || null,
     startEditable: o.startEditable != null ? o.startEditable : o.editable,
@@ -38475,10 +38506,10 @@ function Nn(o, t) {
     classNames: (o.className || []).concat(o.classNames || [])
   };
 }
-function KP(o) {
-  return o.reduce(JP, YP);
+function eN(o) {
+  return o.reduce(tN, qP);
 }
-function JP(o, t) {
+function tN(o, t) {
   return {
     display: t.display != null ? t.display : o.display,
     startEditable: t.startEditable != null ? t.startEditable : o.startEditable,
@@ -38492,7 +38523,7 @@ function JP(o, t) {
     classNames: o.classNames.concat(t.classNames)
   };
 }
-const ZP = {
+const nN = {
   id: String,
   defaultAllDay: Boolean,
   url: String,
@@ -38502,10 +38533,10 @@ const ZP = {
   success: j,
   failure: j
 };
-function Rl(o, t, n = zl(t)) {
+function Hl(o, t, n = Il(t)) {
   let a;
   if (typeof o == "string" ? a = { url: o } : typeof o == "function" || Array.isArray(o) ? a = { events: o } : typeof o == "object" && o && (a = o), a) {
-    let { refined: e, extra: r } = Za(a, n), l = XP(e, t);
+    let { refined: e, extra: r } = Xa(a, n), l = aN(e, t);
     if (l)
       return {
         _raw: o,
@@ -38517,19 +38548,19 @@ function Rl(o, t, n = zl(t)) {
         success: e.success,
         failure: e.failure,
         publicId: e.id || "",
-        sourceId: Ct(),
+        sourceId: St(),
         sourceDefId: l.sourceDefId,
         meta: l.meta,
-        ui: Nn(e, t),
+        ui: Ln(e, t),
         extendedProps: r
       };
   }
   return null;
 }
-function zl(o) {
-  return Object.assign(Object.assign(Object.assign({}, Pn), ZP), o.pluginHooks.eventSourceRefiners);
+function Il(o) {
+  return Object.assign(Object.assign(Object.assign({}, Nn), nN), o.pluginHooks.eventSourceRefiners);
 }
-function XP(o, t) {
+function aN(o, t) {
   let n = t.pluginHooks.eventSourceDefs;
   for (let a = n.length - 1; a >= 0; a -= 1) {
     let r = n[a].parseMeta(o);
@@ -38538,14 +38569,14 @@ function XP(o, t) {
   }
   return null;
 }
-function qP(o, t, n, a, e) {
+function oN(o, t, n, a, e) {
   switch (t.type) {
     case "RECEIVE_EVENTS":
-      return eN(o, n[t.sourceId], t.fetchId, t.fetchRange, t.rawEvents, e);
+      return rN(o, n[t.sourceId], t.fetchId, t.fetchRange, t.rawEvents, e);
     case "RESET_RAW_EVENTS":
-      return tN(o, n[t.sourceId], t.rawEvents, e);
+      return lN(o, n[t.sourceId], t.rawEvents, e);
     case "ADD_EVENTS":
-      return nN(
+      return iN(
         o,
         t.eventStore,
         a ? a.activeRange : null,
@@ -38554,41 +38585,41 @@ function qP(o, t, n, a, e) {
     case "RESET_EVENTS":
       return t.eventStore;
     case "MERGE_EVENTS":
-      return ro(o, t.eventStore);
+      return lo(o, t.eventStore);
     case "PREV":
     case "NEXT":
     case "CHANGE_DATE":
     case "CHANGE_VIEW_TYPE":
-      return a ? wt(o, a.activeRange, e) : o;
+      return a ? Et(o, a.activeRange, e) : o;
     case "REMOVE_EVENTS":
-      return WP(o, t.eventStore);
+      return ZP(o, t.eventStore);
     case "REMOVE_EVENT_SOURCE":
-      return Hl(o, t.sourceId);
+      return Pl(o, t.sourceId);
     case "REMOVE_ALL_EVENT_SOURCES":
-      return Wn(o, (r) => !r.sourceId);
+      return Gn(o, (r) => !r.sourceId);
     case "REMOVE_ALL_EVENTS":
       return ke();
     default:
       return o;
   }
 }
-function eN(o, t, n, a, e, r) {
+function rN(o, t, n, a, e, r) {
   if (t && n === t.latestFetchId) {
-    let l = an($l(e, t, r), t, r);
-    return a && (l = wt(l, a, r)), ro(Hl(o, t.sourceId), l);
+    let l = on(Bl(e, t, r), t, r);
+    return a && (l = Et(l, a, r)), lo(Pl(o, t.sourceId), l);
   }
   return o;
 }
-function tN(o, t, n, a) {
-  const { defIdMap: e, instanceIdMap: r } = rN(o);
-  let l = an($l(n, t, a), t, a, !1, e, r);
-  return t.fetchRange && (l = wt(l, t.fetchRange, a)), l;
+function lN(o, t, n, a) {
+  const { defIdMap: e, instanceIdMap: r } = cN(o);
+  let l = on(Bl(n, t, a), t, a, !1, e, r);
+  return t.fetchRange && (l = Et(l, t.fetchRange, a)), l;
 }
-function $l(o, t, n) {
+function Bl(o, t, n) {
   let a = n.options.eventDataTransform, e = t ? t.eventDataTransform : null;
-  return e && (o = mr(o, e)), a && (o = mr(o, a)), o;
+  return e && (o = vr(o, e)), a && (o = vr(o, a)), o;
 }
-function mr(o, t) {
+function vr(o, t) {
   let n;
   if (!t)
     n = o;
@@ -38601,11 +38632,11 @@ function mr(o, t) {
   }
   return n;
 }
-function nN(o, t, n, a) {
-  return n && (t = wt(t, n, a)), ro(o, t);
+function iN(o, t, n, a) {
+  return n && (t = Et(t, n, a)), lo(o, t);
 }
-function aN(o, t, n) {
-  let { defs: a } = o, e = St(o.instances, (r) => {
+function sN(o, t, n) {
+  let { defs: a } = o, e = bt(o.instances, (r) => {
     let l = a[r.defId];
     return l.allDay || l.recurringDef ? r : Object.assign(Object.assign({}, r), { range: {
       start: n.createMarker(t.toDate(r.range.start, r.forcedStartTzo)),
@@ -38614,16 +38645,16 @@ function aN(o, t, n) {
   });
   return { defs: a, instances: e };
 }
-function Hl(o, t) {
-  return Wn(o, (n) => n.sourceId !== t);
+function Pl(o, t) {
+  return Gn(o, (n) => n.sourceId !== t);
 }
-function oN(o, t) {
+function dN(o, t) {
   return {
     defs: o.defs,
-    instances: xt(o.instances, (n) => !t[n.instanceId])
+    instances: wt(o.instances, (n) => !t[n.instanceId])
   };
 }
-function rN(o) {
+function cN(o) {
   const { defs: t, instances: n } = o, a = {}, e = {};
   for (let r in t) {
     const l = t[r], { publicId: i } = l;
@@ -38635,7 +38666,7 @@ function rN(o) {
   }
   return { defIdMap: a, instanceIdMap: e };
 }
-class Gn {
+class Yn {
   constructor() {
     this.handlers = {}, this.thisContext = null;
   }
@@ -38646,10 +38677,10 @@ class Gn {
     this.options = t;
   }
   on(t, n) {
-    lN(this.handlers, t, n);
+    uN(this.handlers, t, n);
   }
   off(t, n) {
-    iN(this.handlers, t, n);
+    fN(this.handlers, t, n);
   }
   trigger(t, ...n) {
     let a = this.handlers[t] || [], e = this.options && this.options[t], r = [].concat(e || [], a);
@@ -38660,13 +38691,13 @@ class Gn {
     return Boolean(this.handlers[t] && this.handlers[t].length || this.options && this.options[t]);
   }
 }
-function lN(o, t, n) {
+function uN(o, t, n) {
   (o[t] || (o[t] = [])).push(n);
 }
-function iN(o, t, n) {
+function fN(o, t, n) {
   n ? o[t] && (o[t] = o[t].filter((a) => a !== n)) : delete o[t];
 }
-const sN = {
+const mN = {
   startTime: "09:00",
   endTime: "17:00",
   daysOfWeek: [1, 2, 3, 4, 5],
@@ -38674,45 +38705,45 @@ const sN = {
   classNames: "fc-non-business",
   groupId: "_businessHours"
 };
-function dN(o, t) {
-  return an(cN(o), null, t);
+function vN(o, t) {
+  return on(hN(o), null, t);
 }
-function cN(o) {
+function hN(o) {
   let t;
-  return o === !0 ? t = [{}] : Array.isArray(o) ? t = o.filter((n) => n.daysOfWeek) : typeof o == "object" && o ? t = [o] : t = [], t = t.map((n) => Object.assign(Object.assign({}, sN), n)), t;
+  return o === !0 ? t = [{}] : Array.isArray(o) ? t = o.filter((n) => n.daysOfWeek) : typeof o == "object" && o ? t = [o] : t = [], t = t.map((n) => Object.assign(Object.assign({}, mN), n)), t;
 }
-function Il(o, t, n) {
-  n.emitter.trigger("select", Object.assign(Object.assign({}, lo(o, n)), { jsEvent: t ? t.origEvent : null, view: n.viewApi || n.calendarApi.view }));
+function Nl(o, t, n) {
+  n.emitter.trigger("select", Object.assign(Object.assign({}, io(o, n)), { jsEvent: t ? t.origEvent : null, view: n.viewApi || n.calendarApi.view }));
 }
-function uN(o, t) {
+function pN(o, t) {
   t.emitter.trigger("unselect", {
     jsEvent: o ? o.origEvent : null,
     view: t.viewApi || t.calendarApi.view
   });
 }
-function lo(o, t) {
+function io(o, t) {
   let n = {};
   for (let a of t.pluginHooks.dateSpanTransforms)
     Object.assign(n, a(o, t));
-  return Object.assign(n, bN(o, t.dateEnv)), n;
+  return Object.assign(n, zN(o, t.dateEnv)), n;
 }
-function vr(o, t, n) {
+function hr(o, t, n) {
   let { dateEnv: a, options: e } = n, r = t;
   return o ? (r = Ae(r), r = a.add(r, e.defaultAllDayEventDuration)) : r = a.add(r, e.defaultTimedEventDuration), r;
 }
-function io(o, t, n, a) {
-  let e = Ln(o.defs, t), r = ke();
+function so(o, t, n, a) {
+  let e = On(o.defs, t), r = ke();
   for (let l in o.defs) {
     let i = o.defs[l];
-    r.defs[l] = fN(i, e[l], n, a);
+    r.defs[l] = gN(i, e[l], n, a);
   }
   for (let l in o.instances) {
     let i = o.instances[l], s = r.defs[i.defId];
-    r.instances[l] = mN(i, s, e[i.defId], n, a);
+    r.instances[l] = yN(i, s, e[i.defId], n, a);
   }
   return r;
 }
-function fN(o, t, n, a) {
+function gN(o, t, n, a) {
   let e = n.standardProps || {};
   e.hasEnd == null && t.durationEditable && (n.startDelta || n.endDelta) && (e.hasEnd = !0);
   let r = Object.assign(Object.assign(Object.assign({}, o), e), { ui: Object.assign(Object.assign({}, o.ui), e.ui) });
@@ -38721,9 +38752,9 @@ function fN(o, t, n, a) {
     l(r, n, a);
   return !r.hasEnd && a.options.forceEventDuration && (r.hasEnd = !0), r;
 }
-function mN(o, t, n, a, e) {
+function yN(o, t, n, a, e) {
   let { dateEnv: r } = e, l = a.standardProps && a.standardProps.allDay === !0, i = a.standardProps && a.standardProps.hasEnd === !1, s = Object.assign({}, o);
-  return l && (s.range = Cl(s.range)), a.datesDelta && n.startEditable && (s.range = {
+  return l && (s.range = Dl(s.range)), a.datesDelta && n.startEditable && (s.range = {
     start: r.add(s.range.start, a.datesDelta),
     end: r.add(s.range.end, a.datesDelta)
   }), a.startDelta && n.durationEditable && (s.range = {
@@ -38734,13 +38765,13 @@ function mN(o, t, n, a, e) {
     end: r.add(s.range.end, a.endDelta)
   }), i && (s.range = {
     start: s.range.start,
-    end: vr(t.allDay, s.range.start, e)
+    end: hr(t.allDay, s.range.start, e)
   }), t.allDay && (s.range = {
     start: Ae(s.range.start),
     end: Ae(s.range.end)
-  }), s.range.end < s.range.start && (s.range.end = vr(t.allDay, s.range.start, e)), s;
+  }), s.range.end < s.range.start && (s.range.end = hr(t.allDay, s.range.start, e)), s;
 }
-class Bt {
+class Pt {
   constructor(t, n) {
     this.context = t, this.internalEventSource = n;
   }
@@ -38772,18 +38803,18 @@ class _e {
     this._context = t, this._def = n, this._instance = a || null;
   }
   setProp(t, n) {
-    if (t in Dl)
+    if (t in Rl)
       console.warn("Could not set date-related prop 'name'. Use one of the date-related methods instead.");
     else if (t === "id")
-      n = Sn[t](n), this.mutate({
+      n = bn[t](n), this.mutate({
         standardProps: { publicId: n }
       });
-    else if (t in Sn)
-      n = Sn[t](n), this.mutate({
+    else if (t in bn)
+      n = bn[t](n), this.mutate({
         standardProps: { [t]: n }
       });
-    else if (t in Pn) {
-      let a = Pn[t](n);
+    else if (t in Nn) {
+      let a = Nn[t](n);
       t === "color" ? a = { backgroundColor: n, borderColor: n } : t === "editable" ? a = { startEditable: n, durationEditable: n } : a = { [t]: n }, this.mutate({
         standardProps: { ui: a }
       });
@@ -38798,7 +38829,7 @@ class _e {
   setStart(t, n = {}) {
     let { dateEnv: a } = this._context, e = a.createMarker(t);
     if (e && this._instance) {
-      let r = this._instance.range, l = Pt(r.start, e, a, n.granularity);
+      let r = this._instance.range, l = Nt(r.start, e, a, n.granularity);
       n.maintainDuration ? this.mutate({ datesDelta: l }) : this.mutate({ startDelta: l });
     }
   }
@@ -38806,20 +38837,20 @@ class _e {
     let { dateEnv: a } = this._context, e;
     if (!(t != null && (e = a.createMarker(t), !e)) && this._instance)
       if (e) {
-        let r = Pt(this._instance.range.end, e, a, n.granularity);
+        let r = Nt(this._instance.range.end, e, a, n.granularity);
         this.mutate({ endDelta: r });
       } else
         this.mutate({ standardProps: { hasEnd: !1 } });
   }
   setDates(t, n, a = {}) {
     let { dateEnv: e } = this._context, r = { allDay: a.allDay }, l = e.createMarker(t), i;
-    if (!!l && !(n != null && (i = e.createMarker(n), !i)) && this._instance) {
+    if (l && !(n != null && (i = e.createMarker(n), !i)) && this._instance) {
       let s = this._instance.range;
-      a.allDay === !0 && (s = Cl(s));
-      let d = Pt(s.start, l, e, a.granularity);
+      a.allDay === !0 && (s = Dl(s));
+      let d = Nt(s.start, l, e, a.granularity);
       if (i) {
-        let c = Pt(s.end, i, e, a.granularity);
-        NB(d, c) ? this.mutate({ datesDelta: d, standardProps: r }) : this.mutate({ startDelta: d, endDelta: c, standardProps: r });
+        let c = Nt(s.end, i, e, a.granularity);
+        FB(d, c) ? this.mutate({ datesDelta: d, standardProps: r }) : this.mutate({ startDelta: d, endDelta: c, standardProps: r });
       } else
         r.hasEnd = !1, this.mutate({ datesDelta: d, standardProps: r });
     }
@@ -38852,8 +38883,8 @@ class _e {
   mutate(t) {
     let n = this._instance;
     if (n) {
-      let a = this._def, e = this._context, { eventStore: r } = e.getCurrentData(), l = oo(r, n.instanceId);
-      l = io(l, {
+      let a = this._def, e = this._context, { eventStore: r } = e.getCurrentData(), l = ro(r, n.instanceId);
+      l = so(l, {
         "": {
           display: "",
           startEditable: !0,
@@ -38874,7 +38905,7 @@ class _e {
       }), e.emitter.trigger("eventChange", {
         oldEvent: s,
         event: this,
-        relatedEvents: At(l, e, n),
+        relatedEvents: xt(l, e, n),
         revert() {
           e.dispatch({
             type: "RESET_EVENTS",
@@ -38885,7 +38916,7 @@ class _e {
     }
   }
   remove() {
-    let t = this._context, n = Bl(this);
+    let t = this._context, n = Ll(this);
     t.dispatch({
       type: "REMOVE_EVENTS",
       eventStore: n
@@ -38902,7 +38933,7 @@ class _e {
   }
   get source() {
     let { sourceId: t } = this._def;
-    return t ? new Bt(this._context, this._context.getCurrentData().eventSources[t]) : null;
+    return t ? new Pt(this._context, this._context.getCurrentData().eventSources[t]) : null;
   }
   get start() {
     return this._instance ? this._context.dateEnv.toDate(this._instance.range.start) : null;
@@ -38982,14 +39013,14 @@ class _e {
     return this.toPlainObject();
   }
 }
-function Bl(o) {
+function Ll(o) {
   let t = o._def, n = o._instance;
   return {
     defs: { [t.defId]: t },
     instances: n ? { [n.instanceId]: n } : {}
   };
 }
-function At(o, t, n) {
+function xt(o, t, n) {
   let { defs: a, instances: e } = o, r = [], l = n ? n.instanceId : "";
   for (let i in e) {
     let s = e[i], d = a[s.defId];
@@ -38997,14 +39028,14 @@ function At(o, t, n) {
   }
   return r;
 }
-function hr(o, t, n, a) {
-  let e = {}, r = {}, l = {}, i = [], s = [], d = Ln(o.defs, t);
+function pr(o, t, n, a) {
+  let e = {}, r = {}, l = {}, i = [], s = [], d = On(o.defs, t);
   for (let c in o.defs) {
     let f = o.defs[c];
     d[f.defId].display === "inverse-background" && (f.groupId ? (e[f.groupId] = [], l[f.groupId] || (l[f.groupId] = f)) : r[c] = []);
   }
   for (let c in o.instances) {
-    let f = o.instances[c], h = o.defs[f.defId], u = d[h.defId], m = f.range, p = !h.allDay && a ? Sl(m, a) : m, v = Vt(p, n);
+    let f = o.instances[c], h = o.defs[f.defId], u = d[h.defId], m = f.range, p = !h.allDay && a ? Ml(m, a) : m, v = jt(p, n);
     v && (u.display === "inverse-background" ? h.groupId ? e[h.groupId].push(v) : r[f.defId].push(v) : u.display !== "none" && (u.display === "background" ? i : s).push({
       def: h,
       ui: u,
@@ -39015,7 +39046,7 @@ function hr(o, t, n, a) {
     }));
   }
   for (let c in e) {
-    let f = e[c], h = ur(f, n);
+    let f = e[c], h = fr(f, n);
     for (let u of h) {
       let m = l[c], p = d[m.defId];
       i.push({
@@ -39029,7 +39060,7 @@ function hr(o, t, n, a) {
     }
   }
   for (let c in r) {
-    let f = r[c], h = ur(f, n);
+    let f = r[c], h = fr(f, n);
     for (let u of h)
       i.push({
         def: o.defs[c],
@@ -39042,24 +39073,24 @@ function hr(o, t, n, a) {
   }
   return { bg: i, fg: s };
 }
-function pr(o, t) {
+function gr(o, t) {
   o.fcSeg = t;
 }
-function Ft(o) {
+function Ut(o) {
   return o.fcSeg || o.parentNode.fcSeg || null;
 }
-function Ln(o, t) {
-  return St(o, (n) => Pl(n, t));
+function On(o, t) {
+  return bt(o, (n) => Ol(n, t));
 }
-function Pl(o, t) {
+function Ol(o, t) {
   let n = [];
-  return t[""] && n.push(t[""]), t[o.defId] && n.push(t[o.defId]), n.push(o.ui), KP(n);
+  return t[""] && n.push(t[""]), t[o.defId] && n.push(t[o.defId]), n.push(o.ui), eN(n);
 }
-function vN(o, t) {
-  let n = o.map(hN);
-  return n.sort((a, e) => RB(a, e, t)), n.map((a) => a._seg);
+function AN(o, t) {
+  let n = o.map(_N);
+  return n.sort((a, e) => IB(a, e, t)), n.map((a) => a._seg);
 }
-function hN(o) {
+function _N(o) {
   let { eventRange: t } = o, n = t.def, a = t.instance ? t.instance.range : t.range, e = a.start ? a.start.valueOf() : 0, r = a.end ? a.end.valueOf() : 0;
   return Object.assign(Object.assign(Object.assign({}, n.extendedProps), n), {
     id: n.publicId,
@@ -39070,22 +39101,22 @@ function hN(o) {
     _seg: o
   });
 }
-function pN(o, t) {
+function xN(o, t) {
   let { pluginHooks: n } = t, a = n.isDraggableTransformers, { def: e, ui: r } = o.eventRange, l = r.startEditable;
   for (let i of a)
     l = i(l, e, r, t);
   return l;
 }
-function gN(o, t) {
+function wN(o, t) {
   return o.isStart && o.eventRange.ui.durationEditable && t.options.eventResizableFromStart;
 }
-function yN(o, t) {
+function EN(o, t) {
   return o.isEnd && o.eventRange.ui.durationEditable;
 }
-function Nl(o, t, n, a, e, r, l) {
+function Vl(o, t, n, a, e, r, l) {
   let { dateEnv: i, options: s } = n, { displayEventTime: d, displayEventEnd: c } = s, f = o.eventRange.def, h = o.eventRange.instance;
   d == null && (d = a !== !1), c == null && (c = e !== !1);
-  let u = h.range.start, m = h.range.end, p = r || o.start || o.eventRange.range.start, v = l || o.end || o.eventRange.range.end, y = Ae(u).valueOf() === Ae(p).valueOf(), g = Ae(_t(m, -1)).valueOf() === Ae(_t(v, -1)).valueOf();
+  let u = h.range.start, m = h.range.end, p = r || o.start || o.eventRange.range.start, v = l || o.end || o.eventRange.range.end, y = Ae(u).valueOf() === Ae(p).valueOf(), g = Ae(ct(m, -1)).valueOf() === Ae(ct(v, -1)).valueOf();
   return d && !f.allDay && (y || g) ? (p = y ? u : p, v = g ? m : v, c && f.hasEnd ? i.formatRange(p, v, t, {
     forcedStartTzo: r ? null : h.forcedStartTzo,
     forcedEndTzo: l ? null : h.forcedEndTzo
@@ -39093,7 +39124,7 @@ function Nl(o, t, n, a, e, r, l) {
     forcedTzo: r ? null : h.forcedStartTzo
   })) : "";
 }
-function Zt(o, t, n) {
+function Xt(o, t, n) {
   let a = o.eventRange.range;
   return {
     isPast: a.end < (n || t.start),
@@ -39101,19 +39132,19 @@ function Zt(o, t, n) {
     isToday: t && st(t, a.start)
   };
 }
-function AN(o) {
+function CN(o) {
   let t = ["fc-event"];
   return o.isMirror && t.push("fc-event-mirror"), o.isDraggable && t.push("fc-event-draggable"), (o.isStartResizable || o.isEndResizable) && t.push("fc-event-resizable"), o.isDragging && t.push("fc-event-dragging"), o.isResizing && t.push("fc-event-resizing"), o.isSelected && t.push("fc-event-selected"), o.isStart && t.push("fc-event-start"), o.isEnd && t.push("fc-event-end"), o.isPast && t.push("fc-event-past"), o.isToday && t.push("fc-event-today"), o.isFuture && t.push("fc-event-future"), t;
 }
-function _N(o) {
+function SN(o) {
   return o.instance ? o.instance.instanceId : `${o.def.defId}:${o.range.start.toISOString()}`;
 }
-function Ll(o, t) {
+function Fl(o, t) {
   let { def: n, instance: a } = o.eventRange, { url: e } = n;
   if (e)
     return { href: e };
   let { emitter: r, options: l } = t, { eventInteractive: i } = l;
-  return i == null && (i = n.interactive, i == null && (i = Boolean(r.hasHandlers("eventClick")))), i ? hl((s) => {
+  return i == null && (i = n.interactive, i == null && (i = Boolean(r.hasHandlers("eventClick")))), i ? yl((s) => {
     r.trigger("eventClick", {
       el: s.target,
       event: new _e(t, n, a),
@@ -39122,13 +39153,13 @@ function Ll(o, t) {
     });
   }) : {};
 }
-const xN = {
+const bN = {
   start: j,
   end: j,
   allDay: Boolean
 };
-function wN(o, t, n) {
-  let a = EN(o, t), { range: e } = a;
+function DN(o, t, n) {
+  let a = MN(o, t), { range: e } = a;
   if (!e.start)
     return null;
   if (!e.end) {
@@ -39138,17 +39169,17 @@ function wN(o, t, n) {
   }
   return a;
 }
-function EN(o, t) {
-  let { refined: n, extra: a } = Za(o, xN), e = n.start ? t.createMarkerMeta(n.start) : null, r = n.end ? t.createMarkerMeta(n.end) : null, { allDay: l } = n;
+function MN(o, t) {
+  let { refined: n, extra: a } = Xa(o, bN), e = n.start ? t.createMarkerMeta(n.start) : null, r = n.end ? t.createMarkerMeta(n.end) : null, { allDay: l } = n;
   return l == null && (l = e && e.isTimeUnspecified && (!r || r.isTimeUnspecified)), Object.assign({ range: {
     start: e ? e.marker : null,
     end: r ? r.marker : null
   }, allDay: l }, a);
 }
-function CN(o, t) {
-  return PP(o.range, t.range) && o.allDay === t.allDay && SN(o, t);
+function TN(o, t) {
+  return FP(o.range, t.range) && o.allDay === t.allDay && RN(o, t);
 }
-function SN(o, t) {
+function RN(o, t) {
   for (let n in t)
     if (n !== "range" && n !== "allDay" && o[n] !== t[n])
       return !1;
@@ -39157,13 +39188,13 @@ function SN(o, t) {
       return !1;
   return !0;
 }
-function bN(o, t) {
-  return Object.assign(Object.assign({}, Vl(o.range, t, o.allDay)), { allDay: o.allDay });
+function zN(o, t) {
+  return Object.assign(Object.assign({}, Ul(o.range, t, o.allDay)), { allDay: o.allDay });
 }
-function Ol(o, t, n) {
-  return Object.assign(Object.assign({}, Vl(o, t, n)), { timeZone: t.timeZone });
+function jl(o, t, n) {
+  return Object.assign(Object.assign({}, Ul(o, t, n)), { timeZone: t.timeZone });
 }
-function Vl(o, t, n) {
+function Ul(o, t, n) {
   return {
     start: t.toDate(o.start),
     end: t.toDate(o.end),
@@ -39171,8 +39202,8 @@ function Vl(o, t, n) {
     endStr: t.formatIso(o.end, { omitTime: n })
   };
 }
-function DN(o, t, n) {
-  let a = Tl({ editable: !1 }, n), e = Sa(
+function $N(o, t, n) {
+  let a = $l({ editable: !1 }, n), e = ba(
     a.refined,
     a.extra,
     "",
@@ -39182,14 +39213,14 @@ function DN(o, t, n) {
   );
   return {
     def: e,
-    ui: Pl(e, t),
-    instance: no(e.defId, o.range),
+    ui: Ol(e, t),
+    instance: ao(e.defId, o.range),
     range: o.range,
     isStart: !0,
     isEnd: !0
   };
 }
-function MN(o, t, n) {
+function HN(o, t, n) {
   let a = !1, e = function(i) {
     a || (a = !0, t(i));
   }, r = function(i) {
@@ -39197,12 +39228,12 @@ function MN(o, t, n) {
   }, l = o(e, r);
   l && typeof l.then == "function" && l.then(e, r);
 }
-class gr extends Error {
+class yr extends Error {
   constructor(t, n) {
     super(t), this.response = n;
   }
 }
-function TN(o, t, n) {
+function IN(o, t, n) {
   o = o.toUpperCase();
   const a = {
     method: o
@@ -39212,16 +39243,16 @@ function TN(o, t, n) {
   }), fetch(t, a).then((e) => {
     if (e.ok)
       return e.json().then((r) => [r, e], () => {
-        throw new gr("Failure parsing JSON", e);
+        throw new yr("Failure parsing JSON", e);
       });
-    throw new gr("Request failed", e);
+    throw new yr("Request failed", e);
   });
 }
-let sa;
-function Fl() {
-  return sa == null && (sa = RN()), sa;
+let da;
+function Ql() {
+  return da == null && (da = BN()), da;
 }
-function RN() {
+function BN() {
   if (typeof document > "u")
     return !0;
   let o = document.createElement("div");
@@ -39229,7 +39260,7 @@ function RN() {
   let n = o.querySelector("div").offsetHeight > 0;
   return document.body.removeChild(o), n;
 }
-class zN extends we {
+class PN extends we {
   constructor() {
     super(...arguments), this.state = {
       forPrint: !1
@@ -39246,7 +39277,7 @@ class zN extends we {
       `fc-direction-${n.direction}`,
       t.theme.getClass("root")
     ];
-    return Fl() || l.push("fc-liquid-hack"), t.children(l, r, e, a);
+    return Ql() || l.push("fc-liquid-hack"), t.children(l, r, e, a);
   }
   componentDidMount() {
     let { emitter: t } = this.props;
@@ -39257,14 +39288,14 @@ class zN extends we {
     t.off("_beforeprint", this.handleBeforePrint), t.off("_afterprint", this.handleAfterPrint);
   }
 }
-class Ut {
+class kt {
   constructor(t) {
     this.component = t.component, this.isHitComboAllowed = t.isHitComboAllowed || null;
   }
   destroy() {
   }
 }
-function $N(o, t) {
+function NN(o, t) {
   return {
     component: o,
     el: t.el,
@@ -39272,13 +39303,13 @@ function $N(o, t) {
     isHitComboAllowed: t.isHitComboAllowed || null
   };
 }
-function so(o) {
+function co(o) {
   return {
     [o.component.uid]: o
   };
 }
-const Da = {};
-class HN {
+const Ma = {};
+class LN {
   getCurrentData() {
     return this.currentDataManager.getCurrentData();
   }
@@ -39388,7 +39419,7 @@ class HN {
     let t = this.getCurrentData();
     this.unselect(), this.dispatch({
       type: "CHANGE_DATE",
-      dateMarker: sn(t.calendarOptions.now, t.dateEnv)
+      dateMarker: dn(t.calendarOptions.now, t.dateEnv)
     });
   }
   gotoDate(t) {
@@ -39430,38 +39461,38 @@ class HN {
       start: t,
       end: n
     };
-    let e = this.getCurrentData(), r = wN(a, e.dateEnv, pe({ days: 1 }));
-    r && (this.dispatch({ type: "SELECT_DATES", selection: r }), Il(r, null, e));
+    let e = this.getCurrentData(), r = DN(a, e.dateEnv, pe({ days: 1 }));
+    r && (this.dispatch({ type: "SELECT_DATES", selection: r }), Nl(r, null, e));
   }
   unselect(t) {
     let n = this.getCurrentData();
-    n.dateSelection && (this.dispatch({ type: "UNSELECT_DATES" }), uN(t, n));
+    n.dateSelection && (this.dispatch({ type: "UNSELECT_DATES" }), pN(t, n));
   }
   addEvent(t, n) {
     if (t instanceof _e) {
       let l = t._def, i = t._instance;
       return this.getCurrentData().eventStore.defs[l.defId] || (this.dispatch({
         type: "ADD_EVENTS",
-        eventStore: ba({ def: l, instance: i })
+        eventStore: Da({ def: l, instance: i })
       }), this.triggerEventAdd(t)), t;
     }
     let a = this.getCurrentData(), e;
-    if (n instanceof Bt)
+    if (n instanceof Pt)
       e = n.internalEventSource;
     else if (typeof n == "boolean")
-      n && ([e] = qa(a.eventSources));
+      n && ([e] = eo(a.eventSources));
     else if (n != null) {
       let l = this.getEventSourceById(n);
       if (!l)
         return console.warn(`Could not find an event source with ID "${n}"`), null;
       e = l.internalEventSource;
     }
-    let r = Ml(t, e, a, !1);
+    let r = zl(t, e, a, !1);
     if (r) {
       let l = new _e(a, r.def, r.def.recurringDef ? null : r.instance);
       return this.dispatch({
         type: "ADD_EVENTS",
-        eventStore: ba(r)
+        eventStore: Da(r)
       }), this.triggerEventAdd(l), l;
     }
     return null;
@@ -39474,7 +39505,7 @@ class HN {
       revert: () => {
         this.dispatch({
           type: "REMOVE_EVENTS",
-          eventStore: Bl(t)
+          eventStore: Ll(t)
         });
       }
     });
@@ -39498,7 +39529,7 @@ class HN {
   }
   getEvents() {
     let t = this.getCurrentData();
-    return At(t.eventStore, t);
+    return xt(t.eventStore, t);
   }
   removeAllEvents() {
     this.dispatch({ type: "REMOVE_ALL_EVENTS" });
@@ -39506,7 +39537,7 @@ class HN {
   getEventSources() {
     let t = this.getCurrentData(), n = t.eventSources, a = [];
     for (let e in n)
-      a.push(new Bt(t, n[e]));
+      a.push(new Pt(t, n[e]));
     return a;
   }
   getEventSourceById(t) {
@@ -39514,18 +39545,18 @@ class HN {
     t = String(t);
     for (let e in a)
       if (a[e].publicId === t)
-        return new Bt(n, a[e]);
+        return new Pt(n, a[e]);
     return null;
   }
   addEventSource(t) {
     let n = this.getCurrentData();
-    if (t instanceof Bt)
+    if (t instanceof Pt)
       return n.eventSources[t.internalEventSource.sourceId] || this.dispatch({
         type: "ADD_EVENT_SOURCES",
         sources: [t.internalEventSource]
       }), t;
-    let a = Rl(t, n);
-    return a ? (this.dispatch({ type: "ADD_EVENT_SOURCES", sources: [a] }), new Bt(n, a)) : null;
+    let a = Hl(t, n);
+    return a ? (this.dispatch({ type: "ADD_EVENT_SOURCES", sources: [a] }), new Pt(n, a)) : null;
   }
   removeAllEventSources() {
     this.dispatch({ type: "REMOVE_ALL_EVENT_SOURCES" });
@@ -39538,10 +39569,10 @@ class HN {
     n && this.trigger("_scrollRequest", { time: n });
   }
 }
-function IN(o, t) {
+function ON(o, t) {
   return o.left >= t.left && o.left < t.right && o.top >= t.top && o.top < t.bottom;
 }
-function jl(o, t) {
+function kl(o, t) {
   let n = {
     left: Math.max(o.left, t.left),
     right: Math.min(o.right, t.right),
@@ -39550,25 +39581,25 @@ function jl(o, t) {
   };
   return n.left < n.right && n.top < n.bottom ? n : !1;
 }
-function BN(o, t) {
+function VN(o, t) {
   return {
     left: Math.min(Math.max(o.left, t.left), t.right),
     top: Math.min(Math.max(o.top, t.top), t.bottom)
   };
 }
-function PN(o) {
+function FN(o) {
   return {
     left: (o.left + o.right) / 2,
     top: (o.top + o.bottom) / 2
   };
 }
-function NN(o, t) {
+function jN(o, t) {
   return {
     left: o.left - t.left,
     top: o.top - t.top
   };
 }
-function Ul(o, t, n, a) {
+function Wl(o, t, n, a) {
   return {
     dow: o.getUTCDay(),
     isDisabled: Boolean(a && !st(a.activeRange, o)),
@@ -39578,34 +39609,34 @@ function Ul(o, t, n, a) {
     isFuture: Boolean(n ? o > n : t ? o >= t.end : !1)
   };
 }
-function co(o, t) {
+function uo(o, t) {
   let n = [
     "fc-day",
-    `fc-day-${FB[o.dow]}`
+    `fc-day-${kB[o.dow]}`
   ];
   return o.isDisabled ? n.push("fc-day-disabled") : (o.isToday && (n.push("fc-day-today"), n.push(t.getClass("today"))), o.isPast && n.push("fc-day-past"), o.isFuture && n.push("fc-day-future"), o.isOther && n.push("fc-day-other")), n;
 }
-const LN = Me({ year: "numeric", month: "long", day: "numeric" }), ON = Me({ week: "long" });
-function Ma(o, t, n = "day", a = !0) {
+const UN = Me({ year: "numeric", month: "long", day: "numeric" }), QN = Me({ week: "long" });
+function Ta(o, t, n = "day", a = !0) {
   const { dateEnv: e, options: r, calendarApi: l } = o;
-  let i = e.format(t, n === "week" ? ON : LN);
+  let i = e.format(t, n === "week" ? QN : UN);
   if (r.navLinks) {
     let s = e.toDate(t);
     const d = (c) => {
       let f = n === "day" ? r.navLinkDayClick : n === "week" ? r.navLinkWeekClick : null;
       typeof f == "function" ? f.call(l, e.toDate(t), c) : (typeof f == "string" && (n = f), l.zoomTo(t, n));
     };
-    return Object.assign({ title: Kt(r.navLinkHint, [i, s], i), "data-navlink": "" }, a ? vl(d) : { onClick: d });
+    return Object.assign({ title: Jt(r.navLinkHint, [i, s], i), "data-navlink": "" }, a ? gl(d) : { onClick: d });
   }
   return { "aria-label": i };
 }
-let da = null;
-function VN() {
-  return da === null && (da = FN()), da;
+let ca = null;
+function kN() {
+  return ca === null && (ca = WN()), ca;
 }
-function FN() {
+function WN() {
   let o = document.createElement("div");
-  Yt(o, {
+  Kt(o, {
     position: "absolute",
     top: -1e3,
     left: 0,
@@ -39615,26 +39646,26 @@ function FN() {
     direction: "rtl"
   }), o.innerHTML = "<div></div>", document.body.appendChild(o);
   let n = o.firstChild.getBoundingClientRect().left > o.getBoundingClientRect().left;
-  return Wa(o), n;
+  return Ga(o), n;
 }
-let ca;
-function jN() {
-  return ca || (ca = UN()), ca;
+let ua;
+function GN() {
+  return ua || (ua = YN()), ua;
 }
-function UN() {
+function YN() {
   let o = document.createElement("div");
   o.style.overflow = "scroll", o.style.position = "absolute", o.style.top = "-9999px", o.style.left = "-9999px", document.body.appendChild(o);
-  let t = Ql(o);
+  let t = Gl(o);
   return document.body.removeChild(o), t;
 }
-function Ql(o) {
+function Gl(o) {
   return {
     x: o.offsetHeight - o.clientHeight,
     y: o.offsetWidth - o.clientWidth
   };
 }
-function QN(o, t = !1) {
-  let n = window.getComputedStyle(o), a = parseInt(n.borderLeftWidth, 10) || 0, e = parseInt(n.borderRightWidth, 10) || 0, r = parseInt(n.borderTopWidth, 10) || 0, l = parseInt(n.borderBottomWidth, 10) || 0, i = Ql(o), s = i.y - a - e, d = i.x - r - l, c = {
+function KN(o, t = !1) {
+  let n = window.getComputedStyle(o), a = parseInt(n.borderLeftWidth, 10) || 0, e = parseInt(n.borderRightWidth, 10) || 0, r = parseInt(n.borderTopWidth, 10) || 0, l = parseInt(n.borderBottomWidth, 10) || 0, i = Gl(o), s = i.y - a - e, d = i.x - r - l, c = {
     borderLeft: a,
     borderRight: e,
     borderTop: r,
@@ -39643,10 +39674,10 @@ function QN(o, t = !1) {
     scrollbarLeft: 0,
     scrollbarRight: 0
   };
-  return VN() && n.direction === "rtl" ? c.scrollbarLeft = s : c.scrollbarRight = s, t && (c.paddingLeft = parseInt(n.paddingLeft, 10) || 0, c.paddingRight = parseInt(n.paddingRight, 10) || 0, c.paddingTop = parseInt(n.paddingTop, 10) || 0, c.paddingBottom = parseInt(n.paddingBottom, 10) || 0), c;
+  return kN() && n.direction === "rtl" ? c.scrollbarLeft = s : c.scrollbarRight = s, t && (c.paddingLeft = parseInt(n.paddingLeft, 10) || 0, c.paddingRight = parseInt(n.paddingRight, 10) || 0, c.paddingTop = parseInt(n.paddingTop, 10) || 0, c.paddingBottom = parseInt(n.paddingBottom, 10) || 0), c;
 }
-function kN(o, t = !1, n) {
-  let a = n ? o.getBoundingClientRect() : uo(o), e = QN(o, t), r = {
+function JN(o, t = !1, n) {
+  let a = n ? o.getBoundingClientRect() : fo(o), e = KN(o, t), r = {
     left: a.left + e.borderLeft + e.scrollbarLeft,
     right: a.right - e.borderRight - e.scrollbarRight,
     top: a.top + e.borderTop,
@@ -39654,7 +39685,7 @@ function kN(o, t = !1, n) {
   };
   return t && (r.left += e.paddingLeft, r.right -= e.paddingRight, r.top += e.paddingTop, r.bottom -= e.paddingBottom), r;
 }
-function uo(o) {
+function fo(o) {
   let t = o.getBoundingClientRect();
   return {
     left: t.left + window.pageXOffset,
@@ -39663,10 +39694,10 @@ function uo(o) {
     bottom: t.bottom + window.pageYOffset
   };
 }
-function WN(o) {
-  let t = kl(o), n = o.getBoundingClientRect();
+function ZN(o) {
+  let t = Yl(o), n = o.getBoundingClientRect();
   for (let a of t) {
-    let e = jl(n, a.getBoundingClientRect());
+    let e = kl(n, a.getBoundingClientRect());
     if (e)
       n = e;
     else
@@ -39674,7 +39705,7 @@ function WN(o) {
   }
   return n;
 }
-function kl(o) {
+function Yl(o) {
   let t = [];
   for (; o instanceof HTMLElement; ) {
     let n = window.getComputedStyle(o);
@@ -39684,7 +39715,7 @@ function kl(o) {
   }
   return t;
 }
-class On {
+class Vn {
   constructor(t, n, a, e) {
     this.els = n;
     let r = this.originClientRect = t.getBoundingClientRect();
@@ -39725,10 +39756,10 @@ class On {
     return this.bottoms[t] - this.tops[t];
   }
   similarTo(t) {
-    return pn(this.tops || [], t.tops || []) && pn(this.bottoms || [], t.bottoms || []) && pn(this.lefts || [], t.lefts || []) && pn(this.rights || [], t.rights || []);
+    return gn(this.tops || [], t.tops || []) && gn(this.bottoms || [], t.bottoms || []) && gn(this.lefts || [], t.lefts || []) && gn(this.rights || [], t.rights || []);
   }
 }
-function pn(o, t) {
+function gn(o, t) {
   const n = o.length;
   if (n !== t.length)
     return !1;
@@ -39737,7 +39768,7 @@ function pn(o, t) {
       return !1;
   return !0;
 }
-class fo {
+class mo {
   getMaxScrollTop() {
     return this.getScrollHeight() - this.getClientHeight();
   }
@@ -39763,7 +39794,7 @@ class fo {
     return this.getScrollLeft() < this.getMaxScrollLeft();
   }
 }
-class GN extends fo {
+class XN extends mo {
   constructor(t) {
     super(), this.el = t;
   }
@@ -39792,7 +39823,7 @@ class GN extends fo {
     return this.el.clientWidth;
   }
 }
-class YN extends fo {
+class qN extends mo {
   getScrollTop() {
     return window.pageYOffset;
   }
@@ -39818,9 +39849,9 @@ class YN extends fo {
     return document.documentElement.clientWidth;
   }
 }
-class Mt extends we {
+class Tt extends we {
   constructor() {
-    super(...arguments), this.uid = Ct();
+    super(...arguments), this.uid = St();
   }
   prepareHits() {
   }
@@ -39834,7 +39865,7 @@ class Mt extends we {
     return !ze(t, ".fc-event:not(.fc-bg-event)") && !ze(t, ".fc-more-link") && !ze(t, "a[data-navlink]") && !ze(t, ".fc-popover");
   }
 }
-class KN {
+class eL {
   constructor() {
     this.strictOrder = !1, this.allowReslicing = !1, this.maxCoord = -1, this.maxStackCnt = -1, this.levelCoords = [], this.entriesByLevel = [], this.stackCnts = {};
   }
@@ -39867,12 +39898,12 @@ class KN {
     }, r)), e ? (a.push({
       index: t.index,
       thickness: t.thickness,
-      span: Wl(i, l)
+      span: Kl(i, l)
     }, ...r), e) : (a.push(t), 0);
   }
   insertEntryAt(t, n) {
     let { entriesByLevel: a, levelCoords: e } = this;
-    n.lateral === -1 ? (ua(e, n.level, n.levelCoord), ua(a, n.level, [t])) : ua(a[n.level], n.lateral, t), this.stackCnts[Xt(t)] = n.stackCnt;
+    n.lateral === -1 ? (fa(e, n.level, n.levelCoord), fa(a, n.level, [t])) : fa(a[n.level], n.lateral, t), this.stackCnts[qt(t)] = n.stackCnt;
   }
   findInsertion(t) {
     let { levelCoords: n, entriesByLevel: a, strictOrder: e, stackCnts: r } = this, l = n.length, i = 0, s = -1, d = -1, c = null, f = 0;
@@ -39880,10 +39911,10 @@ class KN {
       let p = n[m];
       if (!e && p >= i + t.thickness)
         break;
-      let v = a[m], y, g = Ar(v, t.span.start, yr), _ = g[0] + g[1];
+      let v = a[m], y, g = _r(v, t.span.start, Ar), _ = g[0] + g[1];
       for (; (y = v[_]) && y.span.start < t.span.end; ) {
         let A = p + y.thickness;
-        A > i && (i = A, c = y, s = m, d = _), A === i && (f = Math.max(f, r[Xt(y)] + 1)), _ += 1;
+        A > i && (i = A, c = y, s = m, d = _), A === i && (f = Math.max(f, r[qt(y)] + 1)), _ += 1;
       }
     }
     let h = 0;
@@ -39891,7 +39922,7 @@ class KN {
       for (h = s + 1; h < l && n[h] < i; )
         h += 1;
     let u = -1;
-    return h < l && n[h] === i && (u = Ar(a[h], t.span.end, yr)[0]), {
+    return h < l && n[h] === i && (u = _r(a[h], t.span.end, Ar)[0]), {
       touchingLevel: s,
       touchingLateral: d,
       touchingEntry: c,
@@ -39911,20 +39942,20 @@ class KN {
     return e;
   }
 }
-function yr(o) {
+function Ar(o) {
   return o.span.end;
 }
-function Xt(o) {
+function qt(o) {
   return o.index + ":" + o.span.start;
 }
-function Wl(o, t) {
+function Kl(o, t) {
   let n = Math.max(o.start, t.start), a = Math.min(o.end, t.end);
   return n < a ? { start: n, end: a } : null;
 }
-function ua(o, t, n) {
+function fa(o, t, n) {
   o.splice(t, 0, n);
 }
-function Ar(o, t, n) {
+function _r(o, t, n) {
   let a = 0, e = o.length;
   if (!e || t < n(o[a]))
     return [0, 0];
@@ -39941,9 +39972,9 @@ function Ar(o, t, n) {
   }
   return [a, 0];
 }
-class JN {
+class tL {
   constructor(t, n) {
-    this.emitter = new Gn();
+    this.emitter = new Yn();
   }
   destroy() {
   }
@@ -39954,25 +39985,25 @@ class JN {
   setAutoScrollEnabled(t) {
   }
 }
-const mo = {};
-function ZN(o, t) {
+const vo = {};
+function nL(o, t) {
   return !o || t > 10 ? Me({ weekday: "short" }) : t > 1 ? Me({ weekday: "short", month: "numeric", day: "numeric", omitCommas: !0 }) : Me({ weekday: "long" });
 }
-const Gl = "fc-col-header-cell";
-function Yl(o) {
+const Jl = "fc-col-header-cell";
+function Zl(o) {
   return o.text;
 }
-class XN extends we {
+class aL extends we {
   render() {
-    let { dateEnv: t, options: n, theme: a, viewApi: e } = this.context, { props: r } = this, { date: l, dateProfile: i } = r, s = Ul(l, r.todayRange, null, i), d = [Gl].concat(co(s, a)), c = t.format(l, r.dayHeaderFormat), f = !s.isDisabled && r.colCnt > 1 ? Ma(this.context, l) : {}, h = Object.assign(Object.assign(Object.assign({ date: t.toDate(l), view: e }, r.extraRenderProps), { text: c }), s);
-    return U(nt, { elTag: "th", elClasses: d, elAttrs: Object.assign({ role: "columnheader", colSpan: r.colSpan, "data-date": s.isDisabled ? void 0 : Ka(l) }, r.extraDataAttrs), renderProps: h, generatorName: "dayHeaderContent", customGenerator: n.dayHeaderContent, defaultGenerator: Yl, classNameGenerator: n.dayHeaderClassNames, didMount: n.dayHeaderDidMount, willUnmount: n.dayHeaderWillUnmount }, (u) => U("div", { className: "fc-scrollgrid-sync-inner" }, !s.isDisabled && U(u, { elTag: "a", elAttrs: f, elClasses: [
+    let { dateEnv: t, options: n, theme: a, viewApi: e } = this.context, { props: r } = this, { date: l, dateProfile: i } = r, s = Wl(l, r.todayRange, null, i), d = [Jl].concat(uo(s, a)), c = t.format(l, r.dayHeaderFormat), f = !s.isDisabled && r.colCnt > 1 ? Ta(this.context, l) : {}, h = Object.assign(Object.assign(Object.assign({ date: t.toDate(l), view: e }, r.extraRenderProps), { text: c }), s);
+    return U(nt, { elTag: "th", elClasses: d, elAttrs: Object.assign({ role: "columnheader", colSpan: r.colSpan, "data-date": s.isDisabled ? void 0 : Ja(l) }, r.extraDataAttrs), renderProps: h, generatorName: "dayHeaderContent", customGenerator: n.dayHeaderContent, defaultGenerator: Zl, classNameGenerator: n.dayHeaderClassNames, didMount: n.dayHeaderDidMount, willUnmount: n.dayHeaderWillUnmount }, (u) => U("div", { className: "fc-scrollgrid-sync-inner" }, !s.isDisabled && U(u, { elTag: "a", elAttrs: f, elClasses: [
       "fc-col-header-cell-cushion",
       r.isSticky && "fc-sticky"
     ] })));
   }
 }
-const qN = Me({ weekday: "long" });
-class eL extends we {
+const oL = Me({ weekday: "long" });
+class rL extends we {
   render() {
     let { props: t } = this, { dateEnv: n, theme: a, viewApi: e, options: r } = this.context, l = $e(new Date(2592e5), t.dow), i = {
       dow: t.dow,
@@ -39985,24 +40016,24 @@ class eL extends we {
       date: l
     }, i), { view: e }), t.extraRenderProps), { text: s });
     return U(nt, { elTag: "th", elClasses: [
-      Gl,
-      ...co(i, a),
+      Jl,
+      ...uo(i, a),
       ...t.extraClassNames || []
-    ], elAttrs: Object.assign({ role: "columnheader", colSpan: t.colSpan }, t.extraDataAttrs), renderProps: d, generatorName: "dayHeaderContent", customGenerator: r.dayHeaderContent, defaultGenerator: Yl, classNameGenerator: r.dayHeaderClassNames, didMount: r.dayHeaderDidMount, willUnmount: r.dayHeaderWillUnmount }, (c) => U(
+    ], elAttrs: Object.assign({ role: "columnheader", colSpan: t.colSpan }, t.extraDataAttrs), renderProps: d, generatorName: "dayHeaderContent", customGenerator: r.dayHeaderContent, defaultGenerator: Zl, classNameGenerator: r.dayHeaderClassNames, didMount: r.dayHeaderDidMount, willUnmount: r.dayHeaderWillUnmount }, (c) => U(
       "div",
       { className: "fc-scrollgrid-sync-inner" },
       U(c, { elTag: "a", elClasses: [
         "fc-col-header-cell-cushion",
         t.isSticky && "fc-sticky"
       ], elAttrs: {
-        "aria-label": n.format(l, qN)
+        "aria-label": n.format(l, oL)
       } })
     ));
   }
 }
-class vo extends Le {
+class ho extends Le {
   constructor(t, n) {
-    super(t, n), this.initialNowDate = sn(n.options.now, n.dateEnv), this.initialNowQueriedMs = new Date().valueOf(), this.state = this.computeTiming().currentState;
+    super(t, n), this.initialNowDate = dn(n.options.now, n.dateEnv), this.initialNowQueriedMs = new Date().valueOf(), this.state = this.computeTiming().currentState;
   }
   render() {
     let { props: t, state: n } = this;
@@ -40018,10 +40049,10 @@ class vo extends Le {
     this.clearTimeout();
   }
   computeTiming() {
-    let { props: t, context: n } = this, a = _t(this.initialNowDate, new Date().valueOf() - this.initialNowQueriedMs), e = n.dateEnv.startOf(a, t.unit), r = n.dateEnv.add(e, pe(1, t.unit)), l = r.valueOf() - a.valueOf();
+    let { props: t, context: n } = this, a = ct(this.initialNowDate, new Date().valueOf() - this.initialNowQueriedMs), e = n.dateEnv.startOf(a, t.unit), r = n.dateEnv.add(e, pe(1, t.unit)), l = r.valueOf() - a.valueOf();
     return l = Math.min(1e3 * 60 * 60 * 24, l), {
-      currentState: { nowDate: e, todayRange: _r(e) },
-      nextState: { nowDate: r, todayRange: _r(r) },
+      currentState: { nowDate: e, todayRange: xr(e) },
+      nextState: { nowDate: r, todayRange: xr(r) },
       waitMs: l
     };
   }
@@ -40037,29 +40068,29 @@ class vo extends Le {
     this.timeoutId && clearTimeout(this.timeoutId);
   }
 }
-vo.contextType = bt;
-function _r(o) {
+ho.contextType = Dt;
+function xr(o) {
   let t = Ae(o), n = $e(t, 1);
   return { start: t, end: n };
 }
-class tL extends we {
+class lL extends we {
   constructor() {
-    super(...arguments), this.createDayHeaderFormatter = ge(nL);
+    super(...arguments), this.createDayHeaderFormatter = ge(iL);
   }
   render() {
     let { context: t } = this, { dates: n, dateProfile: a, datesRepDistinctDays: e, renderIntro: r } = this.props, l = this.createDayHeaderFormatter(t.options.dayHeaderFormat, e, n.length);
-    return U(vo, { unit: "day" }, (i, s) => U(
+    return U(ho, { unit: "day" }, (i, s) => U(
       "tr",
       { role: "row" },
       r && r("day"),
-      n.map((d) => e ? U(XN, { key: d.toISOString(), date: d, dateProfile: a, todayRange: s, colCnt: n.length, dayHeaderFormat: l }) : U(eL, { key: d.getUTCDay(), dow: d.getUTCDay(), dayHeaderFormat: l }))
+      n.map((d) => e ? U(aL, { key: d.toISOString(), date: d, dateProfile: a, todayRange: s, colCnt: n.length, dayHeaderFormat: l }) : U(rL, { key: d.getUTCDay(), dow: d.getUTCDay(), dayHeaderFormat: l }))
     ));
   }
 }
-function nL(o, t, n) {
-  return o || ZN(t, n);
+function iL(o, t, n) {
+  return o || nL(t, n);
 }
-class aL {
+class sL {
   constructor(t, n) {
     let a = t.start, { end: e } = t, r = [], l = [], i = -1;
     for (; a < e; )
@@ -40076,11 +40107,11 @@ class aL {
     } : null;
   }
   getDateDayIndex(t) {
-    let { indices: n } = this, a = Math.floor(jt(this.dates[0], t));
+    let { indices: n } = this, a = Math.floor(Qt(this.dates[0], t));
     return a < 0 ? n[0] - 1 : a >= n.length ? n[n.length - 1] + 1 : n[a];
   }
 }
-class oL {
+class dL {
   constructor(t, n) {
     let { dates: a } = t, e, r, l;
     if (n) {
@@ -40132,7 +40163,7 @@ class oL {
     return e;
   }
 }
-class rL {
+class cL {
   constructor() {
     this.sliceBusinessHours = ge(this._sliceBusinessHours), this.sliceDateSelection = ge(this._sliceDateSpan), this.sliceEventStore = ge(this._sliceEventStore), this.sliceEventDrag = ge(this._sliceInteraction), this.sliceEventResize = ge(this._sliceInteraction), this.forceDayIfListItem = !1;
   }
@@ -40150,7 +40181,7 @@ class rL {
   }
   sliceNowDate(t, n, a, e, ...r) {
     return this._sliceDateSpan(
-      { range: { start: t, end: _t(t, 1) }, allDay: !1 },
+      { range: { start: t, end: ct(t, 1) }, allDay: !1 },
       n,
       a,
       {},
@@ -40159,11 +40190,11 @@ class rL {
     );
   }
   _sliceBusinessHours(t, n, a, e, ...r) {
-    return t ? this._sliceEventStore(wt(t, gn(n, Boolean(a)), e), {}, n, a, ...r).bg : [];
+    return t ? this._sliceEventStore(Et(t, yn(n, Boolean(a)), e), {}, n, a, ...r).bg : [];
   }
   _sliceEventStore(t, n, a, e, ...r) {
     if (t) {
-      let l = hr(t, n, gn(a, Boolean(e)), e);
+      let l = pr(t, n, yn(a, Boolean(e)), e);
       return {
         bg: this.sliceEventRanges(l.bg, r),
         fg: this.sliceEventRanges(l.fg, r)
@@ -40174,7 +40205,7 @@ class rL {
   _sliceInteraction(t, n, a, e, ...r) {
     if (!t)
       return null;
-    let l = hr(t.mutatedEvents, n, gn(a, Boolean(e)), e);
+    let l = pr(t.mutatedEvents, n, yn(a, Boolean(e)), e);
     return {
       segs: this.sliceEventRanges(l.fg, r),
       affectedInstances: t.affectedEvents.instances,
@@ -40184,10 +40215,10 @@ class rL {
   _sliceDateSpan(t, n, a, e, r, ...l) {
     if (!t)
       return [];
-    let i = gn(n, Boolean(a)), s = Vt(t.range, i);
+    let i = yn(n, Boolean(a)), s = jt(t.range, i);
     if (s) {
       t = Object.assign(Object.assign({}, t), { range: s });
-      let d = DN(t, e, r), c = this.sliceRange(t.range, ...l);
+      let d = $N(t, e, r), c = this.sliceRange(t.range, ...l);
       for (let f of c)
         f.eventRange = d;
       return c;
@@ -40212,42 +40243,42 @@ class rL {
     return e;
   }
 }
-function gn(o, t) {
+function yn(o, t) {
   let n = o.activeRange;
   return t ? n : {
-    start: _t(n.start, o.slotMinTime.milliseconds),
-    end: _t(n.end, o.slotMaxTime.milliseconds - 864e5)
+    start: ct(n.start, o.slotMinTime.milliseconds),
+    end: ct(n.end, o.slotMaxTime.milliseconds - 864e5)
   };
 }
-function Kl(o, t, n) {
+function Xl(o, t, n) {
   let { instances: a } = o.mutatedEvents;
   for (let e in a)
-    if (!kn(t.validRange, a[e].range))
+    if (!Wn(t.validRange, a[e].range))
       return !1;
-  return Jl({ eventDrag: o }, n);
+  return ql({ eventDrag: o }, n);
 }
-function lL(o, t, n) {
-  return kn(t.validRange, o.range) ? Jl({ dateSelection: o }, n) : !1;
+function uL(o, t, n) {
+  return Wn(t.validRange, o.range) ? ql({ dateSelection: o }, n) : !1;
 }
-function Jl(o, t) {
+function ql(o, t) {
   let n = t.getCurrentData(), a = Object.assign({ businessHours: n.businessHours, dateSelection: "", eventStore: n.eventStore, eventUiBases: n.eventUiBases, eventSelection: "", eventDrag: null, eventResize: null }, o);
-  return (t.pluginHooks.isPropsValid || iL)(a, t);
+  return (t.pluginHooks.isPropsValid || fL)(a, t);
 }
-function iL(o, t, n = {}, a) {
-  return !(o.eventDrag && !sL(o, t, n, a) || o.dateSelection && !dL(o, t, n, a));
+function fL(o, t, n = {}, a) {
+  return !(o.eventDrag && !mL(o, t, n, a) || o.dateSelection && !vL(o, t, n, a));
 }
-function sL(o, t, n, a) {
-  let e = t.getCurrentData(), r = o.eventDrag, l = r.mutatedEvents, i = l.defs, s = l.instances, d = Ln(i, r.isEvent ? o.eventUiBases : { "": e.selectionConfig });
-  a && (d = St(d, a));
-  let c = oN(o.eventStore, r.affectedEvents.instances), f = c.defs, h = c.instances, u = Ln(f, o.eventUiBases);
+function mL(o, t, n, a) {
+  let e = t.getCurrentData(), r = o.eventDrag, l = r.mutatedEvents, i = l.defs, s = l.instances, d = On(i, r.isEvent ? o.eventUiBases : { "": e.selectionConfig });
+  a && (d = bt(d, a));
+  let c = dN(o.eventStore, r.affectedEvents.instances), f = c.defs, h = c.instances, u = On(f, o.eventUiBases);
   for (let m in s) {
     let p = s[m], v = p.range, y = d[p.defId], g = i[p.defId];
-    if (!Zl(y.constraints, v, c, o.businessHours, t))
+    if (!ei(y.constraints, v, c, o.businessHours, t))
       return !1;
     let { eventOverlap: _ } = t.options, A = typeof _ == "function" ? _ : null;
     for (let w in h) {
       let C = h[w];
-      if (to(v, C.range) && (u[C.defId].overlap === !1 && r.isEvent || y.overlap === !1 || A && !A(
+      if (no(v, C.range) && (u[C.defId].overlap === !1 && r.isEvent || y.overlap === !1 || A && !A(
         new _e(t, f[C.defId], C),
         new _e(t, g, p)
       )))
@@ -40256,55 +40287,55 @@ function sL(o, t, n, a) {
     let x = e.eventStore;
     for (let w of y.allows) {
       let C = Object.assign(Object.assign({}, n), { range: p.range, allDay: g.allDay }), b = x.defs[g.defId], T = x.instances[m], S;
-      if (b ? S = new _e(t, b, T) : S = new _e(t, g), !w(lo(C, t), S))
+      if (b ? S = new _e(t, b, T) : S = new _e(t, g), !w(io(C, t), S))
         return !1;
     }
   }
   return !0;
 }
-function dL(o, t, n, a) {
+function vL(o, t, n, a) {
   let e = o.eventStore, r = e.defs, l = e.instances, i = o.dateSelection, s = i.range, { selectionConfig: d } = t.getCurrentData();
-  if (a && (d = a(d)), !Zl(d.constraints, s, e, o.businessHours, t))
+  if (a && (d = a(d)), !ei(d.constraints, s, e, o.businessHours, t))
     return !1;
   let { selectOverlap: c } = t.options, f = typeof c == "function" ? c : null;
   for (let h in l) {
     let u = l[h];
-    if (to(s, u.range) && (d.overlap === !1 || f && !f(new _e(t, r[u.defId], u), null)))
+    if (no(s, u.range) && (d.overlap === !1 || f && !f(new _e(t, r[u.defId], u), null)))
       return !1;
   }
   for (let h of d.allows) {
     let u = Object.assign(Object.assign({}, n), i);
-    if (!h(lo(u, t), null))
+    if (!h(io(u, t), null))
       return !1;
   }
   return !0;
 }
-function Zl(o, t, n, a, e) {
+function ei(o, t, n, a, e) {
   for (let r of o)
-    if (!uL(cL(r, t, n, a, e), t))
+    if (!pL(hL(r, t, n, a, e), t))
       return !1;
   return !0;
 }
-function cL(o, t, n, a, e) {
-  return o === "businessHours" ? fa(wt(a, t, e)) : typeof o == "string" ? fa(Wn(n, (r) => r.groupId === o)) : typeof o == "object" && o ? fa(wt(o, t, e)) : [];
+function hL(o, t, n, a, e) {
+  return o === "businessHours" ? ma(Et(a, t, e)) : typeof o == "string" ? ma(Gn(n, (r) => r.groupId === o)) : typeof o == "object" && o ? ma(Et(o, t, e)) : [];
 }
-function fa(o) {
+function ma(o) {
   let { instances: t } = o, n = [];
   for (let a in t)
     n.push(t[a].range);
   return n;
 }
-function uL(o, t) {
+function pL(o, t) {
   for (let n of o)
-    if (kn(n, t))
+    if (Wn(n, t))
       return !0;
   return !1;
 }
-const yn = /^(visible|hidden)$/;
-class fL extends we {
+const An = /^(visible|hidden)$/;
+class gL extends we {
   constructor() {
     super(...arguments), this.handleEl = (t) => {
-      this.el = t, ct(this.props.elRef, t);
+      this.el = t, ut(this.props.elRef, t);
     };
   }
   render() {
@@ -40322,7 +40353,7 @@ class fL extends we {
     } }, t.children);
   }
   needsXScrolling() {
-    if (yn.test(this.props.overflowX))
+    if (An.test(this.props.overflowX))
       return !1;
     let { el: t } = this, n = this.el.getBoundingClientRect().width - this.getYScrollbarWidth(), { children: a } = t;
     for (let e = 0; e < a.length; e += 1)
@@ -40331,7 +40362,7 @@ class fL extends we {
     return !1;
   }
   needsYScrolling() {
-    if (yn.test(this.props.overflowY))
+    if (An.test(this.props.overflowY))
       return !1;
     let { el: t } = this, n = this.el.getBoundingClientRect().height - this.getXScrollbarWidth(), { children: a } = t;
     for (let e = 0; e < a.length; e += 1)
@@ -40340,13 +40371,13 @@ class fL extends we {
     return !1;
   }
   getXScrollbarWidth() {
-    return yn.test(this.props.overflowX) ? 0 : this.el.offsetHeight - this.el.clientHeight;
+    return An.test(this.props.overflowX) ? 0 : this.el.offsetHeight - this.el.clientHeight;
   }
   getYScrollbarWidth() {
-    return yn.test(this.props.overflowY) ? 0 : this.el.offsetWidth - this.el.clientWidth;
+    return An.test(this.props.overflowY) ? 0 : this.el.offsetWidth - this.el.clientWidth;
   }
 }
-class yt {
+class _t {
   constructor(t) {
     this.masterCallback = t, this.currentMap = {}, this.depths = {}, this.callbackMap = {}, this.handleValue = (n, a) => {
       let { depths: e, currentMap: r } = this, l = !1, i = !1;
@@ -40360,25 +40391,25 @@ class yt {
     }), n;
   }
   collect(t, n, a) {
-    return _P(this.currentMap, t, n, a);
+    return CP(this.currentMap, t, n, a);
   }
   getAll() {
-    return qa(this.currentMap);
+    return eo(this.currentMap);
   }
 }
-function mL(o) {
-  let t = _B(o, ".fc-scrollgrid-shrink"), n = 0;
+function yL(o) {
+  let t = CB(o, ".fc-scrollgrid-shrink"), n = 0;
   for (let a of t)
-    n = Math.max(n, IB(a));
+    n = Math.max(n, LB(a));
   return Math.ceil(n);
 }
-function Xl(o, t) {
+function ti(o, t) {
   return o.liquid && t.liquid;
 }
-function vL(o, t) {
-  return t.maxHeight != null || Xl(o, t);
+function AL(o, t) {
+  return t.maxHeight != null || ti(o, t);
 }
-function hL(o, t, n, a) {
+function _L(o, t, n, a) {
   let { expandRows: e } = n;
   return typeof t.content == "function" ? t.content(n) : U("table", {
     role: "presentation",
@@ -40395,38 +40426,38 @@ function hL(o, t, n, a) {
     role: "presentation"
   }, typeof t.rowContent == "function" ? t.rowContent(n) : t.rowContent));
 }
-function pL(o, t) {
+function xL(o, t) {
   return dt(o, t, Je);
 }
-function gL(o, t) {
+function wL(o, t) {
   let n = [];
   for (let a of o) {
     let e = a.span || 1;
     for (let r = 0; r < e; r += 1)
       n.push(U("col", { style: {
-        width: a.width === "shrink" ? yL(t) : a.width || "",
+        width: a.width === "shrink" ? EL(t) : a.width || "",
         minWidth: a.minWidth || ""
       } }));
   }
   return U("colgroup", {}, ...n);
 }
-function yL(o) {
+function EL(o) {
   return o ?? 4;
 }
-function AL(o) {
+function CL(o) {
   for (let t of o)
     if (t.width === "shrink")
       return !0;
   return !1;
 }
-function _L(o, t) {
+function SL(o, t) {
   let n = [
     "fc-scrollgrid",
     t.theme.getClass("table")
   ];
   return o && n.push("fc-scrollgrid-liquid"), n;
 }
-function xL(o, t) {
+function bL(o, t) {
   let n = [
     "fc-scrollgrid-section",
     `fc-scrollgrid-section-${o.type}`,
@@ -40434,23 +40465,23 @@ function xL(o, t) {
   ];
   return t && o.liquid && o.maxHeight == null && n.push("fc-scrollgrid-section-liquid"), o.isSticky && n.push("fc-scrollgrid-section-sticky"), n;
 }
-function wL(o) {
+function DL(o) {
   return U("div", { className: "fc-scrollgrid-sticky-shim", style: {
     width: o.clientWidth,
     minWidth: o.tableMinWidth
   } });
 }
-function xr(o) {
+function wr(o) {
   let { stickyHeaderDates: t } = o;
   return (t == null || t === "auto") && (t = o.height === "auto" || o.viewHeight === "auto"), t;
 }
-function EL(o) {
+function ML(o) {
   let { stickyFooterScrollbar: t } = o;
   return (t == null || t === "auto") && (t = o.height === "auto" || o.viewHeight === "auto"), t;
 }
-class ql extends we {
+class ni extends we {
   constructor() {
-    super(...arguments), this.processCols = ge((t) => t, pL), this.renderMicroColGroup = ge(gL), this.scrollerRefs = new yt(), this.scrollerElRefs = new yt(this._handleScrollerEl.bind(this)), this.state = {
+    super(...arguments), this.processCols = ge((t) => t, xL), this.renderMicroColGroup = ge(wL), this.scrollerRefs = new _t(), this.scrollerElRefs = new _t(this._handleScrollerEl.bind(this)), this.state = {
       shrinkWidth: null,
       forceYScrollbars: !1,
       scrollerClientWidths: {},
@@ -40460,7 +40491,7 @@ class ql extends we {
     };
   }
   render() {
-    let { props: t, state: n, context: a } = this, e = t.sections || [], r = this.processCols(t.cols), l = this.renderMicroColGroup(r, n.shrinkWidth), i = _L(t.liquid, a);
+    let { props: t, state: n, context: a } = this, e = t.sections || [], r = this.processCols(t.cols), l = this.renderMicroColGroup(r, n.shrinkWidth), i = SL(t.liquid, a);
     t.collapsibleWidth && i.push("fc-scrollgrid-collapsible");
     let s = e.length, d = 0, c, f = [], h = [], u = [];
     for (; d < s && (c = e[d]).type === "header"; )
@@ -40469,7 +40500,7 @@ class ql extends we {
       h.push(this.renderSection(c, l, !1)), d += 1;
     for (; d < s && (c = e[d]).type === "footer"; )
       u.push(this.renderSection(c, l, !0)), d += 1;
-    let m = !Fl();
+    let m = !Ql();
     const p = { role: "rowgroup" };
     return U("table", {
       role: "grid",
@@ -40478,12 +40509,12 @@ class ql extends we {
     }, Boolean(!m && f.length) && U("thead", p, ...f), Boolean(!m && h.length) && U("tbody", p, ...h), Boolean(!m && u.length) && U("tfoot", p, ...u), m && U("tbody", p, ...f, ...h, ...u));
   }
   renderSection(t, n, a) {
-    return "outerContent" in t ? U(Se, { key: t.key }, t.outerContent) : U("tr", { key: t.key, role: "presentation", className: xL(t, this.props.liquid).join(" ") }, this.renderChunkTd(t, n, t.chunk, a));
+    return "outerContent" in t ? U(Se, { key: t.key }, t.outerContent) : U("tr", { key: t.key, role: "presentation", className: bL(t, this.props.liquid).join(" ") }, this.renderChunkTd(t, n, t.chunk, a));
   }
   renderChunkTd(t, n, a, e) {
     if ("outerContent" in a)
       return a.outerContent;
-    let { props: r } = this, { forceYScrollbars: l, scrollerClientWidths: i, scrollerClientHeights: s } = this.state, d = vL(r, t), c = Xl(r, t), f = r.liquid ? l ? "scroll" : d ? "auto" : "hidden" : "visible", h = t.key, u = hL(t, a, {
+    let { props: r } = this, { forceYScrollbars: l, scrollerClientWidths: i, scrollerClientHeights: s } = this.state, d = AL(r, t), c = ti(r, t), f = r.liquid ? l ? "scroll" : d ? "auto" : "hidden" : "visible", h = t.key, u = _L(t, a, {
       tableColGroupNode: n,
       tableMinWidth: "",
       clientWidth: !r.collapsibleWidth && i[h] !== void 0 ? i[h] : null,
@@ -40500,12 +40531,12 @@ class ql extends we {
     }, U(
       "div",
       { className: `fc-scroller-harness${c ? " fc-scroller-harness-liquid" : ""}` },
-      U(fL, { ref: this.scrollerRefs.createRef(h), elRef: this.scrollerElRefs.createRef(h), overflowY: f, overflowX: r.liquid ? "hidden" : "visible", maxHeight: t.maxHeight, liquid: c, liquidIsAbsolute: !0 }, u)
+      U(gL, { ref: this.scrollerRefs.createRef(h), elRef: this.scrollerElRefs.createRef(h), overflowY: f, overflowX: r.liquid ? "hidden" : "visible", maxHeight: t.maxHeight, liquid: c, liquidIsAbsolute: !0 }, u)
     ));
   }
   _handleScrollerEl(t, n) {
-    let a = CL(this.props.sections, n);
-    a && ct(a.chunk.scrollerElRef, t);
+    let a = TL(this.props.sections, n);
+    a && ut(a.chunk.scrollerElRef, t);
   }
   componentDidMount() {
     this.handleSizing(), this.context.addResizeHandler(this.handleSizing);
@@ -40517,10 +40548,10 @@ class ql extends we {
     this.context.removeResizeHandler(this.handleSizing);
   }
   computeShrinkWidth() {
-    return AL(this.props.cols) ? mL(this.scrollerElRefs.getAll()) : 0;
+    return CL(this.props.cols) ? yL(this.scrollerElRefs.getAll()) : 0;
   }
   computeScrollerDims() {
-    let t = jN(), { scrollerRefs: n, scrollerElRefs: a } = this, e = !1, r = {}, l = {};
+    let t = GN(), { scrollerRefs: n, scrollerElRefs: a } = this, e = !1, r = {}, l = {};
     for (let i in n.currentMap) {
       let s = n.currentMap[i];
       if (s && s.needsYScrolling()) {
@@ -40538,20 +40569,20 @@ class ql extends we {
     return { forceYScrollbars: e, scrollerClientWidths: r, scrollerClientHeights: l };
   }
 }
-ql.addStateEquality({
+ni.addStateEquality({
   scrollerClientWidths: Je,
   scrollerClientHeights: Je
 });
-function CL(o, t) {
+function TL(o, t) {
   for (let n of o)
     if (n.key === t)
       return n;
   return null;
 }
-class ho extends we {
+class po extends we {
   constructor() {
     super(...arguments), this.handleEl = (t) => {
-      this.el = t, t && pr(t, this.props.seg);
+      this.el = t, t && gr(t, this.props.seg);
     };
   }
   render() {
@@ -40562,9 +40593,9 @@ class ho extends we {
       textColor: l.textColor,
       backgroundColor: l.backgroundColor,
       borderColor: l.borderColor,
-      isDraggable: !t.disableDragging && pN(e, n),
-      isStartResizable: !t.disableResizing && gN(e, n),
-      isEndResizable: !t.disableResizing && yN(e),
+      isDraggable: !t.disableDragging && xN(e, n),
+      isStartResizable: !t.disableResizing && wN(e, n),
+      isEndResizable: !t.disableResizing && EN(e),
       isMirror: Boolean(t.isDragging || t.isResizing || t.isDateSelecting),
       isStart: Boolean(e.isStart),
       isEnd: Boolean(e.isEnd),
@@ -40576,22 +40607,22 @@ class ho extends we {
       isResizing: Boolean(t.isResizing)
     };
     return U(nt, Object.assign({}, t, { elRef: this.handleEl, elClasses: [
-      ...AN(i),
+      ...CN(i),
       ...e.eventRange.ui.classNames,
       ...t.elClasses || []
     ], renderProps: i, generatorName: "eventContent", customGenerator: a.eventContent, defaultGenerator: t.defaultGenerator, classNameGenerator: a.eventClassNames, didMount: a.eventDidMount, willUnmount: a.eventWillUnmount }));
   }
   componentDidUpdate(t) {
-    this.el && this.props.seg !== t.seg && pr(this.el, this.props.seg);
+    this.el && this.props.seg !== t.seg && gr(this.el, this.props.seg);
   }
 }
-class SL extends we {
+class RL extends we {
   render() {
-    let { props: t, context: n } = this, { options: a } = n, { seg: e } = t, { ui: r } = e.eventRange, l = a.eventTimeFormat || t.defaultTimeFormat, i = Nl(e, l, n, t.defaultDisplayEventTime, t.defaultDisplayEventEnd);
-    return U(ho, Object.assign({}, t, { elTag: "a", elStyle: {
+    let { props: t, context: n } = this, { options: a } = n, { seg: e } = t, { ui: r } = e.eventRange, l = a.eventTimeFormat || t.defaultTimeFormat, i = Vl(e, l, n, t.defaultDisplayEventTime, t.defaultDisplayEventEnd);
+    return U(po, Object.assign({}, t, { elTag: "a", elStyle: {
       borderColor: r.borderColor,
       backgroundColor: r.backgroundColor
-    }, elAttrs: Ll(e, n), defaultGenerator: bL, timeText: i }), (s, d) => U(
+    }, elAttrs: Fl(e, n), defaultGenerator: zL, timeText: i }), (s, d) => U(
       Se,
       null,
       U(s, { elTag: "div", elClasses: ["fc-event-main"], elStyle: { color: d.textColor } }),
@@ -40600,7 +40631,7 @@ class SL extends we {
     ));
   }
 }
-function bL(o) {
+function zL(o) {
   return U(
     "div",
     { className: "fc-event-main-frame" },
@@ -40612,10 +40643,10 @@ function bL(o) {
     )
   );
 }
-const DL = Me({ day: "numeric" });
-class ei extends we {
+const $L = Me({ day: "numeric" });
+class ai extends we {
   constructor() {
-    super(...arguments), this.refineRenderProps = Cn(ML);
+    super(...arguments), this.refineRenderProps = Sn(HL);
   }
   render() {
     let { props: t, context: n } = this, { options: a } = n, e = this.refineRenderProps({
@@ -40630,53 +40661,53 @@ class ei extends we {
       monthStartFormat: a.monthStartFormat
     });
     return U(nt, Object.assign({}, t, { elClasses: [
-      ...co(e, n.theme),
+      ...uo(e, n.theme),
       ...t.elClasses || []
-    ], elAttrs: Object.assign(Object.assign({}, t.elAttrs), e.isDisabled ? {} : { "data-date": Ka(t.date) }), renderProps: e, generatorName: "dayCellContent", customGenerator: a.dayCellContent, defaultGenerator: t.defaultGenerator, classNameGenerator: e.isDisabled ? void 0 : a.dayCellClassNames, didMount: a.dayCellDidMount, willUnmount: a.dayCellWillUnmount }));
+    ], elAttrs: Object.assign(Object.assign({}, t.elAttrs), e.isDisabled ? {} : { "data-date": Ja(t.date) }), renderProps: e, generatorName: "dayCellContent", customGenerator: a.dayCellContent, defaultGenerator: t.defaultGenerator, classNameGenerator: e.isDisabled ? void 0 : a.dayCellClassNames, didMount: a.dayCellDidMount, willUnmount: a.dayCellWillUnmount }));
   }
 }
-function ti(o) {
-  return Boolean(o.dayCellContent || _l("dayCellContent", o));
+function oi(o) {
+  return Boolean(o.dayCellContent || El("dayCellContent", o));
 }
-function ML(o) {
-  let { date: t, dateEnv: n, dateProfile: a, isMonthStart: e } = o, r = Ul(t, o.todayRange, null, a), l = o.showDayNumber ? n.format(t, e ? o.monthStartFormat : DL) : "";
+function HL(o) {
+  let { date: t, dateEnv: n, dateProfile: a, isMonthStart: e } = o, r = Wl(t, o.todayRange, null, a), l = o.showDayNumber ? n.format(t, e ? o.monthStartFormat : $L) : "";
   return Object.assign(Object.assign(Object.assign({ date: n.toDate(t), view: o.viewApi }, r), {
     isMonthStart: e,
     dayNumberText: l
   }), o.extraRenderProps);
 }
-class TL extends we {
+class IL extends we {
   render() {
     let { props: t } = this, { seg: n } = t;
-    return U(ho, { elTag: "div", elClasses: ["fc-bg-event"], elStyle: { backgroundColor: n.eventRange.ui.backgroundColor }, defaultGenerator: RL, seg: n, timeText: "", isDragging: !1, isResizing: !1, isDateSelecting: !1, isSelected: !1, isPast: t.isPast, isFuture: t.isFuture, isToday: t.isToday, disableDragging: !0, disableResizing: !0 });
+    return U(po, { elTag: "div", elClasses: ["fc-bg-event"], elStyle: { backgroundColor: n.eventRange.ui.backgroundColor }, defaultGenerator: BL, seg: n, timeText: "", isDragging: !1, isResizing: !1, isDateSelecting: !1, isSelected: !1, isPast: t.isPast, isFuture: t.isFuture, isToday: t.isToday, disableDragging: !0, disableResizing: !0 });
   }
 }
-function RL(o) {
+function BL(o) {
   let { title: t } = o.event;
   return t && U("div", { className: "fc-event-title" }, o.event.title);
 }
-function zL(o) {
+function PL(o) {
   return U("div", { className: `fc-${o}` });
 }
-const $L = (o) => U(bt.Consumer, null, (t) => {
+const NL = (o) => U(Dt.Consumer, null, (t) => {
   let { dateEnv: n, options: a } = t, { date: e } = o, r = a.weekNumberFormat || o.defaultFormat, l = n.computeWeekNumber(e), i = n.format(e, r);
   return U(
     nt,
-    Object.assign({}, o, { renderProps: { num: l, text: i, date: e }, generatorName: "weekNumberContent", customGenerator: a.weekNumberContent, defaultGenerator: HL, classNameGenerator: a.weekNumberClassNames, didMount: a.weekNumberDidMount, willUnmount: a.weekNumberWillUnmount })
+    Object.assign({}, o, { renderProps: { num: l, text: i, date: e }, generatorName: "weekNumberContent", customGenerator: a.weekNumberContent, defaultGenerator: LL, classNameGenerator: a.weekNumberClassNames, didMount: a.weekNumberDidMount, willUnmount: a.weekNumberWillUnmount })
   );
 });
-function HL(o) {
+function LL(o) {
   return o.text;
 }
-const ma = 10;
-class IL extends we {
+const va = 10;
+class OL extends we {
   constructor() {
     super(...arguments), this.state = {
-      titleId: Un()
+      titleId: Qn()
     }, this.handleRootEl = (t) => {
-      this.rootEl = t, this.props.elRef && ct(this.props.elRef, t);
+      this.rootEl = t, this.props.elRef && ut(this.props.elRef, t);
     }, this.handleDocumentMouseDown = (t) => {
-      const n = fl(t);
+      const n = hl(t);
       this.rootEl.contains(n) || this.handleCloseClick();
     }, this.handleDocumentKeyDown = (t) => {
       t.key === "Escape" && this.handleCloseClick();
@@ -40690,7 +40721,7 @@ class IL extends we {
       "fc-popover",
       t.getClass("popover")
     ].concat(a.extraClassNames || []);
-    return sB(U(
+    return fB(U(
       "div",
       Object.assign({}, a.extraAttrs, { id: a.id, className: r.join(" "), "aria-labelledby": e.titleId, ref: this.handleRootEl }),
       U(
@@ -40709,19 +40740,19 @@ class IL extends we {
     document.removeEventListener("mousedown", this.handleDocumentMouseDown), document.removeEventListener("keydown", this.handleDocumentKeyDown);
   }
   updateSize() {
-    let { isRtl: t } = this.context, { alignmentEl: n, alignGridTop: a } = this.props, { rootEl: e } = this, r = WN(n);
+    let { isRtl: t } = this.context, { alignmentEl: n, alignGridTop: a } = this.props, { rootEl: e } = this, r = ZN(n);
     if (r) {
       let l = e.getBoundingClientRect(), i = a ? ze(n, ".fc-scrollgrid").getBoundingClientRect().top : r.top, s = t ? r.right - l.width : r.left;
-      i = Math.max(i, ma), s = Math.min(s, document.documentElement.clientWidth - ma - l.width), s = Math.max(s, ma);
+      i = Math.max(i, va), s = Math.min(s, document.documentElement.clientWidth - va - l.width), s = Math.max(s, va);
       let d = e.offsetParent.getBoundingClientRect();
-      Yt(e, {
+      Kt(e, {
         top: i - d.top,
         left: s - d.left
       });
     }
   }
 }
-class BL extends Mt {
+class VL extends Tt {
   constructor() {
     super(...arguments), this.handleRootEl = (t) => {
       this.rootEl = t, t ? this.context.registerInteractiveComponent(this, {
@@ -40732,10 +40763,10 @@ class BL extends Mt {
   }
   render() {
     let { options: t, dateEnv: n } = this.context, { props: a } = this, { startDate: e, todayRange: r, dateProfile: l } = a, i = n.format(e, t.dayPopoverFormat);
-    return U(ei, { elRef: this.handleRootEl, date: e, dateProfile: l, todayRange: r }, (s, d, c) => U(
-      IL,
+    return U(ai, { elRef: this.handleRootEl, date: e, dateProfile: l, todayRange: r }, (s, d, c) => U(
+      OL,
       { elRef: c.ref, id: a.id, title: i, extraClassNames: ["fc-more-popover"].concat(c.className || []), extraAttrs: c, parentEl: a.parentEl, alignmentEl: a.alignmentEl, alignGridTop: a.alignGridTop, onClose: a.onClose },
-      ti(t) && U(s, { elTag: "div", elClasses: ["fc-more-popover-misc"] }),
+      oi(t) && U(s, { elTag: "div", elClasses: ["fc-more-popover-misc"] }),
       a.children
     ));
   }
@@ -40758,15 +40789,15 @@ class BL extends Mt {
     } : null;
   }
 }
-class PL extends we {
+class FL extends we {
   constructor() {
     super(...arguments), this.state = {
       isPopoverOpen: !1,
-      popoverId: Un()
+      popoverId: Qn()
     }, this.handleLinkEl = (t) => {
-      this.linkEl = t, this.props.elRef && ct(this.props.elRef, t);
+      this.linkEl = t, this.props.elRef && ut(this.props.elRef, t);
     }, this.handleClick = (t) => {
-      let { props: n, context: a } = this, { moreLinkClick: e } = a.options, r = wr(n).start;
+      let { props: n, context: a } = this, { moreLinkClick: e } = a.options, r = Er(n).start;
       function l(i) {
         let { def: s, instance: d, range: c } = i.eventRange;
         return {
@@ -40791,8 +40822,8 @@ class PL extends we {
   }
   render() {
     let { props: t, state: n } = this;
-    return U(bt.Consumer, null, (a) => {
-      let { viewApi: e, options: r, calendarApi: l } = a, { moreLinkText: i } = r, { moreCnt: s } = t, d = wr(t), c = typeof i == "function" ? i.call(l, s) : `+${s} ${i}`, f = Kt(r.moreLinkHint, [s], c), h = {
+    return U(Dt.Consumer, null, (a) => {
+      let { viewApi: e, options: r, calendarApi: l } = a, { moreLinkText: i } = r, { moreCnt: s } = t, d = Er(t), c = typeof i == "function" ? i.call(l, s) : `+${s} ${i}`, f = Jt(r.moreLinkHint, [s], c), h = {
         num: s,
         shortText: `+${s}`,
         text: c,
@@ -40804,8 +40835,8 @@ class PL extends we {
         Boolean(t.moreCnt) && U(nt, { elTag: t.elTag || "a", elRef: this.handleLinkEl, elClasses: [
           ...t.elClasses || [],
           "fc-more-link"
-        ], elStyle: t.elStyle, elAttrs: Object.assign(Object.assign(Object.assign({}, t.elAttrs), vl(this.handleClick)), { title: f, "aria-expanded": n.isPopoverOpen, "aria-controls": n.isPopoverOpen ? n.popoverId : "" }), renderProps: h, generatorName: "moreLinkContent", customGenerator: r.moreLinkContent, defaultGenerator: t.defaultGenerator || NL, classNameGenerator: r.moreLinkClassNames, didMount: r.moreLinkDidMount, willUnmount: r.moreLinkWillUnmount }, t.children),
-        n.isPopoverOpen && U(BL, { id: n.popoverId, startDate: d.start, endDate: d.end, dateProfile: t.dateProfile, todayRange: t.todayRange, extraDateSpan: t.extraDateSpan, parentEl: this.parentEl, alignmentEl: t.alignmentElRef ? t.alignmentElRef.current : this.linkEl, alignGridTop: t.alignGridTop, onClose: this.handlePopoverClose }, t.popoverContent())
+        ], elStyle: t.elStyle, elAttrs: Object.assign(Object.assign(Object.assign({}, t.elAttrs), gl(this.handleClick)), { title: f, "aria-expanded": n.isPopoverOpen, "aria-controls": n.isPopoverOpen ? n.popoverId : "" }), renderProps: h, generatorName: "moreLinkContent", customGenerator: r.moreLinkContent, defaultGenerator: t.defaultGenerator || jL, classNameGenerator: r.moreLinkClassNames, didMount: r.moreLinkDidMount, willUnmount: r.moreLinkWillUnmount }, t.children),
+        n.isPopoverOpen && U(VL, { id: n.popoverId, startDate: d.start, endDate: d.end, dateProfile: t.dateProfile, todayRange: t.todayRange, extraDateSpan: t.extraDateSpan, parentEl: this.parentEl, alignmentEl: t.alignmentElRef ? t.alignmentElRef.current : this.linkEl, alignGridTop: t.alignGridTop, onClose: this.handlePopoverClose }, t.popoverContent())
       );
     });
   }
@@ -40819,10 +40850,10 @@ class PL extends we {
     this.linkEl && (this.parentEl = ze(this.linkEl, ".fc-view-harness"));
   }
 }
-function NL(o) {
+function jL(o) {
   return o.text;
 }
-function wr(o) {
+function Er(o) {
   if (o.allDayDate)
     return {
       start: o.allDayDate,
@@ -40830,25 +40861,25 @@ function wr(o) {
     };
   let { hiddenSegs: t } = o;
   return {
-    start: LL(t),
-    end: VL(t)
+    start: UL(t),
+    end: kL(t)
   };
 }
-function LL(o) {
-  return o.reduce(OL).eventRange.range.start;
+function UL(o) {
+  return o.reduce(QL).eventRange.range.start;
 }
-function OL(o, t) {
+function QL(o, t) {
   return o.eventRange.range.start < t.eventRange.range.start ? o : t;
 }
-function VL(o) {
-  return o.reduce(FL).eventRange.range.end;
+function kL(o) {
+  return o.reduce(WL).eventRange.range.end;
 }
-function FL(o, t) {
+function WL(o, t) {
   return o.eventRange.range.end > t.eventRange.range.end ? o : t;
 }
-var jL = ':root{--fc-small-font-size:.85em;--fc-page-bg-color:#fff;--fc-neutral-bg-color:hsla(0,0%,82%,.3);--fc-neutral-text-color:grey;--fc-border-color:#ddd;--fc-button-text-color:#fff;--fc-button-bg-color:#2c3e50;--fc-button-border-color:#2c3e50;--fc-button-hover-bg-color:#1e2b37;--fc-button-hover-border-color:#1a252f;--fc-button-active-bg-color:#1a252f;--fc-button-active-border-color:#151e27;--fc-event-bg-color:#3788d8;--fc-event-border-color:#3788d8;--fc-event-text-color:#fff;--fc-event-selected-overlay-color:rgba(0,0,0,.25);--fc-more-link-bg-color:#d0d0d0;--fc-more-link-text-color:inherit;--fc-event-resizer-thickness:8px;--fc-event-resizer-dot-total-width:8px;--fc-event-resizer-dot-border-width:1px;--fc-non-business-color:hsla(0,0%,84%,.3);--fc-bg-event-color:#8fdf82;--fc-bg-event-opacity:0.3;--fc-highlight-color:rgba(188,232,241,.3);--fc-today-bg-color:rgba(255,220,40,.15);--fc-now-indicator-color:red}.fc-not-allowed,.fc-not-allowed .fc-event{cursor:not-allowed}.fc-unselectable{-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;-moz-user-select:none;user-select:none}.fc{display:flex;flex-direction:column;font-size:1em}.fc,.fc *,.fc :after,.fc :before{box-sizing:border-box}.fc table{border-collapse:collapse;border-spacing:0;font-size:1em}.fc th{text-align:center}.fc td,.fc th{padding:0;vertical-align:top}.fc a[data-navlink]{cursor:pointer}.fc a[data-navlink]:hover{text-decoration:underline}.fc-direction-ltr{direction:ltr;text-align:left}.fc-direction-rtl{direction:rtl;text-align:right}.fc-theme-standard td,.fc-theme-standard th{border:1px solid var(--fc-border-color)}.fc-liquid-hack td,.fc-liquid-hack th{position:relative}@font-face{font-family:fcicons;font-style:normal;font-weight:400;src:url("data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBfAAAAC8AAAAYGNtYXAXVtKNAAABHAAAAFRnYXNwAAAAEAAAAXAAAAAIZ2x5ZgYydxIAAAF4AAAFNGhlYWQUJ7cIAAAGrAAAADZoaGVhB20DzAAABuQAAAAkaG10eCIABhQAAAcIAAAALGxvY2ED4AU6AAAHNAAAABhtYXhwAA8AjAAAB0wAAAAgbmFtZXsr690AAAdsAAABhnBvc3QAAwAAAAAI9AAAACAAAwPAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpBgPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAOAAAAAoACAACAAIAAQAg6Qb//f//AAAAAAAg6QD//f//AAH/4xcEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAWIAjQKeAskAEwAAJSc3NjQnJiIHAQYUFwEWMjc2NCcCnuLiDQ0MJAz/AA0NAQAMJAwNDcni4gwjDQwM/wANIwz/AA0NDCMNAAAAAQFiAI0CngLJABMAACUBNjQnASYiBwYUHwEHBhQXFjI3AZ4BAA0N/wAMJAwNDeLiDQ0MJAyNAQAMIw0BAAwMDSMM4uINIwwNDQAAAAIA4gC3Ax4CngATACcAACUnNzY0JyYiDwEGFB8BFjI3NjQnISc3NjQnJiIPAQYUHwEWMjc2NCcB87e3DQ0MIw3VDQ3VDSMMDQ0BK7e3DQ0MJAzVDQ3VDCQMDQ3zuLcMJAwNDdUNIwzWDAwNIwy4twwkDA0N1Q0jDNYMDA0jDAAAAgDiALcDHgKeABMAJwAAJTc2NC8BJiIHBhQfAQcGFBcWMjchNzY0LwEmIgcGFB8BBwYUFxYyNwJJ1Q0N1Q0jDA0Nt7cNDQwjDf7V1Q0N1QwkDA0Nt7cNDQwkDLfWDCMN1Q0NDCQMt7gMIw0MDNYMIw3VDQ0MJAy3uAwjDQwMAAADAFUAAAOrA1UAMwBoAHcAABMiBgcOAQcOAQcOARURFBYXHgEXHgEXHgEzITI2Nz4BNz4BNz4BNRE0JicuAScuAScuASMFITIWFx4BFx4BFx4BFREUBgcOAQcOAQcOASMhIiYnLgEnLgEnLgE1ETQ2Nz4BNz4BNz4BMxMhMjY1NCYjISIGFRQWM9UNGAwLFQkJDgUFBQUFBQ4JCRULDBgNAlYNGAwLFQkJDgUFBQUFBQ4JCRULDBgN/aoCVgQIBAQHAwMFAQIBAQIBBQMDBwQECAT9qgQIBAQHAwMFAQIBAQIBBQMDBwQECASAAVYRGRkR/qoRGRkRA1UFBAUOCQkVDAsZDf2rDRkLDBUJCA4FBQUFBQUOCQgVDAsZDQJVDRkLDBUJCQ4FBAVVAgECBQMCBwQECAX9qwQJAwQHAwMFAQICAgIBBQMDBwQDCQQCVQUIBAQHAgMFAgEC/oAZEhEZGRESGQAAAAADAFUAAAOrA1UAMwBoAIkAABMiBgcOAQcOAQcOARURFBYXHgEXHgEXHgEzITI2Nz4BNz4BNz4BNRE0JicuAScuAScuASMFITIWFx4BFx4BFx4BFREUBgcOAQcOAQcOASMhIiYnLgEnLgEnLgE1ETQ2Nz4BNz4BNz4BMxMzFRQWMzI2PQEzMjY1NCYrATU0JiMiBh0BIyIGFRQWM9UNGAwLFQkJDgUFBQUFBQ4JCRULDBgNAlYNGAwLFQkJDgUFBQUFBQ4JCRULDBgN/aoCVgQIBAQHAwMFAQIBAQIBBQMDBwQECAT9qgQIBAQHAwMFAQIBAQIBBQMDBwQECASAgBkSEhmAERkZEYAZEhIZgBEZGREDVQUEBQ4JCRUMCxkN/asNGQsMFQkIDgUFBQUFBQ4JCBUMCxkNAlUNGQsMFQkJDgUEBVUCAQIFAwIHBAQIBf2rBAkDBAcDAwUBAgICAgEFAwMHBAMJBAJVBQgEBAcCAwUCAQL+gIASGRkSgBkSERmAEhkZEoAZERIZAAABAOIAjQMeAskAIAAAExcHBhQXFjI/ARcWMjc2NC8BNzY0JyYiDwEnJiIHBhQX4uLiDQ0MJAzi4gwkDA0N4uINDQwkDOLiDCQMDQ0CjeLiDSMMDQ3h4Q0NDCMN4uIMIw0MDOLiDAwNIwwAAAABAAAAAQAAa5n0y18PPPUACwQAAAAAANivOVsAAAAA2K85WwAAAAADqwNVAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAOrAAEAAAAAAAAAAAAAAAAAAAALBAAAAAAAAAAAAAAAAgAAAAQAAWIEAAFiBAAA4gQAAOIEAABVBAAAVQQAAOIAAAAAAAoAFAAeAEQAagCqAOoBngJkApoAAQAAAAsAigADAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAAcAAAABAAAAAAACAAcAYAABAAAAAAADAAcANgABAAAAAAAEAAcAdQABAAAAAAAFAAsAFQABAAAAAAAGAAcASwABAAAAAAAKABoAigADAAEECQABAA4ABwADAAEECQACAA4AZwADAAEECQADAA4APQADAAEECQAEAA4AfAADAAEECQAFABYAIAADAAEECQAGAA4AUgADAAEECQAKADQApGZjaWNvbnMAZgBjAGkAYwBvAG4Ac1ZlcnNpb24gMS4wAFYAZQByAHMAaQBvAG4AIAAxAC4AMGZjaWNvbnMAZgBjAGkAYwBvAG4Ac2ZjaWNvbnMAZgBjAGkAYwBvAG4Ac1JlZ3VsYXIAUgBlAGcAdQBsAGEAcmZjaWNvbnMAZgBjAGkAYwBvAG4Ac0ZvbnQgZ2VuZXJhdGVkIGJ5IEljb01vb24uAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=") format("truetype")}.fc-icon{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font-family:fcicons!important;font-style:normal;font-variant:normal;font-weight:400;height:1em;line-height:1;text-align:center;text-transform:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:1em}.fc-icon-chevron-left:before{content:"\\e900"}.fc-icon-chevron-right:before{content:"\\e901"}.fc-icon-chevrons-left:before{content:"\\e902"}.fc-icon-chevrons-right:before{content:"\\e903"}.fc-icon-minus-square:before{content:"\\e904"}.fc-icon-plus-square:before{content:"\\e905"}.fc-icon-x:before{content:"\\e906"}.fc .fc-button{border-radius:0;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible;text-transform:none}.fc .fc-button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}.fc .fc-button{-webkit-appearance:button}.fc .fc-button:not(:disabled){cursor:pointer}.fc .fc-button::-moz-focus-inner{border-style:none;padding:0}.fc .fc-button{background-color:transparent;border:1px solid transparent;border-radius:.25em;display:inline-block;font-size:1em;font-weight:400;line-height:1.5;padding:.4em .65em;text-align:center;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle}.fc .fc-button:hover{text-decoration:none}.fc .fc-button:focus{box-shadow:0 0 0 .2rem rgba(44,62,80,.25);outline:0}.fc .fc-button:disabled{opacity:.65}.fc .fc-button-primary{background-color:var(--fc-button-bg-color);border-color:var(--fc-button-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:hover{background-color:var(--fc-button-hover-bg-color);border-color:var(--fc-button-hover-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:disabled{background-color:var(--fc-button-bg-color);border-color:var(--fc-button-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:focus{box-shadow:0 0 0 .2rem rgba(76,91,106,.5)}.fc .fc-button-primary:not(:disabled).fc-button-active,.fc .fc-button-primary:not(:disabled):active{background-color:var(--fc-button-active-bg-color);border-color:var(--fc-button-active-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:not(:disabled).fc-button-active:focus,.fc .fc-button-primary:not(:disabled):active:focus{box-shadow:0 0 0 .2rem rgba(76,91,106,.5)}.fc .fc-button .fc-icon{font-size:1.5em;vertical-align:middle}.fc .fc-button-group{display:inline-flex;position:relative;vertical-align:middle}.fc .fc-button-group>.fc-button{flex:1 1 auto;position:relative}.fc .fc-button-group>.fc-button.fc-button-active,.fc .fc-button-group>.fc-button:active,.fc .fc-button-group>.fc-button:focus,.fc .fc-button-group>.fc-button:hover{z-index:1}.fc-direction-ltr .fc-button-group>.fc-button:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0;margin-left:-1px}.fc-direction-ltr .fc-button-group>.fc-button:not(:last-child){border-bottom-right-radius:0;border-top-right-radius:0}.fc-direction-rtl .fc-button-group>.fc-button:not(:first-child){border-bottom-right-radius:0;border-top-right-radius:0;margin-right:-1px}.fc-direction-rtl .fc-button-group>.fc-button:not(:last-child){border-bottom-left-radius:0;border-top-left-radius:0}.fc .fc-toolbar{align-items:center;display:flex;justify-content:space-between}.fc .fc-toolbar.fc-header-toolbar{margin-bottom:1.5em}.fc .fc-toolbar.fc-footer-toolbar{margin-top:1.5em}.fc .fc-toolbar-title{font-size:1.75em;margin:0}.fc-direction-ltr .fc-toolbar>*>:not(:first-child){margin-left:.75em}.fc-direction-rtl .fc-toolbar>*>:not(:first-child){margin-right:.75em}.fc-direction-rtl .fc-toolbar-ltr{flex-direction:row-reverse}.fc .fc-scroller{-webkit-overflow-scrolling:touch;position:relative}.fc .fc-scroller-liquid{height:100%}.fc .fc-scroller-liquid-absolute{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-scroller-harness{direction:ltr;overflow:hidden;position:relative}.fc .fc-scroller-harness-liquid{height:100%}.fc-direction-rtl .fc-scroller-harness>.fc-scroller{direction:rtl}.fc-theme-standard .fc-scrollgrid{border:1px solid var(--fc-border-color)}.fc .fc-scrollgrid,.fc .fc-scrollgrid table{table-layout:fixed;width:100%}.fc .fc-scrollgrid table{border-left-style:hidden;border-right-style:hidden;border-top-style:hidden}.fc .fc-scrollgrid{border-bottom-width:0;border-collapse:separate;border-right-width:0}.fc .fc-scrollgrid-liquid{height:100%}.fc .fc-scrollgrid-section,.fc .fc-scrollgrid-section table,.fc .fc-scrollgrid-section>td{height:1px}.fc .fc-scrollgrid-section-liquid>td{height:100%}.fc .fc-scrollgrid-section>*{border-left-width:0;border-top-width:0}.fc .fc-scrollgrid-section-footer>*,.fc .fc-scrollgrid-section-header>*{border-bottom-width:0}.fc .fc-scrollgrid-section-body table,.fc .fc-scrollgrid-section-footer table{border-bottom-style:hidden}.fc .fc-scrollgrid-section-sticky>*{background:var(--fc-page-bg-color);position:sticky;z-index:3}.fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky>*{top:0}.fc .fc-scrollgrid-section-footer.fc-scrollgrid-section-sticky>*{bottom:0}.fc .fc-scrollgrid-sticky-shim{height:1px;margin-bottom:-1px}.fc-sticky{position:sticky}.fc .fc-view-harness{flex-grow:1;position:relative}.fc .fc-view-harness-active>.fc-view{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-col-header-cell-cushion{display:inline-block;padding:2px 4px}.fc .fc-bg-event,.fc .fc-highlight,.fc .fc-non-business{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-non-business{background:var(--fc-non-business-color)}.fc .fc-bg-event{background:var(--fc-bg-event-color);opacity:var(--fc-bg-event-opacity)}.fc .fc-bg-event .fc-event-title{font-size:var(--fc-small-font-size);font-style:italic;margin:.5em}.fc .fc-highlight{background:var(--fc-highlight-color)}.fc .fc-cell-shaded,.fc .fc-day-disabled{background:var(--fc-neutral-bg-color)}a.fc-event,a.fc-event:hover{text-decoration:none}.fc-event.fc-event-draggable,.fc-event[href]{cursor:pointer}.fc-event .fc-event-main{position:relative;z-index:2}.fc-event-dragging:not(.fc-event-selected){opacity:.75}.fc-event-dragging.fc-event-selected{box-shadow:0 2px 7px rgba(0,0,0,.3)}.fc-event .fc-event-resizer{display:none;position:absolute;z-index:4}.fc-event-selected .fc-event-resizer,.fc-event:hover .fc-event-resizer{display:block}.fc-event-selected .fc-event-resizer{background:var(--fc-page-bg-color);border-color:inherit;border-radius:calc(var(--fc-event-resizer-dot-total-width)/2);border-style:solid;border-width:var(--fc-event-resizer-dot-border-width);height:var(--fc-event-resizer-dot-total-width);width:var(--fc-event-resizer-dot-total-width)}.fc-event-selected .fc-event-resizer:before{bottom:-20px;content:"";left:-20px;position:absolute;right:-20px;top:-20px}.fc-event-selected,.fc-event:focus{box-shadow:0 2px 5px rgba(0,0,0,.2)}.fc-event-selected:before,.fc-event:focus:before{bottom:0;content:"";left:0;position:absolute;right:0;top:0;z-index:3}.fc-event-selected:after,.fc-event:focus:after{background:var(--fc-event-selected-overlay-color);bottom:-1px;content:"";left:-1px;position:absolute;right:-1px;top:-1px;z-index:1}.fc-h-event{background-color:var(--fc-event-bg-color);border:1px solid var(--fc-event-border-color);display:block}.fc-h-event .fc-event-main{color:var(--fc-event-text-color)}.fc-h-event .fc-event-main-frame{display:flex}.fc-h-event .fc-event-time{max-width:100%;overflow:hidden}.fc-h-event .fc-event-title-container{flex-grow:1;flex-shrink:1;min-width:0}.fc-h-event .fc-event-title{display:inline-block;left:0;max-width:100%;overflow:hidden;right:0;vertical-align:top}.fc-h-event.fc-event-selected:before{bottom:-10px;top:-10px}.fc-direction-ltr .fc-daygrid-block-event:not(.fc-event-start),.fc-direction-rtl .fc-daygrid-block-event:not(.fc-event-end){border-bottom-left-radius:0;border-left-width:0;border-top-left-radius:0}.fc-direction-ltr .fc-daygrid-block-event:not(.fc-event-end),.fc-direction-rtl .fc-daygrid-block-event:not(.fc-event-start){border-bottom-right-radius:0;border-right-width:0;border-top-right-radius:0}.fc-h-event:not(.fc-event-selected) .fc-event-resizer{bottom:0;top:0;width:var(--fc-event-resizer-thickness)}.fc-direction-ltr .fc-h-event:not(.fc-event-selected) .fc-event-resizer-start,.fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end{cursor:w-resize;left:calc(var(--fc-event-resizer-thickness)*-.5)}.fc-direction-ltr .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end,.fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-start{cursor:e-resize;right:calc(var(--fc-event-resizer-thickness)*-.5)}.fc-h-event.fc-event-selected .fc-event-resizer{margin-top:calc(var(--fc-event-resizer-dot-total-width)*-.5);top:50%}.fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-start,.fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-end{left:calc(var(--fc-event-resizer-dot-total-width)*-.5)}.fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-end,.fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-start{right:calc(var(--fc-event-resizer-dot-total-width)*-.5)}.fc .fc-popover{box-shadow:0 2px 6px rgba(0,0,0,.15);position:absolute;z-index:9999}.fc .fc-popover-header{align-items:center;display:flex;flex-direction:row;justify-content:space-between;padding:3px 4px}.fc .fc-popover-title{margin:0 2px}.fc .fc-popover-close{cursor:pointer;font-size:1.1em;opacity:.65}.fc-theme-standard .fc-popover{background:var(--fc-page-bg-color);border:1px solid var(--fc-border-color)}.fc-theme-standard .fc-popover-header{background:var(--fc-neutral-bg-color)}';
-dl(jL);
-const UL = [], ni = {
+var GL = ':root{--fc-small-font-size:.85em;--fc-page-bg-color:#fff;--fc-neutral-bg-color:hsla(0,0%,82%,.3);--fc-neutral-text-color:grey;--fc-border-color:#ddd;--fc-button-text-color:#fff;--fc-button-bg-color:#2c3e50;--fc-button-border-color:#2c3e50;--fc-button-hover-bg-color:#1e2b37;--fc-button-hover-border-color:#1a252f;--fc-button-active-bg-color:#1a252f;--fc-button-active-border-color:#151e27;--fc-event-bg-color:#3788d8;--fc-event-border-color:#3788d8;--fc-event-text-color:#fff;--fc-event-selected-overlay-color:rgba(0,0,0,.25);--fc-more-link-bg-color:#d0d0d0;--fc-more-link-text-color:inherit;--fc-event-resizer-thickness:8px;--fc-event-resizer-dot-total-width:8px;--fc-event-resizer-dot-border-width:1px;--fc-non-business-color:hsla(0,0%,84%,.3);--fc-bg-event-color:#8fdf82;--fc-bg-event-opacity:0.3;--fc-highlight-color:rgba(188,232,241,.3);--fc-today-bg-color:rgba(255,220,40,.15);--fc-now-indicator-color:red}.fc-not-allowed,.fc-not-allowed .fc-event{cursor:not-allowed}.fc-unselectable{-webkit-touch-callout:none;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-user-select:none;-moz-user-select:none;user-select:none}.fc{display:flex;flex-direction:column;font-size:1em}.fc,.fc *,.fc :after,.fc :before{box-sizing:border-box}.fc table{border-collapse:collapse;border-spacing:0;font-size:1em}.fc th{text-align:center}.fc td,.fc th{padding:0;vertical-align:top}.fc a[data-navlink]{cursor:pointer}.fc a[data-navlink]:hover{text-decoration:underline}.fc-direction-ltr{direction:ltr;text-align:left}.fc-direction-rtl{direction:rtl;text-align:right}.fc-theme-standard td,.fc-theme-standard th{border:1px solid var(--fc-border-color)}.fc-liquid-hack td,.fc-liquid-hack th{position:relative}@font-face{font-family:fcicons;font-style:normal;font-weight:400;src:url("data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg8SBfAAAAC8AAAAYGNtYXAXVtKNAAABHAAAAFRnYXNwAAAAEAAAAXAAAAAIZ2x5ZgYydxIAAAF4AAAFNGhlYWQUJ7cIAAAGrAAAADZoaGVhB20DzAAABuQAAAAkaG10eCIABhQAAAcIAAAALGxvY2ED4AU6AAAHNAAAABhtYXhwAA8AjAAAB0wAAAAgbmFtZXsr690AAAdsAAABhnBvc3QAAwAAAAAI9AAAACAAAwPAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAAAAAAAABAAADpBgPA/8AAQAPAAEAAAAABAAAAAAAAAAAAAAAgAAAAAAADAAAAAwAAABwAAQADAAAAHAADAAEAAAAcAAQAOAAAAAoACAACAAIAAQAg6Qb//f//AAAAAAAg6QD//f//AAH/4xcEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAEAAAAAAAAAAAACAAA3OQEAAAAAAQAAAAAAAAAAAAIAADc5AQAAAAABAWIAjQKeAskAEwAAJSc3NjQnJiIHAQYUFwEWMjc2NCcCnuLiDQ0MJAz/AA0NAQAMJAwNDcni4gwjDQwM/wANIwz/AA0NDCMNAAAAAQFiAI0CngLJABMAACUBNjQnASYiBwYUHwEHBhQXFjI3AZ4BAA0N/wAMJAwNDeLiDQ0MJAyNAQAMIw0BAAwMDSMM4uINIwwNDQAAAAIA4gC3Ax4CngATACcAACUnNzY0JyYiDwEGFB8BFjI3NjQnISc3NjQnJiIPAQYUHwEWMjc2NCcB87e3DQ0MIw3VDQ3VDSMMDQ0BK7e3DQ0MJAzVDQ3VDCQMDQ3zuLcMJAwNDdUNIwzWDAwNIwy4twwkDA0N1Q0jDNYMDA0jDAAAAgDiALcDHgKeABMAJwAAJTc2NC8BJiIHBhQfAQcGFBcWMjchNzY0LwEmIgcGFB8BBwYUFxYyNwJJ1Q0N1Q0jDA0Nt7cNDQwjDf7V1Q0N1QwkDA0Nt7cNDQwkDLfWDCMN1Q0NDCQMt7gMIw0MDNYMIw3VDQ0MJAy3uAwjDQwMAAADAFUAAAOrA1UAMwBoAHcAABMiBgcOAQcOAQcOARURFBYXHgEXHgEXHgEzITI2Nz4BNz4BNz4BNRE0JicuAScuAScuASMFITIWFx4BFx4BFx4BFREUBgcOAQcOAQcOASMhIiYnLgEnLgEnLgE1ETQ2Nz4BNz4BNz4BMxMhMjY1NCYjISIGFRQWM9UNGAwLFQkJDgUFBQUFBQ4JCRULDBgNAlYNGAwLFQkJDgUFBQUFBQ4JCRULDBgN/aoCVgQIBAQHAwMFAQIBAQIBBQMDBwQECAT9qgQIBAQHAwMFAQIBAQIBBQMDBwQECASAAVYRGRkR/qoRGRkRA1UFBAUOCQkVDAsZDf2rDRkLDBUJCA4FBQUFBQUOCQgVDAsZDQJVDRkLDBUJCQ4FBAVVAgECBQMCBwQECAX9qwQJAwQHAwMFAQICAgIBBQMDBwQDCQQCVQUIBAQHAgMFAgEC/oAZEhEZGRESGQAAAAADAFUAAAOrA1UAMwBoAIkAABMiBgcOAQcOAQcOARURFBYXHgEXHgEXHgEzITI2Nz4BNz4BNz4BNRE0JicuAScuAScuASMFITIWFx4BFx4BFx4BFREUBgcOAQcOAQcOASMhIiYnLgEnLgEnLgE1ETQ2Nz4BNz4BNz4BMxMzFRQWMzI2PQEzMjY1NCYrATU0JiMiBh0BIyIGFRQWM9UNGAwLFQkJDgUFBQUFBQ4JCRULDBgNAlYNGAwLFQkJDgUFBQUFBQ4JCRULDBgN/aoCVgQIBAQHAwMFAQIBAQIBBQMDBwQECAT9qgQIBAQHAwMFAQIBAQIBBQMDBwQECASAgBkSEhmAERkZEYAZEhIZgBEZGREDVQUEBQ4JCRUMCxkN/asNGQsMFQkIDgUFBQUFBQ4JCBUMCxkNAlUNGQsMFQkJDgUEBVUCAQIFAwIHBAQIBf2rBAkDBAcDAwUBAgICAgEFAwMHBAMJBAJVBQgEBAcCAwUCAQL+gIASGRkSgBkSERmAEhkZEoAZERIZAAABAOIAjQMeAskAIAAAExcHBhQXFjI/ARcWMjc2NC8BNzY0JyYiDwEnJiIHBhQX4uLiDQ0MJAzi4gwkDA0N4uINDQwkDOLiDCQMDQ0CjeLiDSMMDQ3h4Q0NDCMN4uIMIw0MDOLiDAwNIwwAAAABAAAAAQAAa5n0y18PPPUACwQAAAAAANivOVsAAAAA2K85WwAAAAADqwNVAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAAAOrAAEAAAAAAAAAAAAAAAAAAAALBAAAAAAAAAAAAAAAAgAAAAQAAWIEAAFiBAAA4gQAAOIEAABVBAAAVQQAAOIAAAAAAAoAFAAeAEQAagCqAOoBngJkApoAAQAAAAsAigADAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA4ArgABAAAAAAABAAcAAAABAAAAAAACAAcAYAABAAAAAAADAAcANgABAAAAAAAEAAcAdQABAAAAAAAFAAsAFQABAAAAAAAGAAcASwABAAAAAAAKABoAigADAAEECQABAA4ABwADAAEECQACAA4AZwADAAEECQADAA4APQADAAEECQAEAA4AfAADAAEECQAFABYAIAADAAEECQAGAA4AUgADAAEECQAKADQApGZjaWNvbnMAZgBjAGkAYwBvAG4Ac1ZlcnNpb24gMS4wAFYAZQByAHMAaQBvAG4AIAAxAC4AMGZjaWNvbnMAZgBjAGkAYwBvAG4Ac2ZjaWNvbnMAZgBjAGkAYwBvAG4Ac1JlZ3VsYXIAUgBlAGcAdQBsAGEAcmZjaWNvbnMAZgBjAGkAYwBvAG4Ac0ZvbnQgZ2VuZXJhdGVkIGJ5IEljb01vb24uAEYAbwBuAHQAIABnAGUAbgBlAHIAYQB0AGUAZAAgAGIAeQAgAEkAYwBvAE0AbwBvAG4ALgAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=") format("truetype")}.fc-icon{speak:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;display:inline-block;font-family:fcicons!important;font-style:normal;font-variant:normal;font-weight:400;height:1em;line-height:1;text-align:center;text-transform:none;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:1em}.fc-icon-chevron-left:before{content:"\\e900"}.fc-icon-chevron-right:before{content:"\\e901"}.fc-icon-chevrons-left:before{content:"\\e902"}.fc-icon-chevrons-right:before{content:"\\e903"}.fc-icon-minus-square:before{content:"\\e904"}.fc-icon-plus-square:before{content:"\\e905"}.fc-icon-x:before{content:"\\e906"}.fc .fc-button{border-radius:0;font-family:inherit;font-size:inherit;line-height:inherit;margin:0;overflow:visible;text-transform:none}.fc .fc-button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}.fc .fc-button{-webkit-appearance:button}.fc .fc-button:not(:disabled){cursor:pointer}.fc .fc-button::-moz-focus-inner{border-style:none;padding:0}.fc .fc-button{background-color:transparent;border:1px solid transparent;border-radius:.25em;display:inline-block;font-size:1em;font-weight:400;line-height:1.5;padding:.4em .65em;text-align:center;-webkit-user-select:none;-moz-user-select:none;user-select:none;vertical-align:middle}.fc .fc-button:hover{text-decoration:none}.fc .fc-button:focus{box-shadow:0 0 0 .2rem rgba(44,62,80,.25);outline:0}.fc .fc-button:disabled{opacity:.65}.fc .fc-button-primary{background-color:var(--fc-button-bg-color);border-color:var(--fc-button-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:hover{background-color:var(--fc-button-hover-bg-color);border-color:var(--fc-button-hover-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:disabled{background-color:var(--fc-button-bg-color);border-color:var(--fc-button-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:focus{box-shadow:0 0 0 .2rem rgba(76,91,106,.5)}.fc .fc-button-primary:not(:disabled).fc-button-active,.fc .fc-button-primary:not(:disabled):active{background-color:var(--fc-button-active-bg-color);border-color:var(--fc-button-active-border-color);color:var(--fc-button-text-color)}.fc .fc-button-primary:not(:disabled).fc-button-active:focus,.fc .fc-button-primary:not(:disabled):active:focus{box-shadow:0 0 0 .2rem rgba(76,91,106,.5)}.fc .fc-button .fc-icon{font-size:1.5em;vertical-align:middle}.fc .fc-button-group{display:inline-flex;position:relative;vertical-align:middle}.fc .fc-button-group>.fc-button{flex:1 1 auto;position:relative}.fc .fc-button-group>.fc-button.fc-button-active,.fc .fc-button-group>.fc-button:active,.fc .fc-button-group>.fc-button:focus,.fc .fc-button-group>.fc-button:hover{z-index:1}.fc-direction-ltr .fc-button-group>.fc-button:not(:first-child){border-bottom-left-radius:0;border-top-left-radius:0;margin-left:-1px}.fc-direction-ltr .fc-button-group>.fc-button:not(:last-child){border-bottom-right-radius:0;border-top-right-radius:0}.fc-direction-rtl .fc-button-group>.fc-button:not(:first-child){border-bottom-right-radius:0;border-top-right-radius:0;margin-right:-1px}.fc-direction-rtl .fc-button-group>.fc-button:not(:last-child){border-bottom-left-radius:0;border-top-left-radius:0}.fc .fc-toolbar{align-items:center;display:flex;justify-content:space-between}.fc .fc-toolbar.fc-header-toolbar{margin-bottom:1.5em}.fc .fc-toolbar.fc-footer-toolbar{margin-top:1.5em}.fc .fc-toolbar-title{font-size:1.75em;margin:0}.fc-direction-ltr .fc-toolbar>*>:not(:first-child){margin-left:.75em}.fc-direction-rtl .fc-toolbar>*>:not(:first-child){margin-right:.75em}.fc-direction-rtl .fc-toolbar-ltr{flex-direction:row-reverse}.fc .fc-scroller{-webkit-overflow-scrolling:touch;position:relative}.fc .fc-scroller-liquid{height:100%}.fc .fc-scroller-liquid-absolute{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-scroller-harness{direction:ltr;overflow:hidden;position:relative}.fc .fc-scroller-harness-liquid{height:100%}.fc-direction-rtl .fc-scroller-harness>.fc-scroller{direction:rtl}.fc-theme-standard .fc-scrollgrid{border:1px solid var(--fc-border-color)}.fc .fc-scrollgrid,.fc .fc-scrollgrid table{table-layout:fixed;width:100%}.fc .fc-scrollgrid table{border-left-style:hidden;border-right-style:hidden;border-top-style:hidden}.fc .fc-scrollgrid{border-bottom-width:0;border-collapse:separate;border-right-width:0}.fc .fc-scrollgrid-liquid{height:100%}.fc .fc-scrollgrid-section,.fc .fc-scrollgrid-section table,.fc .fc-scrollgrid-section>td{height:1px}.fc .fc-scrollgrid-section-liquid>td{height:100%}.fc .fc-scrollgrid-section>*{border-left-width:0;border-top-width:0}.fc .fc-scrollgrid-section-footer>*,.fc .fc-scrollgrid-section-header>*{border-bottom-width:0}.fc .fc-scrollgrid-section-body table,.fc .fc-scrollgrid-section-footer table{border-bottom-style:hidden}.fc .fc-scrollgrid-section-sticky>*{background:var(--fc-page-bg-color);position:sticky;z-index:3}.fc .fc-scrollgrid-section-header.fc-scrollgrid-section-sticky>*{top:0}.fc .fc-scrollgrid-section-footer.fc-scrollgrid-section-sticky>*{bottom:0}.fc .fc-scrollgrid-sticky-shim{height:1px;margin-bottom:-1px}.fc-sticky{position:sticky}.fc .fc-view-harness{flex-grow:1;position:relative}.fc .fc-view-harness-active>.fc-view{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-col-header-cell-cushion{display:inline-block;padding:2px 4px}.fc .fc-bg-event,.fc .fc-highlight,.fc .fc-non-business{bottom:0;left:0;position:absolute;right:0;top:0}.fc .fc-non-business{background:var(--fc-non-business-color)}.fc .fc-bg-event{background:var(--fc-bg-event-color);opacity:var(--fc-bg-event-opacity)}.fc .fc-bg-event .fc-event-title{font-size:var(--fc-small-font-size);font-style:italic;margin:.5em}.fc .fc-highlight{background:var(--fc-highlight-color)}.fc .fc-cell-shaded,.fc .fc-day-disabled{background:var(--fc-neutral-bg-color)}a.fc-event,a.fc-event:hover{text-decoration:none}.fc-event.fc-event-draggable,.fc-event[href]{cursor:pointer}.fc-event .fc-event-main{position:relative;z-index:2}.fc-event-dragging:not(.fc-event-selected){opacity:.75}.fc-event-dragging.fc-event-selected{box-shadow:0 2px 7px rgba(0,0,0,.3)}.fc-event .fc-event-resizer{display:none;position:absolute;z-index:4}.fc-event-selected .fc-event-resizer,.fc-event:hover .fc-event-resizer{display:block}.fc-event-selected .fc-event-resizer{background:var(--fc-page-bg-color);border-color:inherit;border-radius:calc(var(--fc-event-resizer-dot-total-width)/2);border-style:solid;border-width:var(--fc-event-resizer-dot-border-width);height:var(--fc-event-resizer-dot-total-width);width:var(--fc-event-resizer-dot-total-width)}.fc-event-selected .fc-event-resizer:before{bottom:-20px;content:"";left:-20px;position:absolute;right:-20px;top:-20px}.fc-event-selected,.fc-event:focus{box-shadow:0 2px 5px rgba(0,0,0,.2)}.fc-event-selected:before,.fc-event:focus:before{bottom:0;content:"";left:0;position:absolute;right:0;top:0;z-index:3}.fc-event-selected:after,.fc-event:focus:after{background:var(--fc-event-selected-overlay-color);bottom:-1px;content:"";left:-1px;position:absolute;right:-1px;top:-1px;z-index:1}.fc-h-event{background-color:var(--fc-event-bg-color);border:1px solid var(--fc-event-border-color);display:block}.fc-h-event .fc-event-main{color:var(--fc-event-text-color)}.fc-h-event .fc-event-main-frame{display:flex}.fc-h-event .fc-event-time{max-width:100%;overflow:hidden}.fc-h-event .fc-event-title-container{flex-grow:1;flex-shrink:1;min-width:0}.fc-h-event .fc-event-title{display:inline-block;left:0;max-width:100%;overflow:hidden;right:0;vertical-align:top}.fc-h-event.fc-event-selected:before{bottom:-10px;top:-10px}.fc-direction-ltr .fc-daygrid-block-event:not(.fc-event-start),.fc-direction-rtl .fc-daygrid-block-event:not(.fc-event-end){border-bottom-left-radius:0;border-left-width:0;border-top-left-radius:0}.fc-direction-ltr .fc-daygrid-block-event:not(.fc-event-end),.fc-direction-rtl .fc-daygrid-block-event:not(.fc-event-start){border-bottom-right-radius:0;border-right-width:0;border-top-right-radius:0}.fc-h-event:not(.fc-event-selected) .fc-event-resizer{bottom:0;top:0;width:var(--fc-event-resizer-thickness)}.fc-direction-ltr .fc-h-event:not(.fc-event-selected) .fc-event-resizer-start,.fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end{cursor:w-resize;left:calc(var(--fc-event-resizer-thickness)*-.5)}.fc-direction-ltr .fc-h-event:not(.fc-event-selected) .fc-event-resizer-end,.fc-direction-rtl .fc-h-event:not(.fc-event-selected) .fc-event-resizer-start{cursor:e-resize;right:calc(var(--fc-event-resizer-thickness)*-.5)}.fc-h-event.fc-event-selected .fc-event-resizer{margin-top:calc(var(--fc-event-resizer-dot-total-width)*-.5);top:50%}.fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-start,.fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-end{left:calc(var(--fc-event-resizer-dot-total-width)*-.5)}.fc-direction-ltr .fc-h-event.fc-event-selected .fc-event-resizer-end,.fc-direction-rtl .fc-h-event.fc-event-selected .fc-event-resizer-start{right:calc(var(--fc-event-resizer-dot-total-width)*-.5)}.fc .fc-popover{box-shadow:0 2px 6px rgba(0,0,0,.15);position:absolute;z-index:9999}.fc .fc-popover-header{align-items:center;display:flex;flex-direction:row;justify-content:space-between;padding:3px 4px}.fc .fc-popover-title{margin:0 2px}.fc .fc-popover-close{cursor:pointer;font-size:1.1em;opacity:.65}.fc-theme-standard .fc-popover{background:var(--fc-page-bg-color);border:1px solid var(--fc-border-color)}.fc-theme-standard .fc-popover-header{background:var(--fc-neutral-bg-color)}';
+fl(GL);
+const YL = [], ri = {
   code: "en",
   week: {
     dow: 0,
@@ -40875,7 +40906,7 @@ const UL = [], ni = {
   allDayText: "all-day",
   moreLinkText: "more",
   noEventsText: "No events to display"
-}, ai = Object.assign(Object.assign({}, ni), {
+}, li = Object.assign(Object.assign({}, ri), {
   buttonHints: {
     prev: "Previous $0",
     next: "Next $0",
@@ -40889,9 +40920,9 @@ const UL = [], ni = {
     return `Show ${o} more event${o === 1 ? "" : "s"}`;
   }
 });
-function QL(o) {
-  let t = o.length > 0 ? o[0].code : "en", n = UL.concat(o), a = {
-    en: ai
+function KL(o) {
+  let t = o.length > 0 ? o[0].code : "en", n = YL.concat(o), a = {
+    en: li
   };
   for (let e of n)
     a[e.code] = e;
@@ -40900,14 +40931,14 @@ function QL(o) {
     defaultCode: t
   };
 }
-function oi(o, t) {
-  return typeof o == "object" && !Array.isArray(o) ? ri(o.code, [o.code], o) : kL(o, t);
+function ii(o, t) {
+  return typeof o == "object" && !Array.isArray(o) ? si(o.code, [o.code], o) : JL(o, t);
 }
-function kL(o, t) {
-  let n = [].concat(o || []), a = WL(n, t) || ai;
-  return ri(o, n, a);
+function JL(o, t) {
+  let n = [].concat(o || []), a = ZL(n, t) || li;
+  return si(o, n, a);
 }
-function WL(o, t) {
+function ZL(o, t) {
   for (let n = 0; n < o.length; n += 1) {
     let a = o[n].toLocaleLowerCase().split("-");
     for (let e = a.length; e > 0; e -= 1) {
@@ -40918,8 +40949,8 @@ function WL(o, t) {
   }
   return null;
 }
-function ri(o, t, n) {
-  let a = Xa([ni, n], ["buttonText"]);
+function si(o, t, n) {
+  let a = qa([ri, n], ["buttonText"]);
   delete a.code;
   let { week: e } = a;
   return delete a.week, {
@@ -40930,9 +40961,9 @@ function ri(o, t, n) {
     options: a
   };
 }
-function ut(o) {
+function ft(o) {
   return {
-    id: Ct(),
+    id: St(),
     name: o.name,
     premiumReleaseDate: o.premiumReleaseDate ? new Date(o.premiumReleaseDate) : void 0,
     deps: o.deps || [],
@@ -40970,7 +41001,7 @@ function ut(o) {
     propSetHandlers: o.propSetHandlers || {}
   };
 }
-function GL(o, t) {
+function XL(o, t) {
   let n = {}, a = {
     premiumReleaseDate: void 0,
     reducers: [],
@@ -41009,18 +41040,18 @@ function GL(o, t) {
   function e(r) {
     for (let l of r) {
       const i = l.name, s = n[i];
-      s === void 0 ? (n[i] = l.id, e(l.deps), a = KL(a, l)) : s !== l.id && console.warn(`Duplicate plugin '${i}'`);
+      s === void 0 ? (n[i] = l.id, e(l.deps), a = eO(a, l)) : s !== l.id && console.warn(`Duplicate plugin '${i}'`);
     }
   }
   return o && e(o), e(t), a;
 }
-function YL() {
+function qL() {
   let o = [], t = [], n;
-  return (a, e) => ((!n || !dt(a, o) || !dt(e, t)) && (n = GL(a, e)), o = a, t = e, n);
+  return (a, e) => ((!n || !dt(a, o) || !dt(e, t)) && (n = XL(a, e)), o = a, t = e, n);
 }
-function KL(o, t) {
+function eO(o, t) {
   return {
-    premiumReleaseDate: JL(o.premiumReleaseDate, t.premiumReleaseDate),
+    premiumReleaseDate: tO(o.premiumReleaseDate, t.premiumReleaseDate),
     reducers: o.reducers.concat(t.reducers),
     isLoadingFuncs: o.isLoadingFuncs.concat(t.isLoadingFuncs),
     contextInit: o.contextInit.concat(t.contextInit),
@@ -41055,55 +41086,55 @@ function KL(o, t) {
     propSetHandlers: Object.assign(Object.assign({}, o.propSetHandlers), t.propSetHandlers)
   };
 }
-function JL(o, t) {
+function tO(o, t) {
   return o === void 0 ? t : t === void 0 ? o : new Date(Math.max(o.valueOf(), t.valueOf()));
 }
-class ft extends ln {
+class mt extends sn {
 }
-ft.prototype.classes = {
+mt.prototype.classes = {
   root: "fc-theme-standard",
   tableCellShaded: "fc-cell-shaded",
   buttonGroup: "fc-button-group",
   button: "fc-button fc-button-primary",
   buttonActive: "fc-button-active"
 };
-ft.prototype.baseIconClass = "fc-icon";
-ft.prototype.iconClasses = {
+mt.prototype.baseIconClass = "fc-icon";
+mt.prototype.iconClasses = {
   close: "fc-icon-x",
   prev: "fc-icon-chevron-left",
   next: "fc-icon-chevron-right",
   prevYear: "fc-icon-chevrons-left",
   nextYear: "fc-icon-chevrons-right"
 };
-ft.prototype.rtlIconClasses = {
+mt.prototype.rtlIconClasses = {
   prev: "fc-icon-chevron-right",
   next: "fc-icon-chevron-left",
   prevYear: "fc-icon-chevrons-right",
   nextYear: "fc-icon-chevrons-left"
 };
-ft.prototype.iconOverrideOption = "buttonIcons";
-ft.prototype.iconOverrideCustomButtonOption = "icon";
-ft.prototype.iconOverridePrefix = "fc-icon-";
-function ZL(o, t) {
+mt.prototype.iconOverrideOption = "buttonIcons";
+mt.prototype.iconOverrideCustomButtonOption = "icon";
+mt.prototype.iconOverridePrefix = "fc-icon-";
+function nO(o, t) {
   let n = {}, a;
   for (a in o)
-    Ta(a, n, o, t);
+    Ra(a, n, o, t);
   for (a in t)
-    Ta(a, n, o, t);
+    Ra(a, n, o, t);
   return n;
 }
-function Ta(o, t, n, a) {
+function Ra(o, t, n, a) {
   if (t[o])
     return t[o];
-  let e = XL(o, t, n, a);
+  let e = aO(o, t, n, a);
   return e && (t[o] = e), e;
 }
-function XL(o, t, n, a) {
+function aO(o, t, n, a) {
   let e = n[o], r = a[o], l = (c) => e && e[c] !== null ? e[c] : r && r[c] !== null ? r[c] : null, i = l("component"), s = l("superType"), d = null;
   if (s) {
     if (s === o)
       throw new Error("Can't have a custom view type that references itself");
-    d = Ta(s, t, n, a);
+    d = Ra(s, t, n, a);
   }
   return !i && d && (i = d.component), i ? {
     type: o,
@@ -41112,28 +41143,28 @@ function XL(o, t, n, a) {
     overrides: Object.assign(Object.assign({}, d ? d.overrides : {}), r ? r.rawOptions : {})
   } : null;
 }
-function Er(o) {
-  return St(o, qL);
+function Cr(o) {
+  return bt(o, oO);
 }
-function qL(o) {
+function oO(o) {
   let t = typeof o == "function" ? { component: o } : o, { component: n } = t;
-  return t.content && (n = eO(t)), {
+  return t.content && (n = rO(t)), {
     superType: t.type,
     component: n,
     rawOptions: t
   };
 }
-function eO(o) {
-  return (t) => U(bt.Consumer, null, (n) => U(nt, { elTag: "div", elClasses: El(n.viewSpec), renderProps: Object.assign(Object.assign({}, t), { nextDayThreshold: n.options.nextDayThreshold }), generatorName: void 0, customGenerator: o.content, classNameGenerator: o.classNames, didMount: o.didMount, willUnmount: o.willUnmount }));
+function rO(o) {
+  return (t) => U(Dt.Consumer, null, (n) => U(nt, { elTag: "div", elClasses: bl(n.viewSpec), renderProps: Object.assign(Object.assign({}, t), { nextDayThreshold: n.options.nextDayThreshold }), generatorName: void 0, customGenerator: o.content, classNameGenerator: o.classNames, didMount: o.didMount, willUnmount: o.willUnmount }));
 }
-function tO(o, t, n, a) {
-  let e = Er(o), r = Er(t.views), l = ZL(e, r);
-  return St(l, (i) => nO(i, r, t, n, a));
+function lO(o, t, n, a) {
+  let e = Cr(o), r = Cr(t.views), l = nO(e, r);
+  return bt(l, (i) => iO(i, r, t, n, a));
 }
-function nO(o, t, n, a, e) {
+function iO(o, t, n, a, e) {
   let r = o.overrides.duration || o.defaults.duration || a.duration || n.duration, l = null, i = "", s = "", d = {};
-  if (r && (l = aO(r), l)) {
-    let h = Ea(l);
+  if (r && (l = sO(r), l)) {
+    let h = Ca(l);
     i = h.unit, h.value === 1 && (s = i, d = t[i] ? t[i].rawOptions : {});
   }
   let c = (h) => {
@@ -41152,24 +41183,24 @@ function nO(o, t, n, a, e) {
     optionDefaults: o.defaults,
     optionOverrides: Object.assign(Object.assign({}, d), o.overrides),
     buttonTextOverride: c(a) || c(n) || o.overrides.buttonText,
-    buttonTextDefault: c(e) || o.defaults.buttonText || c(Jt) || o.type,
+    buttonTextDefault: c(e) || o.defaults.buttonText || c(Zt) || o.type,
     buttonTitleOverride: f(a) || f(n) || o.overrides.buttonHint,
-    buttonTitleDefault: f(e) || o.defaults.buttonHint || f(Jt)
+    buttonTitleDefault: f(e) || o.defaults.buttonHint || f(Zt)
   };
 }
-let Cr = {};
-function aO(o) {
-  let t = JSON.stringify(o), n = Cr[t];
-  return n === void 0 && (n = pe(o), Cr[t] = n), n;
+let Sr = {};
+function sO(o) {
+  let t = JSON.stringify(o), n = Sr[t];
+  return n === void 0 && (n = pe(o), Sr[t] = n), n;
 }
-function oO(o, t) {
+function dO(o, t) {
   switch (t.type) {
     case "CHANGE_VIEW_TYPE":
       o = t.viewType;
   }
   return o;
 }
-function rO(o, t) {
+function cO(o, t) {
   switch (t.type) {
     case "SET_OPTION":
       return Object.assign(Object.assign({}, o), { [t.optionName]: t.rawOptionValue });
@@ -41177,7 +41208,7 @@ function rO(o, t) {
       return o;
   }
 }
-function lO(o, t, n, a) {
+function uO(o, t, n, a) {
   let e;
   switch (t.type) {
     case "CHANGE_VIEW_TYPE":
@@ -41195,68 +41226,68 @@ function lO(o, t, n, a) {
   }
   return o;
 }
-function iO(o, t, n) {
+function fO(o, t, n) {
   let a = t ? t.activeRange : null;
-  return ii({}, vO(o, n), a, n);
+  return ci({}, AO(o, n), a, n);
 }
-function sO(o, t, n, a) {
+function mO(o, t, n, a) {
   let e = n ? n.activeRange : null;
   switch (t.type) {
     case "ADD_EVENT_SOURCES":
-      return ii(o, t.sources, e, a);
+      return ci(o, t.sources, e, a);
     case "REMOVE_EVENT_SOURCE":
-      return cO(o, t.sourceId);
+      return hO(o, t.sourceId);
     case "PREV":
     case "NEXT":
     case "CHANGE_DATE":
     case "CHANGE_VIEW_TYPE":
-      return n ? si(o, e, a) : o;
+      return n ? ui(o, e, a) : o;
     case "FETCH_EVENT_SOURCES":
-      return po(o, t.sourceIds ? gl(t.sourceIds) : di(o, a), e, t.isRefetch || !1, a);
+      return go(o, t.sourceIds ? _l(t.sourceIds) : fi(o, a), e, t.isRefetch || !1, a);
     case "RECEIVE_EVENTS":
     case "RECEIVE_EVENT_ERROR":
-      return mO(o, t.sourceId, t.fetchId, t.fetchRange);
+      return yO(o, t.sourceId, t.fetchId, t.fetchRange);
     case "REMOVE_ALL_EVENT_SOURCES":
       return {};
     default:
       return o;
   }
 }
-function dO(o, t, n) {
+function vO(o, t, n) {
   let a = t ? t.activeRange : null;
-  return po(o, di(o, n), a, !0, n);
+  return go(o, fi(o, n), a, !0, n);
 }
-function li(o) {
+function di(o) {
   for (let t in o)
     if (o[t].isFetching)
       return !0;
   return !1;
 }
-function ii(o, t, n, a) {
+function ci(o, t, n, a) {
   let e = {};
   for (let r of t)
     e[r.sourceId] = r;
-  return n && (e = si(e, n, a)), Object.assign(Object.assign({}, o), e);
+  return n && (e = ui(e, n, a)), Object.assign(Object.assign({}, o), e);
 }
-function cO(o, t) {
-  return xt(o, (n) => n.sourceId !== t);
+function hO(o, t) {
+  return wt(o, (n) => n.sourceId !== t);
 }
-function si(o, t, n) {
-  return po(o, xt(o, (a) => uO(a, t, n)), t, !1, n);
+function ui(o, t, n) {
+  return go(o, wt(o, (a) => pO(a, t, n)), t, !1, n);
 }
-function uO(o, t, n) {
-  return ci(o, n) ? !n.options.lazyFetching || !o.fetchRange || o.isFetching || t.start < o.fetchRange.start || t.end > o.fetchRange.end : !o.latestFetchId;
+function pO(o, t, n) {
+  return mi(o, n) ? !n.options.lazyFetching || !o.fetchRange || o.isFetching || t.start < o.fetchRange.start || t.end > o.fetchRange.end : !o.latestFetchId;
 }
-function po(o, t, n, a, e) {
+function go(o, t, n, a, e) {
   let r = {};
   for (let l in o) {
     let i = o[l];
-    t[l] ? r[l] = fO(i, n, a, e) : r[l] = i;
+    t[l] ? r[l] = gO(i, n, a, e) : r[l] = i;
   }
   return r;
 }
-function fO(o, t, n, a) {
-  let { options: e, calendarApi: r } = a, l = a.pluginHooks.eventSourceDefs[o.sourceDefId], i = Ct();
+function gO(o, t, n, a) {
+  let { options: e, calendarApi: r } = a, l = a.pluginHooks.eventSourceDefs[o.sourceDefId], i = St();
   return l.fetch({
     eventSource: o,
     range: t,
@@ -41282,26 +41313,26 @@ function fO(o, t, n, a) {
     });
   }), Object.assign(Object.assign({}, o), { isFetching: !0, latestFetchId: i });
 }
-function mO(o, t, n, a) {
+function yO(o, t, n, a) {
   let e = o[t];
   return e && n === e.latestFetchId ? Object.assign(Object.assign({}, o), { [t]: Object.assign(Object.assign({}, e), { isFetching: !1, fetchRange: a }) }) : o;
 }
-function di(o, t) {
-  return xt(o, (n) => ci(n, t));
+function fi(o, t) {
+  return wt(o, (n) => mi(n, t));
 }
-function vO(o, t) {
-  let n = zl(t), a = [].concat(o.eventSources || []), e = [];
+function AO(o, t) {
+  let n = Il(t), a = [].concat(o.eventSources || []), e = [];
   o.initialEvents && a.unshift(o.initialEvents), o.events && a.unshift(o.events);
   for (let r of a) {
-    let l = Rl(r, t, n);
+    let l = Hl(r, t, n);
     l && e.push(l);
   }
   return e;
 }
-function ci(o, t) {
+function mi(o, t) {
   return !t.pluginHooks.eventSourceDefs[o.sourceDefId].ignoreRange;
 }
-function hO(o, t) {
+function _O(o, t) {
   switch (t.type) {
     case "UNSELECT_DATES":
       return null;
@@ -41311,7 +41342,7 @@ function hO(o, t) {
       return o;
   }
 }
-function pO(o, t) {
+function xO(o, t) {
   switch (t.type) {
     case "UNSELECT_EVENT":
       return "";
@@ -41321,7 +41352,7 @@ function pO(o, t) {
       return o;
   }
 }
-function gO(o, t) {
+function wO(o, t) {
   let n;
   switch (t.type) {
     case "UNSET_EVENT_DRAG":
@@ -41336,7 +41367,7 @@ function gO(o, t) {
       return o;
   }
 }
-function yO(o, t) {
+function EO(o, t) {
   let n;
   switch (t.type) {
     case "UNSET_EVENT_RESIZE":
@@ -41351,19 +41382,19 @@ function yO(o, t) {
       return o;
   }
 }
-function AO(o, t, n, a, e) {
-  let r = o.headerToolbar ? Sr(o.headerToolbar, o, t, n, a, e) : null, l = o.footerToolbar ? Sr(o.footerToolbar, o, t, n, a, e) : null;
+function CO(o, t, n, a, e) {
+  let r = o.headerToolbar ? br(o.headerToolbar, o, t, n, a, e) : null, l = o.footerToolbar ? br(o.footerToolbar, o, t, n, a, e) : null;
   return { header: r, footer: l };
 }
-function Sr(o, t, n, a, e, r) {
+function br(o, t, n, a, e, r) {
   let l = {}, i = [], s = !1;
   for (let d in o) {
-    let c = o[d], f = _O(c, t, n, a, e, r);
+    let c = o[d], f = SO(c, t, n, a, e, r);
     l[d] = f.widgets, i.push(...f.viewsWithButtons), s = s || f.hasTitle;
   }
   return { sectionWidgets: l, viewsWithButtons: i, hasTitle: s };
 }
-function _O(o, t, n, a, e, r) {
+function SO(o, t, n, a, e, r) {
   let l = t.direction === "rtl", i = t.customButtons || {}, s = n.buttonText || {}, d = t.buttonText || {}, c = n.buttonHints || {}, f = t.buttonHints || {}, h = o ? o.split(" ") : [], u = [], m = !1;
   return { widgets: h.map((v) => v.split(",").map((y) => {
     if (y === "title")
@@ -41378,7 +41409,7 @@ function _O(o, t, n, a, e, r) {
         r.changeView(y);
       }, (w = _.buttonTextOverride) || (x = a.getIconClass(y, l)) || (w = _.buttonTextDefault);
       let b = _.buttonTextOverride || _.buttonTextDefault;
-      C = Kt(
+      C = Jt(
         _.buttonTitleOverride || _.buttonTitleDefault || t.viewHint,
         [b, y],
         b
@@ -41388,19 +41419,19 @@ function _O(o, t, n, a, e, r) {
         r[y]();
       }, (w = s[y]) || (x = a.getIconClass(y, l)) || (w = d[y]), y === "prevYear" || y === "nextYear") {
         let b = y === "prevYear" ? "prev" : "next";
-        C = Kt(c[b] || f[b], [
+        C = Jt(c[b] || f[b], [
           d.year || "year",
           "year"
         ], d[y]);
       } else
-        C = (b) => Kt(c[y] || f[y], [
+        C = (b) => Jt(c[y] || f[y], [
           d[b] || b,
           b
         ], d[y]);
     return { buttonName: y, buttonClick: A, buttonIcon: x, buttonText: w, buttonHint: C };
   })), viewsWithButtons: u, hasTitle: m };
 }
-class xO {
+class bO {
   constructor(t, n, a) {
     this.type = t, this.getCurrentData = n, this.dateEnv = a;
   }
@@ -41426,7 +41457,7 @@ class xO {
     return this.getCurrentData().options[t];
   }
 }
-let wO = {
+let DO = {
   ignoreRange: !0,
   parseMeta(o) {
     return Array.isArray(o.events) ? o.events : null;
@@ -41437,30 +41468,30 @@ let wO = {
     });
   }
 };
-const EO = ut({
+const MO = ft({
   name: "array-event-source",
-  eventSourceDefs: [wO]
+  eventSourceDefs: [DO]
 });
-let CO = {
+let TO = {
   parseMeta(o) {
     return typeof o.events == "function" ? o.events : null;
   },
   fetch(o, t, n) {
     const { dateEnv: a } = o.context, e = o.eventSource.meta;
-    MN(e.bind(null, Ol(o.range, a)), (r) => t({ rawEvents: r }), n);
+    HN(e.bind(null, jl(o.range, a)), (r) => t({ rawEvents: r }), n);
   }
 };
-const SO = ut({
+const RO = ft({
   name: "func-event-source",
-  eventSourceDefs: [CO]
-}), bO = {
+  eventSourceDefs: [TO]
+}), zO = {
   method: String,
   extraParams: j,
   startParam: String,
   endParam: String,
   timeZoneParam: String
 };
-let DO = {
+let $O = {
   parseMeta(o) {
     return o.url && (o.format === "json" || !o.format) ? {
       url: o.url,
@@ -41473,22 +41504,22 @@ let DO = {
     } : null;
   },
   fetch(o, t, n) {
-    const { meta: a } = o.eventSource, e = TO(a, o.range, o.context);
-    TN(a.method, a.url, e).then(([r, l]) => {
+    const { meta: a } = o.eventSource, e = IO(a, o.range, o.context);
+    IN(a.method, a.url, e).then(([r, l]) => {
       t({ rawEvents: r, response: l });
     }, n);
   }
 };
-const MO = ut({
+const HO = ft({
   name: "json-event-source",
-  eventSourceRefiners: bO,
-  eventSourceDefs: [DO]
+  eventSourceRefiners: zO,
+  eventSourceDefs: [$O]
 });
-function TO(o, t, n) {
+function IO(o, t, n) {
   let { dateEnv: a, options: e } = n, r, l, i, s, d = {};
   return r = o.startParam, r == null && (r = e.startParam), l = o.endParam, l == null && (l = e.endParam), i = o.timeZoneParam, i == null && (i = e.timeZoneParam), typeof o.extraParams == "function" ? s = o.extraParams() : s = o.extraParams || {}, Object.assign(d, s), d[r] = a.formatIso(t.start), d[l] = a.formatIso(t.end), a.timeZone !== "local" && (d[i] = a.timeZone), d;
 }
-const RO = {
+const BO = {
   daysOfWeek: j,
   startTime: pe,
   endTime: pe,
@@ -41496,7 +41527,7 @@ const RO = {
   startRecur: j,
   endRecur: j
 };
-let zO = {
+let PO = {
   parse(o, t) {
     if (o.daysOfWeek || o.startTime || o.endTime || o.startRecur || o.endRecur) {
       let n = {
@@ -41506,7 +41537,7 @@ let zO = {
         startRecur: o.startRecur ? t.createMarker(o.startRecur) : null,
         endRecur: o.endRecur ? t.createMarker(o.endRecur) : null
       }, a;
-      return o.duration && (a = o.duration), !a && o.startTime && o.endTime && (a = LB(o.endTime, o.startTime)), {
+      return o.duration && (a = o.duration), !a && o.startTime && o.endTime && (a = jB(o.endTime, o.startTime)), {
         allDayGuess: Boolean(!o.startTime && !o.endTime),
         duration: a,
         typeData: n
@@ -41515,39 +41546,42 @@ let zO = {
     return null;
   },
   expand(o, t, n) {
-    let a = Vt(t, { start: o.startRecur, end: o.endRecur });
-    return a ? HO(o.daysOfWeek, o.startTime, a, n) : [];
+    let a = jt(t, { start: o.startRecur, end: o.endRecur });
+    return a ? LO(o.daysOfWeek, o.startTime, a, n) : [];
   }
 };
-const $O = ut({
+const NO = ft({
   name: "simple-recurring-event",
-  recurringTypes: [zO],
-  eventRefiners: RO
+  recurringTypes: [PO],
+  eventRefiners: BO
 });
-function HO(o, t, n, a) {
-  let e = o ? gl(o) : null, r = Ae(n.start), l = n.end, i = [];
+function LO(o, t, n, a) {
+  let e = o ? _l(o) : null, r = Ae(n.start), l = n.end, i = [];
   for (; r < l; ) {
     let s;
     (!e || e[r.getUTCDay()]) && (t ? s = a.add(r, t) : s = r, i.push(s)), r = $e(r, 1);
   }
   return i;
 }
-const IO = ut({
+const OO = ft({
   name: "change-handler",
   optionChangeHandlers: {
     events(o, t) {
-      br([o], t);
+      Dr([o], t);
     },
-    eventSources: br
+    eventSources: Dr
   }
 });
-function br(o, t) {
-  let n = qa(t.getCurrentData().eventSources);
-  n.length === 1 && o.length === 1 && Array.isArray(n[0]._raw) && Array.isArray(o[0]) && t.dispatch({
-    type: "RESET_RAW_EVENTS",
-    sourceId: n[0].sourceId,
-    rawEvents: o[0]
-  });
+function Dr(o, t) {
+  let n = eo(t.getCurrentData().eventSources);
+  if (n.length === 1 && o.length === 1 && Array.isArray(n[0]._raw) && Array.isArray(o[0])) {
+    t.dispatch({
+      type: "RESET_RAW_EVENTS",
+      sourceId: n[0].sourceId,
+      rawEvents: o[0]
+    });
+    return;
+  }
   let a = [];
   for (let e of o) {
     let r = !1;
@@ -41566,33 +41600,33 @@ function br(o, t) {
   for (let e of a)
     t.calendarApi.addEventSource(e);
 }
-function BO(o, t) {
-  t.emitter.trigger("datesSet", Object.assign(Object.assign({}, Ol(o.activeRange, t.dateEnv)), { view: t.viewApi }));
+function VO(o, t) {
+  t.emitter.trigger("datesSet", Object.assign(Object.assign({}, jl(o.activeRange, t.dateEnv)), { view: t.viewApi }));
 }
-function PO(o, t) {
+function FO(o, t) {
   let { emitter: n } = t;
-  n.hasHandlers("eventsSet") && n.trigger("eventsSet", At(o, t));
+  n.hasHandlers("eventsSet") && n.trigger("eventsSet", xt(o, t));
 }
-const NO = [
-  EO,
-  SO,
+const jO = [
   MO,
-  $O,
-  IO,
-  ut({
+  RO,
+  HO,
+  NO,
+  OO,
+  ft({
     name: "misc",
     isLoadingFuncs: [
-      (o) => li(o.eventSources)
+      (o) => di(o.eventSources)
     ],
     propSetHandlers: {
-      dateProfile: BO,
-      eventStore: PO
+      dateProfile: VO,
+      eventStore: FO
     }
   })
 ];
-class LO {
+class UO {
   constructor(t, n) {
-    this.runTaskOption = t, this.drainedOption = n, this.queue = [], this.delayedRunner = new ka(this.drain.bind(this));
+    this.runTaskOption = t, this.drainedOption = n, this.queue = [], this.delayedRunner = new Wa(this.drain.bind(this));
   }
   request(t, n) {
     this.queue.push(t), this.delayedRunner.request(n);
@@ -41619,30 +41653,30 @@ class LO {
     this.drainedOption && this.drainedOption(t);
   }
 }
-function OO(o, t, n) {
+function QO(o, t, n) {
   let a;
-  return /^(year|month)$/.test(o.currentRangeUnit) ? a = o.currentRange : a = o.activeRange, n.formatRange(a.start, a.end, Me(t.titleFormat || VO(o)), {
+  return /^(year|month)$/.test(o.currentRangeUnit) ? a = o.currentRange : a = o.activeRange, n.formatRange(a.start, a.end, Me(t.titleFormat || kO(o)), {
     isEndExclusive: o.isRangeAllDay,
     defaultSeparator: t.titleRangeSeparator
   });
 }
-function VO(o) {
+function kO(o) {
   let { currentRangeUnit: t } = o;
   if (t === "year")
     return { year: "numeric" };
   if (t === "month")
     return { year: "numeric", month: "long" };
-  let n = $n(o.currentRange.start, o.currentRange.end);
+  let n = Hn(o.currentRange.start, o.currentRange.end);
   return n !== null && n > 1 ? { year: "numeric", month: "short", day: "numeric" } : { year: "numeric", month: "long", day: "numeric" };
 }
-class FO {
+class WO {
   constructor(t) {
-    this.computeCurrentViewData = ge(this._computeCurrentViewData), this.organizeRawLocales = ge(QL), this.buildLocale = ge(oi), this.buildPluginHooks = YL(), this.buildDateEnv = ge(jO), this.buildTheme = ge(UO), this.parseToolbars = ge(AO), this.buildViewSpecs = ge(tO), this.buildDateProfileGenerator = Cn(QO), this.buildViewApi = ge(kO), this.buildViewUiProps = Cn(YO), this.buildEventUiBySource = ge(WO, Je), this.buildEventUiBases = ge(GO), this.parseContextBusinessHours = Cn(KO), this.buildTitle = ge(OO), this.emitter = new Gn(), this.actionRunner = new LO(this._handleAction.bind(this), this.updateData.bind(this)), this.currentCalendarOptionsInput = {}, this.currentCalendarOptionsRefined = {}, this.currentViewOptionsInput = {}, this.currentViewOptionsRefined = {}, this.currentCalendarOptionsRefiners = {}, this.optionsForRefining = [], this.optionsForHandling = [], this.getCurrentData = () => this.data, this.dispatch = (h) => {
+    this.computeCurrentViewData = ge(this._computeCurrentViewData), this.organizeRawLocales = ge(KL), this.buildLocale = ge(ii), this.buildPluginHooks = qL(), this.buildDateEnv = ge(GO), this.buildTheme = ge(YO), this.parseToolbars = ge(CO), this.buildViewSpecs = ge(lO), this.buildDateProfileGenerator = Sn(KO), this.buildViewApi = ge(JO), this.buildViewUiProps = Sn(qO), this.buildEventUiBySource = ge(ZO, Je), this.buildEventUiBases = ge(XO), this.parseContextBusinessHours = Sn(eV), this.buildTitle = ge(QO), this.emitter = new Yn(), this.actionRunner = new UO(this._handleAction.bind(this), this.updateData.bind(this)), this.currentCalendarOptionsInput = {}, this.currentCalendarOptionsRefined = {}, this.currentViewOptionsInput = {}, this.currentViewOptionsRefined = {}, this.currentCalendarOptionsRefiners = {}, this.optionsForRefining = [], this.optionsForHandling = [], this.getCurrentData = () => this.data, this.dispatch = (h) => {
       this.actionRunner.request(h);
     }, this.props = t, this.actionRunner.pause();
     let n = {}, a = this.computeOptionsData(t.optionOverrides, n, t.calendarApi), e = a.calendarOptions.initialView || a.pluginHooks.initialView, r = this.computeCurrentViewData(e, a, t.optionOverrides, n);
     t.calendarApi.currentDataManager = this, this.emitter.setThisContext(t.calendarApi), this.emitter.setOptions(r.options);
-    let l = OP(a.calendarOptions, a.dateEnv), i = r.dateProfileGenerator.build(l);
+    let l = QP(a.calendarOptions, a.dateEnv), i = r.dateProfileGenerator.build(l);
     st(i.activeRange, l) || (l = i.currentRange.start);
     let s = {
       dateEnv: a.dateEnv,
@@ -41655,7 +41689,7 @@ class FO {
     };
     for (let h of a.pluginHooks.contextInit)
       h(s);
-    let d = iO(a.calendarOptions, i, s), c = {
+    let d = fO(a.calendarOptions, i, s), c = {
       dynamicOptionOverrides: n,
       currentViewType: e,
       currentDate: l,
@@ -41673,7 +41707,7 @@ class FO {
     }, f = Object.assign(Object.assign({}, s), c);
     for (let h of a.pluginHooks.reducers)
       Object.assign(c, h(null, null, f));
-    va(c, s) && this.emitter.trigger("loading", !0), this.state = c, this.updateData(), this.actionRunner.resume();
+    ha(c, s) && this.emitter.trigger("loading", !0), this.state = c, this.updateData(), this.actionRunner.resume();
   }
   resetOptions(t, n) {
     let { props: a } = this;
@@ -41682,7 +41716,7 @@ class FO {
     });
   }
   _handleAction(t) {
-    let { props: n, state: a, emitter: e } = this, r = rO(a.dynamicOptionOverrides, t), l = this.computeOptionsData(n.optionOverrides, r, n.calendarApi), i = oO(a.currentViewType, t), s = this.computeCurrentViewData(i, l, n.optionOverrides, r);
+    let { props: n, state: a, emitter: e } = this, r = cO(a.dynamicOptionOverrides, t), l = this.computeOptionsData(n.optionOverrides, r, n.calendarApi), i = dO(a.currentViewType, t), s = this.computeCurrentViewData(i, l, n.optionOverrides, r);
     n.calendarApi.currentDataManager = this, e.setThisContext(n.calendarApi), e.setOptions(s.options);
     let d = {
       dateEnv: l.dateEnv,
@@ -41693,8 +41727,8 @@ class FO {
       emitter: e,
       getCurrentData: this.getCurrentData
     }, { currentDate: c, dateProfile: f } = a;
-    this.data && this.data.dateProfileGenerator !== s.dateProfileGenerator && (f = s.dateProfileGenerator.build(c)), c = LP(c, t), f = lO(f, t, c, s.dateProfileGenerator), (t.type === "PREV" || t.type === "NEXT" || !st(f.currentRange, c)) && (c = f.currentRange.start);
-    let h = sO(a.eventSources, t, f, d), u = qP(a.eventStore, t, h, f, d), p = li(h) && !s.options.progressiveEventRendering && a.renderableEventStore || u, { eventUiSingleBase: v, selectionConfig: y } = this.buildViewUiProps(d), g = this.buildEventUiBySource(h), _ = this.buildEventUiBases(p.defs, v, g), A = {
+    this.data && this.data.dateProfileGenerator !== s.dateProfileGenerator && (f = s.dateProfileGenerator.build(c)), c = UP(c, t), f = uO(f, t, c, s.dateProfileGenerator), (t.type === "PREV" || t.type === "NEXT" || !st(f.currentRange, c)) && (c = f.currentRange.start);
+    let h = mO(a.eventSources, t, f, d), u = oN(a.eventStore, t, h, f, d), p = di(h) && !s.options.progressiveEventRendering && a.renderableEventStore || u, { eventUiSingleBase: v, selectionConfig: y } = this.buildViewUiProps(d), g = this.buildEventUiBySource(h), _ = this.buildEventUiBases(p.defs, v, g), A = {
       dynamicOptionOverrides: r,
       currentViewType: i,
       currentDate: c,
@@ -41705,20 +41739,20 @@ class FO {
       selectionConfig: y,
       eventUiBases: _,
       businessHours: this.parseContextBusinessHours(d),
-      dateSelection: hO(a.dateSelection, t),
-      eventSelection: pO(a.eventSelection, t),
-      eventDrag: gO(a.eventDrag, t),
-      eventResize: yO(a.eventResize, t)
+      dateSelection: _O(a.dateSelection, t),
+      eventSelection: xO(a.eventSelection, t),
+      eventDrag: wO(a.eventDrag, t),
+      eventResize: EO(a.eventResize, t)
     }, x = Object.assign(Object.assign({}, d), A);
     for (let b of l.pluginHooks.reducers)
       Object.assign(A, b(a, t, x));
-    let w = va(a, d), C = va(A, d);
+    let w = ha(a, d), C = ha(A, d);
     !w && C ? e.trigger("loading", !0) : w && !C && e.trigger("loading", !1), this.state = A, n.onAction && n.onAction(t);
   }
   updateData() {
     let { props: t, state: n } = this, a = this.data, e = this.computeOptionsData(t.optionOverrides, n.dynamicOptionOverrides, t.calendarApi), r = this.computeCurrentViewData(n.currentViewType, e, t.optionOverrides, n.dynamicOptionOverrides), l = this.data = Object.assign(Object.assign(Object.assign({ viewTitle: this.buildTitle(n.dateProfile, r.options, e.dateEnv), calendarApi: t.calendarApi, dispatch: this.dispatch, emitter: this.emitter, getCurrentData: this.getCurrentData }, e), r), n), i = e.pluginHooks.optionChangeHandlers, s = a && a.calendarOptions, d = e.calendarOptions;
     if (s && s !== d) {
-      s.timeZone !== d.timeZone && (n.eventSources = l.eventSources = dO(l.eventSources, n.dateProfile, l), n.eventStore = l.eventStore = aN(l.eventStore, a.dateEnv, l.dateEnv));
+      s.timeZone !== d.timeZone && (n.eventSources = l.eventSources = vO(l.eventSources, n.dateProfile, l), n.eventStore = l.eventStore = sN(l.eventStore, a.dateEnv, l.dateEnv));
       for (let c in i)
         (this.optionsForHandling.indexOf(c) !== -1 || s[c] !== d[c]) && i[c](d[c], l);
     }
@@ -41728,7 +41762,7 @@ class FO {
     if (!this.optionsForRefining.length && t === this.stableOptionOverrides && n === this.stableDynamicOptionOverrides)
       return this.stableCalendarOptionsData;
     let { refinedOptions: e, pluginHooks: r, localeDefaults: l, availableLocaleData: i, extra: s } = this.processRawCalendarOptions(t, n);
-    Dr(s);
+    Mr(s);
     let d = this.buildDateEnv(e.timeZone, e.locale, e.weekNumberCalculation, e.firstDay, e.weekText, r, i, e.defaultRangeSeparator), c = this.buildViewSpecs(r.views, this.stableOptionOverrides, this.stableDynamicOptionOverrides, l), f = this.buildTheme(e, r), h = this.parseToolbars(e, this.stableOptionOverrides, f, c, a);
     return this.stableCalendarOptionsData = {
       calendarOptions: e,
@@ -41742,18 +41776,18 @@ class FO {
     };
   }
   processRawCalendarOptions(t, n) {
-    let { locales: a, locale: e } = la([
-      Jt,
+    let { locales: a, locale: e } = ia([
+      Zt,
       t,
       n
-    ]), r = this.organizeRawLocales(a), l = r.map, i = this.buildLocale(e || r.defaultCode, l).options, s = this.buildPluginHooks(t.plugins || [], NO), d = this.currentCalendarOptionsRefiners = Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, lr), ir), sr), s.listenerRefiners), s.optionRefiners), c = {}, f = la([
-      Jt,
+    ]), r = this.organizeRawLocales(a), l = r.map, i = this.buildLocale(e || r.defaultCode, l).options, s = this.buildPluginHooks(t.plugins || [], jO), d = this.currentCalendarOptionsRefiners = Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, ir), sr), dr), s.listenerRefiners), s.optionRefiners), c = {}, f = ia([
+      Zt,
       i,
       t,
       n
     ]), h = {}, u = this.currentCalendarOptionsInput, m = this.currentCalendarOptionsRefined, p = !1;
     for (let v in f)
-      this.optionsForRefining.indexOf(v) === -1 && (f[v] === u[v] || pt[v] && v in u && pt[v](u[v], f[v])) ? h[v] = m[v] : d[v] ? (h[v] = d[v](f[v]), p = !0) : c[v] = u[v];
+      this.optionsForRefining.indexOf(v) === -1 && (f[v] === u[v] || gt[v] && v in u && gt[v](u[v], f[v])) ? h[v] = m[v] : d[v] ? (h[v] = d[v](f[v]), p = !0) : c[v] = u[v];
     return p && (this.currentCalendarOptionsInput = f, this.currentCalendarOptionsRefined = h, this.stableOptionOverrides = t, this.stableDynamicOptionOverrides = n), this.optionsForHandling.push(...this.optionsForRefining), this.optionsForRefining = [], {
       rawOptions: this.currentCalendarOptionsInput,
       refinedOptions: this.currentCalendarOptionsRefined,
@@ -41768,7 +41802,7 @@ class FO {
     if (!r)
       throw new Error(`viewType "${t}" is not available. Please make sure you've loaded all neccessary plugins`);
     let { refinedOptions: l, extra: i } = this.processRawViewOptions(r, n.pluginHooks, n.localeDefaults, a, e);
-    Dr(i);
+    Mr(i);
     let s = this.buildDateProfileGenerator({
       dateProfileGeneratorClass: r.optionDefaults.dateProfileGeneratorClass,
       duration: r.duration,
@@ -41792,16 +41826,16 @@ class FO {
     return { viewSpec: r, options: l, dateProfileGenerator: s, viewApi: d };
   }
   processRawViewOptions(t, n, a, e, r) {
-    let l = la([
-      Jt,
+    let l = ia([
+      Zt,
       t.optionDefaults,
       a,
       e,
       t.optionOverrides,
       r
-    ]), i = Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, lr), ir), sr), pP), n.listenerRefiners), n.optionRefiners), s = {}, d = this.currentViewOptionsInput, c = this.currentViewOptionsRefined, f = !1, h = {};
+    ]), i = Object.assign(Object.assign(Object.assign(Object.assign(Object.assign(Object.assign({}, ir), sr), dr), _P), n.listenerRefiners), n.optionRefiners), s = {}, d = this.currentViewOptionsInput, c = this.currentViewOptionsRefined, f = !1, h = {};
     for (let u in l)
-      l[u] === d[u] || pt[u] && pt[u](l[u], d[u]) ? s[u] = c[u] : (l[u] === this.currentCalendarOptionsInput[u] || pt[u] && pt[u](l[u], this.currentCalendarOptionsInput[u]) ? u in this.currentCalendarOptionsRefined && (s[u] = this.currentCalendarOptionsRefined[u]) : i[u] ? s[u] = i[u](l[u]) : h[u] = l[u], f = !0);
+      l[u] === d[u] || gt[u] && gt[u](l[u], d[u]) ? s[u] = c[u] : (l[u] === this.currentCalendarOptionsInput[u] || gt[u] && gt[u](l[u], this.currentCalendarOptionsInput[u]) ? u in this.currentCalendarOptionsRefined && (s[u] = this.currentCalendarOptionsRefined[u]) : i[u] ? s[u] = i[u](l[u]) : h[u] = l[u], f = !0);
     return f && (this.currentViewOptionsInput = l, this.currentViewOptionsRefined = s), {
       rawOptions: this.currentViewOptionsInput,
       refinedOptions: this.currentViewOptionsRefined,
@@ -41809,9 +41843,9 @@ class FO {
     };
   }
 }
-function jO(o, t, n, a, e, r, l, i) {
-  let s = oi(t || l.defaultCode, l.map);
-  return new bP({
+function GO(o, t, n, a, e, r, l, i) {
+  let s = ii(t || l.defaultCode, l.map);
+  return new RP({
     calendarSystem: "gregory",
     timeZone: o,
     namedTimeZoneImpl: r.namedTimeZonedImpl,
@@ -41823,21 +41857,21 @@ function jO(o, t, n, a, e, r, l, i) {
     defaultSeparator: i
   });
 }
-function UO(o, t) {
-  let n = t.themeClasses[o.themeSystem] || ft;
+function YO(o, t) {
+  let n = t.themeClasses[o.themeSystem] || mt;
   return new n(o);
 }
-function QO(o) {
-  let t = o.dateProfileGeneratorClass || bl;
+function KO(o) {
+  let t = o.dateProfileGeneratorClass || Tl;
   return new t(o);
 }
-function kO(o, t, n) {
-  return new xO(o, t, n);
+function JO(o, t, n) {
+  return new bO(o, t, n);
 }
-function WO(o) {
-  return St(o, (t) => t.ui);
+function ZO(o) {
+  return bt(o, (t) => t.ui);
 }
-function GO(o, t, n) {
+function XO(o, t, n) {
   let a = { "": t };
   for (let e in o) {
     let r = o[e];
@@ -41845,10 +41879,10 @@ function GO(o, t, n) {
   }
   return a;
 }
-function YO(o) {
+function qO(o) {
   let { options: t } = o;
   return {
-    eventUiSingleBase: Nn({
+    eventUiSingleBase: Ln({
       display: t.eventDisplay,
       editable: t.editable,
       startEditable: t.eventStartEditable,
@@ -41861,27 +41895,27 @@ function YO(o) {
       textColor: t.eventTextColor,
       color: t.eventColor
     }, o),
-    selectionConfig: Nn({
+    selectionConfig: Ln({
       constraint: t.selectConstraint,
       overlap: typeof t.selectOverlap == "boolean" ? t.selectOverlap : void 0,
       allow: t.selectAllow
     }, o)
   };
 }
-function va(o, t) {
+function ha(o, t) {
   for (let n of t.pluginHooks.isLoadingFuncs)
     if (n(o))
       return !0;
   return !1;
 }
-function KO(o) {
-  return dN(o.options.businessHours, o);
+function eV(o) {
+  return vN(o.options.businessHours, o);
 }
-function Dr(o, t) {
+function Mr(o, t) {
   for (let n in o)
     console.warn(`Unknown option '${n}'` + (t ? ` for view '${t}'` : ""));
 }
-class JO extends we {
+class tV extends we {
   render() {
     let t = this.props.widgetGroups.map((n) => this.renderWidgetGroup(n));
     return U("div", { className: "fc-toolbar-chunk" }, ...t);
@@ -41904,7 +41938,7 @@ class JO extends we {
     return e[0];
   }
 }
-class Mr extends we {
+class Tr extends we {
   render() {
     let { model: t, extraClassName: n } = this.props, a = !1, e, r, l = t.sectionWidgets, i = l.center;
     return l.left ? (a = !0, e = l.left) : e = l.start, l.right ? (a = !0, r = l.right) : r = l.end, U(
@@ -41921,15 +41955,15 @@ class Mr extends we {
   }
   renderSection(t, n) {
     let { props: a } = this;
-    return U(JO, { key: t, widgetGroups: n, title: a.title, navUnit: a.navUnit, activeButton: a.activeButton, isTodayEnabled: a.isTodayEnabled, isPrevEnabled: a.isPrevEnabled, isNextEnabled: a.isNextEnabled, titleId: a.titleId });
+    return U(tV, { key: t, widgetGroups: n, title: a.title, navUnit: a.navUnit, activeButton: a.activeButton, isTodayEnabled: a.isTodayEnabled, isPrevEnabled: a.isPrevEnabled, isNextEnabled: a.isNextEnabled, titleId: a.titleId });
   }
 }
-class ZO extends we {
+class nV extends we {
   constructor() {
     super(...arguments), this.state = {
       availableWidth: null
     }, this.handleEl = (t) => {
-      this.el = t, ct(this.props.elRef, t), this.updateAvailableWidth();
+      this.el = t, ut(this.props.elRef, t), this.updateAvailableWidth();
     }, this.handleResize = () => {
       this.updateAvailableWidth();
     };
@@ -41951,10 +41985,10 @@ class ZO extends we {
     this.el && this.props.aspectRatio && this.setState({ availableWidth: this.el.offsetWidth });
   }
 }
-class XO extends Ut {
+class aV extends kt {
   constructor(t) {
     super(t), this.handleSegClick = (n, a) => {
-      let { component: e } = this, { context: r } = e, l = Ft(a);
+      let { component: e } = this, { context: r } = e, l = Ut(a);
       if (l && e.isValidSegDownEl(n.target)) {
         let i = ze(n.target, ".fc-event-forced-url"), s = i ? i.querySelector("a[href]").href : "";
         r.emitter.trigger("eventClick", {
@@ -41964,7 +41998,7 @@ class XO extends Ut {
           view: r.viewApi
         }), s && !n.defaultPrevented && (window.location.href = s);
       }
-    }, this.destroy = ml(
+    }, this.destroy = pl(
       t.el,
       "click",
       ".fc-event",
@@ -41972,15 +42006,15 @@ class XO extends Ut {
     );
   }
 }
-class qO extends Ut {
+class oV extends kt {
   constructor(t) {
     super(t), this.handleEventElRemove = (n) => {
       n === this.currentSegEl && this.handleSegLeave(null, this.currentSegEl);
     }, this.handleSegEnter = (n, a) => {
-      Ft(a) && (this.currentSegEl = a, this.triggerEvent("eventMouseEnter", n, a));
+      Ut(a) && (this.currentSegEl = a, this.triggerEvent("eventMouseEnter", n, a));
     }, this.handleSegLeave = (n, a) => {
       this.currentSegEl && (this.currentSegEl = null, this.triggerEvent("eventMouseLeave", n, a));
-    }, this.removeHoverListeners = EB(
+    }, this.removeHoverListeners = DB(
       t.el,
       ".fc-event",
       this.handleSegEnter,
@@ -41991,7 +42025,7 @@ class qO extends Ut {
     this.removeHoverListeners();
   }
   triggerEvent(t, n, a) {
-    let { component: e } = this, { context: r } = e, l = Ft(a);
+    let { component: e } = this, { context: r } = e, l = Ut(a);
     (!n || e.isValidSegDownEl(n.target)) && r.emitter.trigger(t, {
       el: a,
       event: new _e(r, l.eventRange.def, l.eventRange.instance),
@@ -42000,16 +42034,16 @@ class qO extends Ut {
     });
   }
 }
-class eV extends Dt {
+class rV extends Mt {
   constructor() {
-    super(...arguments), this.buildViewContext = ge(TP), this.buildViewPropTransformers = ge(nV), this.buildToolbarProps = ge(tV), this.headerRef = tt(), this.footerRef = tt(), this.interactionsStore = {}, this.state = {
-      viewLabelId: Un()
+    super(...arguments), this.buildViewContext = ge(HP), this.buildViewPropTransformers = ge(iV), this.buildToolbarProps = ge(lV), this.headerRef = tt(), this.footerRef = tt(), this.interactionsStore = {}, this.state = {
+      viewLabelId: Qn()
     }, this.registerInteractiveComponent = (t, n) => {
-      let a = $N(t, n), l = [
-        XO,
-        qO
+      let a = NN(t, n), l = [
+        aV,
+        oV
       ].concat(this.props.pluginHooks.componentInteractions).map((i) => new i(a));
-      this.interactionsStore[t.uid] = l, Da[t.uid] = a;
+      this.interactionsStore[t.uid] = l, Ma[t.uid] = a;
     }, this.unregisterInteractiveComponent = (t) => {
       let n = this.interactionsStore[t.uid];
       if (n) {
@@ -42017,8 +42051,8 @@ class eV extends Dt {
           a.destroy();
         delete this.interactionsStore[t.uid];
       }
-      delete Da[t.uid];
-    }, this.resizeRunner = new ka(() => {
+      delete Ma[t.uid];
+    }, this.resizeRunner = new Wa(() => {
       this.props.emitter.trigger("_resize", !0), this.props.emitter.trigger("windowResize", { view: this.props.viewApi });
     }), this.handleWindowResize = (t) => {
       let { options: n } = this.props;
@@ -42031,22 +42065,22 @@ class eV extends Dt {
       t.dateProfile,
       t.dateProfileGenerator,
       t.currentDate,
-      sn(t.options.now, t.dateEnv),
+      dn(t.options.now, t.dateEnv),
       t.viewTitle
     ), r = !1, l = "", i;
     t.isHeightAuto || t.forPrint ? l = "" : a.height != null ? r = !0 : a.contentHeight != null ? l = a.contentHeight : i = Math.max(a.aspectRatio, 0.5);
     let s = this.buildViewContext(t.viewSpec, t.viewApi, t.options, t.dateProfileGenerator, t.dateEnv, t.theme, t.pluginHooks, t.dispatch, t.getCurrentData, t.emitter, t.calendarApi, this.registerInteractiveComponent, this.unregisterInteractiveComponent), d = n.header && n.header.hasTitle ? this.state.viewLabelId : "";
     return U(
-      bt.Provider,
+      Dt.Provider,
       { value: s },
-      n.header && U(Mr, Object.assign({ ref: this.headerRef, extraClassName: "fc-header-toolbar", model: n.header, titleId: d }, e)),
+      n.header && U(Tr, Object.assign({ ref: this.headerRef, extraClassName: "fc-header-toolbar", model: n.header, titleId: d }, e)),
       U(
-        ZO,
+        nV,
         { liquid: r, height: l, aspectRatio: i, labeledById: d },
         this.renderView(t),
         this.buildAppendContent()
       ),
-      n.footer && U(Mr, Object.assign({ ref: this.footerRef, extraClassName: "fc-footer-toolbar", model: n.footer, titleId: "" }, e))
+      n.footer && U(Tr, Object.assign({ ref: this.footerRef, extraClassName: "fc-footer-toolbar", model: n.footer, titleId: "" }, e))
     );
   }
   componentDidMount() {
@@ -42090,7 +42124,7 @@ class eV extends Dt {
     return U(l, Object.assign({}, e));
   }
 }
-function tV(o, t, n, a, e, r) {
+function lV(o, t, n, a, e, r) {
   let l = n.build(e, void 0, !1), i = n.buildPrev(t, a, !1), s = n.buildNext(t, a, !1);
   return {
     title: r,
@@ -42101,10 +42135,10 @@ function tV(o, t, n, a, e, r) {
     isNextEnabled: s.isValid
   };
 }
-function nV(o) {
+function iV(o) {
   return o.map((t) => new t());
 }
-class aV extends HN {
+class sV extends LN {
   constructor(t, n = {}) {
     super(), this.isRendering = !1, this.isRendered = !1, this.currentClassNames = [], this.customContentRenderId = 0, this.handleAction = (a) => {
       switch (a.type) {
@@ -42118,16 +42152,16 @@ class aV extends HN {
       if (this.isRendering) {
         this.isRendered = !0;
         let { currentData: a } = this;
-        dr(() => {
-          tn(U(zN, { options: a.calendarOptions, theme: a.theme, emitter: a.emitter }, (e, r, l, i) => (this.setClassNames(e), this.setHeight(r), U(
-            wl.Provider,
+        cr(() => {
+          nn(U(PN, { options: a.calendarOptions, theme: a.theme, emitter: a.emitter }, (e, r, l, i) => (this.setClassNames(e), this.setHeight(r), U(
+            Sl.Provider,
             { value: this.customContentRenderId },
-            U(eV, Object.assign({ isHeightAuto: l, forPrint: i }, a))
+            U(rV, Object.assign({ isHeightAuto: l, forPrint: i }, a))
           ))), this.el);
         });
       } else
-        this.isRendered && (this.isRendered = !1, tn(null, this.el), this.setClassNames([]), this.setHeight(""));
-    }, pB(t), this.el = t, this.renderRunner = new ka(this.handleRenderRequest), new FO({
+        this.isRendered && (this.isRendered = !1, nn(null, this.el), this.setClassNames([]), this.setHeight(""));
+    }, _B(t), this.el = t, this.renderRunner = new Wa(this.handleRenderRequest), new WO({
       optionOverrides: n,
       calendarApi: this,
       onAction: this.handleAction,
@@ -42142,7 +42176,7 @@ class aV extends HN {
     this.isRendering && (this.isRendering = !1, this.renderRunner.request());
   }
   updateSize() {
-    dr(() => {
+    cr(() => {
       super.updateSize();
     });
   }
@@ -42169,74 +42203,10 @@ class aV extends HN {
     }
   }
   setHeight(t) {
-    ul(this.el, "height", t);
+    vl(this.el, "height", t);
   }
 }
-class oV extends Mt {
-  constructor() {
-    super(...arguments), this.headerElRef = tt();
-  }
-  renderSimpleLayout(t, n) {
-    let { props: a, context: e } = this, r = [], l = xr(e.options);
-    return t && r.push({
-      type: "header",
-      key: "header",
-      isSticky: l,
-      chunk: {
-        elRef: this.headerElRef,
-        tableClassName: "fc-col-header",
-        rowContent: t
-      }
-    }), r.push({
-      type: "body",
-      key: "body",
-      liquid: !0,
-      chunk: { content: n }
-    }), U(
-      cr,
-      { elClasses: ["fc-daygrid"], viewSpec: e.viewSpec },
-      U(ql, { liquid: !a.isHeightAuto && !a.forPrint, collapsibleWidth: a.forPrint, cols: [], sections: r })
-    );
-  }
-  renderHScrollLayout(t, n, a, e) {
-    let r = this.context.pluginHooks.scrollGridImpl;
-    if (!r)
-      throw new Error("No ScrollGrid implementation");
-    let { props: l, context: i } = this, s = !l.forPrint && xr(i.options), d = !l.forPrint && EL(i.options), c = [];
-    return t && c.push({
-      type: "header",
-      key: "header",
-      isSticky: s,
-      chunks: [{
-        key: "main",
-        elRef: this.headerElRef,
-        tableClassName: "fc-col-header",
-        rowContent: t
-      }]
-    }), c.push({
-      type: "body",
-      key: "body",
-      liquid: !0,
-      chunks: [{
-        key: "main",
-        content: n
-      }]
-    }), d && c.push({
-      type: "footer",
-      key: "footer",
-      isSticky: !0,
-      chunks: [{
-        key: "main",
-        content: wL
-      }]
-    }), U(
-      cr,
-      { elClasses: ["fc-daygrid"], viewSpec: i.viewSpec },
-      U(r, { liquid: !l.isHeightAuto && !l.forPrint, collapsibleWidth: l.forPrint, colGroups: [{ cols: [{ span: a, minWidth: e }] }], sections: c })
-    );
-  }
-}
-function An(o, t) {
+function _n(o, t) {
   let n = [];
   for (let a = 0; a < t; a += 1)
     n[a] = [];
@@ -42244,7 +42214,7 @@ function An(o, t) {
     n[a.row].push(a);
   return n;
 }
-function _n(o, t) {
+function xn(o, t) {
   let n = [];
   for (let a = 0; a < t; a += 1)
     n[a] = [];
@@ -42252,7 +42222,7 @@ function _n(o, t) {
     n[a.firstCol].push(a);
   return n;
 }
-function Tr(o, t) {
+function Rr(o, t) {
   let n = [];
   if (o) {
     for (let a = 0; a < t; a += 1)
@@ -42268,29 +42238,29 @@ function Tr(o, t) {
       n[a] = null;
   return n;
 }
-const ui = Me({
+const vi = Me({
   hour: "numeric",
   minute: "2-digit",
   omitZeroMinute: !0,
   meridiem: "narrow"
 });
-function fi(o) {
+function hi(o) {
   let { display: t } = o.eventRange.ui;
   return t === "list-item" || t === "auto" && !o.eventRange.def.allDay && o.firstCol === o.lastCol && o.isStart && o.isEnd;
 }
-class mi extends we {
+class pi extends we {
   render() {
     let { props: t } = this;
-    return U(SL, Object.assign({}, t, { elClasses: ["fc-daygrid-event", "fc-daygrid-block-event", "fc-h-event"], defaultTimeFormat: ui, defaultDisplayEventEnd: t.defaultDisplayEventEnd, disableResizing: !t.seg.eventRange.def.allDay }));
+    return U(RL, Object.assign({}, t, { elClasses: ["fc-daygrid-event", "fc-daygrid-block-event", "fc-h-event"], defaultTimeFormat: vi, defaultDisplayEventEnd: t.defaultDisplayEventEnd, disableResizing: !t.seg.eventRange.def.allDay }));
   }
 }
-class vi extends we {
+class gi extends we {
   render() {
-    let { props: t, context: n } = this, { options: a } = n, { seg: e } = t, r = a.eventTimeFormat || ui, l = Nl(e, r, n, !0, t.defaultDisplayEventEnd);
-    return U(ho, Object.assign({}, t, { elTag: "a", elClasses: ["fc-daygrid-event", "fc-daygrid-dot-event"], elAttrs: Ll(t.seg, n), defaultGenerator: rV, timeText: l, isResizing: !1, isDateSelecting: !1 }));
+    let { props: t, context: n } = this, { options: a } = n, { seg: e } = t, r = a.eventTimeFormat || vi, l = Vl(e, r, n, !0, t.defaultDisplayEventEnd);
+    return U(po, Object.assign({}, t, { elTag: "a", elClasses: ["fc-daygrid-event", "fc-daygrid-dot-event"], elAttrs: Fl(t.seg, n), defaultGenerator: dV, timeText: l, isResizing: !1, isDateSelecting: !1 }));
   }
 }
-function rV(o) {
+function dV(o) {
   return U(
     Se,
     null,
@@ -42299,54 +42269,55 @@ function rV(o) {
     U("div", { className: "fc-event-title" }, o.event.title || U(Se, null, " "))
   );
 }
-class lV extends we {
+class cV extends we {
   constructor() {
-    super(...arguments), this.compileSegs = ge(iV);
+    super(...arguments), this.compileSegs = ge(uV);
   }
   render() {
     let { props: t } = this, { allSegs: n, invisibleSegs: a } = this.compileSegs(t.singlePlacements);
-    return U(PL, { elClasses: ["fc-daygrid-more-link"], dateProfile: t.dateProfile, todayRange: t.todayRange, allDayDate: t.allDayDate, moreCnt: t.moreCnt, allSegs: n, hiddenSegs: a, alignmentElRef: t.alignmentElRef, alignGridTop: t.alignGridTop, extraDateSpan: t.extraDateSpan, popoverContent: () => {
+    return U(FL, { elClasses: ["fc-daygrid-more-link"], dateProfile: t.dateProfile, todayRange: t.todayRange, allDayDate: t.allDayDate, moreCnt: t.moreCnt, allSegs: n, hiddenSegs: a, alignmentElRef: t.alignmentElRef, alignGridTop: t.alignGridTop, extraDateSpan: t.extraDateSpan, popoverContent: () => {
       let e = (t.eventDrag ? t.eventDrag.affectedInstances : null) || (t.eventResize ? t.eventResize.affectedInstances : null) || {};
       return U(Se, null, n.map((r) => {
         let l = r.eventRange.instance.instanceId;
         return U("div", { className: "fc-daygrid-event-harness", key: l, style: {
           visibility: e[l] ? "hidden" : ""
-        } }, fi(r) ? U(vi, Object.assign({ seg: r, isDragging: !1, isSelected: l === t.eventSelection, defaultDisplayEventEnd: !1 }, Zt(r, t.todayRange))) : U(mi, Object.assign({ seg: r, isDragging: !1, isResizing: !1, isDateSelecting: !1, isSelected: l === t.eventSelection, defaultDisplayEventEnd: !1 }, Zt(r, t.todayRange))));
+        } }, hi(r) ? U(gi, Object.assign({ seg: r, isDragging: !1, isSelected: l === t.eventSelection, defaultDisplayEventEnd: !1 }, Xt(r, t.todayRange))) : U(pi, Object.assign({ seg: r, isDragging: !1, isResizing: !1, isDateSelecting: !1, isSelected: l === t.eventSelection, defaultDisplayEventEnd: !1 }, Xt(r, t.todayRange))));
       }));
     } });
   }
 }
-function iV(o) {
+function uV(o) {
   let t = [], n = [];
   for (let a of o)
     t.push(a.seg), a.isVisible || n.push(a.seg);
   return { allSegs: t, invisibleSegs: n };
 }
-const sV = Me({ week: "narrow" });
-class dV extends Mt {
+const fV = Me({ week: "narrow" });
+class mV extends Tt {
   constructor() {
     super(...arguments), this.rootElRef = tt(), this.state = {
-      dayNumberId: Un()
+      dayNumberId: Qn()
     }, this.handleRootEl = (t) => {
-      ct(this.rootElRef, t), ct(this.props.elRef, t);
+      ut(this.rootElRef, t), ut(this.props.elRef, t);
     };
   }
   render() {
-    let { context: t, props: n, state: a, rootElRef: e } = this, { options: r } = t, { date: l, dateProfile: i } = n, s = n.showDayNumber && i.currentRangeUnit !== "month" && (i.currentRange.start.valueOf() === l.valueOf() || l.getUTCDate() === 1);
-    return U(ei, { elTag: "td", elRef: this.handleRootEl, elClasses: [
+    let { context: t, props: n, state: a, rootElRef: e } = this, { options: r, dateEnv: l } = t, { date: i, dateProfile: s } = n;
+    const d = n.showDayNumber && hV(i, s.currentRange, l);
+    return U(ai, { elTag: "td", elRef: this.handleRootEl, elClasses: [
       "fc-daygrid-day",
       ...n.extraClassNames || []
-    ], elAttrs: Object.assign(Object.assign(Object.assign({}, n.extraDataAttrs), n.showDayNumber ? { "aria-labelledby": a.dayNumberId } : {}), { role: "gridcell" }), defaultGenerator: cV, date: l, dateProfile: i, todayRange: n.todayRange, showDayNumber: n.showDayNumber, isMonthStart: s, extraRenderProps: n.extraRenderProps }, (d, c) => U(
+    ], elAttrs: Object.assign(Object.assign(Object.assign({}, n.extraDataAttrs), n.showDayNumber ? { "aria-labelledby": a.dayNumberId } : {}), { role: "gridcell" }), defaultGenerator: vV, date: i, dateProfile: s, todayRange: n.todayRange, showDayNumber: n.showDayNumber, isMonthStart: d, extraRenderProps: n.extraRenderProps }, (c, f) => U(
       "div",
       { ref: n.innerElRef, className: "fc-daygrid-day-frame fc-scrollgrid-sync-inner", style: { minHeight: n.minHeight } },
-      n.showWeekNumber && U($L, { elTag: "a", elClasses: ["fc-daygrid-week-number"], elAttrs: Ma(t, l, "week"), date: l, defaultFormat: sV }),
-      !c.isDisabled && (n.showDayNumber || ti(r) || n.forceDayTop) ? U(
+      n.showWeekNumber && U(NL, { elTag: "a", elClasses: ["fc-daygrid-week-number"], elAttrs: Ta(t, i, "week"), date: i, defaultFormat: fV }),
+      !f.isDisabled && (n.showDayNumber || oi(r) || n.forceDayTop) ? U(
         "div",
         { className: "fc-daygrid-day-top" },
-        U(d, { elTag: "a", elClasses: [
+        U(c, { elTag: "a", elClasses: [
           "fc-daygrid-day-number",
-          s && "fc-daygrid-month-start"
-        ], elAttrs: Object.assign(Object.assign({}, Ma(t, l)), { id: a.dayNumberId }) })
+          d && "fc-daygrid-month-start"
+        ], elAttrs: Object.assign(Object.assign({}, Ta(t, i)), { id: a.dayNumberId }) })
       ) : n.showDayNumber ? U(
         "div",
         { className: "fc-daygrid-day-top", style: { visibility: "hidden" } },
@@ -42359,18 +42330,24 @@ class dV extends Mt {
         U(
           "div",
           { className: "fc-daygrid-day-bottom", style: { marginTop: n.moreMarginTop } },
-          U(lV, { allDayDate: l, singlePlacements: n.singlePlacements, moreCnt: n.moreCnt, alignmentElRef: e, alignGridTop: !n.showDayNumber, extraDateSpan: n.extraDateSpan, dateProfile: n.dateProfile, eventSelection: n.eventSelection, eventDrag: n.eventDrag, eventResize: n.eventResize, todayRange: n.todayRange })
+          U(cV, { allDayDate: i, singlePlacements: n.singlePlacements, moreCnt: n.moreCnt, alignmentElRef: e, alignGridTop: !n.showDayNumber, extraDateSpan: n.extraDateSpan, dateProfile: n.dateProfile, eventSelection: n.eventSelection, eventDrag: n.eventDrag, eventResize: n.eventResize, todayRange: n.todayRange })
         )
       ),
       U("div", { className: "fc-daygrid-day-bg" }, n.bgContent)
     ));
   }
 }
-function cV(o) {
+function vV(o) {
   return o.dayNumberText || U(Se, null, " ");
 }
-function uV(o, t, n, a, e, r, l) {
-  let i = new vV();
+function hV(o, t, n) {
+  const { start: a, end: e } = t, r = ct(e, -1), l = n.getYear(a), i = n.getMonth(a), s = n.getYear(r), d = n.getMonth(r);
+  return !(l === s && i === d) && Boolean(
+    o.valueOf() === a.valueOf() || n.getDay(o) === 1 && o.valueOf() < e.valueOf()
+  );
+}
+function pV(o, t, n, a, e, r, l) {
+  let i = new AV();
   i.allowReslicing = !0, i.strictOrder = a, t === !0 || n === !0 ? (i.maxCoord = r, i.hiddenConsumes = !0) : typeof t == "number" ? i.maxStackCnt = t : typeof n == "number" && (i.maxStackCnt = n, i.hiddenConsumes = !0);
   let s = [], d = [];
   for (let y = 0; y < o.length; y += 1) {
@@ -42384,7 +42361,7 @@ function uV(o, t, n, a, e, r, l) {
       }
     }) : d.push(g);
   }
-  let c = i.addSegs(s), f = i.toRects(), { singleColPlacements: h, multiColPlacements: u, leftoverMargins: m } = fV(f, o, l), p = [], v = [];
+  let c = i.addSegs(s), f = i.toRects(), { singleColPlacements: h, multiColPlacements: u, leftoverMargins: m } = gV(f, o, l), p = [], v = [];
   for (let y of d) {
     u[y.firstCol].push({
       seg: y,
@@ -42395,7 +42372,7 @@ function uV(o, t, n, a, e, r, l) {
     });
     for (let g = y.firstCol; g <= y.lastCol; g += 1)
       h[g].push({
-        seg: Lt(y, g, g + 1, l),
+        seg: Ot(y, g, g + 1, l),
         isVisible: !1,
         isAbsolute: !1,
         absoluteTop: 0,
@@ -42407,7 +42384,7 @@ function uV(o, t, n, a, e, r, l) {
   for (let y of c) {
     let g = o[y.index], _ = y.span;
     u[_.start].push({
-      seg: Lt(g, _.start, _.end, l),
+      seg: Ot(g, _.start, _.end, l),
       isVisible: !1,
       isAbsolute: !0,
       absoluteTop: 0,
@@ -42415,7 +42392,7 @@ function uV(o, t, n, a, e, r, l) {
     });
     for (let A = _.start; A < _.end; A += 1)
       p[A] += 1, h[A].push({
-        seg: Lt(g, A, A + 1, l),
+        seg: Ot(g, A, A + 1, l),
         isVisible: !1,
         isAbsolute: !1,
         absoluteTop: 0,
@@ -42426,14 +42403,14 @@ function uV(o, t, n, a, e, r, l) {
     v.push(m[y]);
   return { singleColPlacements: h, multiColPlacements: u, moreCnts: p, moreMarginTops: v };
 }
-function fV(o, t, n) {
-  let a = mV(o, n.length), e = [], r = [], l = [];
+function gV(o, t, n) {
+  let a = yV(o, n.length), e = [], r = [], l = [];
   for (let i = 0; i < n.length; i += 1) {
     let s = a[i], d = [], c = 0, f = 0;
     for (let u of s) {
       let m = t[u.index];
       d.push({
-        seg: Lt(m, i, i + 1, n),
+        seg: Ot(m, i, i + 1, n),
         isVisible: !0,
         isAbsolute: !1,
         absoluteTop: u.levelCoord,
@@ -42445,13 +42422,13 @@ function fV(o, t, n) {
     for (let u of s) {
       let m = t[u.index], p = u.span.end - u.span.start > 1, v = u.span.start === i;
       f += u.levelCoord - c, c = u.levelCoord + u.thickness, p ? (f += u.thickness, v && h.push({
-        seg: Lt(m, u.span.start, u.span.end, n),
+        seg: Ot(m, u.span.start, u.span.end, n),
         isVisible: !0,
         isAbsolute: !0,
         absoluteTop: u.levelCoord,
         marginTop: 0
       })) : v && (h.push({
-        seg: Lt(m, u.span.start, u.span.end, n),
+        seg: Ot(m, u.span.start, u.span.end, n),
         isVisible: !0,
         isAbsolute: !1,
         absoluteTop: u.levelCoord,
@@ -42462,7 +42439,7 @@ function fV(o, t, n) {
   }
   return { singleColPlacements: e, multiColPlacements: r, leftoverMargins: l };
 }
-function mV(o, t) {
+function yV(o, t) {
   let n = [];
   for (let a = 0; a < t; a += 1)
     n.push([]);
@@ -42471,10 +42448,10 @@ function mV(o, t) {
       n[e].push(a);
   return n;
 }
-function Lt(o, t, n, a) {
+function Ot(o, t, n, a) {
   if (o.firstCol === t && o.lastCol === n - 1)
     return o;
-  let e = o.eventRange, r = e.range, l = Vt(r, {
+  let e = o.eventRange, r = e.range, l = jt(r, {
     start: a[t].date,
     end: $e(a[n - 1].date, 1)
   });
@@ -42485,12 +42462,12 @@ function Lt(o, t, n, a) {
     range: l
   }, isStart: o.isStart && l.start.valueOf() === r.start.valueOf(), isEnd: o.isEnd && l.end.valueOf() === r.end.valueOf() });
 }
-class vV extends KN {
+class AV extends eL {
   constructor() {
     super(...arguments), this.hiddenConsumes = !1, this.forceHidden = {};
   }
   addSegs(t) {
-    const n = super.addSegs(t), { entriesByLevel: a } = this, e = (r) => !this.forceHidden[Xt(r)];
+    const n = super.addSegs(t), { entriesByLevel: a } = this, e = (r) => !this.forceHidden[qt(r)];
     for (let r = 0; r < a.length; r += 1)
       a[r] = a[r].filter(e);
     return n;
@@ -42498,10 +42475,10 @@ class vV extends KN {
   handleInvalidInsertion(t, n, a) {
     const { entriesByLevel: e, forceHidden: r } = this, { touchingEntry: l, touchingLevel: i, touchingLateral: s } = t;
     if (this.hiddenConsumes && l) {
-      const d = Xt(l);
+      const d = qt(l);
       if (!r[d])
         if (this.allowReslicing) {
-          const c = Object.assign(Object.assign({}, l), { span: Wl(l.span, n.span) }), f = Xt(c);
+          const c = Object.assign(Object.assign({}, l), { span: Kl(l.span, n.span) }), f = qt(c);
           r[f] = !0, e[i][s] = c, this.splitEntry(l, n, a);
         } else
           r[d] = !0, a.push(l);
@@ -42509,9 +42486,9 @@ class vV extends KN {
     return super.handleInvalidInsertion(t, n, a);
   }
 }
-class hi extends Mt {
+class yi extends Tt {
   constructor() {
-    super(...arguments), this.cellElRefs = new yt(), this.frameElRefs = new yt(), this.fgElRefs = new yt(), this.segHarnessRefs = new yt(), this.rootElRef = tt(), this.state = {
+    super(...arguments), this.cellElRefs = new _t(), this.frameElRefs = new _t(), this.fgElRefs = new _t(), this.segHarnessRefs = new _t(), this.rootElRef = tt(), this.state = {
       framePositions: null,
       maxContentHeight: null,
       eventInstanceHeights: {}
@@ -42520,14 +42497,14 @@ class hi extends Mt {
     };
   }
   render() {
-    let { props: t, state: n, context: a } = this, { options: e } = a, r = t.cells.length, l = _n(t.businessHourSegs, r), i = _n(t.bgEventSegs, r), s = _n(this.getHighlightSegs(), r), d = _n(this.getMirrorSegs(), r), { singleColPlacements: c, multiColPlacements: f, moreCnts: h, moreMarginTops: u } = uV(vN(t.fgEventSegs, e.eventOrder), t.dayMaxEvents, t.dayMaxEventRows, e.eventOrderStrict, n.eventInstanceHeights, n.maxContentHeight, t.cells), m = t.eventDrag && t.eventDrag.affectedInstances || t.eventResize && t.eventResize.affectedInstances || {};
+    let { props: t, state: n, context: a } = this, { options: e } = a, r = t.cells.length, l = xn(t.businessHourSegs, r), i = xn(t.bgEventSegs, r), s = xn(this.getHighlightSegs(), r), d = xn(this.getMirrorSegs(), r), { singleColPlacements: c, multiColPlacements: f, moreCnts: h, moreMarginTops: u } = pV(AN(t.fgEventSegs, e.eventOrder), t.dayMaxEvents, t.dayMaxEventRows, e.eventOrderStrict, n.eventInstanceHeights, n.maxContentHeight, t.cells), m = t.eventDrag && t.eventDrag.affectedInstances || t.eventResize && t.eventResize.affectedInstances || {};
     return U(
       "tr",
       { ref: this.rootElRef, role: "row" },
       t.renderIntro && t.renderIntro(),
       t.cells.map((p, v) => {
-        let y = this.renderFgSegs(v, t.forPrint ? c[v] : f[v], t.todayRange, m), g = this.renderFgSegs(v, hV(d[v], f), t.todayRange, {}, Boolean(t.eventDrag), Boolean(t.eventResize), !1);
-        return U(dV, { key: p.key, elRef: this.cellElRefs.createRef(p.key), innerElRef: this.frameElRefs.createRef(p.key), dateProfile: t.dateProfile, date: p.date, showDayNumber: t.showDayNumbers, showWeekNumber: t.showWeekNumbers && v === 0, forceDayTop: t.showWeekNumbers, todayRange: t.todayRange, eventSelection: t.eventSelection, eventDrag: t.eventDrag, eventResize: t.eventResize, extraRenderProps: p.extraRenderProps, extraDataAttrs: p.extraDataAttrs, extraClassNames: p.extraClassNames, extraDateSpan: p.extraDateSpan, moreCnt: h[v], moreMarginTop: u[v], singlePlacements: c[v], fgContentElRef: this.fgElRefs.createRef(p.key), fgContent: U(
+        let y = this.renderFgSegs(v, t.forPrint ? c[v] : f[v], t.todayRange, m), g = this.renderFgSegs(v, _V(d[v], f), t.todayRange, {}, Boolean(t.eventDrag), Boolean(t.eventResize), !1);
+        return U(mV, { key: p.key, elRef: this.cellElRefs.createRef(p.key), innerElRef: this.frameElRefs.createRef(p.key), dateProfile: t.dateProfile, date: p.date, showDayNumber: t.showDayNumbers, showWeekNumber: t.showWeekNumbers && v === 0, forceDayTop: t.showWeekNumbers, todayRange: t.todayRange, eventSelection: t.eventSelection, eventDrag: t.eventDrag, eventResize: t.eventResize, extraRenderProps: p.extraRenderProps, extraDataAttrs: p.extraDataAttrs, extraClassNames: p.extraClassNames, extraDateSpan: p.extraDateSpan, moreCnt: h[v], moreMarginTop: u[v], singlePlacements: c[v], fgContentElRef: this.fgElRefs.createRef(p.key), fgContent: U(
           Se,
           null,
           U(Se, null, y),
@@ -42571,7 +42548,7 @@ class hi extends Mt {
           top: _ ? m.absoluteTop : "",
           left: A,
           right: x
-        } }, fi(p) ? U(vi, Object.assign({ seg: p, isDragging: r, isSelected: v === d, defaultDisplayEventEnd: f }, Zt(p, a))) : U(mi, Object.assign({ seg: p, isDragging: r, isResizing: l, isDateSelecting: i, isSelected: v === d, defaultDisplayEventEnd: f }, Zt(p, a)))));
+        } }, hi(p) ? U(gi, Object.assign({ seg: p, isDragging: r, isSelected: v === d, defaultDisplayEventEnd: f }, Xt(p, a))) : U(pi, Object.assign({ seg: p, isDragging: r, isResizing: l, isDateSelecting: i, isSelected: v === d, defaultDisplayEventEnd: f }, Xt(p, a)))));
       }
     return u;
   }
@@ -42586,7 +42563,7 @@ class hi extends Mt {
           left: 0,
           right: r.rights[i.firstCol] - r.rights[i.lastCol]
         };
-        l.push(U("div", { key: _N(i.eventRange), className: "fc-daygrid-bg-harness", style: s }, n === "bg-event" ? U(TL, Object.assign({ seg: i }, Zt(i, e))) : zL(n)));
+        l.push(U("div", { key: SN(i.eventRange), className: "fc-daygrid-bg-harness", style: s }, n === "bg-event" ? U(IL, Object.assign({ seg: i }, Xt(i, e))) : PL(n)));
       }
     return U(Se, {}, ...l);
   }
@@ -42596,14 +42573,14 @@ class hi extends Mt {
       if (t) {
         let s = n.cells.map((d) => e.currentMap[d.key]);
         if (s.length) {
-          let d = this.rootElRef.current, c = new On(
+          let d = this.rootElRef.current, c = new Vn(
             d,
             s,
             !0,
             !1
           );
           (!a.framePositions || !a.framePositions.similarTo(c)) && this.setState({
-            framePositions: new On(
+            framePositions: new Vn(
               d,
               s,
               !0,
@@ -42636,13 +42613,13 @@ class hi extends Mt {
     return this.props.cells.map((n) => t[n.key]);
   }
 }
-hi.addStateEquality({
+yi.addStateEquality({
   eventInstanceHeights: Je
 });
-function hV(o, t) {
+function _V(o, t) {
   if (!o.length)
     return [];
-  let n = pV(t);
+  let n = xV(t);
   return o.map((a) => ({
     seg: a,
     isVisible: !0,
@@ -42651,20 +42628,20 @@ function hV(o, t) {
     marginTop: 0
   }));
 }
-function pV(o) {
+function xV(o) {
   let t = {};
   for (let n of o)
     for (let a of n)
       t[a.seg.eventRange.instance.instanceId] = a.absoluteTop;
   return t;
 }
-class gV extends Mt {
+class wV extends Tt {
   constructor() {
-    super(...arguments), this.splitBusinessHourSegs = ge(An), this.splitBgEventSegs = ge(An), this.splitFgEventSegs = ge(An), this.splitDateSelectionSegs = ge(An), this.splitEventDrag = ge(Tr), this.splitEventResize = ge(Tr), this.rowRefs = new yt();
+    super(...arguments), this.splitBusinessHourSegs = ge(_n), this.splitBgEventSegs = ge(_n), this.splitFgEventSegs = ge(_n), this.splitDateSelectionSegs = ge(_n), this.splitEventDrag = ge(Rr), this.splitEventResize = ge(Rr), this.rowRefs = new _t();
   }
   render() {
     let { props: t, context: n } = this, a = t.cells.length, e = this.splitBusinessHourSegs(t.businessHourSegs, a), r = this.splitBgEventSegs(t.bgEventSegs, a), l = this.splitFgEventSegs(t.fgEventSegs, a), i = this.splitDateSelectionSegs(t.dateSelectionSegs, a), s = this.splitEventDrag(t.eventDrag, a), d = this.splitEventResize(t.eventResize, a), c = a >= 7 && t.clientWidth ? t.clientWidth / n.options.aspectRatio / 6 : null;
-    return U(vo, { unit: "day" }, (f, h) => U(Se, null, t.cells.map((u, m) => U(hi, {
+    return U(ho, { unit: "day" }, (f, h) => U(Se, null, t.cells.map((u, m) => U(yi, {
       ref: this.rowRefs.createRef(m),
       key: u.length ? u[0].date.toISOString() : m,
       showDayNumbers: a > 1,
@@ -42675,7 +42652,7 @@ class gV extends Mt {
       renderIntro: t.renderRowIntro,
       businessHourSegs: e[m],
       eventSelection: t.eventSelection,
-      bgEventSegs: r[m].filter(yV),
+      bgEventSegs: r[m].filter(EV),
       fgEventSegs: l[m],
       dateSelectionSegs: i[m],
       eventDrag: s[m],
@@ -42699,12 +42676,12 @@ class gV extends Mt {
     this.rootEl && (this.context.unregisterInteractiveComponent(this), this.rootEl = null);
   }
   prepareHits() {
-    this.rowPositions = new On(
+    this.rowPositions = new Vn(
       this.rootEl,
       this.rowRefs.collect().map((t) => t.getCellEls()[0]),
       !1,
       !0
-    ), this.colPositions = new On(
+    ), this.colPositions = new Vn(
       this.rootEl,
       this.rowRefs.currentMap[0].getCellEls(),
       !0,
@@ -42738,10 +42715,10 @@ class gV extends Mt {
     return { start: a, end: e };
   }
 }
-function yV(o) {
+function EV(o) {
   return o.eventRange.def.allDay;
 }
-class AV extends Mt {
+class CV extends Tt {
   constructor() {
     super(...arguments), this.elRef = tt(), this.needsScrollReset = !1;
   }
@@ -42770,7 +42747,7 @@ class AV extends Mt {
         U(
           "tbody",
           { role: "presentation" },
-          U(gV, { dateProfile: t.dateProfile, cells: t.cells, renderRowIntro: t.renderRowIntro, showWeekNumbers: t.showWeekNumbers, clientWidth: t.clientWidth, clientHeight: t.clientHeight, businessHourSegs: t.businessHourSegs, bgEventSegs: t.bgEventSegs, fgEventSegs: t.fgEventSegs, dateSelectionSegs: t.dateSelectionSegs, eventSelection: t.eventSelection, eventDrag: t.eventDrag, eventResize: t.eventResize, dayMaxEvents: a, dayMaxEventRows: n, forPrint: t.forPrint, isHitComboAllowed: t.isHitComboAllowed })
+          U(wV, { dateProfile: t.dateProfile, cells: t.cells, renderRowIntro: t.renderRowIntro, showWeekNumbers: t.showWeekNumbers, clientWidth: t.clientWidth, clientHeight: t.clientHeight, businessHourSegs: t.businessHourSegs, bgEventSegs: t.bgEventSegs, fgEventSegs: t.fgEventSegs, dateSelectionSegs: t.dateSelectionSegs, eventSelection: t.eventSelection, eventDrag: t.eventDrag, eventResize: t.eventResize, dayMaxEvents: a, dayMaxEventRows: n, forPrint: t.forPrint, isHitComboAllowed: t.isHitComboAllowed })
         )
       )
     );
@@ -42786,7 +42763,7 @@ class AV extends Mt {
   }
   flushScrollReset() {
     if (this.needsScrollReset && this.props.clientWidth) {
-      const t = _V(this.elRef.current, this.props.dateProfile);
+      const t = SV(this.elRef.current, this.props.dateProfile);
       if (t) {
         const n = t.closest(".fc-daygrid-body"), a = n.closest(".fc-scroller"), e = t.getBoundingClientRect().top - n.getBoundingClientRect().top;
         a.scrollTop = e ? e + 1 : 0;
@@ -42795,11 +42772,11 @@ class AV extends Mt {
     }
   }
 }
-function _V(o, t) {
+function SV(o, t) {
   let n;
-  return t.currentRangeUnit.match(/year|month/) && (n = o.querySelector(`[data-date="${eP(t.currentDate)}-01"]`)), n || (n = o.querySelector(`[data-date="${Ka(t.currentDate)}"]`)), n;
+  return t.currentRangeUnit.match(/year|month/) && (n = o.querySelector(`[data-date="${oP(t.currentDate)}-01"]`)), n || (n = o.querySelector(`[data-date="${Ja(t.currentDate)}"]`)), n;
 }
-class xV extends rL {
+class bV extends cL {
   constructor() {
     super(...arguments), this.forceDayIfListItem = !0;
   }
@@ -42807,32 +42784,19 @@ class xV extends rL {
     return n.sliceRange(t);
   }
 }
-class wV extends Mt {
+class DV extends Tt {
   constructor() {
-    super(...arguments), this.slicer = new xV(), this.tableRef = tt();
+    super(...arguments), this.slicer = new bV(), this.tableRef = tt();
   }
   render() {
     let { props: t, context: n } = this;
-    return U(AV, Object.assign({ ref: this.tableRef }, this.slicer.sliceProps(t, t.dateProfile, t.nextDayThreshold, n, t.dayTableModel), { dateProfile: t.dateProfile, cells: t.dayTableModel.cells, colGroupNode: t.colGroupNode, tableMinWidth: t.tableMinWidth, renderRowIntro: t.renderRowIntro, dayMaxEvents: t.dayMaxEvents, dayMaxEventRows: t.dayMaxEventRows, showWeekNumbers: t.showWeekNumbers, expandRows: t.expandRows, headerAlignElRef: t.headerAlignElRef, clientWidth: t.clientWidth, clientHeight: t.clientHeight, forPrint: t.forPrint }));
+    return U(CV, Object.assign({ ref: this.tableRef }, this.slicer.sliceProps(t, t.dateProfile, t.nextDayThreshold, n, t.dayTableModel), { dateProfile: t.dateProfile, cells: t.dayTableModel.cells, colGroupNode: t.colGroupNode, tableMinWidth: t.tableMinWidth, renderRowIntro: t.renderRowIntro, dayMaxEvents: t.dayMaxEvents, dayMaxEventRows: t.dayMaxEventRows, showWeekNumbers: t.showWeekNumbers, expandRows: t.expandRows, headerAlignElRef: t.headerAlignElRef, clientWidth: t.clientWidth, clientHeight: t.clientHeight, forPrint: t.forPrint }));
   }
 }
-class EV extends oV {
-  constructor() {
-    super(...arguments), this.buildDayTableModel = ge(CV), this.headerRef = tt(), this.tableRef = tt();
-  }
-  render() {
-    let { options: t, dateProfileGenerator: n } = this.context, { props: a } = this, e = this.buildDayTableModel(a.dateProfile, n), r = t.dayHeaders && U(tL, { ref: this.headerRef, dateProfile: a.dateProfile, dates: e.headerDates, datesRepDistinctDays: e.rowCnt === 1 }), l = (i) => U(wV, { ref: this.tableRef, dateProfile: a.dateProfile, dayTableModel: e, businessHours: a.businessHours, dateSelection: a.dateSelection, eventStore: a.eventStore, eventUiBases: a.eventUiBases, eventSelection: a.eventSelection, eventDrag: a.eventDrag, eventResize: a.eventResize, nextDayThreshold: t.nextDayThreshold, colGroupNode: i.tableColGroupNode, tableMinWidth: i.tableMinWidth, dayMaxEvents: t.dayMaxEvents, dayMaxEventRows: t.dayMaxEventRows, showWeekNumbers: t.weekNumbers, expandRows: !a.isHeightAuto, headerAlignElRef: this.headerElRef, clientWidth: i.clientWidth, clientHeight: i.clientHeight, forPrint: a.forPrint });
-    return t.dayMinWidth ? this.renderHScrollLayout(r, l, e.colCnt, t.dayMinWidth) : this.renderSimpleLayout(r, l);
-  }
-}
-function CV(o, t) {
-  let n = new aL(o.renderRange, t);
-  return new oL(n, /year|month|week/.test(o.currentRangeUnit));
-}
-class SV extends bl {
+class MV extends Tl {
   buildRenderRange(t, n, a) {
     let e = super.buildRenderRange(t, n, a), { props: r } = this;
-    return bV({
+    return TV({
       currentRange: e,
       snapToWeek: /^(year|month)$/.test(n),
       fixedWeekCount: r.fixedWeekCount,
@@ -42840,25 +42804,102 @@ class SV extends bl {
     });
   }
 }
-function bV(o) {
+function TV(o) {
   let { dateEnv: t, currentRange: n } = o, { start: a, end: e } = n, r;
-  if (o.snapToWeek && (a = t.startOfWeek(a), r = t.startOfWeek(e), r.valueOf() !== e.valueOf() && (e = er(r, 1))), o.fixedWeekCount) {
+  if (o.snapToWeek && (a = t.startOfWeek(a), r = t.startOfWeek(e), r.valueOf() !== e.valueOf() && (e = tr(r, 1))), o.fixedWeekCount) {
     let l = t.startOfWeek(t.startOfMonth($e(n.end, -1))), i = Math.ceil(
-      jB(l, e)
+      WB(l, e)
     );
-    e = er(e, 6 - i);
+    e = tr(e, 6 - i);
   }
   return { start: a, end: e };
 }
-var DV = ':root{--fc-daygrid-event-dot-width:8px}.fc-daygrid-day-events:after,.fc-daygrid-day-events:before,.fc-daygrid-day-frame:after,.fc-daygrid-day-frame:before,.fc-daygrid-event-harness:after,.fc-daygrid-event-harness:before{clear:both;content:"";display:table}.fc .fc-daygrid-body{position:relative;z-index:1}.fc .fc-daygrid-day.fc-day-today{background-color:var(--fc-today-bg-color)}.fc .fc-daygrid-day-frame{min-height:100%;position:relative}.fc .fc-daygrid-day-top{display:flex;flex-direction:row-reverse}.fc .fc-day-other .fc-daygrid-day-top{opacity:.3}.fc .fc-daygrid-day-number{padding:4px;position:relative;z-index:4}.fc .fc-daygrid-month-start{font-size:1.1em;font-weight:700}.fc .fc-daygrid-day-events{margin-top:1px}.fc .fc-daygrid-body-balanced .fc-daygrid-day-events{left:0;position:absolute;right:0}.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events{min-height:2em;position:relative}.fc .fc-daygrid-body-natural .fc-daygrid-day-events{margin-bottom:1em}.fc .fc-daygrid-event-harness{position:relative}.fc .fc-daygrid-event-harness-abs{left:0;position:absolute;right:0;top:0}.fc .fc-daygrid-bg-harness{bottom:0;position:absolute;top:0}.fc .fc-daygrid-day-bg .fc-non-business{z-index:1}.fc .fc-daygrid-day-bg .fc-bg-event{z-index:2}.fc .fc-daygrid-day-bg .fc-highlight{z-index:3}.fc .fc-daygrid-event{margin-top:1px;z-index:6}.fc .fc-daygrid-event.fc-event-mirror{z-index:7}.fc .fc-daygrid-day-bottom{font-size:.85em;margin:0 2px}.fc .fc-daygrid-day-bottom:after,.fc .fc-daygrid-day-bottom:before{clear:both;content:"";display:table}.fc .fc-daygrid-more-link{border-radius:3px;cursor:pointer;line-height:1;margin-top:1px;max-width:100%;overflow:hidden;padding:2px;position:relative;white-space:nowrap;z-index:4}.fc .fc-daygrid-more-link:hover{background-color:rgba(0,0,0,.1)}.fc .fc-daygrid-week-number{background-color:var(--fc-neutral-bg-color);color:var(--fc-neutral-text-color);min-width:1.5em;padding:2px;position:absolute;text-align:center;top:0;z-index:5}.fc .fc-more-popover .fc-popover-body{min-width:220px;padding:10px}.fc-direction-ltr .fc-daygrid-event.fc-event-start,.fc-direction-rtl .fc-daygrid-event.fc-event-end{margin-left:2px}.fc-direction-ltr .fc-daygrid-event.fc-event-end,.fc-direction-rtl .fc-daygrid-event.fc-event-start{margin-right:2px}.fc-direction-ltr .fc-daygrid-more-link{float:left}.fc-direction-ltr .fc-daygrid-week-number{border-radius:0 0 3px 0;left:0}.fc-direction-rtl .fc-daygrid-more-link{float:right}.fc-direction-rtl .fc-daygrid-week-number{border-radius:0 0 0 3px;right:0}.fc-liquid-hack .fc-daygrid-day-frame{position:static}.fc-daygrid-event{border-radius:3px;font-size:var(--fc-small-font-size);position:relative;white-space:nowrap}.fc-daygrid-block-event .fc-event-time{font-weight:700}.fc-daygrid-block-event .fc-event-time,.fc-daygrid-block-event .fc-event-title{padding:1px}.fc-daygrid-dot-event{align-items:center;display:flex;padding:2px 0}.fc-daygrid-dot-event .fc-event-title{flex-grow:1;flex-shrink:1;font-weight:700;min-width:0;overflow:hidden}.fc-daygrid-dot-event.fc-event-mirror,.fc-daygrid-dot-event:hover{background:rgba(0,0,0,.1)}.fc-daygrid-dot-event.fc-event-selected:before{bottom:-10px;top:-10px}.fc-daygrid-event-dot{border:calc(var(--fc-daygrid-event-dot-width)/2) solid var(--fc-event-border-color);border-radius:calc(var(--fc-daygrid-event-dot-width)/2);box-sizing:content-box;height:0;margin:0 4px;width:0}.fc-direction-ltr .fc-daygrid-event .fc-event-time{margin-right:3px}.fc-direction-rtl .fc-daygrid-event .fc-event-time{margin-left:3px}';
-dl(DV);
-var MV = ut({
+class RV extends Tt {
+  constructor() {
+    super(...arguments), this.headerElRef = tt();
+  }
+  renderSimpleLayout(t, n) {
+    let { props: a, context: e } = this, r = [], l = wr(e.options);
+    return t && r.push({
+      type: "header",
+      key: "header",
+      isSticky: l,
+      chunk: {
+        elRef: this.headerElRef,
+        tableClassName: "fc-col-header",
+        rowContent: t
+      }
+    }), r.push({
+      type: "body",
+      key: "body",
+      liquid: !0,
+      chunk: { content: n }
+    }), U(
+      ur,
+      { elClasses: ["fc-daygrid"], viewSpec: e.viewSpec },
+      U(ni, { liquid: !a.isHeightAuto && !a.forPrint, collapsibleWidth: a.forPrint, cols: [], sections: r })
+    );
+  }
+  renderHScrollLayout(t, n, a, e) {
+    let r = this.context.pluginHooks.scrollGridImpl;
+    if (!r)
+      throw new Error("No ScrollGrid implementation");
+    let { props: l, context: i } = this, s = !l.forPrint && wr(i.options), d = !l.forPrint && ML(i.options), c = [];
+    return t && c.push({
+      type: "header",
+      key: "header",
+      isSticky: s,
+      chunks: [{
+        key: "main",
+        elRef: this.headerElRef,
+        tableClassName: "fc-col-header",
+        rowContent: t
+      }]
+    }), c.push({
+      type: "body",
+      key: "body",
+      liquid: !0,
+      chunks: [{
+        key: "main",
+        content: n
+      }]
+    }), d && c.push({
+      type: "footer",
+      key: "footer",
+      isSticky: !0,
+      chunks: [{
+        key: "main",
+        content: DL
+      }]
+    }), U(
+      ur,
+      { elClasses: ["fc-daygrid"], viewSpec: i.viewSpec },
+      U(r, { liquid: !l.isHeightAuto && !l.forPrint, collapsibleWidth: l.forPrint, colGroups: [{ cols: [{ span: a, minWidth: e }] }], sections: c })
+    );
+  }
+}
+class zV extends RV {
+  constructor() {
+    super(...arguments), this.buildDayTableModel = ge($V), this.headerRef = tt(), this.tableRef = tt();
+  }
+  render() {
+    let { options: t, dateProfileGenerator: n } = this.context, { props: a } = this, e = this.buildDayTableModel(a.dateProfile, n), r = t.dayHeaders && U(lL, { ref: this.headerRef, dateProfile: a.dateProfile, dates: e.headerDates, datesRepDistinctDays: e.rowCnt === 1 }), l = (i) => U(DV, { ref: this.tableRef, dateProfile: a.dateProfile, dayTableModel: e, businessHours: a.businessHours, dateSelection: a.dateSelection, eventStore: a.eventStore, eventUiBases: a.eventUiBases, eventSelection: a.eventSelection, eventDrag: a.eventDrag, eventResize: a.eventResize, nextDayThreshold: t.nextDayThreshold, colGroupNode: i.tableColGroupNode, tableMinWidth: i.tableMinWidth, dayMaxEvents: t.dayMaxEvents, dayMaxEventRows: t.dayMaxEventRows, showWeekNumbers: t.weekNumbers, expandRows: !a.isHeightAuto, headerAlignElRef: this.headerElRef, clientWidth: i.clientWidth, clientHeight: i.clientHeight, forPrint: a.forPrint });
+    return t.dayMinWidth ? this.renderHScrollLayout(r, l, e.colCnt, t.dayMinWidth) : this.renderSimpleLayout(r, l);
+  }
+}
+function $V(o, t) {
+  let n = new sL(o.renderRange, t);
+  return new dL(n, /year|month|week/.test(o.currentRangeUnit));
+}
+var HV = ':root{--fc-daygrid-event-dot-width:8px}.fc-daygrid-day-events:after,.fc-daygrid-day-events:before,.fc-daygrid-day-frame:after,.fc-daygrid-day-frame:before,.fc-daygrid-event-harness:after,.fc-daygrid-event-harness:before{clear:both;content:"";display:table}.fc .fc-daygrid-body{position:relative;z-index:1}.fc .fc-daygrid-day.fc-day-today{background-color:var(--fc-today-bg-color)}.fc .fc-daygrid-day-frame{min-height:100%;position:relative}.fc .fc-daygrid-day-top{display:flex;flex-direction:row-reverse}.fc .fc-day-other .fc-daygrid-day-top{opacity:.3}.fc .fc-daygrid-day-number{padding:4px;position:relative;z-index:4}.fc .fc-daygrid-month-start{font-size:1.1em;font-weight:700}.fc .fc-daygrid-day-events{margin-top:1px}.fc .fc-daygrid-body-balanced .fc-daygrid-day-events{left:0;position:absolute;right:0}.fc .fc-daygrid-body-unbalanced .fc-daygrid-day-events{min-height:2em;position:relative}.fc .fc-daygrid-body-natural .fc-daygrid-day-events{margin-bottom:1em}.fc .fc-daygrid-event-harness{position:relative}.fc .fc-daygrid-event-harness-abs{left:0;position:absolute;right:0;top:0}.fc .fc-daygrid-bg-harness{bottom:0;position:absolute;top:0}.fc .fc-daygrid-day-bg .fc-non-business{z-index:1}.fc .fc-daygrid-day-bg .fc-bg-event{z-index:2}.fc .fc-daygrid-day-bg .fc-highlight{z-index:3}.fc .fc-daygrid-event{margin-top:1px;z-index:6}.fc .fc-daygrid-event.fc-event-mirror{z-index:7}.fc .fc-daygrid-day-bottom{font-size:.85em;margin:0 2px}.fc .fc-daygrid-day-bottom:after,.fc .fc-daygrid-day-bottom:before{clear:both;content:"";display:table}.fc .fc-daygrid-more-link{border-radius:3px;cursor:pointer;line-height:1;margin-top:1px;max-width:100%;overflow:hidden;padding:2px;position:relative;white-space:nowrap;z-index:4}.fc .fc-daygrid-more-link:hover{background-color:rgba(0,0,0,.1)}.fc .fc-daygrid-week-number{background-color:var(--fc-neutral-bg-color);color:var(--fc-neutral-text-color);min-width:1.5em;padding:2px;position:absolute;text-align:center;top:0;z-index:5}.fc .fc-more-popover .fc-popover-body{min-width:220px;padding:10px}.fc-direction-ltr .fc-daygrid-event.fc-event-start,.fc-direction-rtl .fc-daygrid-event.fc-event-end{margin-left:2px}.fc-direction-ltr .fc-daygrid-event.fc-event-end,.fc-direction-rtl .fc-daygrid-event.fc-event-start{margin-right:2px}.fc-direction-ltr .fc-daygrid-more-link{float:left}.fc-direction-ltr .fc-daygrid-week-number{border-radius:0 0 3px 0;left:0}.fc-direction-rtl .fc-daygrid-more-link{float:right}.fc-direction-rtl .fc-daygrid-week-number{border-radius:0 0 0 3px;right:0}.fc-liquid-hack .fc-daygrid-day-frame{position:static}.fc-daygrid-event{border-radius:3px;font-size:var(--fc-small-font-size);position:relative;white-space:nowrap}.fc-daygrid-block-event .fc-event-time{font-weight:700}.fc-daygrid-block-event .fc-event-time,.fc-daygrid-block-event .fc-event-title{padding:1px}.fc-daygrid-dot-event{align-items:center;display:flex;padding:2px 0}.fc-daygrid-dot-event .fc-event-title{flex-grow:1;flex-shrink:1;font-weight:700;min-width:0;overflow:hidden}.fc-daygrid-dot-event.fc-event-mirror,.fc-daygrid-dot-event:hover{background:rgba(0,0,0,.1)}.fc-daygrid-dot-event.fc-event-selected:before{bottom:-10px;top:-10px}.fc-daygrid-event-dot{border:calc(var(--fc-daygrid-event-dot-width)/2) solid var(--fc-event-border-color);border-radius:calc(var(--fc-daygrid-event-dot-width)/2);box-sizing:content-box;height:0;margin:0 4px;width:0}.fc-direction-ltr .fc-daygrid-event .fc-event-time{margin-right:3px}.fc-direction-rtl .fc-daygrid-event .fc-event-time{margin-left:3px}';
+fl(HV);
+var IV = ft({
   name: "@fullcalendar/daygrid",
   initialView: "dayGridMonth",
   views: {
     dayGrid: {
-      component: EV,
-      dateProfileGeneratorClass: SV
+      component: zV,
+      dateProfileGeneratorClass: MV
     },
     dayGridDay: {
       type: "dayGrid",
@@ -42879,12 +42920,12 @@ var MV = ut({
     }
   }
 });
-mo.touchMouseIgnoreWait = 500;
-let Ra = 0, Vn = 0, za = !1;
-class pi {
+vo.touchMouseIgnoreWait = 500;
+let za = 0, Fn = 0, $a = !1;
+class Ai {
   constructor(t) {
     this.subjectEl = null, this.selector = "", this.handleSelector = "", this.shouldIgnoreMove = !1, this.shouldWatchScroll = !0, this.isDragging = !1, this.isTouchDragging = !1, this.wasTouchScroll = !1, this.handleMouseDown = (n) => {
-      if (!this.shouldIgnoreMouse() && TV(n) && this.tryStart(n)) {
+      if (!this.shouldIgnoreMouse() && BV(n) && this.tryStart(n)) {
         let a = this.createEventFromMouse(n, !0);
         this.emitter.trigger("pointerdown", a), this.initScrollWatch(a), this.shouldIgnoreMove || document.addEventListener("mousemove", this.handleMouseMove), document.addEventListener("mouseup", this.handleMouseUp);
       }
@@ -42907,7 +42948,7 @@ class pi {
     }, this.handleTouchEnd = (n) => {
       if (this.isDragging) {
         let a = n.target;
-        a.removeEventListener("touchmove", this.handleTouchMove), a.removeEventListener("touchend", this.handleTouchEnd), a.removeEventListener("touchcancel", this.handleTouchEnd), window.removeEventListener("scroll", this.handleTouchScroll, !0), this.emitter.trigger("pointerup", this.createEventFromTouch(n)), this.cleanup(), this.isTouchDragging = !1, RV();
+        a.removeEventListener("touchmove", this.handleTouchMove), a.removeEventListener("touchend", this.handleTouchEnd), a.removeEventListener("touchcancel", this.handleTouchEnd), window.removeEventListener("scroll", this.handleTouchScroll, !0), this.emitter.trigger("pointerup", this.createEventFromTouch(n)), this.cleanup(), this.isTouchDragging = !1, PV();
       }
     }, this.handleTouchScroll = () => {
       this.wasTouchScroll = !0;
@@ -42924,26 +42965,26 @@ class pi {
           deltaY: e - this.origPageY
         });
       }
-    }, this.containerEl = t, this.emitter = new Gn(), t.addEventListener("mousedown", this.handleMouseDown), t.addEventListener("touchstart", this.handleTouchStart, { passive: !0 }), zV();
+    }, this.containerEl = t, this.emitter = new Yn(), t.addEventListener("mousedown", this.handleMouseDown), t.addEventListener("touchstart", this.handleTouchStart, { passive: !0 }), NV();
   }
   destroy() {
-    this.containerEl.removeEventListener("mousedown", this.handleMouseDown), this.containerEl.removeEventListener("touchstart", this.handleTouchStart, { passive: !0 }), $V();
+    this.containerEl.removeEventListener("mousedown", this.handleMouseDown), this.containerEl.removeEventListener("touchstart", this.handleTouchStart, { passive: !0 }), LV();
   }
   tryStart(t) {
     let n = this.querySubjectEl(t), a = t.target;
     return n && (!this.handleSelector || ze(a, this.handleSelector)) ? (this.subjectEl = n, this.isDragging = !0, this.wasTouchScroll = !1, !0) : !1;
   }
   cleanup() {
-    za = !1, this.isDragging = !1, this.subjectEl = null, this.destroyScrollWatch();
+    $a = !1, this.isDragging = !1, this.subjectEl = null, this.destroyScrollWatch();
   }
   querySubjectEl(t) {
     return this.selector ? ze(t.target, this.selector) : this.containerEl;
   }
   shouldIgnoreMouse() {
-    return Ra || this.isTouchDragging;
+    return za || this.isTouchDragging;
   }
   cancelTouchScroll() {
-    this.isDragging && (za = !0);
+    this.isDragging && ($a = !0);
   }
   initScrollWatch(t) {
     this.shouldWatchScroll && (this.recordCoords(t), window.addEventListener("scroll", this.handleScroll, !0));
@@ -42979,24 +43020,24 @@ class pi {
     };
   }
 }
-function TV(o) {
+function BV(o) {
   return o.button === 0 && !o.ctrlKey;
 }
-function RV() {
-  Ra += 1, setTimeout(() => {
-    Ra -= 1;
-  }, mo.touchMouseIgnoreWait);
+function PV() {
+  za += 1, setTimeout(() => {
+    za -= 1;
+  }, vo.touchMouseIgnoreWait);
 }
-function zV() {
-  Vn += 1, Vn === 1 && window.addEventListener("touchmove", gi, { passive: !1 });
+function NV() {
+  Fn += 1, Fn === 1 && window.addEventListener("touchmove", _i, { passive: !1 });
 }
-function $V() {
-  Vn -= 1, Vn || window.removeEventListener("touchmove", gi, { passive: !1 });
+function LV() {
+  Fn -= 1, Fn || window.removeEventListener("touchmove", _i, { passive: !1 });
 }
-function gi(o) {
-  za && o.preventDefault();
+function _i(o) {
+  $a && o.preventDefault();
 }
-class HV {
+class OV {
   constructor() {
     this.isVisible = !1, this.sourceEl = null, this.mirrorEl = null, this.sourceElRect = null, this.parentNode = document.body, this.zIndex = 9999, this.revertDuration = 0;
   }
@@ -43017,25 +43058,25 @@ class HV {
   }
   doRevertAnimation(t, n) {
     let a = this.mirrorEl, e = this.sourceEl.getBoundingClientRect();
-    a.style.transition = "top " + n + "ms,left " + n + "ms", Yt(a, {
+    a.style.transition = "top " + n + "ms,left " + n + "ms", Kt(a, {
       left: e.left,
       top: e.top
-    }), CB(a, () => {
+    }), MB(a, () => {
       a.style.transition = "", t();
     });
   }
   cleanup() {
-    this.mirrorEl && (Wa(this.mirrorEl), this.mirrorEl = null), this.sourceEl = null;
+    this.mirrorEl && (Ga(this.mirrorEl), this.mirrorEl = null), this.sourceEl = null;
   }
   updateElPosition() {
-    this.sourceEl && this.isVisible && Yt(this.getMirrorEl(), {
+    this.sourceEl && this.isVisible && Kt(this.getMirrorEl(), {
       left: this.sourceElRect.left + this.deltaX,
       top: this.sourceElRect.top + this.deltaY
     });
   }
   getMirrorEl() {
     let t = this.sourceElRect, n = this.mirrorEl;
-    return n || (n = this.mirrorEl = this.sourceEl.cloneNode(!0), n.classList.add("fc-unselectable"), n.classList.add("fc-event-dragging"), Yt(n, {
+    return n || (n = this.mirrorEl = this.sourceEl.cloneNode(!0), n.classList.add("fc-unselectable"), n.classList.add("fc-event-dragging"), Kt(n, {
       position: "fixed",
       zIndex: this.zIndex,
       visibility: "",
@@ -43048,7 +43089,7 @@ class HV {
     }), this.parentNode.appendChild(n)), n;
   }
 }
-class yi extends fo {
+class xi extends mo {
   constructor(t, n) {
     super(), this.handleScroll = () => {
       this.scrollTop = this.scrollController.getScrollTop(), this.scrollLeft = this.scrollController.getScrollLeft(), this.handleScrollChange();
@@ -43084,20 +43125,20 @@ class yi extends fo {
   handleScrollChange() {
   }
 }
-class Ai extends yi {
+class wi extends xi {
   constructor(t, n) {
-    super(new GN(t), n);
+    super(new XN(t), n);
   }
   getEventTarget() {
     return this.scrollController.el;
   }
   computeClientRect() {
-    return kN(this.scrollController.el);
+    return JN(this.scrollController.el);
   }
 }
-class IV extends yi {
+class VV extends xi {
   constructor(t) {
-    super(new YN(), t);
+    super(new qN(), t);
   }
   getEventTarget() {
     return window;
@@ -43114,14 +43155,14 @@ class IV extends yi {
     this.clientRect = this.computeClientRect();
   }
 }
-const Rr = typeof performance == "function" ? performance.now : Date.now;
-class BV {
+const zr = typeof performance == "function" ? performance.now : Date.now;
+class FV {
   constructor() {
     this.isEnabled = !0, this.scrollQuery = [window, ".fc-scroller"], this.edgeThreshold = 50, this.maxVelocity = 300, this.pointerScreenX = null, this.pointerScreenY = null, this.isAnimating = !1, this.scrollCaches = null, this.everMovedUp = !1, this.everMovedDown = !1, this.everMovedLeft = !1, this.everMovedRight = !1, this.animate = () => {
       if (this.isAnimating) {
         let t = this.computeBestEdge(this.pointerScreenX + window.pageXOffset, this.pointerScreenY + window.pageYOffset);
         if (t) {
-          let n = Rr();
+          let n = zr();
           this.handleSide(t, (n - this.msSinceRequest) / 1e3), this.requestAnimation(n);
         } else
           this.isAnimating = !1;
@@ -43134,7 +43175,7 @@ class BV {
   handleMove(t, n) {
     if (this.isEnabled) {
       let a = t - window.pageXOffset, e = n - window.pageYOffset, r = this.pointerScreenY === null ? 0 : e - this.pointerScreenY, l = this.pointerScreenX === null ? 0 : a - this.pointerScreenX;
-      r < 0 ? this.everMovedUp = !0 : r > 0 && (this.everMovedDown = !0), l < 0 ? this.everMovedLeft = !0 : l > 0 && (this.everMovedRight = !0), this.pointerScreenX = a, this.pointerScreenY = e, this.isAnimating || (this.isAnimating = !0, this.requestAnimation(Rr()));
+      r < 0 ? this.everMovedUp = !0 : r > 0 && (this.everMovedDown = !0), l < 0 ? this.everMovedLeft = !0 : l > 0 && (this.everMovedRight = !0), this.pointerScreenX = a, this.pointerScreenY = e, this.isAnimating || (this.isAnimating = !0, this.requestAnimation(zr()));
     }
   }
   stop() {
@@ -43172,7 +43213,7 @@ class BV {
     return e;
   }
   buildCaches(t) {
-    return this.queryScrollEls(t).map((n) => n === window ? new IV(!1) : new Ai(n, !1));
+    return this.queryScrollEls(t).map((n) => n === window ? new VV(!1) : new wi(n, !1));
   }
   queryScrollEls(t) {
     let n = [];
@@ -43181,10 +43222,10 @@ class BV {
     return n;
   }
 }
-class dn extends JN {
+class cn extends tL {
   constructor(t, n) {
     super(t), this.containerEl = t, this.delay = null, this.minDistance = 0, this.touchScrollAllowed = !0, this.mirrorNeedsRevert = !1, this.isInteracting = !1, this.isDragging = !1, this.isDelayEnded = !1, this.isDistanceSurpassed = !1, this.delayTimeoutId = null, this.onPointerDown = (e) => {
-      this.isDragging || (this.isInteracting = !0, this.isDelayEnded = !1, this.isDistanceSurpassed = !1, SB(document.body), DB(document.body), e.isTouch || e.origEvent.preventDefault(), this.emitter.trigger("pointerdown", e), this.isInteracting && !this.pointer.shouldIgnoreMove && (this.mirror.setIsVisible(!1), this.mirror.start(e.subjectEl, e.pageX, e.pageY), this.startDelay(e), this.minDistance || this.handleDistanceSurpassed(e)));
+      this.isDragging || (this.isInteracting = !0, this.isDelayEnded = !1, this.isDistanceSurpassed = !1, TB(document.body), zB(document.body), e.isTouch || e.origEvent.preventDefault(), this.emitter.trigger("pointerdown", e), this.isInteracting && !this.pointer.shouldIgnoreMove && (this.mirror.setIsVisible(!1), this.mirror.start(e.subjectEl, e.pageX, e.pageY), this.startDelay(e), this.minDistance || this.handleDistanceSurpassed(e)));
     }, this.onPointerMove = (e) => {
       if (this.isInteracting) {
         if (this.emitter.trigger("pointermove", e), !this.isDistanceSurpassed) {
@@ -43194,10 +43235,10 @@ class dn extends JN {
         this.isDragging && (e.origEvent.type !== "scroll" && (this.mirror.handleMove(e.pageX, e.pageY), this.autoScroller.handleMove(e.pageX, e.pageY)), this.emitter.trigger("dragmove", e));
       }
     }, this.onPointerUp = (e) => {
-      this.isInteracting && (this.isInteracting = !1, bB(document.body), MB(document.body), this.emitter.trigger("pointerup", e), this.isDragging && (this.autoScroller.stop(), this.tryStopDrag(e)), this.delayTimeoutId && (clearTimeout(this.delayTimeoutId), this.delayTimeoutId = null));
+      this.isInteracting && (this.isInteracting = !1, RB(document.body), $B(document.body), this.emitter.trigger("pointerup", e), this.isDragging && (this.autoScroller.stop(), this.tryStopDrag(e)), this.delayTimeoutId && (clearTimeout(this.delayTimeoutId), this.delayTimeoutId = null));
     };
-    let a = this.pointer = new pi(t);
-    a.emitter.on("pointerdown", this.onPointerDown), a.emitter.on("pointermove", this.onPointerMove), a.emitter.on("pointerup", this.onPointerUp), n && (a.selector = n), this.mirror = new HV(), this.autoScroller = new BV();
+    let a = this.pointer = new Ai(t);
+    a.emitter.on("pointerdown", this.onPointerDown), a.emitter.on("pointermove", this.onPointerMove), a.emitter.on("pointerup", this.onPointerUp), n && (a.selector = n), this.mirror = new OV(), this.autoScroller = new FV();
   }
   destroy() {
     this.pointer.destroy(), this.onPointerUp({});
@@ -43235,9 +43276,9 @@ class dn extends JN {
     this.autoScroller.isEnabled = t;
   }
 }
-class PV {
+class jV {
   constructor(t) {
-    this.origRect = uo(t), this.scrollCaches = kl(t).map((n) => new Ai(n, !0));
+    this.origRect = fo(t), this.scrollCaches = Yl(t).map((n) => new wi(n, !0));
   }
   destroy() {
     for (let t of this.scrollCaches)
@@ -43258,16 +43299,16 @@ class PV {
   isWithinClipping(t, n) {
     let a = { left: t, top: n };
     for (let e of this.scrollCaches)
-      if (!NV(e.getEventTarget()) && !IN(a, e.clientRect))
+      if (!UV(e.getEventTarget()) && !ON(a, e.clientRect))
         return !1;
     return !0;
   }
 }
-function NV(o) {
+function UV(o) {
   let t = o.tagName;
   return t === "HTML" || t === "BODY";
 }
-class Yn {
+class Kn {
   constructor(t, n) {
     this.useSubjectCenter = !1, this.requireInitial = !0, this.initialHit = null, this.movingHit = null, this.finalHit = null, this.handlePointerDown = (a) => {
       let { dragging: e } = this;
@@ -43280,27 +43321,27 @@ class Yn {
       this.releaseHits(), this.emitter.trigger("pointerup", a);
     }, this.handleDragEnd = (a) => {
       this.movingHit && this.emitter.trigger("hitupdate", null, !0, a), this.finalHit = this.movingHit, this.movingHit = null, this.emitter.trigger("dragend", a);
-    }, this.droppableStore = n, t.emitter.on("pointerdown", this.handlePointerDown), t.emitter.on("dragstart", this.handleDragStart), t.emitter.on("dragmove", this.handleDragMove), t.emitter.on("pointerup", this.handlePointerUp), t.emitter.on("dragend", this.handleDragEnd), this.dragging = t, this.emitter = new Gn();
+    }, this.droppableStore = n, t.emitter.on("pointerdown", this.handlePointerDown), t.emitter.on("dragstart", this.handleDragStart), t.emitter.on("dragmove", this.handleDragMove), t.emitter.on("pointerup", this.handlePointerUp), t.emitter.on("dragend", this.handleDragEnd), this.dragging = t, this.emitter = new Yn();
   }
   processFirstCoord(t) {
     let n = { left: t.pageX, top: t.pageY }, a = n, e = t.subjectEl, r;
-    e instanceof HTMLElement && (r = uo(e), a = BN(a, r));
+    e instanceof HTMLElement && (r = fo(e), a = VN(a, r));
     let l = this.initialHit = this.queryHitForOffset(a.left, a.top);
     if (l) {
       if (this.useSubjectCenter && r) {
-        let i = jl(r, l.rect);
-        i && (a = PN(i));
+        let i = kl(r, l.rect);
+        i && (a = FN(i));
       }
-      this.coordAdjust = NN(a, n);
+      this.coordAdjust = jN(a, n);
     } else
       this.coordAdjust = { left: 0, top: 0 };
   }
   handleMove(t, n) {
     let a = this.queryHitForOffset(t.pageX + this.coordAdjust.left, t.pageY + this.coordAdjust.top);
-    (n || !Kn(this.movingHit, a)) && (this.movingHit = a, this.emitter.trigger("hitupdate", a, !1, t));
+    (n || !Jn(this.movingHit, a)) && (this.movingHit = a, this.emitter.trigger("hitupdate", a, !1, t));
   }
   prepareHits() {
-    this.offsetTrackers = St(this.droppableStore, (t) => (t.component.prepareHits(), new PV(t.el)));
+    this.offsetTrackers = bt(this.droppableStore, (t) => (t.component.prepareHits(), new jV(t.el)));
   }
   releaseHits() {
     let { offsetTrackers: t } = this;
@@ -43316,30 +43357,30 @@ class Yn {
         let d = s.computeLeft(), c = s.computeTop(), f = t - d, h = n - c, { origRect: u } = s, m = u.right - u.left, p = u.bottom - u.top;
         if (f >= 0 && f < m && h >= 0 && h < p) {
           let v = i.queryHit(f, h, m, p);
-          v && kn(v.dateProfile.activeRange, v.dateSpan.range) && (!r || v.layer > r.layer) && (v.componentId = l, v.context = i.context, v.rect.left += d, v.rect.right += d, v.rect.top += c, v.rect.bottom += c, r = v);
+          v && Wn(v.dateProfile.activeRange, v.dateSpan.range) && (!r || v.layer > r.layer) && (v.componentId = l, v.context = i.context, v.rect.left += d, v.rect.right += d, v.rect.top += c, v.rect.bottom += c, r = v);
         }
       }
     }
     return r;
   }
 }
-function Kn(o, t) {
-  return !o && !t ? !0 : Boolean(o) !== Boolean(t) ? !1 : CN(o.dateSpan, t.dateSpan);
+function Jn(o, t) {
+  return !o && !t ? !0 : Boolean(o) !== Boolean(t) ? !1 : TN(o.dateSpan, t.dateSpan);
 }
-function _i(o, t) {
+function Ei(o, t) {
   let n = {};
   for (let a of t.pluginHooks.datePointTransforms)
     Object.assign(n, a(o, t));
-  return Object.assign(n, LV(o, t.dateEnv)), n;
+  return Object.assign(n, QV(o, t.dateEnv)), n;
 }
-function LV(o, t) {
+function QV(o, t) {
   return {
     date: t.toDate(o.range.start),
     dateStr: t.formatIso(o.range.start, { omitTime: o.allDay }),
     allDay: o.allDay
   };
 }
-class OV extends Ut {
+class kV extends kt {
   constructor(t) {
     super(t), this.handlePointerDown = (a) => {
       let { dragging: e } = this, r = a.origEvent.target;
@@ -43348,57 +43389,57 @@ class OV extends Ut {
       let { component: e } = this, { pointer: r } = this.dragging;
       if (!r.wasTouchScroll) {
         let { initialHit: l, finalHit: i } = this.hitDragging;
-        if (l && i && Kn(l, i)) {
-          let { context: s } = e, d = Object.assign(Object.assign({}, _i(l.dateSpan, s)), { dayEl: l.dayEl, jsEvent: a.origEvent, view: s.viewApi || s.calendarApi.view });
+        if (l && i && Jn(l, i)) {
+          let { context: s } = e, d = Object.assign(Object.assign({}, Ei(l.dateSpan, s)), { dayEl: l.dayEl, jsEvent: a.origEvent, view: s.viewApi || s.calendarApi.view });
           s.emitter.trigger("dateClick", d);
         }
       }
-    }, this.dragging = new dn(t.el), this.dragging.autoScroller.isEnabled = !1;
-    let n = this.hitDragging = new Yn(this.dragging, so(t));
+    }, this.dragging = new cn(t.el), this.dragging.autoScroller.isEnabled = !1;
+    let n = this.hitDragging = new Kn(this.dragging, co(t));
     n.emitter.on("pointerdown", this.handlePointerDown), n.emitter.on("dragend", this.handleDragEnd);
   }
   destroy() {
     this.dragging.destroy();
   }
 }
-class VV extends Ut {
+class WV extends kt {
   constructor(t) {
     super(t), this.dragSelection = null, this.handlePointerDown = (l) => {
       let { component: i, dragging: s } = this, { options: d } = i.context, c = d.selectable && i.isValidDateDownEl(l.origEvent.target);
-      s.setIgnoreMove(!c), s.delay = l.isTouch ? FV(i) : null;
+      s.setIgnoreMove(!c), s.delay = l.isTouch ? GV(i) : null;
     }, this.handleDragStart = (l) => {
       this.component.context.calendarApi.unselect(l);
     }, this.handleHitUpdate = (l, i) => {
       let { context: s } = this.component, d = null, c = !1;
       if (l) {
         let f = this.hitDragging.initialHit;
-        l.componentId === f.componentId && this.isHitComboAllowed && !this.isHitComboAllowed(f, l) || (d = jV(f, l, s.pluginHooks.dateSelectionTransformers)), (!d || !lL(d, l.dateProfile, s)) && (c = !0, d = null);
+        l.componentId === f.componentId && this.isHitComboAllowed && !this.isHitComboAllowed(f, l) || (d = YV(f, l, s.pluginHooks.dateSelectionTransformers)), (!d || !uL(d, l.dateProfile, s)) && (c = !0, d = null);
       }
-      d ? s.dispatch({ type: "SELECT_DATES", selection: d }) : i || s.dispatch({ type: "UNSELECT_DATES" }), c ? Ga() : Ya(), i || (this.dragSelection = d);
+      d ? s.dispatch({ type: "SELECT_DATES", selection: d }) : i || s.dispatch({ type: "UNSELECT_DATES" }), c ? Ya() : Ka(), i || (this.dragSelection = d);
     }, this.handlePointerUp = (l) => {
-      this.dragSelection && (Il(this.dragSelection, l, this.component.context), this.dragSelection = null);
+      this.dragSelection && (Nl(this.dragSelection, l, this.component.context), this.dragSelection = null);
     };
-    let { component: n } = t, { options: a } = n.context, e = this.dragging = new dn(t.el);
+    let { component: n } = t, { options: a } = n.context, e = this.dragging = new cn(t.el);
     e.touchScrollAllowed = !1, e.minDistance = a.selectMinDistance || 0, e.autoScroller.isEnabled = a.dragScroll;
-    let r = this.hitDragging = new Yn(this.dragging, so(t));
+    let r = this.hitDragging = new Kn(this.dragging, co(t));
     r.emitter.on("pointerdown", this.handlePointerDown), r.emitter.on("dragstart", this.handleDragStart), r.emitter.on("hitupdate", this.handleHitUpdate), r.emitter.on("pointerup", this.handlePointerUp);
   }
   destroy() {
     this.dragging.destroy();
   }
 }
-function FV(o) {
+function GV(o) {
   let { options: t } = o.context, n = t.selectLongPressDelay;
   return n == null && (n = t.longPressDelay), n;
 }
-function jV(o, t, n) {
+function YV(o, t, n) {
   let a = o.dateSpan, e = t.dateSpan, r = [
     a.range.start,
     a.range.end,
     e.range.start,
     e.range.end
   ];
-  r.sort(HB);
+  r.sort(NB);
   let l = {};
   for (let i of n) {
     let s = i(o, t);
@@ -43408,13 +43449,13 @@ function jV(o, t, n) {
   }
   return l.range = { start: r[0], end: r[3] }, l.allDay = a.allDay, l;
 }
-class cn extends Ut {
+class un extends kt {
   constructor(t) {
     super(t), this.subjectEl = null, this.subjectSeg = null, this.isDragging = !1, this.eventRange = null, this.relevantEvents = null, this.receivingContext = null, this.validMutation = null, this.mutatedRelevantEvents = null, this.handlePointerDown = (l) => {
       let i = l.origEvent.target, { component: s, dragging: d } = this, { mirror: c } = d, { options: f } = s.context, h = s.context;
       this.subjectEl = l.subjectEl;
-      let u = this.subjectSeg = Ft(l.subjectEl), p = (this.eventRange = u.eventRange).instance.instanceId;
-      this.relevantEvents = oo(h.getCurrentData().eventStore, p), d.minDistance = l.isTouch ? 0 : f.eventDragMinDistance, d.delay = l.isTouch && p !== s.props.eventSelection ? QV(s) : null, f.fixedMirrorParent ? c.parentNode = f.fixedMirrorParent : c.parentNode = ze(i, ".fc"), c.revertDuration = f.dragRevertDuration;
+      let u = this.subjectSeg = Ut(l.subjectEl), p = (this.eventRange = u.eventRange).instance.instanceId;
+      this.relevantEvents = ro(h.getCurrentData().eventStore, p), d.minDistance = l.isTouch ? 0 : f.eventDragMinDistance, d.delay = l.isTouch && p !== s.props.eventSelection ? JV(s) : null, f.fixedMirrorParent ? c.parentNode = f.fixedMirrorParent : c.parentNode = ze(i, ".fc"), c.revertDuration = f.dragRevertDuration;
       let v = s.isValidSegDownEl(i) && !ze(i, ".fc-event-resizer");
       d.setIgnoreMove(!v), this.isDragging = v && l.subjectEl.classList.contains("fc-event-draggable");
     }, this.handleDragStart = (l) => {
@@ -43436,9 +43477,9 @@ class cn extends Ut {
       if (l) {
         f = l.context;
         let v = f.options;
-        c === f || v.editable && v.droppable ? (h = UV(d, l, f.getCurrentData().pluginHooks.eventDragMutationMassagers), h && (u = io(s, f.getCurrentData().eventUiBases, h, f), p.mutatedEvents = u, Kl(p, l.dateProfile, f) || (m = !0, h = null, u = null, p.mutatedEvents = ke()))) : f = null;
+        c === f || v.editable && v.droppable ? (h = KV(d, l, f.getCurrentData().pluginHooks.eventDragMutationMassagers), h && (u = so(s, f.getCurrentData().eventUiBases, h, f), p.mutatedEvents = u, Xl(p, l.dateProfile, f) || (m = !0, h = null, u = null, p.mutatedEvents = ke()))) : f = null;
       }
-      this.displayDrag(f, p), m ? Ga() : Ya(), i || (c === f && Kn(d, l) && (h = null), this.dragging.setMirrorNeedsRevert(!h), this.dragging.setMirrorIsVisible(!l || !this.subjectEl.getRootNode().querySelector(".fc-event-mirror")), this.receivingContext = f, this.validMutation = h, this.mutatedRelevantEvents = u);
+      this.displayDrag(f, p), m ? Ya() : Ka(), i || (c === f && Jn(d, l) && (h = null), this.dragging.setMirrorNeedsRevert(!h), this.dragging.setMirrorIsVisible(!l || !this.subjectEl.getRootNode().querySelector(".fc-event-mirror")), this.receivingContext = f, this.validMutation = h, this.mutatedRelevantEvents = u);
     }, this.handlePointerUp = () => {
       this.isDragging || this.cleanup();
     }, this.handleDragEnd = (l) => {
@@ -43459,7 +43500,7 @@ class cn extends Ut {
             let g = {
               oldEvent: u,
               event: y,
-              relatedEvents: At(p, i, h),
+              relatedEvents: xt(p, i, h),
               revert() {
                 i.dispatch({
                   type: "MERGE_EVENTS",
@@ -43473,7 +43514,7 @@ class cn extends Ut {
           } else if (d) {
             let y = {
               event: u,
-              relatedEvents: At(m, i, h),
+              relatedEvents: xt(m, i, h),
               revert() {
                 i.dispatch({
                   type: "MERGE_EVENTS",
@@ -43492,7 +43533,7 @@ class cn extends Ut {
             });
             let x = {
               event: A,
-              relatedEvents: At(p, d, _),
+              relatedEvents: xt(p, d, _),
               revert() {
                 d.dispatch({
                   type: "REMOVE_EVENTS",
@@ -43503,16 +43544,16 @@ class cn extends Ut {
             d.emitter.trigger("eventAdd", x), l.isTouch && d.dispatch({
               type: "SELECT_EVENT",
               eventInstanceId: h.instanceId
-            }), d.emitter.trigger("drop", Object.assign(Object.assign({}, _i(v.dateSpan, d)), { draggedEl: l.subjectEl, jsEvent: l.origEvent, view: v.context.viewApi })), d.emitter.trigger("eventReceive", Object.assign(Object.assign({}, x), { draggedEl: l.subjectEl, view: v.context.viewApi }));
+            }), d.emitter.trigger("drop", Object.assign(Object.assign({}, Ei(v.dateSpan, d)), { draggedEl: l.subjectEl, jsEvent: l.origEvent, view: v.context.viewApi })), d.emitter.trigger("eventReceive", Object.assign(Object.assign({}, x), { draggedEl: l.subjectEl, view: v.context.viewApi }));
           }
         } else
           i.emitter.trigger("_noEventDrop");
       }
       this.cleanup();
     };
-    let { component: n } = this, { options: a } = n.context, e = this.dragging = new dn(t.el);
-    e.pointer.selector = cn.SELECTOR, e.touchScrollAllowed = !1, e.autoScroller.isEnabled = a.dragScroll;
-    let r = this.hitDragging = new Yn(this.dragging, Da);
+    let { component: n } = this, { options: a } = n.context, e = this.dragging = new cn(t.el);
+    e.pointer.selector = un.SELECTOR, e.touchScrollAllowed = !1, e.autoScroller.isEnabled = a.dragScroll;
+    let r = this.hitDragging = new Kn(this.dragging, Ma);
     r.useSubjectCenter = t.useEventCenter, r.emitter.on("pointerdown", this.handlePointerDown), r.emitter.on("dragstart", this.handleDragStart), r.emitter.on("hitupdate", this.handleHitUpdate), r.emitter.on("pointerup", this.handlePointerUp), r.emitter.on("dragend", this.handleDragEnd);
   }
   destroy() {
@@ -43537,11 +43578,11 @@ class cn extends Ut {
     this.subjectSeg = null, this.isDragging = !1, this.eventRange = null, this.relevantEvents = null, this.receivingContext = null, this.validMutation = null, this.mutatedRelevantEvents = null;
   }
 }
-cn.SELECTOR = ".fc-event-draggable, .fc-event-resizable";
-function UV(o, t, n) {
+un.SELECTOR = ".fc-event-draggable, .fc-event-resizable";
+function KV(o, t, n) {
   let a = o.dateSpan, e = t.dateSpan, r = a.range.start, l = e.range.start, i = {};
   a.allDay !== e.allDay && (i.allDay = e.allDay, i.hasEnd = t.context.options.allDayMaintainDuration, e.allDay && (r = Ae(r)));
-  let s = Pt(r, l, o.context.dateEnv, o.componentId === t.componentId ? o.largeUnit : null);
+  let s = Nt(r, l, o.context.dateEnv, o.componentId === t.componentId ? o.largeUnit : null);
   s.milliseconds && (i.allDay = !1);
   let d = {
     datesDelta: s,
@@ -43551,20 +43592,20 @@ function UV(o, t, n) {
     c(d, o, t);
   return d;
 }
-function QV(o) {
+function JV(o) {
   let { options: t } = o.context, n = t.eventLongPressDelay;
   return n == null && (n = t.longPressDelay), n;
 }
-class kV extends Ut {
+class ZV extends kt {
   constructor(t) {
     super(t), this.draggingSegEl = null, this.draggingSeg = null, this.eventRange = null, this.relevantEvents = null, this.validMutation = null, this.mutatedRelevantEvents = null, this.handlePointerDown = (r) => {
-      let { component: l } = this, i = this.querySegEl(r), s = Ft(i), d = this.eventRange = s.eventRange;
+      let { component: l } = this, i = this.querySegEl(r), s = Ut(i), d = this.eventRange = s.eventRange;
       this.dragging.minDistance = l.context.options.eventDragMinDistance, this.dragging.setIgnoreMove(!this.component.isValidSegDownEl(r.origEvent.target) || r.isTouch && this.component.props.eventSelection !== d.instance.instanceId);
     }, this.handleDragStart = (r) => {
       let { context: l } = this.component, i = this.eventRange;
-      this.relevantEvents = oo(l.getCurrentData().eventStore, this.eventRange.instance.instanceId);
+      this.relevantEvents = ro(l.getCurrentData().eventStore, this.eventRange.instance.instanceId);
       let s = this.querySegEl(r);
-      this.draggingSegEl = s, this.draggingSeg = Ft(s), l.calendarApi.unselect(), l.emitter.trigger("eventResizeStart", {
+      this.draggingSegEl = s, this.draggingSeg = Ut(s), l.calendarApi.unselect(), l.emitter.trigger("eventResizeStart", {
         el: s,
         event: new _e(l, i.def, i.instance),
         jsEvent: r.origEvent,
@@ -43576,10 +43617,10 @@ class kV extends Ut {
         mutatedEvents: ke(),
         isEvent: !0
       };
-      r && (r.componentId === c.componentId && this.isHitComboAllowed && !this.isHitComboAllowed(c, r) || (h = WV(c, r, i.subjectEl.classList.contains("fc-event-resizer-start"), f.range))), h && (u = io(d, s.getCurrentData().eventUiBases, h, s), p.mutatedEvents = u, Kl(p, r.dateProfile, s) || (m = !0, h = null, u = null, p.mutatedEvents = null)), u ? s.dispatch({
+      r && (r.componentId === c.componentId && this.isHitComboAllowed && !this.isHitComboAllowed(c, r) || (h = XV(c, r, i.subjectEl.classList.contains("fc-event-resizer-start"), f.range))), h && (u = so(d, s.getCurrentData().eventUiBases, h, s), p.mutatedEvents = u, Xl(p, r.dateProfile, s) || (m = !0, h = null, u = null, p.mutatedEvents = null)), u ? s.dispatch({
         type: "SET_EVENT_RESIZE",
         state: p
-      }) : s.dispatch({ type: "UNSET_EVENT_RESIZE" }), m ? Ga() : Ya(), l || (h && Kn(c, r) && (h = null), this.validMutation = h, this.mutatedRelevantEvents = u);
+      }) : s.dispatch({ type: "UNSET_EVENT_RESIZE" }), m ? Ya() : Ka(), l || (h && Jn(c, r) && (h = null), this.validMutation = h, this.mutatedRelevantEvents = u);
     }, this.handleDragEnd = (r) => {
       let { context: l } = this.component, i = this.eventRange.def, s = this.eventRange.instance, d = new _e(l, i, s), c = this.relevantEvents, f = this.mutatedRelevantEvents;
       if (l.emitter.trigger("eventResizeStop", {
@@ -43596,7 +43637,7 @@ class kV extends Ut {
         let u = {
           oldEvent: d,
           event: h,
-          relatedEvents: At(f, l, s),
+          relatedEvents: xt(f, l, s),
           revert() {
             l.dispatch({
               type: "MERGE_EVENTS",
@@ -43609,9 +43650,9 @@ class kV extends Ut {
         l.emitter.trigger("_noEventResize");
       this.draggingSeg = null, this.relevantEvents = null, this.validMutation = null;
     };
-    let { component: n } = t, a = this.dragging = new dn(t.el);
+    let { component: n } = t, a = this.dragging = new cn(t.el);
     a.pointer.selector = ".fc-event-resizer", a.touchScrollAllowed = !1, a.autoScroller.isEnabled = n.context.options.dragScroll;
-    let e = this.hitDragging = new Yn(this.dragging, so(t));
+    let e = this.hitDragging = new Kn(this.dragging, co(t));
     e.emitter.on("pointerdown", this.handlePointerDown), e.emitter.on("dragstart", this.handleDragStart), e.emitter.on("hitupdate", this.handleHitUpdate), e.emitter.on("dragend", this.handleDragEnd);
   }
   destroy() {
@@ -43621,8 +43662,8 @@ class kV extends Ut {
     return ze(t.subjectEl, ".fc-event");
   }
 }
-function WV(o, t, n, a) {
-  let e = o.context.dateEnv, r = o.dateSpan.range.start, l = t.dateSpan.range.start, i = Pt(r, l, e, o.largeUnit);
+function XV(o, t, n, a) {
+  let e = o.context.dateEnv, r = o.dateSpan.range.start, l = t.dateSpan.range.start, i = Nt(r, l, e, o.largeUnit);
   if (n) {
     if (e.add(a.start, i) < a.end)
       return { startDelta: i };
@@ -43630,13 +43671,13 @@ function WV(o, t, n, a) {
     return { endDelta: i };
   return null;
 }
-class GV {
+class qV {
   constructor(t) {
     this.context = t, this.isRecentPointerDateSelect = !1, this.matchesCancel = !1, this.matchesEvent = !1, this.onSelect = (a) => {
       a.jsEvent && (this.isRecentPointerDateSelect = !0);
     }, this.onDocumentPointerDown = (a) => {
-      let e = this.context.options.unselectCancel, r = fl(a.origEvent);
-      this.matchesCancel = !!ze(r, e), this.matchesEvent = !!ze(r, cn.SELECTOR);
+      let e = this.context.options.unselectCancel, r = hl(a.origEvent);
+      this.matchesCancel = !!ze(r, e), this.matchesEvent = !!ze(r, un.SELECTOR);
     }, this.onDocumentPointerUp = (a) => {
       let { context: e } = this, { documentPointer: r } = this, l = e.getCurrentData();
       if (!r.wasTouchScroll) {
@@ -43648,16 +43689,16 @@ class GV {
       }
       this.isRecentPointerDateSelect = !1;
     };
-    let n = this.documentPointer = new pi(document);
+    let n = this.documentPointer = new Ai(document);
     n.shouldIgnoreMove = !0, n.shouldWatchScroll = !1, n.emitter.on("pointerdown", this.onDocumentPointerDown), n.emitter.on("pointerup", this.onDocumentPointerUp), t.emitter.on("select", this.onSelect);
   }
   destroy() {
     this.context.emitter.off("select", this.onSelect), this.documentPointer.destroy();
   }
 }
-const YV = {
+const eF = {
   fixedMirrorParent: j
-}, KV = {
+}, tF = {
   dateClick: j,
   eventDragStart: j,
   eventDragStop: j,
@@ -43669,16 +43710,16 @@ const YV = {
   eventReceive: j,
   eventLeave: j
 };
-mo.dataAttrPrefix = "";
-var JV = ut({
+vo.dataAttrPrefix = "";
+var nF = ft({
   name: "@fullcalendar/interaction",
-  componentInteractions: [OV, VV, cn, kV],
-  calendarInteractions: [GV],
-  elementDraggingImpl: dn,
-  optionRefiners: YV,
-  listenerRefiners: KV
+  componentInteractions: [kV, WV, un, ZV],
+  calendarInteractions: [qV],
+  elementDraggingImpl: cn,
+  optionRefiners: eF,
+  listenerRefiners: tF
 });
-const ZV = { id: "calendar" }, XV = /* @__PURE__ */ xe({
+const aF = { id: "calendar" }, oF = /* @__PURE__ */ xe({
   __name: "index",
   props: {
     locale: {
@@ -43736,8 +43777,8 @@ const ZV = { id: "calendar" }, XV = /* @__PURE__ */ xe({
     });
     const e = () => {
       const r = document.getElementById("calendar");
-      r && (a.value = new aV(r, {
-        plugins: [MV, JV],
+      r && (a.value = new sV(r, {
+        plugins: [IV, nF],
         locale: n.locale,
         initialView: n.initalView,
         buttonText: n.buttonText,
@@ -43760,37 +43801,37 @@ const ZV = { id: "calendar" }, XV = /* @__PURE__ */ xe({
         eventContent: n.eventContent
       }), a.value.render());
     };
-    return on(() => {
+    return rn(() => {
       e();
-    }), (r, l) => (R(), z("div", ZV));
+    }), (r, l) => (R(), z("div", aF));
   }
-}), qV = {
+}), rF = {
   install(o) {
-    o.component("m-calendar", XV);
+    o.component("m-calendar", oF);
   }
 };
-const eF = [
-  Bi,
-  DH,
-  HH,
-  BH,
-  KH,
-  eI,
-  nI,
-  lI,
-  cI,
-  NI,
-  FI,
-  UI,
-  JI,
-  qV
-], nF = {
+const lF = [
+  Li,
+  RH,
+  PH,
+  LH,
+  XH,
+  aI,
+  rI,
+  dI,
+  mI,
+  VI,
+  QI,
+  WI,
+  qI,
+  rF
+], sF = {
   install(o) {
-    eF.map((t) => {
+    lF.map((t) => {
       o.use(t);
     });
   }
 };
 export {
-  nF as default
+  sF as default
 };

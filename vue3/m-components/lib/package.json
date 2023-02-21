@@ -1,0 +1,14 @@
+{
+  "name": "bu-elementui-component",
+  "version": "1.0.0",
+  "main": "index.umd.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "author": {
+    "name": "bu"
+  },
+  "keywords": [
+    "element-plus",
+    "二次封装"
+  ]
+}
