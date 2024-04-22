@@ -1,0 +1,99 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "PingFang SC", "Microsoft YaHei";
+    color: #000F16;
+    margin: 0;
+}
+
+.el-drawer__header {
+    color: #000F16;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 25px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.el-slider__runway {
+    height: 4px;
+    background-color: #F0F1F2;
+}
+
+.el-slider__bar {
+    background-color: #00BEBE;
+    height: 4px;
+}
+
+.el-slider__button {
+    border-color: #00BEBE;
+}
+
+#wrapper-pc .btt {
+    bottom: 34px;
+    left: 15px;
+    width: 345px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#wrapper-pc .v-modal {
+    width: 345px;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.el-loading-spinner .path {
+    stroke: #00BEBE;
+}
+
+.el-loading-mask {
+    background-color: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.el-message-box {
+    width: 325px;
+    height: 252px;
+    background: url('../images/network-error.png');
+    background-size: 325px 252px;
+    background-repeat: no-repeat;
+    border: unset;
+    box-shadow: unset;
+}
+
+.el-message-box__content {
+    margin-top: 104px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.el-message-box__btns {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.el-message-box__content {
+    color: #000F16;
+}
+
+.el-message-box__btns .el-button--primary {
+    width: 180px;
+    height: 45px;
+    background: #00BEBE;
+    border-radius: 225px;
+    font-size: 16px;
+    border: unset;
+}
+
+div {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>三方桩选中</title>
+    <defs>
+        <linearGradient x1="50%" y1="95.79%" x2="50%" y2="-39.07%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#96C1E5" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="-15.1483542%" id="linearGradient-4">
+            <stop stop-color="#C1C1C1" offset="0%"></stop>
+            <stop stop-color="#C4C4C4" offset="31%"></stop>
+            <stop stop-color="#CFCFCF" offset="57%"></stop>
+            <stop stop-color="#E0E0E0" offset="81%"></stop>
+            <stop stop-color="#F4F4F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-103.051788%" x2="50%" y2="79.5006165%" id="linearGradient-5">
+            <stop stop-color="#C1CFD3" offset="0%"></stop>
+            <stop stop-color="#1B353F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2-圆角" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg已轮廓化" transform="translate(-804.000000, -181.000000)">
+            <g id="编组-3" transform="translate(804.000000, 181.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="椭圆形" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <path d="M74.45,41.09 L76.84,43.4 C76.84,43.4 100.84,96.4 57.06,94.4" id="路径" stroke="#172C31" stroke-width="2.38" mask="url(#mask-3)"></path>
+                <path d="M70.37,34.59 L63.94,34.59 L63.94,42.68 L70.37,42.68 L74.07,44.78 C74.6633279,45.1198222 75.4134226,44.9989737 75.87,44.49 L77.8,42.34 C78.2604163,41.8286271 78.2980169,41.0640828 77.89,40.51 C76.49,38.62 73.17,34.59 70.37,34.59 Z" id="路径" fill="#172C31" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <path d="M68.15,104.16 L28.45,104.16 L28.45,21.57 C28.45,20.5913512 28.8387667,19.6527852 29.530776,18.960776 C30.2227852,18.2687667 31.1613512,17.88 32.14,17.88 L64.47,17.88 C66.5040244,17.8855123 68.15,19.5359681 68.15,21.57 L68.15,104.16 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <rect id="矩形" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-3)" x="28.45" y="25.01" width="39.7" height="32.44"></rect>
+                <rect id="矩形" fill="#739499" fill-rule="nonzero" mask="url(#mask-3)" x="32.67" y="33.68" width="31.27" height="13.24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

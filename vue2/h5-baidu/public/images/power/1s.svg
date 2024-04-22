@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>换电站-选中</title>
+    <defs>
+        <linearGradient x1="50%" y1="95.79%" x2="50%" y2="-39.07%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#96C1E5" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="49.9937911%" y1="-0.730944307%" x2="49.9937911%" y2="105.44272%" id="linearGradient-4">
+            <stop stop-color="#AAB9BC" offset="0%"></stop>
+            <stop stop-color="#DAE7E8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0141123%" y1="183.14297%" x2="50.0141123%" y2="43.9149271%" id="linearGradient-5">
+            <stop stop-color="#C1CFD3" offset="0%"></stop>
+            <stop stop-color="#1B353F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2-圆角" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg已轮廓化" transform="translate(-472.000000, -181.000000)">
+            <g id="资源-11" transform="translate(472.000000, 181.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="椭圆形" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <path d="M11.9,27.0599176 L87.55,27.0599176 C88.1979344,27.054667 88.8211648,27.3083279 89.281213,27.7646206 C89.7412612,28.2209133 90,28.8420437 90,29.49 L90,76.3 L9.47,76.3 L9.47,29.49 C9.47,28.1479481 10.5579481,27.0599176 11.9,27.0599176 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <path d="M52.35,27.0599176 L87.55,27.0599176 C88.1979344,27.054667 88.8211648,27.3083279 89.281213,27.7646206 C89.7412612,28.2209133 90,28.8420437 90,29.49 L90,76.3 L52.35,76.3 L52.35,27.0599176 Z" id="路径" fill="#1B353F" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <rect id="矩形" fill="#1B353F" fill-rule="nonzero" mask="url(#mask-3)" x="9.47" y="74.04" width="43.83" height="2.26"></rect>
+                <polygon id="路径" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-3)" points="52.35 48.65 52.35 74.04 87.78 74.04 78.99 48.65"></polygon>
+                <rect id="矩形" fill="#FFFFFF" fill-rule="nonzero" opacity="0.3" style="mix-blend-mode: overlay;" mask="url(#mask-3)" x="30.51" y="27.06" width="2.03" height="46.98"></rect>
+                <path d="M87.55,27.0599176 L52.35,27.0599176 L52.35,36.67 L87.78,36.67 L87.78,76.3 L90,76.3 L90,29.49 C90,28.8420437 89.7412612,28.2209133 89.281213,27.7646206 C88.8211648,27.3083279 88.1979344,27.054667 87.55,27.0599176 Z" id="路径" fill="#1B353F" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <path d="M76.64,51.58 L72.23,62.63 L72.23,62.63 C71.6030006,62.3850472 71.1000657,61.8994214 70.833313,61.2813816 C70.5665602,60.6633419 70.5581654,59.9642672 70.81,59.34 L73.59,52.34 L66.59,52.34 C66.1870927,52.3300728 65.8141442,52.1249511 65.59,51.79 C65.3489734,51.4405585 65.3001066,50.9932395 65.46,50.6 L69.87,39.6 C70.4952489,39.8471477 70.9964131,40.3329986 71.2628383,40.9502795 C71.5292635,41.5675605 71.5390367,42.2655011 71.29,42.89 L68.51,49.89 L75.46,49.89 C75.8789138,49.8904674 76.2710883,50.0958922 76.51,50.44 C76.7292446,50.7787538 76.7773478,51.2005821 76.64,51.58 Z" id="路径" fill="#FFD655" fill-rule="nonzero" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

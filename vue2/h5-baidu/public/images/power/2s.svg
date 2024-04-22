@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>超充桩-选中</title>
+    <defs>
+        <linearGradient x1="50%" y1="95.79%" x2="50%" y2="-39.07%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#96C1E5" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="50" cy="50" r="50"></circle>
+        <linearGradient x1="49.9758337%" y1="101.011494%" x2="49.9758337%" y2="8.93104522%" id="linearGradient-4">
+            <stop stop-color="#14272D" offset="0%"></stop>
+            <stop stop-color="#21383D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9758337%" y1="101.066564%" x2="49.9758337%" y2="8.9440928%" id="linearGradient-5">
+            <stop stop-color="#AAB9BC" offset="0%"></stop>
+            <stop stop-color="#DAE7E8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0110285%" y1="-64.7335416%" x2="50.0110285%" y2="130.250783%" id="linearGradient-6">
+            <stop stop-color="#14272D" offset="0%"></stop>
+            <stop stop-color="#21383D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2-圆角" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg已轮廓化" transform="translate(-308.000000, -181.000000)">
+            <g id="编组-2" transform="translate(308.000000, 181.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="椭圆形" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <path d="M45,6.27998974 L60.8,6.27998974 L60.8,90.28 C60.8,91.9368542 59.4568542,93.28 57.8,93.28 L42.24,93.28 C41.0636335,93.28 40.11,92.3263665 40.11,91.15 L40.11,11.16 C40.11,9.86400905 40.6255111,8.62124409 41.5428526,7.70577856 C42.4601941,6.79031303 43.7040118,6.27734428 45,6.27998974 Z" id="路径" fill="url(#linearGradient-4)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <path d="M58.65,31.94 C58.65,31.94 92.53,89.16 60,89.16" id="路径" stroke="#172C31" stroke-width="2.48" mask="url(#mask-3)"></path>
+                <path d="M40.11,11.16 L40.11,54.77 L53.2,70.28 C54.0708472,71.316363 55.3563339,71.9133269 56.71,71.9100138 L60.8,71.9100138 L60.8,6.27998974 L45,6.27998974 C43.7040118,6.27734428 42.4601941,6.79031303 41.5428526,7.70577856 C40.6255111,8.62124409 40.11,9.86400905 40.11,11.16 L40.11,11.16 Z" id="路径" fill="url(#linearGradient-5)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+                <path d="M34.85,90.42 L60.56,90.42 C61.8426998,90.4198138 62.951199,91.3157812 63.22,92.57 L64.94,100.5 C65.0822217,101.153447 64.9209074,101.836149 64.5012532,102.356831 C64.081599,102.877513 63.4487446,103.180168 62.78,103.18 L32.64,103.18 C31.9708193,103.179452 31.3375889,102.877078 30.9164857,102.357006 C30.4953824,101.836934 30.3313407,101.154658 30.47,100.5 L32.19,92.57 C32.458801,91.3157812 33.5673002,90.4198138 34.85,90.42 Z" id="路径" fill="url(#linearGradient-6)" fill-rule="nonzero" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

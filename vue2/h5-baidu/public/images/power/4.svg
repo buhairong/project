@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>三方桩</title>
+    <defs>
+        <linearGradient x1="50.000025%" y1="100%" x2="50.000025%" y2="-15.1441646%" id="linearGradient-1">
+            <stop stop-color="#C1C1C1" offset="0%"></stop>
+            <stop stop-color="#C4C4C4" offset="31%"></stop>
+            <stop stop-color="#CFCFCF" offset="57%"></stop>
+            <stop stop-color="#E0E0E0" offset="81%"></stop>
+            <stop stop-color="#F4F4F4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-103.050349%" x2="50%" y2="79.4928335%" id="linearGradient-2">
+            <stop stop-color="#C1CFD3" offset="0%"></stop>
+            <stop stop-color="#1B353F" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-2-圆角" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="svg已轮廓化" transform="translate(-827.000000, -89.000000)">
+            <g id="资源-1" transform="translate(824.000000, 81.000000)">
+                <path d="M17.946,51.993 C16.7033593,51.993 15.696,50.9856407 15.696,49.743 L15.696,16.9785 C15.696,16.0102245 16.0812579,15.081738 16.7667758,14.3979086 C17.4522937,13.7140792 18.3817275,13.3311092 19.35,13.3334889 L31.5405,13.3334889 C33.5518203,13.3359831 35.1810015,14.9671781 35.181,16.9785 L35.181,19.935 C36.2565,20.385 37.341,21.3345 38.4165,22.7835 C38.8341983,23.3490453 39.0237622,24.0510741 38.9475,24.75 C40.0725,27.45 43.497,36.9 39.501,42.786 C38.4409335,44.3427309 36.9350897,45.5427002 35.181,46.2285 L35.181,49.752 C35.181,50.9946407 34.1736407,52.002 32.931,52.002 L17.946,51.993 Z M35.181,30.519 L35.181,39.519 C36.45,37.35 36,33.6555 35.181,30.519 L35.181,30.519 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <path d="M35.307,24.345 L36.207,25.218 C36.207,25.218 45.252,45.2205 28.7415,44.469" id="路径" stroke="#172C31" stroke-width="0.9"></path>
+                <path d="M33.75,21.888 L31.32,21.888 L31.32,24.9435 L33.75,24.9435 L35.145,25.74 C35.3687207,25.8824031 35.6622543,25.8445278 35.8425,25.65 L36.5715,24.84 C36.7464791,24.6468316 36.7615218,24.3572593 36.6075,24.147 C36.0765,23.4 34.8255,21.888 33.75,21.888 Z" id="路径" fill="#172C31" fill-rule="nonzero"></path>
+                <path d="M32.931,48.15 L17.9459925,48.15 L17.9459925,16.9785 C17.9447788,16.6065861 18.0925986,16.2496833 18.3564271,15.987546 C18.6202556,15.7254087 18.9781016,15.5798872 19.35,15.5834343 L31.5405,15.5834343 C32.3091793,15.5859796 32.931,16.2098167 32.931,16.9785 L32.931,48.15 Z" id="路径" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <rect id="矩形" fill="url(#linearGradient-2)" fill-rule="nonzero" x="17.946" y="18.2745" width="14.985" height="12.2445"></rect>
+                <rect id="矩形" fill="#739499" fill-rule="nonzero" x="19.5345" y="21.5505" width="11.8035" height="4.9995"></rect>
+                <rect id="矩形" fill="#1B353F" fill-rule="nonzero" x="17.946" y="46.431" width="14.985" height="3.3075"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
