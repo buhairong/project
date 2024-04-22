@@ -1,15 +1,15 @@
 <template>
-  <div style="width: 100%;height: 100%;">
+  <div style="width: 100%; height: 100%">
     <div class="loading-img" v-if="showLoadingImg">
       <div class="img-wrap">
         <div class="img">
-          <img src="https://cdn-app.nio.com/pe/ns/openbg.png">
+          <img src="https://cdn-app..com/pe/ns/openbg.png" />
         </div>
       </div>
       <div class="loading-msg">
-          <div class="spinner" v-html="spinnerSvg"></div>
-          <div class="tip">正在进入...</div>
-        </div>
+        <div class="spinner" v-html="spinnerSvg"></div>
+        <div class="tip">正在进入...</div>
+      </div>
     </div>
     <div id="wrapper">
       <!-- <div class="tabs">
@@ -28,8 +28,8 @@
           找资源
         </div>
       </div> -->
-      <div v-if="config" style="height:100%;">
-        <distribute 
+      <div v-if="config" style="height: 100%">
+        <distribute
           v-show="activeTab === 'distribute'"
           :config="config"
           :activeTab="activeTab"
@@ -37,50 +37,62 @@
         />
         <resource
           v-if="initLoaded"
-          v-show="activeTab === 'resource'" 
-          :showMyLocation="showMyLocation" 
+          v-show="activeTab === 'resource'"
+          :showMyLocation="showMyLocation"
           :config="config"
           @clearMylocationFlag="clearMylocationFlag"
         />
       </div>
     </div>
-    <div class="video-wrap" :class="showVideoComp ? 'open-video-comp' : 'close-video-comp'">
+    <div
+      class="video-wrap"
+      :class="showVideoComp ? 'open-video-comp' : 'close-video-comp'"
+    >
       <div class="video-play-wrap" v-if="showVideoMedia" @click="closeVideo">
-        <video :src="curVideoSrc" controls autoplay loop>您的浏览器不支持视频播放</video>
-        <img 
-          class="close-video" 
-          src="https://cdn-app.nio.com/pe/ns/closebtn.svg"
+        <video :src="curVideoSrc" controls autoplay loop>
+          您的浏览器不支持视频播放
+        </video>
+        <img
+          class="close-video"
+          src="https://cdn-app..com/pe/ns/closebtn.svg"
           @click="closeVideo"
-        >
+        />
       </div>
       <div class="header">
         <div class="title">
           <div class="logo">
-            <img src="https://cdn-app.nio.com/PE/2021/11/18/b2881d64-e4d7-499e-ab0f-ed9a2f159edd.svg">
+            <img
+              src="https://cdn-app..com/PE/2021/11/18/b2881d64-e4d7-499e-ab0f-ed9a2f159edd.svg"
+            />
           </div>
           <div class="close-btn" @click="close">
-            <img src="https://cdn-app.nio.com/PE/2021/11/11/c44ae7f8-3102-4f6e-be91-08d6c60b036c.svg">
+            <img
+              src="https://cdn-app..com/PE/2021/11/11/c44ae7f8-3102-4f6e-be91-08d6c60b036c.svg"
+            />
           </div>
         </div>
-        <div class="tip">可充可换可升级的智能加电体系</div>
+        <div class="tip">可充可换可升级的智能体系</div>
       </div>
-      <div class="video-list-wrap" :class="{'more-len': videoList.length >= 3 }">
-        <div 
+      <div
+        class="video-list-wrap"
+        :class="{ 'more-len': videoList.length >= 3 }"
+      >
+        <div
           class="video-item"
-          :class="{'less-len': videoList.length <= 2 }"
+          :class="{ 'less-len': videoList.length <= 2 }"
           v-for="item in videoList"
           :key="item.id"
         >
           <div class="poster">
             <div class="mask"></div>
-            <img :src="item.imgUrl">
-            <img 
-              class="play-btn" 
-              src="https://cdn-app.nio.com/pe/ns/playbtn.svg"
+            <img :src="item.imgUrl" />
+            <img
+              class="play-btn"
+              src="https://cdn-app..com/pe/ns/playbtn.svg"
               @click="playVideo(item)"
-            >
+            />
           </div>
-          <div class="title">{{item.title}}</div>
+          <div class="title">{{ item.title }}</div>
         </div>
       </div>
     </div>
@@ -88,17 +100,17 @@
 </template>
 
 <script>
-import { getConfig } from '@/api/ns'
-import distribute from '../pc/components/distribute.vue'
-import resource from '../pc/components/resource.vue'
-import { loadingSvg, spinnerSvg } from '@/utils/svg'
-import PubSub from "pubsub-js"
+import { getConfig } from "@/api/ns";
+import distribute from "../pc/components/distribute.vue";
+import resource from "../pc/components/resource.vue";
+import { loadingSvg, spinnerSvg } from "@/utils/svg";
+import PubSub from "pubsub-js";
 
 export default {
-  components: {distribute, resource},
+  components: { distribute, resource },
   data() {
     return {
-      activeTab: 'distribute',
+      activeTab: "distribute",
       showMyLocation: true,
       config: null,
       loadingSvg,
@@ -107,100 +119,100 @@ export default {
       videoList: [
         {
           id: 1,
-          title: 'NIO Power | 五纵三横四大都市圈_高速换电站网络布局',
-          imgUrl: 'https://cdn-app.nio.com/pe/ns/post3.svg',
-          videoUrl: 'https://power-micro-apps.nio.com/video/wuhengsanzong.WebM',
+          title: " Power | 五纵三横四大都市圈_高速站网络布局",
+          imgUrl: "https://cdn-app..com/pe/ns/post3.svg",
+          videoUrl: "https://power-micro-apps..com/video/wuhengsanzong.WebM",
         },
         {
           id: 2,
-          title: 'NIO Power | 蔚来第二代换电站',
-          imgUrl: 'https://cdn-app.nio.com/pe/ns/post1.svg',
-          videoUrl: 'https://power-micro-apps.nio.com/video/erdaihuandzhan.WebM',
+          title: " Power | 第二代站",
+          imgUrl: "https://cdn-app..com/pe/ns/post1.svg",
+          videoUrl: "https://power-micro-apps..com/video/erdaihuandzhan.WebM",
         },
         {
           id: 3,
-          title: '蔚来能源云 | 全球首创全方位能源服务',
-          imgUrl: 'https://cdn-app.nio.com/pe/ns/post2.svg',
-          videoUrl: 'https://power-micro-apps.nio.com/video/nengyuanyun.WebM',
+          title: "能源云 | 全球首创全方位能源服务",
+          imgUrl: "https://cdn-app..com/pe/ns/post2.svg",
+          videoUrl: "https://power-micro-apps..com/video/nengyuanyun.WebM",
         },
       ],
-      curVideoSrc: '',
+      curVideoSrc: "",
       showVideoMedia: false,
       showVideoComp: false,
       initLoaded: false,
-    }
+    };
   },
 
   mounted() {
-    this.getConfig()
-    this.loadingHander()
-    PubSub.subscribe('showVideoComp', () => {
-      this.showVideoComp = true
-    })
-    PubSub.subscribe('locationMyPosition', () => {
-      this.showMyLocation = true
-      this.activeTab = 'resource'
-    })
+    this.getConfig();
+    this.loadingHander();
+    PubSub.subscribe("showVideoComp", () => {
+      this.showVideoComp = true;
+    });
+    PubSub.subscribe("locationMyPosition", () => {
+      this.showMyLocation = true;
+      this.activeTab = "resource";
+    });
   },
 
   methods: {
     loadingHander() {
       let timer = setTimeout(() => {
-        this.showLoadingImg = false
-        clearTimeout(timer)
-        timer = null
-      }, 5000)
+        this.showLoadingImg = false;
+        clearTimeout(timer);
+        timer = null;
+      }, 5000);
     },
 
     changeTab(tab) {
-      this.activeTab = tab
-      const sensors = window['sensorsDataAnalytic201505']
-      if (tab === 'resource') {
-         this.initLoaded = true
-         if (sensors) {
-          sensors.track('nions_chargingmaph5_distributepage_view', {})
+      this.activeTab = tab;
+      const sensors = window["sensorsDataAnalytic201505"];
+      if (tab === "resource") {
+        this.initLoaded = true;
+        if (sensors) {
+          sensors.track("ns_chargingmaph5_distributepage_view", {});
         }
       } else {
         if (sensors) {
-          sensors.track('nions_chargingmaph5_findresourcespage_view', {})
+          sensors.track("ns_chargingmaph5_findresourcespage_view", {});
         }
       }
     },
 
     getConfig() {
       getConfig(this, (config) => {
-        this.config = config
-      })
+        this.config = config;
+      });
     },
 
     clearMylocationFlag() {
-      this.showMyLocation = false
+      this.showMyLocation = false;
     },
 
     close() {
-      this.showVideoComp = false
+      this.showVideoComp = false;
     },
 
     playVideo(item) {
-      this.curVideoSrc = item.videoUrl
-      this.showVideoMedia = true
-      const sensors = window['sensorsDataAnalytic201505']
+      this.curVideoSrc = item.videoUrl;
+      this.showVideoMedia = true;
+      const sensors = window["sensorsDataAnalytic201505"];
       if (sensors) {
-        sensors.track('nions_chargingmaph5_video_click')
+        sensors.track("ns_chargingmaph5_video_click");
       }
     },
 
     closeVideo() {
-      this.showVideoMedia = false
+      this.showVideoMedia = false;
     },
   },
-}
+};
 </script>
 
 <style scoped>
 #wrapper {
   height: 100%;
-  width:100vw;
+  width: 100vw;
   position: relative;
 }
 .distribute {
@@ -217,8 +229,8 @@ export default {
 .tab {
   width: 0.96rem;
   height: 0.36rem;
-  background-color: #F7F7F8;
-  color: #9B9DA9;
+  background-color: #f7f7f8;
+  color: #9b9da9;
   font-size: 0.16rem;
   display: flex;
   justify-content: center;
@@ -233,7 +245,7 @@ export default {
   border-radius: 0px 1rem 1rem 0px;
 }
 .active-tab {
-  color: #363C54;
+  color: #363c54;
   background-color: #fff;
   font-weight: 500;
 }
@@ -252,10 +264,10 @@ export default {
   width: 100%;
   position: relative;
 }
-.img-wrap .img{
+.img-wrap .img {
   width: 100%;
 }
-.img-wrap .img img{
+.img-wrap .img img {
   width: 100%;
 }
 .loading-msg {
@@ -296,7 +308,7 @@ export default {
   backdrop-filter: blur(50px);
   display: flex;
   flex-direction: column;
-  transition: top .5s ease;
+  transition: top 0.5s ease;
 }
 .close-video-comp {
   top: 100vh;
@@ -323,7 +335,7 @@ export default {
 }
 
 .video-wrap .tip {
-  color: #040B29;
+  color: #040b29;
   font-size: 0.16rem;
   padding-top: 0.15rem;
 }
@@ -360,7 +372,7 @@ export default {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #040B29;
+  background-color: #040b29;
   opacity: 0.2;
   z-index: 2550;
 }

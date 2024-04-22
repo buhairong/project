@@ -1,59 +1,80 @@
 <!DOCTYPE html>
 <html lang="">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi">
-    <meta name='apple-mobile-web-app-capable' content='yes' />
-    <meta name='full-screen' content='true' />
-    <meta name='x5-fullscreen' content='true' />
-    <meta name='360-fullscreen' content='true' />
-    <link rel="icon" href="<%= BASE_URL %>logo.ico">
-    <title>蔚来加电地图</title>
-    <script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=OSBBZ-UJ6C6-YYGSG-MPI33-6QGKO-JWFXZ"></script>
-    <script charset="utf-8" src="https://map.qq.com/api/gljs?v=2.exp&key=OSBBZ-UJ6C6-YYGSG-MPI33-6QGKO-JWFXZ"></script>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <link rel="icon" href="<%= BASE_URL %>logo.ico" />
+    <title>地图</title>
+    <script
+      charset="utf-8"
+      src="https://map.qq.com/api/js?v=2.exp&key=OSBBZ-UJ6C6-YYGSG-MPI33-6QGKO-JWFXZ"
+    ></script>
+    <script
+      charset="utf-8"
+      src="https://map.qq.com/api/gljs?v=2.exp&key=OSBBZ-UJ6C6-YYGSG-MPI33-6QGKO-JWFXZ"
+    ></script>
     <script src="https://mapapi.qq.com/web/mapComponents/geoLocation/v/geolocation.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/vConsole/3.3.4/vconsole.min.js"></script>
     <script src="./js/sensorsdata.min.js"></script>
-    <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=nhee2X9009Yv3yvor0Nz9YYjSIFjP3rw"></script>
-    <script type="text/javascript" src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=nhee2X9009Yv3yvor0Nz9YYjSIFjP3rw"></script>
+    <script
+      type="text/javascript"
+      src="https://api.map.baidu.com/api?v=3.0&ak=nhee2X9009Yv3yvor0Nz9YYjSIFjP3rw"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://api.map.baidu.com/api?v=1.0&type=webgl&ak=nhee2X9009Yv3yvor0Nz9YYjSIFjP3rw"
+    ></script>
   </head>
-<body>
-<div style ='margin:0 auto;width:0px;height:0px;overflow:hidden; '>
-    <img src='images/logo_large.png' class="nio-invisible nio-internal" />
-</div>
-<noscript>
-    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
-        Please enable it to continue.</strong>
-</noscript>
-<div id="app"></div>
-<script>
-    document.addEventListener('gesturestart', function (event) {
+  <body>
+    <div style="margin: 0 auto; width: 0px; height: 0px; overflow: hidden">
+      <img src="images/logo_large.png" class="-invisible -internal" />
+    </div>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <script>
+      document.addEventListener("gesturestart", function (event) {
         event.preventDefault();
-    });
-    let path = window.location.href;
-    /*
+      });
+      let path = window.location.href;
+      /*
     if (path.match(/chargermap-test/i) || path.match(/localhost/i)) {
       window.vConsole = new window.VConsole();
       window.vConsole.setOption({maxLogNumber: 5000});
       window.vConsole.show();
     }
      */
-    let sensors = window['sensorsDataAnalytic201505'];
-    let sensorsUrl = 'https://sensors.nio.com/sa?project=nioapp_';
-    if (path.match(/chargermap-test/i) || path.match(/chargermap-stg/i) || path.match(/localhost/i)) {
-      sensorsUrl += 'test';
-    } else if (path.match(/chargermap.nio.com/i)) {
-      sensorsUrl += 'prod';
-    }
-    sensors.init({
-      server_url: sensorsUrl,
-      heatmap:{scroll_notice_map:'not_collect'},
-      is_track_single_page:true
-    });
-    sensors.quick('autoTrack');
-</script>
-<!-- built files will be auto injected -->
-</body>
+      let sensors = window["sensorsDataAnalytic201505"];
+      let sensorsUrl = "https://sensors..com/sa?project=app_";
+      if (
+        path.match(/chargermap-test/i) ||
+        path.match(/chargermap-stg/i) ||
+        path.match(/localhost/i)
+      ) {
+        sensorsUrl += "test";
+      } else if (path.match(/chargermap..com/i)) {
+        sensorsUrl += "prod";
+      }
+      sensors.init({
+        server_url: sensorsUrl,
+        heatmap: { scroll_notice_map: "not_collect" },
+        is_track_single_page: true,
+      });
+      sensors.quick("autoTrack");
+    </script>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

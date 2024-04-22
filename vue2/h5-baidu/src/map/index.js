@@ -17,7 +17,7 @@ export const getMyLocation = (callback) => {
   const ua = navigator.userAgent;
   if (ua.toLowerCase().indexOf('lifestyle') > -1) {
     try {
-      console.log('get nio app location');
+      console.log('get  app location');
       window.getJsBridge().call('getLocation', {}, (json) => {
         const response = JSON.parse(json);
         console.log(response);
@@ -119,7 +119,7 @@ export const getZoomByDistance = (d) => {
 };
 
 export const MARKER_SIZE = new window.qq.maps.Size(48, 48);
-export const MARKER_NIO_SIZE = new window.qq.maps.Size(60, 60);
+export const MARKER__SIZE = new window.qq.maps.Size(60, 60);
 export const MARKER_SIZE_LARGE = new window.qq.maps.Size(100, 100);
 export const CLUSTER_SIZE = new window.qq.maps.Size(40, 40);
 export const CLUSTER_SIZE_LARGE = new window.qq.maps.Size(50, 50);

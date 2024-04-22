@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <router-view style="height:100%;"></router-view>
+    <router-view style="height: 100%"></router-view>
   </div>
 </template>
 
@@ -9,8 +9,8 @@ export default {
   name: "App",
   components: {},
   mounted() {
-    const fullPath = this.$route.fullPath
-    if (fullPath.indexOf('/ns/') === -1) {
+    const fullPath = this.$route.fullPath;
+    if (fullPath.indexOf("/ns/") === -1) {
       if (this.isMobile()) {
         this.$router.replace({ name: "mp" });
       } else {
@@ -18,7 +18,7 @@ export default {
       }
     }
 
-    // 临时禁用此方法，避免被 nio app 注入抓取 img 的代码
+    // 临时禁用此方法，避免被  app 注入抓取 img 的代码
     // 暂时无法保证是否会引发其他不良后果
     document.elementFromPoint = "";
   },
@@ -47,7 +47,7 @@ export default {
   color: #00bebe;
 }
 
-/* 处理腾讯地图内 img 标签被 nio app 捕获预览的问题 */
+/* 处理腾讯地图内 img 标签被  app 捕获预览的问题 */
 #container img,
 #container-pc img {
   -webkit-touch-callout: none;

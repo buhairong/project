@@ -9,9 +9,9 @@ export const formatAround = (powers) => {
     powers.forEach(item => {
       if (item.type === 'PowerSwap') {
         filterPowers.swap.push(item)
-      } else if (item.type === 'ChargeStation' && item.charge_station_type === 'NioChargeStationNpc') {
+      } else if (item.type === 'ChargeStation' && item.charge_station_type === 'ChargeStationNpc') {
         filterPowers.npc.push(item)
-      } else if (item.type === 'ChargeStation' && item.charge_station_type === 'NioChargeStationDest') {
+      } else if (item.type === 'ChargeStation' && item.charge_station_type === 'ChargeStationDest') {
         filterPowers.dest.push(item)
       } else if (item.type === 'ChargeStation' && item.charge_station_type === 'ThirdChargeStation') {
         filterPowers.third.push(item)

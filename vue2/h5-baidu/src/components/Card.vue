@@ -2,11 +2,15 @@
   <div class="card">
     <div class="border"></div>
     <div class="icon">
-      <img :src="'images/icon-res/' + icon + '.png'" class="nio-invisible nio-internal">{{ title }}
+      <img
+        :src="'images/icon-res/' + icon + '.png'"
+        class="-invisible -internal"
+      />{{ title }}
     </div>
     <div v-if="data" class="data">
       <div v-for="(d, i) in data" :key="i">
-        <span class="num">{{ d.num }}</span><span>{{ d.unit }}</span>
+        <span class="num">{{ d.num }}</span
+        ><span>{{ d.unit }}</span>
       </div>
     </div>
   </div>
@@ -14,8 +18,8 @@
 
 <script>
 export default {
-  props: ['title', 'data', 'icon']
-}
+  props: ["title", "data", "icon"],
+};
 </script>
 
 <style scoped>
@@ -28,7 +32,7 @@ export default {
 }
 
 .border {
-  border-left: 1px solid #00BEBE;
+  border-left: 1px solid #00bebe;
   height: 40px;
   position: absolute;
   left: 0;

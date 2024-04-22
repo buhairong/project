@@ -2,7 +2,7 @@ import {getConfig, getPoiSummary, getPowerAround} from "@/api";
 import {getDistanceByZoom, getMyLocation, getZoomByDistance} from '@/map'
 
 export const MAX_HISTORY = 10
-export const COOKIE_HISTORY_NAME = 'nio-search-history'
+export const COOKIE_HISTORY_NAME = '-search-history'
 
 export const loadConfig = (t) => {
     const _this = t

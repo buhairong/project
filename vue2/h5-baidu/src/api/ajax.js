@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const PATH_DEV = 'https://gateway-front-qa.nioint.com';
-const PATH_TEST = 'https://gateway-front-sit.nioint.com';
-const PATH_STG = 'https://gateway-front-stg.nioint.com';
-const PATH_PROD = 'https://gateway-front.nio.com';
+const PATH_DEV = 'https://gateway-front-qa.int.com';
+const PATH_TEST = 'https://gateway-front-sit.int.com';
+const PATH_STG = 'https://gateway-front-stg.int.com';
+const PATH_PROD = 'https://gateway-front..com';
 const path = window.location.href;
 let nodeBaseUrl = PATH_TEST;
 if (path.match(/chargermap-dev/i)) {
@@ -12,7 +12,7 @@ if (path.match(/chargermap-dev/i)) {
   nodeBaseUrl = PATH_TEST;
 } else if (path.match(/chargermap-stg/i)) {
   nodeBaseUrl = PATH_STG;
-} else if (path.match(/chargermap.nio.com/i)) {
+} else if (path.match(/chargermap..com/i)) {
   nodeBaseUrl = PATH_PROD;
 }
 nodeBaseUrl = PATH_PROD;

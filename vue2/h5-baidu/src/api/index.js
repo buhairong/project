@@ -7,8 +7,8 @@ export const getPoiSummary = (t, lat, lng, distance, callback) => {
     req(t, 'power/around/summary', function (data) {
         callback({
             swap: data.swap_number,
-            nioNpc: [data.nio_npc_charger_number, data.nio_npc_connector_number],
-            nioDest: [data.nio_dest_charger_number, data.nio_dest_connector_number],
+            Npc: [data._npc_charger_number, data._npc_connector_number],
+            Dest: [data._dest_charger_number, data._dest_connector_number],
             third: data.third_connector_number
         })
     }, {
@@ -22,8 +22,8 @@ export const getCitySummary = (t, code, callback) => {
     req(t, 'power/around/summary', function (data) {
         callback({
             swap: data.swap_number,
-            nioNpc: [data.nio_npc_charger_number, data.nio_npc_connector_number],
-            nioDest: [data.nio_dest_charger_number, data.nio_dest_connector_number],
+            Npc: [data._npc_charger_number, data._npc_connector_number],
+            Dest: [data._dest_charger_number, data._dest_connector_number],
             third: data.third_connector_number
         })
     }, {
@@ -65,9 +65,9 @@ export const getPowerAround = (lat, lng, distance, _this, callback) => {
                         if (power[i].type == 'PowerSwap') {
                             type = 1
                         } else if (power[i].type == 'ChargeStation') {
-                            if (power[i].charge_station_type == 'NioChargeStationNpc') {
+                            if (power[i].charge_station_type == 'ChargeStationNpc') {
                                 type = 2
-                            } else if (power[i].charge_station_type == 'NioChargeStationDest') {
+                            } else if (power[i].charge_station_type == 'ChargeStationDest') {
                                 type = 3
                             } else if (power[i].charge_station_type == 'ThirdChargeStation') {
                                 type = 4

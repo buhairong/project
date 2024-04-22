@@ -1,7 +1,12 @@
 <template>
-  <div @click="toDrive" class="car"
-       :style="{'background-position':offset+'px','backgroundImage':'url('+require('../assets/images/car.png')+')'}">
-  </div>
+  <div
+    @click="toDrive"
+    class="car"
+    :style="{
+      'background-position': offset + 'px',
+      backgroundImage: 'url(' + require('../assets/images/car.png') + ')',
+    }"
+  ></div>
 </template>
 
 <script>
@@ -10,23 +15,23 @@ export default {
   mounted() {
     setInterval(() => {
       if (this.offset == -3600) {
-        this.offset = 0
+        this.offset = 0;
       } else {
-        this.offset -= 100
+        this.offset -= 100;
       }
-    }, 75)
+    }, 75);
   },
   methods: {
     toDrive() {
-      window.location.href = 'https://apollo.nio.com/driver?unique_key=21-FSxMjVH'
-    }
+      window.location.href = "https://apollo..com/driver?unique_key=21-FSxMjVH";
+    },
   },
   data() {
     return {
-      offset: 0
-    }
-  }
-}
+      offset: 0,
+    };
+  },
+};
 </script>
 
 <style scoped>

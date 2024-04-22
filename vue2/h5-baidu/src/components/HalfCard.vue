@@ -2,7 +2,10 @@
   <div class="card">
     <div class="border"></div>
     <div class="icon">
-      <img :src="'images/icon-res/' + icon + '.png'" class="nio-invisible nio-internal"><span>{{ title }}</span>
+      <img
+        :src="'images/icon-res/' + icon + '.png'"
+        class="-invisible -internal"
+      /><span>{{ title }}</span>
     </div>
   </div>
 </template>
@@ -10,8 +13,8 @@
 <script>
 export default {
   name: "HalfCard",
-  props: ['icon', 'title']
-}
+  props: ["icon", "title"],
+};
 </script>
 
 <style scoped>
@@ -24,7 +27,7 @@ export default {
 }
 
 .border {
-  border-left: 1px solid #00BEBE;
+  border-left: 1px solid #00bebe;
   height: 17px;
   position: absolute;
   left: 0;
